@@ -1,4 +1,9 @@
-﻿# IME/IMM Study
+﻿# Windows IME/IMM Study by katahiromz
+
+このレポジトリは、WindowsのIME/IMMに関する研究をまとめたものです。
+
+- [ARTICLES](ARTICLES/README.md) - 日本語の記事です。
+- [STUDY](STUDY/README.md) - 研究らしきものです。
 
 ## What is IME?
 
@@ -11,9 +16,6 @@ An IME can provide the functions whose names begin with `"Ime"`, and `NotifyIME`
 Usually, the IME software has to provide its IME installer to register itself into the system.
 
 For more details, see IME Hackerz (`REF011` and `REF012`).
-
-- [ARTICLES](ARTICLES/README.md) - 日本語の記事です。
-- [STUDY](STUDY/README.md) - 研究らしきものです。
 
 ## What is IMM?
 
