@@ -19,6 +19,7 @@ set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 
 add_subdirectory(EnumLangIDs)
 add_subdirectory(FocusCheck)
+add_subdirectory(ImeOnOffTest)
 add_subdirectory(ImeWndTest)
 add_subdirectory(IsImeTest)
 add_subdirectory(KeyState)
