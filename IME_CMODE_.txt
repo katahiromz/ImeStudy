@@ -1,0 +1,19 @@
+/* bit field for conversion mode */
+#define IME_CMODE_ALPHANUMERIC          0x0000
+#define IME_CMODE_NATIVE                0x0001
+#define IME_CMODE_CHINESE               IME_CMODE_NATIVE
+/* IME_CMODE_HANGEUL is old name of IME_CMODE_HANGUL. It will be gone eventually. */
+#define IME_CMODE_HANGEUL               IME_CMODE_NATIVE
+#define IME_CMODE_HANGUL                IME_CMODE_NATIVE
+#define IME_CMODE_JAPANESE              IME_CMODE_NATIVE
+#define IME_CMODE_KATAKANA              0x0002  /* only effect under IME_CMODE_NATIVE */
+#define IME_CMODE_LANGUAGE              0x0003
+#define IME_CMODE_FULLSHAPE             0x0008
+#define IME_CMODE_ROMAN                 0x0010
+#define IME_CMODE_CHARCODE              0x0020
+#define IME_CMODE_HANJACONVERT          0x0040
+#define IME_CMODE_SOFTKBD               0x0080
+#define IME_CMODE_NOCONVERSION          0x0100
+#define IME_CMODE_EUDC                  0x0200
+#define IME_CMODE_SYMBOL                0x0400
+#define IME_CMODE_FIXED			0x0800

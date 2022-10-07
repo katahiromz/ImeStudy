@@ -1,0 +1,490 @@
+Microsoft (R) COFF/PE Dumper Version 14.14.26433.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file win10-wow64-imm32.dll
+
+File Type: DLL
+
+  Section contains the following exports for IMM32.dll
+
+    00000000 characteristics
+     EF4612D time date stamp
+        0.00 version
+           1 ordinal base
+         137 number of functions
+         137 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000189E0 CtfImmAppCompatEnableIMEonProtectedCode
+          2    1 00003E70 CtfImmCoUninitialize
+          3    2 00004CF0 CtfImmDispatchDefImeMessage
+          4    3 00018A10 CtfImmEnterCoInitCountSkipMode
+          5    4 0000E140 CtfImmGenerateMessage
+          6    5 00018A30 CtfImmGetCompatibleKeyboardLayout
+          7    6 00018A50 CtfImmGetGlobalIMEStatus
+          8    7 00018A80 CtfImmGetGuidAtom
+          9    8 00018AF0 CtfImmGetIMEFileName
+         10    9 00003C00 CtfImmGetTMAEFlags
+         11    A 00018B90 CtfImmHideToolbarWnd
+         12    B 00018C30 CtfImmIsCiceroEnabled
+         13    C 00018C60 CtfImmIsCiceroStartedInThread
+         14    D 00018C90 CtfImmIsComStartedInThread
+         15    E 00018CC0 CtfImmIsGuidMapEnable
+         16    F 00018D30 CtfImmIsTextFrameServiceDisabled
+         17   10 000043D0 CtfImmLastEnabledWndDestroy
+         18   11 00018D40 CtfImmLeaveCoInitCountSkipMode
+         19   12 00004D30 CtfImmNotify
+         20   13 00018D70 CtfImmRestoreToolbarWnd
+         21   14 00004880 CtfImmSetAppCompatFlags
+         22   15 000045B0 CtfImmSetCiceroStartInThread
+         23   16 00018DE0 CtfImmSetDefaultRemoteKeyboardLayout
+         24   17 000051B0 CtfImmTIMActivate
+         25   18 0000E2A0 GetKeyboardLayoutCP
+         26   19 0000BA50 ImmActivateLayout
+         27   1A 00002040 ImmAssociateContext
+         28   1B 00007CB0 ImmAssociateContextEx
+         29   1C 00017B60 ImmCallImeConsoleIME
+         30   1D 0000BBD0 ImmConfigureIMEA
+         31   1E 0000BE00 ImmConfigureIMEW
+         32   1F 00007DD0 ImmCreateContext
+         33   20 00004830 ImmCreateIMCC
+         34   21 00012610 ImmCreateSoftKeyboard
+         35   22 00007E40 ImmDestroyContext
+         36   23 00004860 ImmDestroyIMCC
+         37   24 000127F0 ImmDestroySoftKeyboard
+         38   25 0000E310 ImmDisableIME
+         39   26 0000E310 ImmDisableIme
+         40   27 0000E330 ImmDisableLegacyIME
+         41   28 000135D0 ImmDisableTextFrameService
+         42   29 000041E0 ImmEnumInputContext
+         43   2A 0000EC60 ImmEnumRegisterWordA
+         44   2B 0000EDF0 ImmEnumRegisterWordW
+         45   2C 0000C040 ImmEscapeA
+         46   2D 0000C300 ImmEscapeW
+         47   2E 0000C500 ImmFreeLayout
+         48   2F 0000E3D0 ImmGenerateMessage
+         49   30 00004580 ImmGetAppCompatFlags
+         50   31 000086D0 ImmGetCandidateListA
+         51   32 00008700 ImmGetCandidateListCountA
+         52   33 00008720 ImmGetCandidateListCountW
+         53   34 00008880 ImmGetCandidateListW
+         54   35 00002E10 ImmGetCandidateWindow
+         55   36 000089D0 ImmGetCompositionFontA
+         56   37 00002AF0 ImmGetCompositionFontW
+         57   38 00008A80 ImmGetCompositionStringA
+         58   39 00008B20 ImmGetCompositionStringW
+         59   3A 000027D0 ImmGetCompositionWindow
+         60   3B 00002FB0 ImmGetContext
+         61   3C 00008BC0 ImmGetConversionListA
+         62   3D 00008D40 ImmGetConversionListW
+         63   3E 000028D0 ImmGetConversionStatus
+         64   3F 00003E20 ImmGetDefaultIMEWnd
+         65   40 0000D5E0 ImmGetDescriptionA
+         66   41 0000D690 ImmGetDescriptionW
+         67   42 00008ED0 ImmGetGuideLineA
+         68   43 00008F00 ImmGetGuideLineW
+         69   44 0000B780 ImmGetHotKey
+         70   45 0000E580 ImmGetIMCCLockCount
+         71   46 0000E5B0 ImmGetIMCCSize
+         72   47 0000E5D0 ImmGetIMCLockCount
+         73   48 0000D740 ImmGetIMEFileNameA
+         74   49 0000D850 ImmGetIMEFileNameW
+         75   4A 00004680 ImmGetImeInfoEx
+         76   4B 00017E70 ImmGetImeMenuItemsA
+         77   4C 00018210 ImmGetImeMenuItemsW
+         78   4D 00002A10 ImmGetOpenStatus
+         79   4E 0000D970 ImmGetProperty
+         80   4F 0000EFA0 ImmGetRegisterWordStyleA
+         81   50 0000F0E0 ImmGetRegisterWordStyleW
+         82   51 00009180 ImmGetStatusWindowPos
+         83   52 0000E680 ImmGetVirtualKey
+         84   53 00013120 ImmIMPGetIMEA
+         85   54 00013190 ImmIMPGetIMEW
+         86   55 000131D0 ImmIMPQueryIMEA
+         87   56 00013270 ImmIMPQueryIMEW
+         88   57 00013390 ImmIMPSetIMEA
+         89   58 00013410 ImmIMPSetIMEW
+         90   59 0000DA50 ImmInstallIMEA
+         91   5A 0000DB30 ImmInstallIMEW
+         92   5B 00004620 ImmIsIME
+         93   5C 0000E6D0 ImmIsUIMessageA
+         94   5D 0000E700 ImmIsUIMessageW
+         95   5E 00004D50 ImmLoadIME
+         96   5F 0000CB20 ImmLoadLayout
+         97   60 00003360 ImmLockClientImc
+         98   61 00003040 ImmLockIMC
+         99   62 000044C0 ImmLockIMCC
+        100   63 00003A10 ImmLockImeDpi
+        101   64 0000C6A0 ImmNotifyIME
+        102   65 00012A30 ImmProcessKey
+        103   66 000184F0 ImmPutImeMenuItemsIntoMappedFile
+        104   67 0000E7F0 ImmReSizeIMCC
+        105   68 00005320 ImmRegisterClient
+        106   69 0000F200 ImmRegisterWordA
+        107   6A 0000F370 ImmRegisterWordW
+        108   6B 000047E0 ImmReleaseContext
+        109   6C 00009320 ImmRequestMessageA
+        110   6D 00009420 ImmRequestMessageW
+        111   6E 00013520 ImmSendIMEMessageExA
+        112   6F 00013540 ImmSendIMEMessageExW
+        113   70 000023F0 ImmSetActiveContext
+        114   71 00017CD0 ImmSetActiveContextConsoleIME
+        115   72 00009710 ImmSetCandidateWindow
+        116   73 000097A0 ImmSetCompositionFontA
+        117   74 000098D0 ImmSetCompositionFontW
+        118   75 00009A00 ImmSetCompositionStringA
+        119   76 00009A30 ImmSetCompositionStringW
+        120   77 00009EF0 ImmSetCompositionWindow
+        121   78 00009F80 ImmSetConversionStatus
+        122   79          ImmSetHotKey (forwarded to USER32.CliImmSetHotKey)
+        123   7A 0000A060 ImmSetOpenStatus
+        124   7B 0000A100 ImmSetStatusWindowPos
+        125   7C 00012810 ImmShowSoftKeyboard
+        126   7D 0000B7B0 ImmSimulateHotKey
+        127   7E 0000E820 ImmSystemHandler
+        128   7F 00012BF0 ImmTranslateMessage
+        129   80 00002160 ImmUnlockClientImc
+        130   81 00003AA0 ImmUnlockIMC
+        131   82 000044F0 ImmUnlockIMCC
+        132   83 00002390 ImmUnlockImeDpi
+        133   84 0000F500 ImmUnregisterWordA
+        134   85 0000F670 ImmUnregisterWordW
+        135   86 00013560 ImmWINNLSEnableIME
+        136   87 00013590 ImmWINNLSGetEnableStatus
+        137   88 000135D0 ImmWINNLSGetIMEHotkey
+
+  Section contains the following delay load imports:
+
+    api-ms-win-core-com-l1-1-0.dll
+              00000001 Characteristics
+              4F01B35C Address of HMODULE
+              4F01E0E4 Import Address Table
+              4F019178 Import Name Table
+              4F019660 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          4F005634              28 CoInitializeEx
+          4F00564F              44 CoUninitialize
+
+    api-ms-win-core-com-private-l1-1-0.dll
+              00000001 Characteristics
+              4F01B360 Address of HMODULE
+              4F01E0F0 Import Address Table
+              4F019184 Import Name Table
+              4F01966C Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          4F005659              19 CoRegisterInitializeSpy
+          4F005674              20 CoRevokeInitializeSpy
+
+    GDI32.dll
+              00000001 Characteristics
+              4F01B364 Address of HMODULE
+              4F01E000 Import Address Table
+              4F019094 Import Name Table
+              4F019678 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          4F0056CB              31 CreateCompatibleDC
+          4F005739             26C GetDIBits
+          4F00572F             1C9 ExtTextOutW
+          4F005725             2C1 GetTextExtentPoint32W
+          4F00571B             2C9 GetTextMetricsW
+          4F005711              34 CreateDCW
+          4F00567E             397 TranslateCharsetInfo
+          4F005707             35A SetBkColor
+          4F005699             353 SelectObject
+          4F0056A3             2B0 GetStockObject
+          4F0056AD             311 Rectangle
+          4F0056B7             2F8 PatBlt
+          4F0056C1              13 BitBlt
+          4F005743              38 CreateDIBitmap
+          4F0056D5             172 DeleteDC
+          4F0056DF             175 DeleteObject
+          4F0056E9              30 CreateCompatibleBitmap
+          4F0056F3             29F GetObjectW
+          4F0056FD              43 CreateFontIndirectW
+
+    MSCTF.dll
+              00000001 Characteristics
+              4F01B368 Address of HMODULE
+              4F01E050 Import Address Table
+              4F0190E4 Import Name Table
+              4F0196C8 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          4F005DAA              10 CtfImeIsGuidMapEnable
+          4F005DB4               7 CtfImeDestroyThreadMgr
+          4F005DBE               8 CtfImeDispatchDefImeMessage
+          4F005DC8              45 TF_SetDefaultRemoteKeyboardLayout
+          4F005C36              41 TF_Notify
+          4F005DA0               C CtfImeGetGuidAtom
+          4F005BFD              32 TF_GetAppCompatFlags
+          4F005D96              30 TF_CreateLangBarMgr
+          4F005C18              19 CtfImeSetFocus
+          4F005C22               0 CtfImeAssociateFocus
+          4F005C2C              16 CtfImeSelectEx
+          4F005DD2              33 TF_GetCompatibleKeyboardLayout
+          4F005C40               F CtfImeInquireExW
+          4F005C4A               E CtfImeInquire
+          4F005C66               2 CtfImeConversionList
+          4F005C76              14 CtfImeRegisterWord
+          4F005C86              1B CtfImeUnregisterWord
+          4F005C96               D CtfImeGetRegisterWordStyle
+          4F005CA6               9 CtfImeEnumRegisterWord
+          4F005CB6               1 CtfImeConfigure
+          4F005CC6               5 CtfImeDestroy
+          4F005CD6               A CtfImeEscape
+          4F005CE6              13 CtfImeProcessKey
+          4F005CF6              15 CtfImeSelect
+          4F005D06              17 CtfImeSetActiveContext
+          4F005D16              1A CtfImeToAsciiEx
+          4F005D26              1C CtfNotifyIME
+          4F005D36              18 CtfImeSetCompositionString
+          4F005D46               B CtfImeEscapeEx
+          4F005D50              40 TF_MapCompatibleKeyboardTip
+          4F005D5A              12 CtfImeProcessCicHotkey
+          4F005D64              28 TF_CanUninitialize
+          4F005D6E              29 TF_CleanUpPrivateMessages
+          4F005D78               4 CtfImeCreateThreadMgr
+          4F005D82               3 CtfImeCreateInputContext
+          4F005D8C               6 CtfImeDestroyInputContext
+
+  Section contains the following imports:
+
+    USER32.dll
+              4F01C0F8 Import Address Table
+              4F01C470 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  145 GetDesktopWindow
+                   33 CharNextW
+                   31 CharNextA
+                  242 IsWindowUnicode
+                  156 GetForegroundWindow
+                  287 MapWindowPoints
+                   4B ClientToScreen
+                  39E ToAsciiEx
+                  39F ToUnicode
+                  16B GetKeyboardState
+                   B7 DestroyWindow
+                  3C2 UpdateWindow
+                  388 ShowWindow
+                   74 CreateWindowExW
+                  167 GetKeyboardLayout
+                  285 MapVirtualKeyW
+                  189 GetMonitorInfoW
+                  298 MonitorFromWindow
+                  398 SystemParametersInfoW
+                  2E3 RegisterClassExW
+                  250 LoadIconW
+                  12C GetClassInfoExW
+                  18E GetParent
+                  127 GetCapture
+                   D3 DrawEdge
+                  218 InvalidateRect
+                   A9 DefWindowProcW
+                   F6 EndPaint
+                   10 BeginPaint
+                  3E3 keybd_event
+                  377 SetWindowPos
+                  300 ReleaseCapture
+                  30D ScreenToClient
+                  141 GetCursorPos
+                  24E LoadCursorW
+                  32A SetCursor
+                  28B MessageBeep
+                  320 SetCapture
+                  1E8 GetWindowRect
+                  1C1 GetSystemMetrics
+                   DF DrawTextExW
+                  1D5 GetWindow
+                  1E1 GetWindowLongW
+                  301 ReleaseDC
+                  142 GetDC
+                  133 GetClientRect
+                  375 SetWindowLongW
+                  24A LoadBitmapW
+                      Ordinal  2521
+                  3AF UnloadKeyboardLayout
+                   3E CharUpperW
+                  3C4 User32InitializeImmEntryTable
+                  11C GetActiveWindow
+                  155 GetFocus
+                  255 LoadKeyboardLayoutW
+                  12D GetClassInfoW
+                  168 GetKeyboardLayoutList
+                  1F0 GetWindowThreadProcessId
+                  317 SendMessageA
+                  2B6 PostMessageW
+                  2B5 PostMessageA
+                  3D3 WCSToMBEx
+                  31C SendMessageW
+                  23D IsWindow
+                  31B SendMessageTimeoutW
+
+    api-ms-win-core-registry-l1-1-0.dll
+              4F01C200 Import Address Table
+              4F01C578 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   2E RegSetValueExW
+                   1E RegOpenKeyExW
+                    0 RegCloseKey
+                   25 RegQueryValueExW
+                    E RegEnumKeyExW
+                    3 RegCreateKeyExW
+                    5 RegDeleteKeyExW
+
+    api-ms-win-security-base-l1-1-0.dll
+              4F01C220 Import Address Table
+              4F01C598 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   1B CheckTokenMembership
+                   16 AllocateAndInitializeSid
+                   2E FreeSid
+
+    api-ms-win-security-base-l1-2-0.dll
+              4F01C230 Import Address Table
+              4F01C5A8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   1C CheckTokenMembershipEx
+
+    win32u.dll
+              4F01C284 Import Address Table
+              4F01C5FC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  439 NtUserSetAppImeLevel
+                  338 NtUserGetAppImeLevel
+                  4B1 NtUserUpdateInputContext
+                  306 NtUserDisableThreadIme
+                  477 NtUserSetThreadLayoutHandles
+                  455 NtUserSetImeInfoEx
+                  365 NtUserGetImeHotKey
+                  300 NtUserDestroyInputContext
+                  2C4 NtUserBuildHimcList
+                  366 NtUserGetImeInfoEx
+                  3F0 NtUserNotifyIMEStatus
+                  2D2 NtUserCallOneParam
+                  4B8 NtUserValidateHandleSecure
+                  40B NtUserQueryWindow
+                  2BB NtUserAssociateInputContext
+                  409 NtUserQueryInputContext
+                  39A NtUserGetThreadState
+                  2EF NtUserCreateInputContext
+
+    KERNEL32.dll
+              4F01C000 Import Address Table
+              4F01C378 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  2E3 GetSystemTimeAsFileTime
+                  32E GlobalFree
+                  332 GlobalLock
+                  327 GlobalAlloc
+                  25F GetLocaleInfoW
+                  33F HeapAlloc
+                  3CC LocalSize
+                  3CA LocalReAlloc
+                  3C6 LocalFlags
+                  2B4 GetProcessMitigationPolicy
+                  213 GetCurrentProcess
+                  62F lstrlenW
+                   86 CloseHandle
+                  3F9 OpenFile
+                  272 GetModuleHandleW
+                  253 GetFullPathNameW
+                  2F9 GetThreadLocale
+                  2DA GetSystemDirectoryW
+                  3C3 LocalAlloc
+                  1A7 FreeLibrary
+                  2A8 GetProcAddress
+                  3BC LoadLibraryExW
+                  271 GetModuleHandleExW
+                   29 BaseCheckAppcompatCache
+                  1AE GetACP
+                  2D5 GetSystemDefaultLCID
+                  3C7 LocalFree
+                  377 IsDBCSLeadByteEx
+                  5F1 WideCharToMultiByte
+                  3E6 MultiByteToWideChar
+                  3CD LocalUnlock
+                  3C9 LocalLock
+                  218 GetCurrentThreadId
+                  343 HeapFree
+                  526 SetLastError
+                  336 GlobalSize
+                  623 lstrcmpW
+                  2BF GetProfileIntW
+                  376 IsDBCSLeadByte
+                  62E lstrlenA
+                  3FC OpenFileMappingW
+                  3D5 MapViewOfFile
+                  5A3 UnmapViewOfFile
+                  25B GetLastError
+                  4BD ResolveDelayLoadedAPI
+                  109 DelayLoadFailureHook
+                   C7 CreateFileMappingW
+                  214 GetCurrentProcessId
+                  591 TlsAlloc
+                  593 TlsGetValue
+                  594 TlsSetValue
+                  592 TlsFree
+                  570 Sleep
+                   EF CreateThread
+                  4C2 RtlCaptureContext
+                  5A0 UnhandledExceptionFilter
+                  560 SetUnhandledExceptionFilter
+                  57F TerminateProcess
+                  442 QueryPerformanceCounter
+                  339 GlobalUnlock
+                  301 GetTickCount
+
+    ntdll.dll
+              4F01C238 Import Address Table
+              4F01C5B0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  8E1 memcpy
+                  8E0 memcmp
+                  5C6 RtlUnwind
+                  562 RtlSetLastWin32Error
+                  495 RtlIsThreadWithinLoaderCallout
+                  378 RtlDllShutdownInProgress
+                  5B8 RtlUnicodeToMultiByteSize
+                  8E5 memset
+                  924 wcstol
+                  5B3 RtlUnicodeStringToInteger
+                  8AD _wcsicmp
+                  449 RtlInitializeCriticalSection
+                  393 RtlEnterCriticalSection
+                  4A6 RtlLeaveCriticalSection
+                  8AA _vsnwprintf
+                  1F4 NtQuerySystemInformation
+                  35C RtlDeleteCriticalSection
+                  45F RtlIntegerToUnicodeString
+
+  Summary
+
+        1000 .data
+        1000 .didat
+        2000 .idata
+        2000 .reloc
+        5000 .rsrc
+       1A000 .text

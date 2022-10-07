@@ -1,0 +1,615 @@
+kd> x IMM32!*
+762f6158          IMM32!ghInst = <no type information>
+762e114c          IMM32!_imp__InterlockedIncrement = <no type information>
+762e1238          IMM32!_imp__DestroyWindow = <no type information>
+762e6aa1          IMM32!JCloseOpen (_JCloseOpen@12)
+762e3f20          IMM32!MakeIMENotify (_MakeIMENotify@28)
+762e1298          IMM32!_imp__SendMessageA = <no type information>
+762ee0d3          IMM32!ImmProcessKey (_ImmProcessKey@20)
+762e10ec          IMM32!_imp__GlobalUnlock = <no type information>
+762e100c          IMM32!_imp__RegSetValueExW = <no type information>
+762e1130          IMM32!_imp__FreeLibrary = <no type information>
+762f45b8          IMM32!NtUserGetImeHotKey (_NtUserGetImeHotKey@16)
+762f4b5c          IMM32!BaseCheckAppcompatCache (_BaseCheckAppcompatCache@16)
+762e3e54          IMM32!CalcCharacterPositionWtoA (_CalcCharacterPositionWtoA@12)
+762e6799          IMM32!ImmRequestMessageA (_ImmRequestMessageA@12)
+762e123c          IMM32!_imp__MapVirtualKeyW = <no type information>
+762f3e41          IMM32!ISPY_PreUninitialize (_ISPY_PreUninitialize@8)
+762f3d59          IMM32!Internal_CtfImeCreateInputContext (_Internal_CtfImeCreateInputContext@4)
+762e11e4          IMM32!_imp__GetWindowLongW = <no type information>
+762ea11b          IMM32!CtfImmGenerateMessage (_CtfImmGenerateMessage@8)
+762e6cf8          IMM32!CheckAndApplyAppCompat (_CheckAndApplyAppCompat@4)
+762f620c          IMM32!g_hCtfIme = <no type information>
+762f3227          IMM32!GetCoInitCountSkip (_GetCoInitCountSkip@0)
+762f4b46          IMM32!RtlUnwind (_RtlUnwind@16)
+762e1174          IMM32!_imp__RtlUnicodeToMultiByteSize = <no type information>
+762e11c0          IMM32!_imp__GetFocus = <no type information>
+762e10d4          IMM32!_imp__lstrcmpW = <no type information>
+762f3308          IMM32!Internal_CoUninitialize (_Internal_CoUninitialize@0)
+762f466c          IMM32!NtUserUpdateInputContext (_NtUserUpdateInputContext@12)
+762ea649          IMM32!ImmUnregisterWordW (_ImmUnregisterWordW@16)
+762e49ce          IMM32!ImmSetCompositionFontW (_ImmSetCompositionFontW@8)
+762f6020          IMM32!gcsImeDpi = <no type information>
+762e4829          IMM32!ImmGetCompositionFontW (_ImmGetCompositionFontW@8)
+762e9f2d          IMM32!ImmLockIMC (_ImmLockIMC@4)
+762eafa8          IMM32!SKC1InvertButton (_SKC1InvertButton@8)
+762e83a9          IMM32!LoadVarVersionInfo (_LoadVarVersionInfo@8)
+762f3d3b          IMM32!Internal_CtfImeProcessCicHotkey (_Internal_CtfImeProcessCicHotkey@12)
+762f41a6          IMM32!ImmDisableTextFrameService (_ImmDisableTextFrameService@4)
+762f61fc          IMM32!g_pfnCtfImeSetActiveContextAlways = <no type information>
+762edcf0          IMM32!WINNLSTranslateMessage (_WINNLSTranslateMessage@20)
+762f6184          IMM32!__security_cookie = <no type information>
+762f4432          IMM32!__security_check_cookie (@__security_check_cookie@4)
+762f33ad          IMM32!Internal_CoRevokeInitializeSpy (_Internal_CoRevokeInitializeSpy@8)
+762e1070          IMM32!_imp__GetTextMetricsW = <no type information>
+762f378e          IMM32!CtfImmIsCiceroStartedInThread (_CtfImmIsCiceroStartedInThread@0)
+762eb150          IMM32!InitSKC1Bitmap (_InitSKC1Bitmap@20)
+762f34da          IMM32!CtfImmRestoreToolbarWnd (_CtfImmRestoreToolbarWnd@4)
+762e12c0          IMM32!ImmDllInitialize (_ImmDllInitialize@12)
+762e11ec          IMM32!_imp__GetWindowRect = <no type information>
+762e98c3          IMM32!ImmUnlockIMCC (_ImmUnlockIMCC@4)
+762f61b0          IMM32!gfSoftKbdC1Init = <no type information>
+762e1278          IMM32!_imp__InvalidateRect = <no type information>
+762e2cbf          IMM32!CreateInputContext (_CreateInputContext@12)
+762f40f1          IMM32!ActivateOrDeactivateTIM (_ActivateOrDeactivateTIM@4)
+762e243f          IMM32!_SEH_epilog (__SEH_epilog)
+762f4644          IMM32!NtUserSetImeInfoEx (_NtUserSetImeInfoEx@4)
+762e109c          IMM32!_imp__Sleep = <no type information>
+762e7719          IMM32!FindOrLoadImeDpi (_FindOrLoadImeDpi@4)
+762ef0d2          IMM32!MyPostImsMessage (_MyPostImsMessage@12)
+762e6db2          IMM32!ImmUnloadIME (_ImmUnloadIME@4)
+762f3ce7          IMM32!CtfAImmIsIME (_CtfAImmIsIME@4)
+762e6d81          IMM32!UnloadIME (_UnloadIME@8)
+762e9308          IMM32!gszValLayoutFile = <no type information>
+762e1148          IMM32!_imp__HeapFree = <no type information>
+762ed2ef          IMM32!SKT1MouseMove (_SKT1MouseMove@4)
+762e9bac          IMM32!ImmLockImeDpi (_ImmLockImeDpi@4)
+762e124c          IMM32!_imp__MonitorFromWindow = <no type information>
+762e1114          IMM32!_imp__lstrlenW = <no type information>
+762e1184          IMM32!_imp__RtlIntegerToUnicodeString = <no type information>
+762f18a5          IMM32!JTransCompositionW (_JTransCompositionW@16)
+762e2404          IMM32!_SEH_prolog (__SEH_prolog)
+762e8888          IMM32!gszRegCiceroIME = <no type information>
+762efd35          IMM32!TransCodeConvert (_TransCodeConvert@8)
+762e9d35          IMM32!ImmPtInRect (_ImmPtInRect@20)
+762f617c          IMM32!g_dwTLSIndex = <no type information>
+762e1074          IMM32!_imp__ExtTextOutW = <no type information>
+762ee656          IMM32!CheckCountry (_CheckCountry@0)
+762e97f8          IMM32!ImmIsUIMessageWorker (_ImmIsUIMessageWorker@20)
+762f4680          IMM32!NtUserValidateHandleSecure (_NtUserValidateHandleSecure@8)
+762e99a9          IMM32!TestInputContextProcess (_TestInputContextProcess@4)
+762f6888          IMM32!pImmHeap = <no type information>
+762e1154          IMM32!_imp__WideCharToMultiByte = <no type information>
+762e9a21          IMM32!GetKeyboardLayoutCP (_GetKeyboardLayoutCP@4)
+762e11c4          IMM32!_imp__User32InitializeImmEntryTable = <no type information>
+762eee37          IMM32!TransHanjaMode (_TransHanjaMode@12)
+762e9068          IMM32!WriteImeLayout (_WriteImeLayout@12)
+762eeff1          IMM32!IsForegroundThread (_IsForegroundThread@4)
+762e829c          IMM32!GetSystemPathName (_GetSystemPathName@12)
+762f6200          IMM32!g_pfnCtfImeProcessCicHotkey = <no type information>
+762f4540          IMM32!NtUserAssociateInputContext (_NtUserAssociateInputContext@12)
+762ebd0d          IMM32!SKC1ButtonUp (_SKC1ButtonUp@12)
+762e6823          IMM32!ImmGetHotKey (_ImmGetHotKey@16)
+762e105c          IMM32!_imp__GetStockObject = <no type information>
+762e1260          IMM32!_imp__RegisterClassExW = <no type information>
+762efbcf          IMM32!BanjaToJunja (_BanjaToJunja@8)
+762eb047          IMM32!SKC1DrawBitmap (_SKC1DrawBitmap@24)
+762e12b0          IMM32!_imp__keybd_event = <no type information>
+762e4791          IMM32!ImmGetCompositionFontA (_ImmGetCompositionFontA@8)
+762e1008          IMM32!_imp__RegCreateKeyW = <no type information>
+762e48c1          IMM32!ImmSetCompositionFontA (_ImmSetCompositionFontA@8)
+762ea503          IMM32!ImmUnregisterWordA (_ImmUnregisterWordA@16)
+762e9f83          IMM32!ImmGetIMCLockCount (_ImmGetIMCLockCount@4)
+762e2898          IMM32!SoftKeyboardClassName = <no type information>
+762eb395          IMM32!CreateC1Window (_CreateC1Window@4)
+762e6a15          IMM32!KShapeToggle (_KShapeToggle@4)
+762e108c          IMM32!_imp__TerminateProcess = <no type information>
+762f0a96          IMM32!CompStrAToCharW (_CompStrAToCharW@8)
+762eef3f          IMM32!TransVKDBEMode (_TransVKDBEMode@8)
+762f13df          IMM32!CompStrWToCharW (_CompStrWToCharW@8)
+762e67b7          IMM32!ImmRequestMessageW (_ImmRequestMessageW@12)
+762f0912          IMM32!CompStrAToStringA (_CompStrAToStringA@8)
+762f1389          IMM32!CompStrWToStringA (_CompStrWToStringA@8)
+762e3868          IMM32!UnicodeToMultiByteSize (_UnicodeToMultiByteSize@8)
+762e11b4          IMM32!_imp__SendMessageW = <no type information>
+762e55ca          IMM32!InternalGetCompositionStringA (_InternalGetCompositionStringA@28)
+762ef627          IMM32!SetFontForMCWVERTICAL (_SetFontForMCWVERTICAL@16)
+762e3e8a          IMM32!LFontAtoLFontW (_LFontAtoLFontW@8)
+762e3ed6          IMM32!LFontWtoLFontA (_LFontWtoLFontA@8)
+762ef28a          IMM32!TransSendVKey (_TransSendVKey@16)
+762e9b6f          IMM32!ImmGetImeDpi (_ImmGetImeDpi@4)
+762eaed2          IMM32!SKC1DrawConvexRect (_SKC1DrawConvexRect@20)
+762e107c          IMM32!_imp__IsBadWritePtr = <no type information>
+762e1068          IMM32!_imp__DeleteDC = <no type information>
+762f314d          IMM32!InitTLS (_InitTLS@0)
+762e11a4          IMM32!_imp__wcslen = <no type information>
+762f418a          IMM32!CtfImmLastEnabledWndDestroy (_CtfImmLastEnabledWndDestroy@4)
+762e99e5          IMM32!TestWindowProcess (_TestWindowProcess@4)
+762e1248          IMM32!_imp__UpdateWindow = <no type information>
+762f6038          IMM32!gfInitialized = <no type information>
+762f312e          IMM32!DeleteIMMISPY (_DeleteIMMISPY@4)
+762e1250          IMM32!_imp__GetMonitorInfoW = <no type information>
+762e9d74          IMM32!ImmSystemHandler (_ImmSystemHandler@12)
+762f37d8          IMM32!IsCUASEnabled (_IsCUASEnabled@0)
+762edad5          IMM32!GetNearestMonitorSize (_GetNearestMonitorSize@8)
+762e6715          IMM32!ImmRequestMessageAorW (_ImmRequestMessageAorW@16)
+762f1558          IMM32!JTransCompositionA (_JTransCompositionA@16)
+762e1098          IMM32!_imp__CreateThread = <no type information>
+762e2800          IMM32!gszValImeFile = <no type information>
+762ebbd5          IMM32!SKC1MouseMove (_SKC1MouseMove@12)
+762f3a0e          IMM32!IsRunningInMsoobe (_IsRunningInMsoobe@0)
+762e10bc          IMM32!_imp__UnmapViewOfFile = <no type information>
+762ecda5          IMM32!SKT1InvertButton (_SKT1InvertButton@16)
+762e10e8          IMM32!_imp__GlobalFree = <no type information>
+762e3bdc          IMM32!InternalGetCandidateListAtoW (_InternalGetCandidateListAtoW@16)
+762f3890          IMM32!gszValCUASEnable = <no type information>
+762f3206          IMM32!CtfImmLeaveCoInitCountSkipMode (_CtfImmLeaveCoInitCountSkipMode@0)
+762e1104          IMM32!_imp__LocalFlags = <no type information>
+762e10c8          IMM32!_imp__lstrlenA = <no type information>
+762e29de          IMM32!ImmSetActiveContext (_ImmSetActiveContext@12)
+762e2591          IMM32!_local_unwind2 (__local_unwind2)
+762efe71          IMM32!TransGetMNTable (_TransGetMNTable@8)
+762e112c          IMM32!_imp__GetACP = <no type information>
+762e1290          IMM32!_imp__GetWindowThreadProcessId = <no type information>
+762e8ef7          IMM32!GetImeLayout (_GetImeLayout@8)
+762e8cd5          IMM32!UIntToStr (_UIntToStr@16)
+762e104c          IMM32!_imp__TranslateCharsetInfo = <no type information>
+762f2332          IMM32!ImmCallImeConsoleIME (_ImmCallImeConsoleIME@20)
+762e9369          IMM32!AssignNewLayout (_AssignNewLayout@12)
+762ee6d3          IMM32!SendIMEMessageAll (_SendIMEMessageAll@12)
+762e82ff          IMM32!GetVersionDatum (_GetVersionDatum@12)
+762f42c4          IMM32!CtfAImmDeactivate (_CtfAImmDeactivate@4)
+762e1080          IMM32!_imp__SetUnhandledExceptionFilter = <no type information>
+762e1244          IMM32!_imp__ShowWindow = <no type information>
+762e9b22          IMM32!ImmUnlockClientImc (_ImmUnlockClientImc@4)
+762e1224          IMM32!_imp__GetForegroundWindow = <no type information>
+762e9c7f          IMM32!ImmGetImeInfoEx (_ImmGetImeInfoEx@12)
+762e10fc          IMM32!_imp__LocalSize = <no type information>
+762ec54e          IMM32!SKT1DrawConvexRect (_SKT1DrawConvexRect@20)
+762f4304          IMM32!CtfImmDispatchDefImeMessage (_CtfImmDispatchDefImeMessage@16)
+762e5588          IMM32!ImmGetGuideLineA (_ImmGetGuideLineA@16)
+762e55a9          IMM32!ImmGetGuideLineW (_ImmGetGuideLineW@16)
+762ef109          IMM32!TransSetOpenJ (_TransSetOpenJ@12)
+762f4336          IMM32!ISPY_PreInitialize (_ISPY_PreInitialize@12)
+762e2617          IMM32!_NLG_Dispatch (__NLG_Dispatch)
+762e3a86          IMM32!ImmGetConversionStatus (_ImmGetConversionStatus@12)
+762e2617          IMM32!_NLG_Dispatch2 (__NLG_Dispatch2)
+762e45f7          IMM32!ImmSetConversionStatus (_ImmSetConversionStatus@12)
+762e10b0          IMM32!_imp__GetCurrentProcessId = <no type information>
+762eeb4f          IMM32!ImmSendIMEMessageExA (_ImmSendIMEMessageExA@8)
+762eb879          IMM32!SKC1MousePosition (_SKC1MousePosition@4)
+762e1038          IMM32!_imp__GetTextExtentPoint32W = <no type information>
+762e11b8          IMM32!_imp__wsprintfW = <no type information>
+762eeb34          IMM32!ImmSendIMEMessageExW (_ImmSendIMEMessageExW@8)
+762e6845          IMM32!HotkeyImmIsIME (_HotkeyImmIsIME@4)
+762e5b62          IMM32!ImmGetCompositionStringA (_ImmGetCompositionStringA@16)
+762e11e0          IMM32!_imp__SetWindowLongW = <no type information>
+762e1048          IMM32!_imp__CreateDIBitmap = <no type information>
+762f325b          IMM32!DecCoInitCountSkip (_DecCoInitCountSkip@0)
+762f3d7c          IMM32!Internal_CtfImeDestroyInputContext (_Internal_CtfImeDestroyInputContext@4)
+762e548a          IMM32!ImmGetCompositionStringW (_ImmGetCompositionStringW@16)
+762f3e0b          IMM32!ISPY_PostInitialize (_ISPY_PostInitialize@16)
+762e106c          IMM32!_imp__CreateCompatibleDC = <no type information>
+762f09a5          IMM32!CompStrAToCharA (_CompStrAToCharA@8)
+762e2975          IMM32!ImmCreateContext (_ImmCreateContext@0)
+762f3d07          IMM32!Internal_CtfImeCreateThreadMgr (_Internal_CtfImeCreateThreadMgr@0)
+762f310d          IMM32!AllocIMMISPY (_AllocIMMISPY@0)
+762e10a4          IMM32!_imp__TlsSetValue = <no type information>
+762e9889          IMM32!ImmDestroyIMCC (_ImmDestroyIMCC@4)
+762f1453          IMM32!CompStrWToCharA (_CompStrWToCharA@8)
+762f094f          IMM32!CompStrAToStringW (_CompStrAToStringW@8)
+762e1124          IMM32!_imp__GetSystemDirectoryW = <no type information>
+762e1100          IMM32!_imp__LocalReAlloc = <no type information>
+762f1341          IMM32!CompStrWToStringW (_CompStrWToStringW@8)
+762e80b9          IMM32!ImmPenAuxInput (_ImmPenAuxInput@8)
+762e1138          IMM32!_imp__GetModuleHandleW = <no type information>
+762e4ed3          IMM32!InternalGetCompositionStringW (_InternalGetCompositionStringW@28)
+762f3668          IMM32!CtfImmSetAppCompatFlags (_CtfImmSetAppCompatFlags@4)
+762f3096          IMM32!ISPY_QueryInterface (_ISPY_QueryInterface@12)
+762e3e0e          IMM32!CalcCharacterPositionAtoW (_CalcCharacterPositionAtoW@12)
+762e1168          IMM32!_imp__RtlUnwind = <no type information>
+762e6c92          IMM32!ImmSimulateHotKey (_ImmSimulateHotKey@8)
+762ed365          IMM32!SKT1ButtonUp (_SKT1ButtonUp@4)
+762ef22f          IMM32!TransGetMode (_TransGetMode@4)
+762ecd18          IMM32!DestroyT1Window (_DestroyT1Window@4)
+762e42ec          IMM32!ImmGetCandidateListWorker (_ImmGetCandidateListWorker@20)
+762e36f4          IMM32!ImmAssociateContextEx (_ImmAssociateContextEx@12)
+762ebf74          IMM32!DestroyC1Window (_DestroyC1Window@4)
+762eeb6a          IMM32!TransSetOpenK (_TransSetOpenK@12)
+762f45cc          IMM32!NtUserGetImeInfoEx (_NtUserGetImeInfoEx@8)
+762e1274          IMM32!_imp__EndPaint = <no type information>
+762ec66d          IMM32!SKT1DrawBitmap (_SKT1DrawBitmap@24)
+762e11dc          IMM32!_imp__GetClientRect = <no type information>
+762e10cc          IMM32!_imp__IsDBCSLeadByte = <no type information>
+762f6480          IMM32!guScanCode = <no type information>
+762e1194          IMM32!_imp__RtlDeleteCriticalSection = <no type information>
+762e1214          IMM32!_imp__IsWindowUnicode = <no type information>
+762ecb94          IMM32!CreateT1Window (_CreateT1Window@4)
+762f30e8          IMM32!IID_IInitializeSpy = <no type information>
+762e11bc          IMM32!_imp__GetClassInfoW = <no type information>
+762e3cf2          IMM32!InternalGetCandidateListWtoA (_InternalGetCandidateListWtoA@16)
+762e9a8b          IMM32!ImmLockClientImc (_ImmLockClientImc@4)
+762eade8          IMM32!InitSKC1ButtonPos (_InitSKC1ButtonPos@0)
+762f3350          IMM32!Internal_CoRegisterInitializeSpy (_Internal_CoRegisterInitializeSpy@8)
+762efdb2          IMM32!TransConvertList (_TransConvertList@8)
+762e992c          IMM32!ImmGetIMCCSize (_ImmGetIMCCSize@4)
+762f4b51          IMM32!NtQueryVirtualMemory (_NtQueryVirtualMemory@24)
+762f4568          IMM32!NtUserCallOneParam (_NtUserCallOneParam@8)
+762e4140          IMM32!InternalSCS_RECONVERTSTRING (_InternalSCS_RECONVERTSTRING@24)
+762e67fc          IMM32!ImmSetCompositionStringW (_ImmSetCompositionStringW@24)
+762e1140          IMM32!_imp__GetProcAddress = <no type information>
+762f24a1          IMM32!ConvertImeMenuItemInfoAtoW (_ConvertImeMenuItemInfoAtoW@16)
+762f6040          IMM32!gSharedInfo = <no type information>
+762ed93c          IMM32!RegisterSoftKeyboard (_RegisterSoftKeyboard@4)
+762e67d5          IMM32!ImmSetCompositionStringA (_ImmSetCompositionStringA@24)
+762e43f7          IMM32!ImmGetGuideLineWorker (_ImmGetGuideLineWorker@20)
+762e705a          IMM32!InquireIme (_InquireIme@4)
+762f4256          IMM32!EnumIMC (_EnumIMC@8)
+762e10b4          IMM32!_imp__CreateFileMappingW = <no type information>
+762e35f7          IMM32!BuildHimcList (_BuildHimcList@8)
+762e103c          IMM32!_imp__SetBkColor = <no type information>
+762ec6dd          IMM32!SKT1DrawLabel (_SKT1DrawLabel@12)
+762ef03d          IMM32!FixLogfont (_FixLogfont@8)
+762e5ff6          IMM32!ImmSetCompositionStringWorker (_ImmSetCompositionStringWorker@28)
+762e102c          IMM32!_imp__CreateFontIndirectW = <no type information>
+762e1228          IMM32!_imp__ClientToScreen = <no type information>
+762e11fc          IMM32!_imp__ScreenToClient = <no type information>
+762e2536          IMM32!_global_unwind2 (__global_unwind2)
+762e8d07          IMM32!CopyImeFile (_CopyImeFile@8)
+762ec32e          IMM32!InitSKT1ButtonPos (_InitSKT1ButtonPos@4)
+762e2bba          IMM32!DestroyImeModeSaver (_DestroyImeModeSaver@4)
+762edcc2          IMM32!ImmDestroySoftKeyboard (_ImmDestroySoftKeyboard@4)
+762eebdd          IMM32!TransGetOpenJ (_TransGetOpenJ@16)
+762ede65          IMM32!ImmTranslateMessage (_ImmTranslateMessage@16)
+762ea290          IMM32!ImmRegisterWordA (_ImmRegisterWordA@16)
+762f2513          IMM32!ConvertImeMenuItemInfoWtoA (_ConvertImeMenuItemInfoWtoA@12)
+762f3f0b          IMM32!CtfImmTIMActivate (_CtfImmTIMActivate@4)
+762ea3d6          IMM32!ImmRegisterWordW (_ImmRegisterWordW@16)
+762f4909          IMM32!RtlDllShutdownInProgress (_RtlDllShutdownInProgress@0)
+762e1188          IMM32!_imp__wcscat = <no type information>
+762e92f0          IMM32!gszValLayoutText = <no type information>
+762e1014          IMM32!_imp__RegEnumKeyW = <no type information>
+762e7a7b          IMM32!ImmConfigureIMEW (_ImmConfigureIMEW@16)
+762e12ac          IMM32!_imp__IsWindow = <no type information>
+762e78b1          IMM32!ImmConfigureIMEA (_ImmConfigureIMEA@16)
+762e11cc          IMM32!_imp__UnloadKeyboardLayout = <no type information>
+762eeef2          IMM32!TransGetLevel (_TransGetLevel@4)
+762e11d8          IMM32!_imp__GetDC = <no type information>
+762e1254          IMM32!_imp__SystemParametersInfoW = <no type information>
+762ef4f4          IMM32!MySetCandidateWindow (_MySetCandidateWindow@12)
+762e5567          IMM32!ImmGetCandidateListW (_ImmGetCandidateListW@16)
+762e3846          IMM32!ImmSendNotification (_ImmSendNotification@4)
+762e2c67          IMM32!SavePrivateMode (_SavePrivateMode@12)
+762e12a8          IMM32!_imp__GetKeyboardLayout = <no type information>
+762e6867          IMM32!IMENonIMEToggle (_IMENonIMEToggle@20)
+762e5546          IMM32!ImmGetCandidateListA (_ImmGetCandidateListA@16)
+762e10d0          IMM32!_imp__GetProfileIntW = <no type information>
+762f61c8          IMM32!g_hOle32 = <no type information>
+762f3848          IMM32!gszRegCtfShared = <no type information>
+762f4b67          IMM32!CheckTokenMembership (_CheckTokenMembership@12)
+762e11a0          IMM32!_imp__RtlLeaveCriticalSection = <no type information>
+762f4658          IMM32!NtUserSetThreadLayoutHandles (_NtUserSetThreadLayoutHandles@8)
+762e39db          IMM32!InternalSCS_SETSTR (_InternalSCS_SETSTR@24)
+762eecf5          IMM32!TransSetMode (_TransSetMode@8)
+762ec26e          IMM32!GetSKT1TextMetric (_GetSKT1TextMetric@4)
+762f491f          IMM32!_ValidateEH3RN (__ValidateEH3RN)
+762f457c          IMM32!NtUserCreateInputContext (_NtUserCreateInputContext@4)
+762ef6ec          IMM32!TransSetConversionWindow (_TransSetConversionWindow@12)
+762e97be          IMM32!ImmGetDefaultIMEWnd (_ImmGetDefaultIMEWnd@4)
+762ee478          IMM32!ImmWINNLSGetIMEHotkey (_ImmWINNLSGetIMEHotkey@4)
+762e1310          IMM32!$$VProc_ImageExportDirectory = <no type information>
+762eeb8e          IMM32!TransGetOpenK (_TransGetOpenK@16)
+762edcd3          IMM32!ImmShowSoftKeyboard (_ImmShowSoftKeyboard@8)
+762e6cd7          IMM32!SelectContextProc (_SelectContextProc@8)
+762ec774          IMM32!InitSKT1Bitmap (_InitSKT1Bitmap@8)
+762e22b3          IMM32!ImmRegisterClient (_ImmRegisterClient@8)
+762e1190          IMM32!_imp__wcscpy = <no type information>
+762e11d0          IMM32!_imp__LoadBitmapW = <no type information>
+762e98a6          IMM32!ImmLockIMCC (_ImmLockIMCC@4)
+762e2eb1          IMM32!DestroyInputContext (_DestroyInputContext@12)
+762f61e8          IMM32!g_aimm_compat_flags = <no type information>
+762e4e54          IMM32!ImmSetCandidateWindow (_ImmSetCandidateWindow@8)
+762f37a6          IMM32!CtfImmSetCiceroStartInThread (_CtfImmSetCiceroStartInThread@4)
+762e1120          IMM32!_imp__GetThreadLocale = <no type information>
+762ece91          IMM32!UpdateSKT1Window (_UpdateSKT1Window@8)
+762f323a          IMM32!IncCoInitCountSkip (_IncCoInitCountSkip@0)
+762eec21          IMM32!TransMoveImeWindow (_TransMoveImeWindow@12)
+762e2450          IMM32!_except_handler3 (__except_handler3)
+762e470b          IMM32!ImmSetOpenStatus (_ImmSetOpenStatus@8)
+762e1258          IMM32!_imp__GetClassInfoExW = <no type information>
+762e3ac3          IMM32!ImmGetOpenStatus (_ImmGetOpenStatus@4)
+762e1200          IMM32!_imp__GetCursorPos = <no type information>
+762e3893          IMM32!CompositionString (_CompositionString@16)
+762f61f0          IMM32!g_pfnCtfImeDestroyThreadMgr = <no type information>
+762e1000          IMM32!_imp__CheckTokenMembership = <no type information>
+762e111c          IMM32!_imp___lclose = <no type information>
+762f6208          IMM32!g_pfnCtfImeIsIME = <no type information>
+762f012d          IMM32!CompStrAToUndetA (_CompStrAToUndetA@12)
+762f0b3d          IMM32!CompStrWToUndetW (_CompStrWToUndetW@12)
+762eb0b7          IMM32!SKC1DrawLabel (_SKC1DrawLabel@8)
+762e9949          IMM32!ImmLocalAlloc (_ImmLocalAlloc@8)
+762f0340          IMM32!CompStrAToUndetW (_CompStrAToUndetW@12)
+762f0d60          IMM32!CompStrWToUndetA (_CompStrWToUndetA@12)
+762f45f4          IMM32!NtUserNotifyIMEStatus (_NtUserNotifyIMEStatus@12)
+762e96df          IMM32!ImmInstallIMEA (_ImmInstallIMEA@8)
+762e1088          IMM32!_imp__GetCurrentProcess = <no type information>
+762e1198          IMM32!_imp__NtQuerySystemInformation = <no type information>
+762efcad          IMM32!KsToJohab (_KsToJohab@8)
+762f1bf7          IMM32!WINNLSTranslateMessageJ (_WINNLSTranslateMessageJ@20)
+762ee79d          IMM32!ImmIMPGetIMEA (_ImmIMPGetIMEA@8)
+762e116c          IMM32!_imp__RtlIsThreadWithinLoaderCallout = <no type information>
+762e126c          IMM32!_imp__DrawEdge = <no type information>
+762e122c          IMM32!_imp__GetKeyboardState = <no type information>
+762f6180          IMM32!__security_cookie_complement = <no type information>
+762e1054          IMM32!_imp__Rectangle = <no type information>
+762ef377          IMM32!MySetCompFont (_MySetCompFont@12)
+762f3281          IMM32!GetFn (_GetFn@12)
+762e1010          IMM32!_imp__RegDeleteKeyW = <no type information>
+762e1118          IMM32!_imp__OpenFile = <no type information>
+762e2798          IMM32!gszRegKbdLayout = <no type information>
+762e1284          IMM32!_imp__SetWindowPos = <no type information>
+762f3773          IMM32!CtfImmIsCiceroEnabled (_CtfImmIsCiceroEnabled@0)
+762e110c          IMM32!_imp__LocalLock = <no type information>
+762e3b48          IMM32!ImmGetCompositionWindow (_ImmGetCompositionWindow@8)
+762e1170          IMM32!_imp__RtlDllShutdownInProgress = <no type information>
+762e7c25          IMM32!ImmEscapeA (_ImmEscapeA@16)
+762e4dd6          IMM32!ImmSetCompositionWindow (_ImmSetCompositionWindow@8)
+762ef188          IMM32!TransSetConversionMode (_TransSetConversionMode@8)
+762e113c          IMM32!_imp__LoadLibraryW = <no type information>
+762f2710          IMM32!InternalImeMenuCreateBitmap (_InternalImeMenuCreateBitmap@4)
+762ee90c          IMM32!ImmIMPQueryIMEA (_ImmIMPQueryIMEA@4)
+762e8b8e          IMM32!ImmGetProperty (_ImmGetProperty@8)
+762e8af0          IMM32!ImmGetIMEFileNameA (_ImmGetIMEFileNameA@12)
+762e6b88          IMM32!HotKeyIDDispatcher (_HotKeyIDDispatcher@16)
+762f6204          IMM32!g_pfnCtfImeDispatchDefImeMessage = <no type information>
+762e11f8          IMM32!_imp__SetCapture = <no type information>
+762f61b4          IMM32!CleanDate = <no type information>
+762f4694          IMM32!HMValidateHandleNoRip (@HMValidateHandleNoRip@8)
+762e41b9          IMM32!ImmGetCandidateListCountWorker (_ImmGetCandidateListCountWorker@12)
+762f3dea          IMM32!ISPY_Release (_ISPY_Release@4)
+762e3560          IMM32!SendNotificationProc (_SendNotificationProc@8)
+762e120c          IMM32!_imp__SendMessageTimeoutW = <no type information>
+762edd6a          IMM32!ImmPostMessages (_ImmPostMessages@16)
+762f38a1          IMM32!CtfImmIsTextFrameServiceDisabled (_CtfImmIsTextFrameServiceDisabled@0)
+762f4374          IMM32!CtfImmTIMCreateInputContext (_CtfImmTIMCreateInputContext@4)
+762f1e7d          IMM32!WINNLSTranslateMessageK (_WINNLSTranslateMessageK@20)
+762e1288          IMM32!_imp__GetWindow = <no type information>
+762eef0d          IMM32!TransSetLevel (_TransSetLevel@8)
+762eb728          IMM32!SKC1DrawDragBorder (_SKC1DrawDragBorder@12)
+762e117c          IMM32!_imp___wcsicmp = <no type information>
+762f48b5          IMM32!UserSetLastError (_UserSetLastError@4)
+762f31d6          IMM32!GetTLS (_GetTLS@0)
+762f4554          IMM32!NtUserBuildHimcList (_NtUserBuildHimcList@16)
+762e5510          IMM32!ImmGetCandidateListCountA (_ImmGetCandidateListCountA@8)
+762ed4ef          IMM32!SetSKT1Data (_SetSKT1Data@8)
+762ee679          IMM32!ImmWINNLSEnableIME (_ImmWINNLSEnableIME@8)
+762e6fa3          IMM32!ImmSendMessageToActiveDefImeWndW (_ImmSendMessageToActiveDefImeWndW@12)
+762e1178          IMM32!_imp__wcstol = <no type information>
+762f45e0          IMM32!NtUserGetThreadState (_NtUserGetThreadState@4)
+762ef47e          IMM32!MySetCompWindow (_MySetCompWindow@12)
+762e10a0          IMM32!_imp__TlsGetValue = <no type information>
+762e7ea1          IMM32!ImmEscapeW (_ImmEscapeW@16)
+762f4608          IMM32!NtUserQueryInputContext (_NtUserQueryInputContext@8)
+762e1128          IMM32!_imp__LocalAlloc = <no type information>
+762e1030          IMM32!_imp__GetObjectW = <no type information>
+762e10b8          IMM32!_imp__MapViewOfFile = <no type information>
+762e1240          IMM32!_imp__CreateWindowExW = <no type information>
+762e2c1d          IMM32!GetImePrivateModeSaver (_GetImePrivateModeSaver@8)
+762f6000          IMM32!gpsi = <no type information>
+762f2af8          IMM32!IsAnsiIMC (_IsAnsiIMC@4)
+762e121c          IMM32!_imp__CharNextA = <no type information>
+762ef25f          IMM32!TransGetConversionMode (_TransGetConversionMode@4)
+762f3469          IMM32!CtfImmCoInitialize (_CtfImmCoInitialize@0)
+762f3d9f          IMM32!Internal_CtfImeSetActiveContextAlways (_Internal_CtfImeSetActiveContextAlways@16)
+762f3e90          IMM32!ISPY_PostUninitialize (_ISPY_PostUninitialize@8)
+762e9dcb          IMM32!ImmIsUIMessageA (_ImmIsUIMessageA@16)
+762eec7b          IMM32!Get31ModeFrom40ModeK (_Get31ModeFrom40ModeK@4)
+762eeca4          IMM32!Get31ModeFrom40ModeJ (_Get31ModeFrom40ModeJ@4)
+762f2db5          IMM32!ImmGetImeMenuItemsA (_ImmGetImeMenuItemsA@24)
+762ee995          IMM32!ImmIMPSetIMEW (_ImmIMPSetIMEW@8)
+762e77cd          IMM32!ImmActivateLayout (_ImmActivateLayout@4)
+762f35f1          IMM32!CtfImmIsGuidMapEnable (_CtfImmIsGuidMapEnable@4)
+762e9415          IMM32!ImmInstallIMEW (_ImmInstallIMEW@8)
+762e11e8          IMM32!_imp__DrawTextExW = <no type information>
+762e11d4          IMM32!_imp__ReleaseDC = <no type information>
+762e12a4          IMM32!_imp__WCSToMBEx = <no type information>
+762ef55a          IMM32!TransSetConversionFontEx (_TransSetConversionFontEx@16)
+762e2814          IMM32!SKC1VirtKey = <no type information>
+762e10f0          IMM32!_imp__InterlockedDecrement = <no type information>
+762f2b29          IMM32!ImmGetImeMenuItemsWorker (_ImmGetImeMenuItemsWorker@28)
+762e1230          IMM32!_imp__ToUnicode = <no type information>
+762f4630          IMM32!NtUserSetAppImeLevel (_NtUserSetAppImeLevel@8)
+762f3aa7          IMM32!LoadCtfIme (_LoadCtfIme@0)
+762e11f4          IMM32!_imp__MessageBeep = <no type information>
+762f31f0          IMM32!CtfImmEnterCoInitCountSkipMode (_CtfImmEnterCoInitCountSkipMode@0)
+762e4c26          IMM32!ImmGetConversionListW (_ImmGetConversionListW@24)
+762f36e3          IMM32!CtfImmSetLangBand (_CtfImmSetLangBand@8)
+762e115c          IMM32!_imp__IsDBCSLeadByteEx = <no type information>
+762e1158          IMM32!_imp__LocalFree = <no type information>
+762ef945          IMM32!TranslateIMESubFunctions (_TranslateIMESubFunctions@12)
+762f603c          IMM32!gHighestUserAddress = <no type information>
+762e8c9c          IMM32!StrToUInt (_StrToUInt@4)
+762ee4e5          IMM32!IMPGetIMEWorker (_IMPGetIMEWorker@8)
+762e1110          IMM32!_imp__GetFullPathNameW = <no type information>
+762e6e43          IMM32!ImmFreeLayout (_ImmFreeLayout@4)
+762eaa33          IMM32!EnumRegisterWordProcW (_EnumRegisterWordProcW@16)
+762e10ac          IMM32!_imp__OpenFileMappingW = <no type information>
+762e1018          IMM32!_imp__RegOpenKeyW = <no type information>
+762efc25          IMM32!JohabToKs (_JohabToKs@8)
+762e1004          IMM32!_imp__FreeSid = <no type information>
+762e1084          IMM32!_imp__UnhandledExceptionFilter = <no type information>
+762e101c          IMM32!_imp__RegQueryValueExW = <no type information>
+762f3d21          IMM32!Internal_CtfImeDestroyThreadMgr (_Internal_CtfImeDestroyThreadMgr@0)
+762e11ac          IMM32!_imp__NtQueryVirtualMemory = <no type information>
+762e1044          IMM32!_imp__GetDIBits = <no type information>
+762e5be8          IMM32!InternalSCS_CHANGEATTR (_InternalSCS_CHANGEATTR@32)
+762e1058          IMM32!_imp__SelectObject = <no type information>
+762e8350          IMM32!LoadFixVersionInfo (_LoadFixVersionInfo@8)
+762e10c4          IMM32!_imp__GetLastError = <no type information>
+762e8719          IMM32!ImmLoadLayout (_ImmLoadLayout@8)
+762e1064          IMM32!_imp__DeleteObject = <no type information>
+762e8a39          IMM32!ImmGetIMEFileNameW (_ImmGetIMEFileNameW@12)
+762f4443          IMM32!__report_gsfailure (___report_gsfailure)
+762ed148          IMM32!SKT1SetCursor (_SKT1SetCursor@8)
+762e1034          IMM32!_imp__CreateDCW = <no type information>
+762f2795          IMM32!ImmGetImeMenuItemsInterProcess (_ImmGetImeMenuItemsInterProcess@24)
+762f074e          IMM32!CompStrAToStringExW (_CompStrAToStringExW@12)
+762ed103          IMM32!SKT1IsValidButton (_SKT1IsValidButton@8)
+762f102d          IMM32!CompStrWToStringExW (_CompStrWToStringExW@12)
+762f3e9f          IMM32!CtfImmCoUninitialize (_CtfImmCoUninitialize@0)
+762e12a0          IMM32!_imp__PostMessageA = <no type information>
+762f3dc2          IMM32!_InsideLoaderLock (__InsideLoaderLock@0)
+762e10dc          IMM32!_imp__lstrcpynW = <no type information>
+762e10e4          IMM32!_imp__GlobalLock = <no type information>
+762e9865          IMM32!ImmCreateIMCC (_ImmCreateIMCC@4)
+762e1134          IMM32!_imp__BaseCheckAppcompatCache = <no type information>
+762f2e03          IMM32!ImmPutImeMenuItemsIntoMappedFile (_ImmPutImeMenuItemsIntoMappedFile@4)
+762e2378          IMM32!ImmAssociateContext (_ImmAssociateContext@8)
+762e1294          IMM32!_imp__GetKeyboardLayoutList = <no type information>
+762e1180          IMM32!_imp__wcsncpy = <no type information>
+762e1024          IMM32!_imp__AllocateAndInitializeSid = <no type information>
+762e1218          IMM32!_imp__CharNextW = <no type information>
+762e2920          IMM32!_load_config_used = <no type information>
+762e127c          IMM32!_imp__DefWindowProcW = <no type information>
+762e2b63          IMM32!GetImeModeSaver (_GetImeModeSaver@8)
+762e1234          IMM32!_imp__ToAsciiEx = <no type information>
+762e6425          IMM32!ImmRequestMessageWorker (_ImmRequestMessageWorker@20)
+762e36a8          IMM32!ImmDestroyContext (_ImmDestroyContext@4)
+762e75e4          IMM32!LoadImeDpi (_LoadImeDpi@8)
+762f426f          IMM32!CtfAImmActivate (_CtfAImmActivate@4)
+762f6160          IMM32!g_vtblISPY = <no type information>
+762e6fd8          IMM32!ImmNotifyIME (_ImmNotifyIME@16)
+762e11c8          IMM32!_imp__CharUpperW = <no type information>
+762eda80          IMM32!GetAllMonitorSize (_GetAllMonitorSize@4)
+762f3685          IMM32!DelaySetLangBand (_DelaySetLangBand@4)
+762e9dec          IMM32!ImmIsUIMessageW (_ImmIsUIMessageW@16)
+762f2ddc          IMM32!ImmGetImeMenuItemsW (_ImmGetImeMenuItemsW@24)
+762eeab9          IMM32!ImmIMPSetIMEA (_ImmIMPSetIMEA@8)
+762e231d          IMM32!ImmInitializeGlobals (_ImmInitializeGlobals@4)
+762f267b          IMM32!DecompileBitmap (_DecompileBitmap@8)
+762efb61          IMM32!JunjaToBanja (_JunjaToBanja@8)
+762e23a1          IMM32!ImmGetContext (_ImmGetContext@4)
+762ed65d          IMM32!SKWndProcT1 (_SKWndProcT1@16)
+762e119c          IMM32!_imp__RtlEnterCriticalSection = <no type information>
+762f307f          IMM32!ISPY_AddRef (_ISPY_AddRef@4)
+762e3fc4          IMM32!ImmReconversionWorker (_ImmReconversionWorker@16)
+762ebad8          IMM32!SKC1SetCursor (_SKC1SetCursor@8)
+762e6b11          IMM32!CIMENonIMEToggle (_CIMENonIMEToggle@16)
+762e89a2          IMM32!ImmGetDescriptionA (_ImmGetDescriptionA@12)
+762ee586          IMM32!ImmEnableIME (_ImmEnableIME@8)
+762f38b9          IMM32!IsDisabledTextServices (_IsDisabledTextServices@0)
+762e4adb          IMM32!ImmGetConversionListA (_ImmGetConversionListA@24)
+762f6880          IMM32!gptRaiseEdge = <no type information>
+762f4740          IMM32!HMValidateHandle (@HMValidateHandle@8)
+762e23f5          IMM32!NtUserDisableThreadIme (_NtUserDisableThreadIme@4)
+762e1280          IMM32!_imp__ReleaseCapture = <no type information>
+762e1094          IMM32!_imp__lstrcmpiW = <no type information>
+762e29d3          IMM32!ImmReleaseContext (_ImmReleaseContext@8)
+762e1204          IMM32!_imp__SetCursor = <no type information>
+762eac99          IMM32!ImmEnumRegisterWordW (_ImmEnumRegisterWordW@24)
+762e23c3          IMM32!ImmGetSaveContext (_ImmGetSaveContext@8)
+762f6188          IMM32!_NLG_Destination = <no type information>
+762e10e0          IMM32!_imp__GlobalAlloc = <no type information>
+762e7199          IMM32!LoadIME (_LoadIME@8)
+762eab30          IMM32!ImmEnumRegisterWordA (_ImmEnumRegisterWordA@24)
+762f61f8          IMM32!g_pfnCtfImeDestroyInputContext = <no type information>
+762e69c5          IMM32!KEnglishHangul (_KEnglishHangul@4)
+762ea776          IMM32!ImmGetRegisterWordStyleA (_ImmGetRegisterWordStyleA@12)
+762e1208          IMM32!_imp__LoadCursorW = <no type information>
+762f32b3          IMM32!Internal_CoInitializeEx (_Internal_CoInitializeEx@8)
+762f61ec          IMM32!g_pfnCtfImeCreateThreadMgr = <no type information>
+762e9fc2          IMM32!ImmGenerateMessage (_ImmGenerateMessage@4)
+762ee6a0          IMM32!ImmWINNLSGetEnableStatus (_ImmWINNLSGetEnableStatus@4)
+762f30f8          IMM32!IID_IUnknown = <no type information>
+762ea84d          IMM32!ImmGetRegisterWordStyleW (_ImmGetRegisterWordStyleW@12)
+762e1268          IMM32!_imp__GetCapture = <no type information>
+762e5e25          IMM32!InternalSCS_CHANGECLAUSE (_InternalSCS_CHANGECLAUSE@32)
+762ea925          IMM32!EnumRegisterWordProcA (_EnumRegisterWordProcA@16)
+762e9bfc          IMM32!ImmUnlockImeDpi (_ImmUnlockImeDpi@4)
+762e6969          IMM32!TShapeToggle (_TShapeToggle@12)
+762e10c0          IMM32!_imp__CloseHandle = <no type information>
+762f340f          IMM32!Internal_TF_CreateLangBarMgr (_Internal_TF_CreateLangBarMgr@4)
+762e3af6          IMM32!ImmGetStatusWindowPos (_ImmGetStatusWindowPos@8)
+762e4d6e          IMM32!ImmSetStatusWindowPos (_ImmSetStatusWindowPos@8)
+762e285c          IMM32!bSKT1VirtKey = <no type information>
+762eb9d8          IMM32!SKC1ButtonDown (_SKC1ButtonDown@8)
+762ea245          IMM32!ImmGetVirtualKey (_ImmGetVirtualKey@4)
+762e1050          IMM32!_imp__PatBlt = <no type information>
+762f40b4          IMM32!CtfImmTIMDestroyInputContext (_CtfImmTIMDestroyInputContext@4)
+762e98e0          IMM32!ImmGetIMCCLockCount (_ImmGetIMCCLockCount@4)
+762f3511          IMM32!CtfImmHideToolbarWnd (_CtfImmHideToolbarWnd@0)
+762e3901          IMM32!CheckAttribute (_CheckAttribute@24)
+762f6260          IMM32!lfSKT1Font = <no type information>
+762e1060          IMM32!_imp__BitBlt = <no type information>
+762f6198          IMM32!gpImeDpi = <no type information>
+762e1160          IMM32!_imp__GetSystemDefaultLCID = <no type information>
+762f62c0          IMM32!gptButtonPos = <no type information>
+762e703a          IMM32!NotifyIMEProc (_NotifyIMEProc@8)
+762edb3b          IMM32!ImmCreateSoftKeyboard (_ImmCreateSoftKeyboard@16)
+762e9906          IMM32!ImmReSizeIMCC (_ImmReSizeIMCC@8)
+762f0609          IMM32!CompStrAToStringExA (_CompStrAToStringExA@12)
+762f356b          IMM32!CtfImmGetGuidAtom (_CtfImmGetGuidAtom@12)
+762eb49d          IMM32!ShowSKC1Window (_ShowSKC1Window@8)
+762f117d          IMM32!CompStrWToStringExA (_CompStrWToStringExA@12)
+762e1220          IMM32!_imp__MapWindowPoints = <no type information>
+762e1210          IMM32!_imp__GetDesktopWindow = <no type information>
+762e11a8          IMM32!_imp__RtlInitializeCriticalSection = <no type information>
+762e88f5          IMM32!ImmGetDescriptionW (_ImmGetDescriptionW@12)
+762f461c          IMM32!NtUserQueryWindow (_NtUserQueryWindow@8)
+762e1144          IMM32!_imp__MultiByteToWideChar = <no type information>
+762e9982          IMM32!PtiCurrent (_PtiCurrent@0)
+762ebffc          IMM32!SKWndProcC1 (_SKWndProcC1@16)
+762e9f45          IMM32!ImmUnlockIMC (_ImmUnlockIMC@4)
+762f4590          IMM32!NtUserDestroyInputContext (_NtUserDestroyInputContext@4)
+762e10f8          IMM32!_imp__HeapAlloc = <no type information>
+762e10f4          IMM32!_imp__GetLocaleInfoW = <no type information>
+762f2585          IMM32!SaveBitmapToMemory (_SaveBitmapToMemory@16)
+762f4914          IMM32!RtlIsThreadWithinLoaderCallout (_RtlIsThreadWithinLoaderCallout@0)
+762ee769          IMM32!ImmIMPGetIMEW (_ImmIMPGetIMEW@8)
+762ecc1c          IMM32!SKT1DrawDragBorder (_SKT1DrawDragBorder@12)
+762efec0          IMM32!HMNTable = <no type information>
+762f3989          IMM32!IsInteractiveUserLogon (_IsInteractiveUserLogon@0)
+762e9e0d          IMM32!InternalImmLockIMC (_InternalImmLockIMC@8)
+762e37ca          IMM32!ImmEnumInputContext (_ImmEnumInputContext@12)
+762e8c54          IMM32!ImmIsIME (_ImmIsIME@4)
+762e1150          IMM32!_imp__GetCurrentThreadId = <no type information>
+762e118c          IMM32!_imp__RtlUnicodeStringToInteger = <no type information>
+762e129c          IMM32!_imp__PostMessageW = <no type information>
+762f45a4          IMM32!NtUserGetAppImeLevel (_NtUserGetAppImeLevel@4)
+762e125c          IMM32!_imp__LoadIconW = <no type information>
+762e1040          IMM32!_imp__CreateCompatibleBitmap = <no type information>
+762e11f0          IMM32!_imp__GetSystemMetrics = <no type information>
+762e3b93          IMM32!ImmGetCandidateWindow (_ImmGetCandidateWindow@12)
+762ee482          IMM32!ConvertImeProWtoA (_ConvertImeProWtoA@8)
+762ee804          IMM32!ImmIMPQueryIMEW (_ImmIMPQueryIMEW@4)
+762e9d07          IMM32!ImmGetAppCompatFlags (_ImmGetAppCompatFlags@4)
+762e1020          IMM32!_imp__RegCloseKey = <no type information>
+762eb535          IMM32!UpdateSKC1Window (_UpdateSKC1Window@8)
+762e8567          IMM32!LoadVersionInfo (_LoadVersionInfo@4)
+762e776f          IMM32!ImmLoadIME (_ImmLoadIME@4)
+762ecf36          IMM32!SKT1MousePosition (_SKT1MousePosition@8)
+762e3967          IMM32!CheckClause (_CheckClause@16)
+762e1264          IMM32!_imp__GetParent = <no type information>
+762e3f92          IMM32!ImmGetReconvertTotalSize (_ImmGetReconvertTotalSize@12)
+762e128c          IMM32!_imp__LoadKeyboardLayoutW = <no type information>
+762e23e8          IMM32!ImmDisableIME (_ImmDisableIME@4)
+762e1108          IMM32!_imp__LocalUnlock = <no type information>
+762e92c0          IMM32!gszRegKbdOrder = <no type information>
+762e690b          IMM32!CSymbolToggle (_CSymbolToggle@12)
+762f61c4          IMM32!g_disable_CUAS_flag = <no type information>
+762f317e          IMM32!InternalAllocateTLS (_InternalAllocateTLS@0)
+762e1270          IMM32!_imp__BeginPaint = <no type information>
+762e10a8          IMM32!_imp__TlsAlloc = <no type information>
+762f247b          IMM32!ImmSetActiveContextConsoleIME (_ImmSetActiveContextConsoleIME@8)
+762e10d8          IMM32!_imp__SetLastError = <no type information>
+762e1090          IMM32!_imp__GetModuleFileNameW = <no type information>
+762e2601          IMM32!_NLG_Notify (__NLG_Notify)
+762f61dc          IMM32!g_hMsctf = <no type information>
+762e236d          IMM32!User32InitializeImmEntryTable (_User32InitializeImmEntryTable@4)
+762e2c96          IMM32!RestorePrivateMode (_RestorePrivateMode@12)
+762e3013          IMM32!SelectInputContext (_SelectInputContext@12)
+762e552b          IMM32!ImmGetCandidateListCountW (_ImmGetCandidateListCountW@8)
+762ed9f9          IMM32!GetSoftKeyboardDimension (_GetSoftKeyboardDimension@12)
+762f61f4          IMM32!g_pfnCtfImeCreateInputContext = <no type information>
+762eed57          IMM32!TransEnterWordRegisterMode (_TransEnterWordRegisterMode@12)
+762e6a66          IMM32!KHanjaConvert (_KHanjaConvert@4)

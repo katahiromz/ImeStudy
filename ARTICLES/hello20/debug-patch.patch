@@ -1,0 +1,177 @@
+diff --git a/dll/win32/imm32/imm.c b/dll/win32/imm32/imm.c
+index 4a440d9fb41..e1e48ffabf6 100644
+--- a/dll/win32/imm32/imm.c
++++ b/dll/win32/imm32/imm.c
+@@ -973,11 +973,16 @@ static HIMC APIENTRY ImmGetSaveContext(HWND hWnd, DWORD dwContextFlags)
+     PWND pWnd;
+ 
+     if (!IS_IMM_MODE())
++    {
++        ERR("!IS_IMM_MODE()\n");
+         return NULL;
++    }
+ 
+     if (!hWnd)
+     {
+         hIMC = (HIMC)NtUserGetThreadState(THREADSTATE_DEFAULTINPUTCONTEXT);
++        if (!hIMC)
++            ERR("!hIMC\n");
+         goto Quit;
+     }
+ 
+@@ -992,9 +997,15 @@ static HIMC APIENTRY ImmGetSaveContext(HWND hWnd, DWORD dwContextFlags)
+ Quit:
+     pClientImc = ImmLockClientImc(hIMC);
+     if (pClientImc == NULL)
++    {
++        ERR("!pClientImc\n");
+         return NULL;
++    }
+     if ((dwContextFlags & 2) && (pClientImc->dwFlags & CLIENTIMC_UNKNOWN3))
++    {
++        ERR("CLIENTIMC_UNKNOWN3\n");
+         hIMC = NULL;
++    }
+     ImmUnlockClientImc(pClientImc);
+     return hIMC;
+ }
+diff --git a/modules/rostests/apitests/imm32/himc.c b/modules/rostests/apitests/imm32/himc.c
+index 050bd324e10..a2f56a8686b 100644
+--- a/modules/rostests/apitests/imm32/himc.c
++++ b/modules/rostests/apitests/imm32/himc.c
+@@ -14,6 +14,12 @@ START_TEST(himc)
+     HIMC hNewIMC, hOldIMC, hIMC, hIMC1, hIMC2;
+     LPINPUTCONTEXT pIC;
+ 
++    printf("ImmCreateContext: %p\n", ImmCreateContext);
++    printf("ImmDestroyContext: %p\n", ImmDestroyContext);
++    printf("ImmLockIMC: %p\n", ImmLockIMC);
++    printf("ImmUnlockIMC: %p\n", ImmUnlockIMC);
++    printf("ImmGetContext: %p\n", ImmGetContext);
++
+     /* ImmCreateContext/ImmDestroyContext and ImmLockIMC/ImmUnlockIMC */
+     hNewIMC = ImmCreateContext();
+     ok(hNewIMC != NULL, "ImmCreateContext failed\n");
+@@ -22,6 +28,8 @@ START_TEST(himc)
+     ImmUnlockIMC(hNewIMC);
+     ok(ImmDestroyContext(hNewIMC), "ImmDestroyContext failed\n");
+ 
++    DebugBreak();
++
+     /* ImmGetContext against NULL */
+     hIMC = ImmGetContext(NULL);
+     ok(hIMC == NULL, "ImmGetContext failed\n");
+diff --git a/win32ss/user/ntuser/ime.c b/win32ss/user/ntuser/ime.c
+index 1c46bfded3b..94fce52ac60 100644
+--- a/win32ss/user/ntuser/ime.c
++++ b/win32ss/user/ntuser/ime.c
+@@ -1273,6 +1273,8 @@ BOOL IntDestroyInputContext(PIMC pIMC)
+     HWND *phwnd;
+     PWND pWnd;
+ 
++    dumpImcList("IntDestroyInputContext: enter", FALSE);
++
+     if (pti != gptiCurrent)
+     {
+         EngSetLastError(ERROR_ACCESS_DENIED);
+@@ -1300,6 +1302,7 @@ BOOL IntDestroyInputContext(PIMC pIMC)
+     }
+ 
+     UserDeleteObject(hIMC, TYPE_INPUTCONTEXT);
++    dumpImcList("IntDestroyInputContext: leave", FALSE);
+     return TRUE;
+ }
+ 
+@@ -1331,6 +1334,7 @@ PIMC FASTCALL UserCreateInputContext(ULONG_PTR dwClientImcData)
+     PIMC pIMC;
+     PTHREADINFO pti = PsGetCurrentThreadWin32Thread();
+     PDESKTOP pdesk = pti->rpdesk;
++    dumpImcList("UserCreateInputContext: enter", FALSE);
+ 
+     if (!IS_IMM_MODE() || (pti->TIF_flags & TIF_DISABLEIME)) // Disabled?
+     {
+@@ -1367,6 +1371,7 @@ PIMC FASTCALL UserCreateInputContext(ULONG_PTR dwClientImcData)
+     }
+ 
+     pIMC->dwClientImcData = dwClientImcData; // Set it.
++    dumpImcList("UserCreateInputContext: leave", FALSE);
+     return pIMC;
+ }
+ 
+@@ -1602,4 +1607,27 @@ Quit:
+     return ret;
+ }
+ 
++void dumpImcList(LPCSTR pszText, BOOL bBreak)
++{
++    static INT s_i = 0;
++    PTHREADINFO pti = GetW32ThreadInfo();
++    PIMC pIMC;
++    INT k = 0;
++
++    ERR("### dumpImcList #%d ###: %s\n", s_i++, pszText);
++    ERR("pti:%p, pti->spDefaultImc:%p\n", pti, pti->spDefaultImc);
++    for (pIMC = pti->spDefaultImc; pIMC; pIMC = pIMC->pImcNext)
++    {
++        ERR("[%d] %p --> %p\n", k++, pIMC, pIMC->pImcNext);
++        ERR("head.cLockObj:%lu\n", pIMC->head.cLockObj);
++        ERR("head.pti:%p\n", pIMC->head.pti);
++        ERR("dwClientImcData:0x%X\n", pIMC->dwClientImcData);
++        ERR("hImeWnd:%p\n", pIMC->hImeWnd);
++    }
++
++    ERR("### end of dumpImcList ###\n\n");
++    if (bBreak)
++        ASSERT(FALSE);
++}
++
+ /* EOF */
+diff --git a/win32ss/user/ntuser/main.c b/win32ss/user/ntuser/main.c
+index dfdf2d64c0b..ac049d70dc4 100644
+--- a/win32ss/user/ntuser/main.c
++++ b/win32ss/user/ntuser/main.c
+@@ -660,10 +660,12 @@ InitThreadCallback(PETHREAD Thread)
+     ptiCurrent->pClientInfo->dwTIFlags = ptiCurrent->TIF_flags;
+ 
+     /* Create the default input context */
++    dumpImcList("InitThreadCallback: enter", FALSE);
+     if (IS_IMM_MODE())
+     {
+         (VOID)UserCreateInputContext(0);
+     }
++    dumpImcList("InitThreadCallback: leave", FALSE);
+ 
+     /* Last things to do only if we are not a SYSTEM or CSRSS thread */
+     if (!(ptiCurrent->TIF_flags & (TIF_SYSTEMTHREAD | TIF_CSRSSTHREAD)))
+@@ -707,6 +709,8 @@ ExitThreadCallback(PETHREAD Thread)
+     PTHREADINFO ptiCurrent;
+     PWINDOWLIST pwl, pwlNext;
+ 
++    dumpImcList("ExitThreadCallback", FALSE);
++
+     Process = Thread->ThreadsProcess;
+ 
+     /* Get the Win32 Thread */
+diff --git a/win32ss/user/ntuser/misc.c b/win32ss/user/ntuser/misc.c
+index 970d1b6c46d..3db2f5caf93 100644
+--- a/win32ss/user/ntuser/misc.c
++++ b/win32ss/user/ntuser/misc.c
+@@ -318,6 +318,7 @@ NtUserGetThreadState(
+             ret = (ULONG_PTR)UserHMGetHandle(pti->spwndDefaultIme);
+          break;
+       case THREADSTATE_DEFAULTINPUTCONTEXT:
++         dumpImcList("THREADSTATE_DEFAULTINPUTCONTEXT", FALSE);
+          if (pti->spDefaultImc)
+              ret = (ULONG_PTR)UserHMGetHandle(pti->spDefaultImc);
+          break;
+diff --git a/win32ss/user/ntuser/ntuser.h b/win32ss/user/ntuser/ntuser.h
+index 090a7973690..eeea4afac5b 100644
+--- a/win32ss/user/ntuser/ntuser.h
++++ b/win32ss/user/ntuser/ntuser.h
+@@ -56,4 +56,6 @@ InitDisplayDriver(
+     IN PWSTR pwszDeviceName,
+     IN PWSTR pwszRegKey);
+ 
++void dumpImcList(LPCSTR pszText, BOOL bBreak);
++
+ /* EOF */

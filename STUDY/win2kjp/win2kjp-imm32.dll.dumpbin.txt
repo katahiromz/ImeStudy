@@ -1,0 +1,330 @@
+Microsoft (R) COFF/PE Dumper Version 14.14.26433.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file win2kjp-imm32.dll
+
+File Type: DLL
+
+  Section contains the following exports for IMM32.dll
+
+    00000000 characteristics
+    3E25BB64 time date stamp Thu Jan 16 04:49:56 2003
+        0.00 version
+           1 ordinal base
+         111 number of functions
+         111 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00005F23 ImmActivateLayout
+          2    1 000013E5 ImmAssociateContext
+          3    2 00001CBD ImmAssociateContextEx
+          4    3 0000FA42 ImmCallImeConsoleIME
+          5    4 00006004 ImmConfigureIMEA
+          6    5 000061BD ImmConfigureIMEW
+          7    6 00001B4C ImmCreateContext
+          8    7 00007BDD ImmCreateIMCC
+          9    8 0000B806 ImmCreateSoftKeyboard
+         10    9 00001BA5 ImmDestroyContext
+         11    A 00007BF5 ImmDestroyIMCC
+         12    B 0000B98C ImmDestroySoftKeyboard
+         13    C 0000786E ImmDisableIME
+         14    D 0000786E ImmDisableIme
+         15    E 000027CB ImmEnumInputContext
+         16    F 000086E8 ImmEnumRegisterWordA
+         17   10 00008852 ImmEnumRegisterWordW
+         18   11 00006364 ImmEscapeA
+         19   12 0000657C ImmEscapeW
+         20   13 00005DF9 ImmFreeLayout
+         21   14 00007914 ImmGenerateMessage
+         22   15 00003462 ImmGetCandidateListA
+         23   16 00003316 ImmGetCandidateListCountA
+         24   17 00003328 ImmGetCandidateListCountW
+         25   18 0000347C ImmGetCandidateListW
+         26   19 00004091 ImmGetCandidateWindow
+         27   1A 000039A9 ImmGetCompositionFontA
+         28   1B 00003A31 ImmGetCompositionFontW
+         29   1C 00002910 ImmGetCompositionStringA
+         30   1D 00002990 ImmGetCompositionStringW
+         31   1E 00003FD4 ImmGetCompositionWindow
+         32   1F 00001321 ImmGetContext
+         33   20 00003C8B ImmGetConversionListA
+         34   21 00003DDE ImmGetConversionListW
+         35   22 000037FB ImmGetConversionStatus
+         36   23 0000783D ImmGetDefaultIMEWnd
+         37   24 00006E03 ImmGetDescriptionA
+         38   25 00006D8E ImmGetDescriptionW
+         39   26 000035A6 ImmGetGuideLineA
+         40   27 000035C0 ImmGetGuideLineW
+         41   28 00005491 ImmGetHotKey
+         42   29 00007C3D ImmGetIMCCLockCount
+         43   2A 00007C78 ImmGetIMCCSize
+         44   2B 00007BA8 ImmGetIMCLockCount
+         45   2C 00006ED2 ImmGetIMEFileNameA
+         46   2D 00006E5D ImmGetIMEFileNameW
+         47   2E 000012EF ImmGetImeInfoEx
+         48   2F 00010734 ImmGetImeMenuItemsA
+         49   30 00010754 ImmGetImeMenuItemsW
+         50   31 000038F5 ImmGetOpenStatus
+         51   32 00006F2C ImmGetProperty
+         52   33 00008516 ImmGetRegisterWordStyleA
+         53   34 000085FC ImmGetRegisterWordStyleW
+         54   35 00003F2A ImmGetStatusWindowPos
+         55   36 00007A6A ImmGetVirtualKey
+         56   37 0000C02E ImmIMPGetIMEA
+         57   38 0000C004 ImmIMPGetIMEW
+         58   39 0000C21C ImmIMPQueryIMEA
+         59   3A 0000C153 ImmIMPQueryIMEW
+         60   3B 0000C37C ImmIMPSetIMEA
+         61   3C 0000C290 ImmIMPSetIMEW
+         62   3D 0000720C ImmInstallIMEA
+         63   3E 00006FD0 ImmInstallIMEW
+         64   3F 000012CA ImmIsIME
+         65   40 0000787A ImmIsUIMessageA
+         66   41 00007894 ImmIsUIMessageW
+         67   42 00005D3D ImmLoadIME
+         68   43 000069D1 ImmLoadLayout
+         69   44 00007DA7 ImmLockClientImc
+         70   45 00007B5A ImmLockIMC
+         71   46 00007C0D ImmLockIMCC
+         72   47 00007EBE ImmLockImeDpi
+         73   48 0000693D ImmNotifyIME
+         74   49 00006736 ImmPenAuxInput
+         75   4A 0000B9B5 ImmProcessKey
+         76   4B 0000FE1B ImmPutImeMenuItemsIntoMappedFile
+         77   4C 00007C5A ImmReSizeIMCC
+         78   4D 000013BD ImmRegisterClient
+         79   4E 00008024 ImmRegisterWordA
+         80   4F 00008165 ImmRegisterWordW
+         81   50 00001E09 ImmReleaseContext
+         82   51 00005465 ImmRequestMessageA
+         83   52 0000547B ImmRequestMessageW
+         84   53 0000BF5B ImmSendIMEMessageExA
+         85   54 0000BF49 ImmSendIMEMessageExW
+         86   55 0000690F ImmSendMessageToActiveDefImeWndW
+         87   56 00001E0F ImmSetActiveContext
+         88   57 0000FB8D ImmSetActiveContextConsoleIME
+         89   58 000040E4 ImmSetCandidateWindow
+         90   59 00003AB9 ImmSetCompositionFontA
+         91   5A 00003BA2 ImmSetCompositionFontW
+         92   5B 00002A10 ImmSetCompositionStringA
+         93   5C 00002A30 ImmSetCompositionStringW
+         94   5D 0000401C ImmSetCompositionWindow
+         95   5E 00003831 ImmSetConversionStatus
+         96   5F          ImmSetHotKey (forwarded to USER32.CliImmSetHotKey)
+         97   60 0000391D ImmSetOpenStatus
+         98   61 00003F75 ImmSetStatusWindowPos
+         99   62 0000B999 ImmShowSoftKeyboard
+        100   63 000054B9 ImmSimulateHotKey
+        101   64 00007FF9 ImmSystemHandler
+        102   65 0000BB42 ImmTranslateMessage
+        103   66 00007E3C ImmUnlockClientImc
+        104   67 00007B68 ImmUnlockIMC
+        105   68 00007C25 ImmUnlockIMCC
+        106   69 00007F02 ImmUnlockImeDpi
+        107   6A 0000829D ImmUnregisterWordA
+        108   6B 000083DE ImmUnregisterWordW
+        109   6C 0000BEF6 ImmWINNLSEnableIME
+        110   6D 0000BF1B ImmWINNLSGetEnableStatus
+        111   6E 0000BF44 ImmWINNLSGetIMEHotkey
+
+  Section contains the following imports:
+
+    USER32.DLL
+              75DF1000 Import Address Table
+              75E019B1 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      77DE5B67    149 GetSystemMetrics
+      77DE5AAE    160 GetWindowRect
+      77DE58B4    1E3 PostMessageA
+      77E06766    1C2 MessageBeep
+      77DE36EB     F3 GetClientRect
+      77DE4E6C    116 GetKeyboardLayout
+      77DE33CC    15B GetWindowLongW
+      77DE4CA1    156 GetWindow
+      77DE5F1A    25E SetWindowLongW
+      77DE5204    221 SetCapture
+      77DE4BCF    20E ScreenToClient
+      77DE3434    1E4 PostMessageW
+      77DE5366    218 SendMessageA
+      77DE6E23    166 GetWindowThreadProcessId
+      77E07386    117 GetKeyboardLayoutList
+      77DE5451    102 GetDesktopWindow
+      77E03A35     27 CharNextW
+      77DE5252     25 CharNextA
+      77DE5272    195 IsWindowUnicode
+      77DE387F    10B GetForegroundWindow
+      77DE4A83    1BE MapWindowPoints
+      77DE64B9     3B ClientToScreen
+      77E00D1A    27E ToUnicode
+      77E1CFB7    27D ToAsciiEx
+      77DE63ED    11A GetKeyboardState
+      77DE5EFE     90 DestroyWindow
+      77E03C6A    1BD MapVirtualKeyW
+      77DE724F     5B CreateWindowExW
+      77DE5A9B    26F ShowWindow
+      77DE488F    296 UpdateWindow
+      77DE734B    1CD MonitorFromWindow
+      77DE7479    133 GetMonitorInfoW
+      77E037B1    277 SystemParametersInfoW
+      77E0E17F     EC GetClassInfoExW
+      77DF6C9A    1A3 LoadIconW
+      77E03F70    1F8 RegisterClassExW
+      77DE50A2    138 GetParent
+      77DE4E39     E7 GetCapture
+      77DE8191     A7 DrawEdge
+      77DE4784      C BeginPaint
+      77DE4792     BD EndPaint
+      77DE4980    17E InvalidateRect
+      77DE4200     87 DefWindowProcW
+      77DE5212    206 ReleaseCapture
+      77DE5A8D    260 SetWindowPos
+      77E29E5A    2B1 keybd_event
+      77E02637    1A1 LoadCursorW
+      77DE49AA    22A SetCursor
+      77DE4B74     FF GetCursorPos
+      77DF5891     B3 DrawTextExW
+      77DE6CA4    2A6 WCSToMBEx
+      77DE4249    100 GetDC
+      77DE4257    207 ReleaseDC
+      77E0D678    19D LoadBitmapW
+      77DF6D9A     32 CharUpperW
+      77E1DC06    28D UnloadKeyboardLayout
+      77DFC6FD    297 User32InitializeImmEntryTable
+      77DE3877    10A GetFocus
+      77DF6508    2B4 wsprintfW
+      77E0E09C    1A8 LoadKeyboardLayoutW
+      77E03960     ED GetClassInfoW
+      77DE47AE    193 IsWindow
+      77DE48E2    21D SendMessageW
+
+    NTDLL.DLL
+              75DF1100 Import Address Table
+              75E01AB1 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      77F85CAB    20D RtlIntegerToUnicodeString
+      77F8EA4A    298 RtlUnwind
+      77F81FA5    44F _wcsicmp
+      77F8BCE6    49B wcsncpy
+      77F921E4    493 wcscat
+      77F9246E    28F RtlUnicodeStringToInteger
+      77F8C23F    496 wcscpy
+      77F87BF9    195 RtlDeleteCriticalSection
+      77F87D11     CF NtQuerySystemInformation
+      77F89103    1B4 RtlEnterCriticalSection
+      77F89134    21E RtlLeaveCriticalSection
+      77F952EB    498 wcslen
+      77F95749    202 RtlInitializeCriticalSection
+      77F88B39    4A0 wcstol
+      77F902D8    294 RtlUnicodeToMultiByteSize
+
+    KERNEL32.DLL
+              75DF1140 Import Address Table
+              75E01AF1 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      77E643E4     3A CreateFileMappingW
+      77E6278D    130 GetLastError
+      77E5C222    20F OpenFileMappingW
+      77E56533    1F8 MapViewOfFile
+      77E56135    2E1 UnmapViewOfFile
+      77E59168     1E CloseHandle
+      77E65D89    338 lstrlenA
+      77E5CC8D    1D7 IsDBCSLeadByte
+      77E66420    161 GetProfileIntW
+      77E6D141    32D lstrcmpW
+      77E5BE4E    336 lstrcpynW
+      77E648AB    29F SetLastError
+      77E616B4    19F GlobalAlloc
+      77E6E6AF    1AA GlobalLock
+      77E632AF    1A6 GlobalFree
+      77E5B426    1B1 GlobalUnlock
+      77E57786    134 GetLocaleInfoW
+      77FCC2AD    1B7 HeapAlloc
+      77E654D4    1F1 LocalSize
+      77E64F2B    1EF LocalReAlloc
+      77E7A48E    1EB LocalFlags
+      77E627F8    1F2 LocalUnlock
+      77E628A2    1EE LocalLock
+      77E5D20C    339 lstrlenW
+      77E5BF59    20D OpenFile
+      77E5A8F1    322 _lclose
+      77E55D07    12D GetFullPathNameW
+      77E60182    13E GetModuleHandleW
+      77E5C1C4    184 GetThreadLocale
+      77E5FF1C    174 GetSystemDirectoryW
+      77E6C13B    1E8 LocalAlloc
+      77E652C5    1E5 LoadLibraryW
+      77E5E6A9    156 GetProcAddress
+      77E5DFDA     C6 FreeLibrary
+      77E5FE74     CC GetACP
+      77E6A055    1D6 IsBadWritePtr
+      77E69A86    170 GetSystemDefaultLCID
+      77E6C1C6    1EC LocalFree
+      77E6871B    1D8 IsDBCSLeadByteEx
+      77E578FF    205 MultiByteToWideChar
+      77E5A994    304 WideCharToMultiByte
+      77E610D1    10F GetCurrentThreadId
+      77E5B8F4    10D GetCurrentProcessId
+      77FCC7D3    1BD HeapFree
+
+    GDI32.DLL
+              75DF11F4 Import Address Table
+              75E01BA5 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      77F41C25    1D4 SetBkColor
+      77F46FEC     31 CreateDIBitmap
+      77F43D0F     51 DeleteDC
+      77F566B7     54 DeleteObject
+      77F56958     12 BitBlt
+      77F4169C    167 GetStockObject
+      77F4192D    1CE SelectObject
+      77F463D0    1B6 Rectangle
+      77F45A85    19D PatBlt
+      77F4743A    20E TranslateCharsetInfo
+      77F46645    177 GetTextExtentPoint32W
+      77F441CF     3B CreateFontIndirectW
+      77F43FF3    159 GetObjectW
+      77F54E72     2D CreateDCW
+      77F41FFA     2B CreateCompatibleDC
+      77F437EA    17F GetTextMetricsW
+      77F426D4     A3 ExtTextOutW
+      77F475F8    12C GetDIBits
+      77F44235     2A CreateCompatibleBitmap
+
+    ADVAPI32.DLL
+              75DF1244 Import Address Table
+              75E01BF5 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      79482690    1A5 RegOpenKeyW
+      79481E76    18A RegCloseKey
+      79482413    1AE RegQueryValueExW
+      79483EFB    199 RegEnumKeyW
+      794857A4    192 RegDeleteKeyW
+      79482BDA    1B9 RegSetValueExW
+      79482B42    190 RegCreateKeyW
+
+  Header contains the following bound import information:
+    Bound to USER32.DLL [3EF2AEDB] Fri Jun 20 15:51:07 2003
+    Bound to NTDLL.DLL [3EF2AEDA] Fri Jun 20 15:51:06 2003
+    Bound to KERNEL32.DLL [3EF2AEDA] Fri Jun 20 15:51:06 2003
+      Contained forwarders bound to NTDLL.DLL [3EF2AEDA] Fri Jun 20 15:51:06 2003
+    Bound to GDI32.DLL [3EF2AEDA] Fri Jun 20 15:51:06 2003
+    Bound to ADVAPI32.DLL [3EF2AEDB] Fri Jun 20 15:51:07 2003
+
+  Summary
+
+        1000 .data
+        1000 .reloc
+        5000 .rsrc
+       12000 .text

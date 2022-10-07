@@ -1,0 +1,1159 @@
+Microsoft (R) COFF/PE Dumper Version 14.14.26433.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file winxpjp-user32.dll
+
+File Type: DLL
+
+  Section contains the following exports for USER32.dll
+
+    00000000 characteristics
+    48025D7A time date stamp Mon Apr 14 04:22:34 2008
+        0.00 version
+           1 ordinal base
+         732 number of functions
+         732 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00018673 ActivateKeyboardLayout
+          2    1 00021140 AdjustWindowRect
+          3    2 0001E7EA AdjustWindowRectEx
+          4    3 0005D4E0 AlignRects
+          5    4 00046414 AllowForegroundActivation
+          6    5 00011E40 AllowSetForegroundWindow
+          7    6 00012156 AnimateWindow
+          8    7 00059C27 AnyPopup
+          9    8 00021B0E AppendMenuA
+         10    9 000132BA AppendMenuW
+         11    A 00045F46 ArrangeIconicWindows
+         12    B 00021E52 AttachThreadInput
+         13    C 0001AFB9 BeginDeferWindowPos
+         14    D 00018FE9 BeginPaint
+         15    E 0005CA7E BlockInput
+         16    F 000203A8 BringWindowToTop
+         17   10 0005AEBE BroadcastSystemMessage
+         18   11 0005AEBE BroadcastSystemMessageA
+         19   12 0005AE97 BroadcastSystemMessageExA
+         20   13 00013654 BroadcastSystemMessageExW
+         21   14 0000E666 BroadcastSystemMessageW
+         22   15 00057DF6 BuildReasonArray
+         23   16 0001C5E4 CalcMenuBar
+         24   17 0005B216 CallMsgFilter
+         25   18 0005B216 CallMsgFilterA
+         26   19 0001750E CallMsgFilterW
+         27   1A 0001B3C6 CallNextHookEx
+         28   1B 0001A97D CallWindowProcA
+         29   1C 0001A01E CallWindowProcW
+         30   1D 00045F5E CascadeChildWindows
+         31   1E 00055039 CascadeWindows
+         32   1F 00020487 ChangeClipboardChain
+         33   20 0005B400 ChangeDisplaySettingsA
+         34   21 0001384E ChangeDisplaySettingsExA
+         35   22 000495BD ChangeDisplaySettingsExW
+         36   23 00049623 ChangeDisplaySettingsW
+         37   24 0003F298 ChangeMenuA
+         38   25 0005525E ChangeMenuW
+         39   26 00018717 CharLowerA
+         40   27 00018845 CharLowerBuffA
+         41   28 00009E57 CharLowerBuffW
+         42   29 0001B24C CharLowerW
+         43   2A 0001C8B0 CharNextA
+         44   2B 0005984E CharNextExA
+         45   2C 0001B1B0 CharNextW
+         46   2D 0001C8DA CharPrevA
+         47   2E 00059882 CharPrevExA
+         48   2F 0001D607 CharPrevW
+         49   30 0000AEF1 CharToOemA
+         50   31 00021626 CharToOemBuffA
+         51   32 00056E31 CharToOemBuffW
+         52   33 00013467 CharToOemW
+         53   34 00008D2B CharUpperA
+         54   35 0000AE3F CharUpperBuffA
+         55   36 00009216 CharUpperBuffW
+         56   37 000090D2 CharUpperW
+         57   38 00014DCA CheckDlgButton
+         58   39 00021ABD CheckMenuItem
+         59   3A 000553A2 CheckMenuRadioItem
+         60   3B 0004BDE1 CheckRadioButton
+         61   3C 0001201F ChildWindowFromPoint
+         62   3D 0001200B ChildWindowFromPointEx
+         63   3E 00043C33 CliImmSetHotKey
+         64   3F 0000A00A ClientThreadSetup
+         65   40 00019B60 ClientToScreen
+         66   41 0002FDC5 ClipCursor
+         67   42 00020265 CloseClipboard
+         68   43 0001812F CloseDesktop
+         69   44 00045F7F CloseWindow
+         70   45 00017D18 CloseWindowStation
+         71   46 00046C91 CopyAcceleratorTableA
+         72   47 0003FC5E CopyAcceleratorTableW
+         73   48 0000DE72 CopyIcon
+         74   49 0001DC14 CopyImage
+         75   4A 0001A042 CopyRect
+         76   4B 0002167F CountClipboardFormats
+         77   4C 00043497 CreateAcceleratorTableA
+         78   4D 0000D9BB CreateAcceleratorTableW
+         79   4E 0001A94E CreateCaret
+         80   4F 00047059 CreateCursor
+         81   50 00045E37 CreateDesktopA
+         82   51 0001162A CreateDesktopW
+         83   52 00029B28 CreateDialogIndirectParamA
+         84   53 0001680B CreateDialogIndirectParamAorW
+         85   54 0002F01F CreateDialogIndirectParamW
+         86   55 0002C7DB CreateDialogParamA
+         87   56 0000EA3B CreateDialogParamW
+         88   57 000470BC CreateIcon
+         89   58 00047134 CreateIconFromResource
+         90   59 0000D354 CreateIconFromResourceEx
+         91   5A 0000C86C CreateIconIndirect
+         92   5B 0003FDC0 CreateMDIWindowA
+         93   5C 0002F810 CreateMDIWindowW
+         94   5D 0001F306 CreateMenu
+         95   5E 0000F601 CreatePopupMenu
+         96   5F 000216E8 CreateSystemThreads
+         97   60 0001E4A9 CreateWindowExA
+         98   61 0001D0A3 CreateWindowExW
+         99   62 0004642E CreateWindowStationA
+        100   63 000113DD CreateWindowStationW
+        101   64 0001367B CsrBroadcastSystemMessageExW
+        102   65 0000E9E2 CtxInitUser32
+        103   66 0005AD84 DdeAbandonTransaction
+        104   67 00051309 DdeAccessData
+        105   68 000510D1 DdeAddData
+        106   69 0005A6A2 DdeClientTransaction
+        107   6A 00051D8D DdeCmpStringHandles
+        108   6B 000481C3 DdeConnect
+        109   6C 000484DE DdeConnectList
+        110   6D 00051769 DdeCreateDataHandle
+        111   6E 00051E43 DdeCreateStringHandleA
+        112   6F 00010447 DdeCreateStringHandleW
+        113   70 000483C4 DdeDisconnect
+        114   71 0004843B DdeDisconnectList
+        115   72 00045212 DdeEnableCallback
+        116   73 000518E2 DdeFreeDataHandle
+        117   74 00051F70 DdeFreeStringHandle
+        118   75 000511F1 DdeGetData
+        119   76 0004A853 DdeGetLastError
+        120   77 0005CAA6 DdeGetQualityOfService
+        121   78 0004A894 DdeImpersonateClient
+        122   79 0004A8F6 DdeInitializeA
+        123   7A 000106D7 DdeInitializeW
+        124   7B 0005200A DdeKeepStringHandle
+        125   7C 0001085E DdeNameService
+        126   7D 0005A3A5 DdePostAdvise
+        127   7E 0005ABA6 DdeQueryConvInfo
+        128   7F 000479AC DdeQueryNextServer
+        129   80 00052096 DdeQueryStringA
+        130   81 000520B3 DdeQueryStringW
+        131   82 0004826B DdeReconnect
+        132   83 0005CABA DdeSetQualityOfService
+        133   84 0005AD29 DdeSetUserHandle
+        134   85 0005137B DdeUnaccessData
+        135   86 0004A732 DdeUninitialize
+        136   87 0002E577 DefDlgProcA
+        137   88 00013D3A DefDlgProcW
+        138   89 0003F965 DefFrameProcA
+        139   8A 00020833 DefFrameProcW
+        140   8B 0003F9B4 DefMDIChildProcA
+        141   8C 00020A47 DefMDIChildProcW
+        142   8D 000468DD DefRawInputProc
+        143   8E 0001C17E DefWindowProcA
+        144   8F 00018D20 DefWindowProcW
+        145   90 0001AFDB DeferWindowPos
+        146   91 0001CED3 DeleteMenu
+        147   92 000302C0 DeregisterShellHookWindow
+        148   93 0002FE8D DestroyAcceleratorTable
+        149   94 00019C0E DestroyCaret
+        150   95 0001D312 DestroyCursor
+        151   96 0001D312 DestroyIcon
+        152   97 0001D39D DestroyMenu
+        153   98 00057ED8 DestroyReasons
+        154   99 0001B19C DestroyWindow
+        155   9A 0004A0F8 DeviceEventWorker
+        156   9B 00046D7D DialogBoxIndirectParamA
+        157   9C 000149D0 DialogBoxIndirectParamAorW
+        158   9D 00022072 DialogBoxIndirectParamW
+        159   9E 0002B144 DialogBoxParamA
+        160   9F 000147AB DialogBoxParamW
+        161   A0 00046421 DisableProcessWindowsGhosting
+        162   A1 000096B8 DispatchMessageA
+        163   A2 00008A01 DispatchMessageW
+        164   A3 00049F91 DisplayExitWindowsWarnings
+        165   A4 000538DF DlgDirListA
+        166   A5 00047599 DlgDirListComboBoxA
+        167   A6 00047626 DlgDirListComboBoxW
+        168   A7 0005396D DlgDirListW
+        169   A8 00047657 DlgDirSelectComboBoxExA
+        170   A9 00047543 DlgDirSelectComboBoxExW
+        171   AA 00053AFE DlgDirSelectExA
+        172   AB 00053B64 DlgDirSelectExW
+        173   AC 0005CACE DragDetect
+        174   AD 0005CAE2 DragObject
+        175   AE 0005CAF6 DrawAnimatedRects
+        176   AF 00056D9F DrawCaption
+        177   B0 0005B2D0 DrawCaptionTempA
+        178   B1 0003F339 DrawCaptionTempW
+        179   B2 0001FBF6 DrawEdge
+        180   B3 0001F94F DrawFocusRect
+        181   B4 000229C4 DrawFrame
+        182   B5 0002E940 DrawFrameControl
+        183   B6 0002D06C DrawIcon
+        184   B7 0001CB84 DrawIconEx
+        185   B8 0003F69C DrawMenuBar
+        186   B9 0005536D DrawMenuBarTemp
+        187   BA 0003F100 DrawStateA
+        188   BB 000145BB DrawStateW
+        189   BC 0002C702 DrawTextA
+        190   BD 0002C739 DrawTextExA
+        191   BE 0001B415 DrawTextExW
+        192   BF 0001D7E2 DrawTextW
+        193   C0 00023000 EditWndProc
+        194   C1 00020D96 EmptyClipboard
+        195   C2 0001D2C4 EnableMenuItem
+        196   C3 00058005 EnableScrollBar
+        197   C4 00019849 EnableWindow
+        198   C5 0001AF8D EndDeferWindowPos
+        199   C6 00014A4E EndDialog
+        200   C7 0005CB5A EndMenu
+        201   C8 00018FFD EndPaint
+        202   C9 0004A0A5 EndTask
+        203   CA 0005769F EnterReaderModeHelper
+        204   CB 0001B0F0 EnumChildWindows
+        205   CC 0002E53D EnumClipboardFormats
+        206   CD 0001851A EnumDesktopWindows
+        207   CE 0002234B EnumDesktopsA
+        208   CF 0001853B EnumDesktopsW
+        209   D0 00018A74 EnumDisplayDevicesA
+        210   D1 0000E03C EnumDisplayDevicesW
+        211   D2 0001A77B EnumDisplayMonitors
+        212   D3 00013A67 EnumDisplaySettingsA
+        213   D4 000138F3 EnumDisplaySettingsExA
+        214   D5 00013563 EnumDisplaySettingsExW
+        215   D6 0001362A EnumDisplaySettingsW
+        216   D7 000455D9 EnumPropsA
+        217   D8 00045613 EnumPropsExA
+        218   D9 00045631 EnumPropsExW
+        219   DA 000455F6 EnumPropsW
+        220   DB 0001F539 EnumThreadWindows
+        221   DC 0002232E EnumWindowStationsA
+        222   DD 0004564F EnumWindowStationsW
+        223   DE 0001A5AE EnumWindows
+        224   DF 00019E81 EqualRect
+        225   E0 00020251 ExcludeUpdateRgn
+        226   E1 0004A275 ExitWindowsEx
+        227   E2 00019C2F FillRect
+        228   E3 000182E1 FindWindowA
+        229   E4 0002214A FindWindowExA
+        230   E5 0000E0E3 FindWindowExW
+        231   E6 0001C9C3 FindWindowW
+        232   E7 00045FC4 FlashWindow
+        233   E8 0005CB80 FlashWindowEx
+        234   E9 0001F92A FrameRect
+        235   EA 0004BA77 FreeDDElParam
+        236   EB 0001C2E8 GetActiveWindow
+        237   EC 0005B3DC GetAltTabInfo
+        238   ED 0005B3DC GetAltTabInfoA
+        239   EE 00020D09 GetAltTabInfoW
+        240   EF 0001AF79 GetAncestor
+        242   F0 0001CDD4 GetAppCompatFlags
+        241   F1 00008ED6 GetAppCompatFlags2
+        243   F2 0001A78F GetAsyncKeyState
+        244   F3 000094DA GetCapture
+        245   F4 0001A928 GetCaretBlinkTime
+        246   F5 0001F6A1 GetCaretPos
+        247   F6 0002EBFF GetClassInfoA
+        248   F7 0000DD58 GetClassInfoExA
+        249   F8 0000DEBC GetClassInfoExW
+        250   F9 0001E81E GetClassInfoW
+        251   FA 0001F4F1 GetClassLongA
+        252   FB 00019AE9 GetClassLongW
+        253   FC 0001F45F GetClassNameA
+        254   FD 00019D12 GetClassNameW
+        255   FE 0004535C GetClassWord
+        256   FF 0001908E GetClientRect
+        257  100 0005CBA6 GetClipCursor
+        258  101 00020DBA GetClipboardData
+        259  102 00021290 GetClipboardFormatNameA
+        260  103 0004957F GetClipboardFormatNameW
+        261  104 00020DA8 GetClipboardOwner
+        262  105 0001F17A GetClipboardSequenceNumber
+        263  106 0005CB94 GetClipboardViewer
+        264  107 0005CBBA GetComboBoxInfo
+        265  108 0001A91B GetCursor
+        266  109 000147F8 GetCursorFrameInfo
+        267  10A 0005CBCE GetCursorInfo
+        268  10B 0001974E GetCursorPos
+        269  10C 000086C7 GetDC
+        270  10D 0001C595 GetDCEx
+        271  10E 0001D1D2 GetDesktopWindow
+        272  10F 00046003 GetDialogBaseUnits
+        273  110 0001AF1B GetDlgCtrlID
+        274  111 0001436E GetDlgItem
+        275  112 0004BC8B GetDlgItemInt
+        276  113 0005B05E GetDlgItemTextA
+        277  114 00014305 GetDlgItemTextW
+        278  115 0001D86B GetDoubleClickTime
+        279  116 000198C8 GetFocus
+        280  117 00019823 GetForegroundWindow
+        281  118 00017F28 GetGUIThreadInfo
+        282  119 0005CBE2 GetGuiResources
+        283  11A 0001D427 GetIconInfo
+        284  11B 00046022 GetInputDesktop
+        285  11C 0001F64E GetInputState
+        286  11D 0005CC0A GetInternalWindowPos
+        287  11E 000521A8 GetKBCodePage
+        288  11F 0003F6B4 GetKeyNameTextA
+        289  120 0004958F GetKeyNameTextW
+        290  121 00019ED9 GetKeyState
+        291  122 00019BF6 GetKeyboardLayout
+        292  123 00019C1B GetKeyboardLayoutList
+        293  124 00043631 GetKeyboardLayoutNameA
+        294  125 00021481 GetKeyboardLayoutNameW
+        295  126 0001D226 GetKeyboardState
+        296  127 000211DB GetKeyboardType
+        297  128 0002157A GetLastActivePopup
+        298  129 000094F4 GetLastInputInfo
+        299  12A 0005CFC6 GetLayeredWindowAttributes
+        300  12B 0005CC32 GetListBoxInfo
+        301  12C 000214BA GetMenu
+        302  12D 0005CC46 GetMenuBarInfo
+        303  12E 000402F9 GetMenuCheckMarkDimensions
+        304  12F 000552FF GetMenuContextHelpId
+        305  130 0000F667 GetMenuDefaultItem
+        306  131 00046725 GetMenuInfo
+        307  132 0001EF1C GetMenuItemCount
+        308  133 0003F1C8 GetMenuItemID
+        309  134 0001F0AD GetMenuItemInfoA
+        310  135 0000F72A GetMenuItemInfoW
+        311  136 0005CC6E GetMenuItemRect
+        312  137 0000F967 GetMenuState
+        313  138 0003F24E GetMenuStringA
+        314  139 000464E4 GetMenuStringW
+        315  13A 0001772B GetMessageA
+        316  13B 000468B8 GetMessageExtraInfo
+        317  13C 0001996C GetMessagePos
+        318  13D 00019DE0 GetMessageTime
+        319  13E 000091C6 GetMessageW
+        320  13F 0001A84A GetMonitorInfoA
+        321  140 0001A6D9 GetMonitorInfoW
+        322  141 0005CC82 GetMouseMovePointsEx
+        323  142 0004BF27 GetNextDlgGroupItem
+        324  143 000137C3 GetNextDlgTabItem
+        325  144 00021691 GetOpenClipboardWindow
+        326  145 0001910F GetParent
+        327  146 0005CC96 GetPriorityClipboardFormat
+        328  147 000463E4 GetProcessDefaultLayout
+        329  148 00009195 GetProcessWindowStation
+        330  149 0004612D GetProgmanWindow
+        331  14A 00020042 GetPropA
+        332  14B 000194B3 GetPropW
+        333  14C 0001AE46 GetQueueStatus
+        334  14D 00050DCD GetRawInputBuffer
+        335  14E 0005CCBE GetRawInputData
+        336  14F 0005AF0D GetRawInputDeviceInfoA
+        337  150 00046558 GetRawInputDeviceInfoW
+        338  151 0005CCE6 GetRawInputDeviceList
+        339  152 00057F24 GetReasonTitleFromReasonCode
+        340  153 0005CCFA GetRegisteredRawInputDevices
+        341  154 0001DFB4 GetScrollBarInfo
+        342  155 0001DFE2 GetScrollInfo
+        343  156 0001F704 GetScrollPos
+        344  157 0001F787 GetScrollRange
+        345  158 00009252 GetShellWindow
+        346  159 0001D896 GetSubMenu
+        347  15A 00008E78 GetSysColor
+        348  15B 00008EAB GetSysColorBrush
+        349  15C 0001B222 GetSystemMenu
+        350  15D 00008F9C GetSystemMetrics
+        351  15E 0004A6A1 GetTabbedTextExtentA
+        352  15F 0004A677 GetTabbedTextExtentW
+        353  160 0004370D GetTaskmanWindow
+        354  161 00009A51 GetThreadDesktop
+        355  162 0001C581 GetTitleBarInfo
+        356  163 0001F25B GetTopWindow
+        357  164 0001A8C9 GetUpdateRect
+        358  165 0001F5EC GetUpdateRgn
+        359  166 00021300 GetUserObjectInformationA
+        360  167 00008D17 GetUserObjectInformationW
+        361  168 00045B65 GetUserObjectSecurity
+        362  169 00045B9B GetWinStationInfo
+        363  16A 00019655 GetWindow
+        364  16B 00046180 GetWindowContextHelpId
+        365  16C 00009021 GetWindowDC
+        366  16D 0001C49C GetWindowInfo
+        367  16E 0000945D GetWindowLongA
+        368  16F 000088A6 GetWindowLongW
+        369  170 0005AEE4 GetWindowModuleFileName
+        370  171 0005AEE4 GetWindowModuleFileNameA
+        371  172 0004652F GetWindowModuleFileNameW
+        372  173 000203C7 GetWindowPlacement
+        373  174 000190B4 GetWindowRect
+        374  175 0000E443 GetWindowRgn
+        375  176 0001D007 GetWindowRgnBox
+        376  177 0002216B GetWindowTextA
+        377  178 0003F18B GetWindowTextLengthA
+        378  179 00017836 GetWindowTextLengthW
+        379  17A 0001A5CD GetWindowTextW
+        380  17B 00008A80 GetWindowThreadProcessId
+        381  17C 0002030C GetWindowWord
+        382  17D 00045B05 GrayStringA
+        383  17E 00045B35 GrayStringW
+        384  17F 0001B086 HideCaret
+        385  180 0005CD22 HiliteMenuItem
+        386  181 0005B4C0 IMPGetIMEA
+        387  182 0005B4AF IMPGetIMEW
+        388  183 0005B4E2 IMPQueryIMEA
+        389  184 0005B4D1 IMPQueryIMEW
+        390  185 0005B504 IMPSetIMEA
+        391  186 0005B4F3 IMPSetIMEW
+        392  187 0005CD36 ImpersonateDdeClientWindow
+        393  188 00017296 InSendMessage
+        394  189 0001AE83 InSendMessageEx
+        395  18A 000198D5 InflateRect
+        396  18B 00046646 InitializeLpkHooks
+        397  18C 00056FC7 InitializeWin32EntryTable
+        398  18D 0002ED26 InsertMenuA
+        399  18E 0003F710 InsertMenuItemA
+        400  18F 0000F5C8 InsertMenuItemW
+        401  190 0000F60E InsertMenuW
+        402  191 0001C5A9 InternalGetWindowText
+        403  192 00018F1F IntersectRect
+        404  193 00018FD5 InvalidateRect
+        405  194 0001CDFE InvalidateRgn
+        406  195 0003FC72 InvertRect
+        407  196 0002E5E6 IsCharAlphaA
+        408  197 0003F469 IsCharAlphaNumericA
+        409  198 00011AC2 IsCharAlphaNumericW
+        410  199 0001D683 IsCharAlphaW
+        411  19A 0002B889 IsCharLowerA
+        412  19B 0003F3B2 IsCharLowerW
+        413  19C 0002707E IsCharUpperA
+        414  19D 0005A1DF IsCharUpperW
+        415  19E 0000970E IsChild
+        416  19F 0001F166 IsClipboardFormatAvailable
+        417  1A0 0002C689 IsDialogMessage
+        418  1A1 0002C689 IsDialogMessageA
+        419  1A2 00017424 IsDialogMessageW
+        420  1A3 00014DFA IsDlgButtonChecked
+        421  1A4 0005A19F IsGUIThread
+        422  1A5 00059C61 IsHungAppWindow
+        423  1A6 000197FF IsIconic
+        424  1A7 00021368 IsMenu
+        425  1A8 000198FE IsRectEmpty
+        426  1A9 0001B0CF IsServerSideWindow
+        427  1AA 0000B1A5 IsWinEventHookInstalled
+        428  1AB 00019313 IsWindow
+        429  1AC 0001977A IsWindowEnabled
+        430  1AD 0001B126 IsWindowInDestroy
+        431  1AE 00019F72 IsWindowUnicode
+        432  1AF 00019E3D IsWindowVisible
+        433  1B0 00019C8A IsZoomed
+        434  1B1 000460CC KillSystemTimer
+        435  1B2 00008C42 KillTimer
+        436  1B3 00021553 LoadAcceleratorsA
+        437  1B4 0001EE76 LoadAcceleratorsW
+        438  1B5 0001473C LoadBitmapA
+        439  1B6 00010242 LoadBitmapW
+        440  1B7 0001D33E LoadCursorA
+        441  1B8 00043CCB LoadCursorFromFileA
+        442  1B9 00043CAC LoadCursorFromFileW
+        443  1BA 00009D69 LoadCursorW
+        444  1BB 0001E8F6 LoadIconA
+        445  1BC 0001E8BC LoadIconW
+        446  1BD 00017C08 LoadImageA
+        447  1BE 00017B97 LoadImageW
+        448  1BF 00046262 LoadKeyboardLayoutA
+        449  1C0 0004623A LoadKeyboardLayoutEx
+        450  1C1 00021464 LoadKeyboardLayoutW
+        451  1C2 0000EDD8 LoadLocalFonts
+        452  1C3 0003FA83 LoadMenuA
+        453  1C4 0001EBBF LoadMenuIndirectA
+        454  1C5 0001EBBF LoadMenuIndirectW
+        455  1C6 0001EB48 LoadMenuW
+        456  1C7 0000ECB7 LoadRemoteFonts
+        457  1C8 0001C908 LoadStringA
+        458  1C9 00009E36 LoadStringW
+        459  1CA 0000DE5A LockSetForegroundWindow
+        460  1CB 0000F3C4 LockWindowStation
+        461  1CC 00029636 LockWindowUpdate
+        462  1CD 0005CD5E LockWorkStation
+        463  1CE 00047116 LookupIconIdFromDirectory
+        464  1CF 0000C4DA LookupIconIdFromDirectoryEx
+        465  1D0 0000ADAD MBToWCSEx
+        466  1D1 00055D55 MB_GetString
+        467  1D2 0004BE4C MapDialogRect
+        468  1D3 0001FEEA MapVirtualKeyA
+        469  1D4 0005B097 MapVirtualKeyExA
+        470  1D5 0004959F MapVirtualKeyExW
+        471  1D6 0004029E MapVirtualKeyW
+        472  1D7 00019507 MapWindowPoints
+        473  1D8 0005CD70 MenuItemFromPoint
+        474  1D9 00046873 MenuWindowProcA
+        475  1DA 0004682E MenuWindowProcW
+        476  1DB 00021F7B MessageBeep
+        477  1DC 000407EA MessageBoxA
+        478  1DD 0004085C MessageBoxExA
+        479  1DE 00040838 MessageBoxExW
+        480  1DF 0002A082 MessageBoxIndirectA
+        481  1E0 000564D5 MessageBoxIndirectW
+        482  1E1 00056406 MessageBoxTimeoutA
+        483  1E2 00056383 MessageBoxTimeoutW
+        484  1E3 00056534 MessageBoxW
+        485  1E4 0003F20B ModifyMenuA
+        486  1E5 0000F51F ModifyMenuW
+        487  1E6 0001ABF5 MonitorFromPoint
+        488  1E7 0001C713 MonitorFromRect
+        489  1E8 0001A679 MonitorFromWindow
+        490  1E9 0001B29E MoveWindow
+        491  1EA 00009689 MsgWaitForMultipleObjects
+        492  1EB 00009645 MsgWaitForMultipleObjectsEx
+        493  1EC 000199CB NotifyWinEvent
+        494  1ED 0004023C OemKeyScan
+        495  1EE 000200D7 OemToCharA
+        496  1EF 00020116 OemToCharBuffA
+        497  1F0 000402BB OemToCharBuffW
+        498  1F1 00056E76 OemToCharW
+        499  1F2 00019011 OffsetRect
+        500  1F3 00020277 OpenClipboard
+        501  1F4 00022369 OpenDesktopA
+        502  1F5 00018559 OpenDesktopW
+        503  1F6 000460E7 OpenIcon
+        504  1F7 0000ECA3 OpenInputDesktop
+        505  1F8 000221E1 OpenWindowStationA
+        506  1F9 00045E0B OpenWindowStationW
+        507  1FA 0004B961 PackDDElParam
+        508  1FB 0001864B PaintDesktop
+        509  1FC 0002151E PaintMenuBar
+        510  1FD 0001A340 PeekMessageA
+        511  1FE 0000929B PeekMessageW
+        512  1FF 0001AAFD PostMessageA
+        513  200 00008CCB PostMessageW
+        514  201 0001CA5A PostQuitMessage
+        515  202 000177C5 PostThreadMessageA
+        516  203 000177B8 PostThreadMessageW
+        517  204 00013810 PrintWindow
+        518  205 00050A09 PrivateExtractIconExA
+        519  206 0000D3C3 PrivateExtractIconExW
+        520  207 000509AF PrivateExtractIconsA
+        521  208 0000CCFC PrivateExtractIconsW
+        522  209 0005CE72 PrivateSetDbgTag
+        523  20A 0005CEFE PrivateSetRipFlags
+        524  20B 00019719 PtInRect
+        525  20C 0005CDBE QuerySendMessage
+        526  20D 0005CDD2 QueryUserCounters
+        527  20E 0005CDE6 RealChildWindowFromPoint
+        528  20F 0005B36B RealGetWindowClass
+        529  210 0005B36B RealGetWindowClassA
+        530  211 000495F6 RealGetWindowClassW
+        531  212 00057716 ReasonCodeNeedsBugID
+        532  213 000576FF ReasonCodeNeedsComment
+        533  214 000496FD RecordShutdownReason
+        534  215 00019944 RedrawWindow
+        535  216 0001EA5E RegisterClassA
+        536  217 00017C39 RegisterClassExA
+        537  218 0000AF7F RegisterClassExW
+        538  219 0000A39A RegisterClassW
+        539  21A 00008E28 RegisterClipboardFormatA
+        540  21B 0000AF34 RegisterClipboardFormatW
+        541  21C 00011B3B RegisterDeviceNotificationA
+        542  21D 0000E8B9 RegisterDeviceNotificationW
+        543  21E 0000EBB3 RegisterHotKey
+        544  21F 00012B73 RegisterLogonProcess
+        545  220 00011EFC RegisterMessagePumpHook
+        546  221 0005CE0E RegisterRawInputDevices
+        547  222 00011FAE RegisterServicesProcess
+        548  223 0000E104 RegisterShellHookWindow
+        549  224 00046198 RegisterSystemThread
+        550  225 0005CE22 RegisterTasklist
+        551  226 00011CFF RegisterUserApiHook
+        552  227 00008E28 RegisterWindowMessageA
+        553  228 0000AF34 RegisterWindowMessageW
+        554  229 0001C37A ReleaseCapture
+        555  22A 0000869D ReleaseDC
+        556  22B 0000F716 RemoveMenu
+        557  22C 00020094 RemovePropA
+        558  22D 0001C076 RemovePropW
+        559  22E 000186F8 ReplyMessage
+        560  22F 0005CE36 ResolveDesktopForWOW
+        561  230 0004BADB ReuseDDElParam
+        562  231 000197A0 ScreenToClient
+        563  232 00054DFC ScrollChildren
+        564  233 0000B1DD ScrollDC
+        565  234 0001FF39 ScrollWindow
+        566  235 00020187 ScrollWindowEx
+        567  236 0002C2E7 SendDlgItemMessageA
+        568  237 000173CC SendDlgItemMessageW
+        569  238 0005B49E SendIMEMessageExA
+        570  239 0005B48D SendIMEMessageExW
+        571  23A 0001F140 SendInput
+        572  23B 0001F3C2 SendMessageA
+        573  23C 0005B129 SendMessageCallbackA
+        574  23D 0001D6DB SendMessageCallbackW
+        575  23E 0001FB6B SendMessageTimeoutA
+        576  23F 0001CDAA SendMessageTimeoutW
+        577  240 0001929A SendMessageW
+        578  241 00043948 SendNotifyMessageA
+        579  242 0001D64F SendNotifyMessageW
+        580  243 00017822 SetActiveWindow
+        581  244 0001C35E SetCapture
+        582  245 00021174 SetCaretBlinkTime
+        583  246 0001A962 SetCaretPos
+        584  247 0001FE71 SetClassLongA
+        585  248 0000E14B SetClassLongW
+        586  249 0005CE4A SetClassWord
+        587  24A 00020F9E SetClipboardData
+        588  24B 00020473 SetClipboardViewer
+        589  24C 0001865F SetConsoleReserveKeys
+        590  24D 00019930 SetCursor
+        591  24E 0005CE5E SetCursorContents
+        592  24F 000461B3 SetCursorPos
+        593  250 000462EB SetDebugErrorLevel
+        594  251 00045705 SetDeskWallpaper
+        595  252 0004BC09 SetDlgItemInt
+        596  253 0002C972 SetDlgItemTextA
+        597  254 0001736C SetDlgItemTextW
+        598  255 000461CE SetDoubleClickTime
+        599  256 0001B112 SetFocus
+        600  257 000142ED SetForegroundWindow
+        601  258 0005CE9A SetInternalWindowPos
+        602  259 000202B5 SetKeyboardState
+        603  25A 00056FB0 SetLastErrorEx
+        604  25B 0001CE12 SetLayeredWindowAttributes
+        605  25C 00011FEF SetLogonNotifyWindow
+        606  25D 0003F3F6 SetMenu
+        607  25E 0005CEC2 SetMenuContextHelpId
+        608  25F 0000F5B4 SetMenuDefaultItem
+        609  260 0005523C SetMenuInfo
+        610  261 0003FAB2 SetMenuItemBitmaps
+        611  262 0005AE5E SetMenuItemInfoA
+        612  263 00013281 SetMenuItemInfoW
+        613  264 000468C5 SetMessageExtraInfo
+        614  265 0002E1EB SetMessageQueue
+        615  266 0001C7F9 SetParent
+        616  267 000463FC SetProcessDefaultLayout
+        617  268 00017D40 SetProcessWindowStation
+        618  269 00046168 SetProgmanWindow
+        619  26A 00020000 SetPropA
+        620  26B 0001C0B9 SetPropW
+        621  26C 00018FA6 SetRect
+        622  26D 00019CBA SetRectEmpty
+        623  26E 00009056 SetScrollInfo
+        624  26F 0001F750 SetScrollPos
+        625  270 0001F99B SetScrollRange
+        626  271 00046114 SetShellWindow
+        627  272 0000FF92 SetShellWindowEx
+        628  273 00056582 SetSysColors
+        629  274 00056EBE SetSysColorsTemp
+        630  275 0005670B SetSystemCursor
+        631  276 0002F9E3 SetSystemMenu
+        632  277 0005CF3A SetSystemTimer
+        633  278 00010260 SetTaskmanWindow
+        634  279 00017D2C SetThreadDesktop
+        635  27A 00008C2E SetTimer
+        636  27B 0005CEEA SetUserObjectInformationA
+        637  27C 0005CEEA SetUserObjectInformationW
+        638  27D 000113B3 SetUserObjectSecurity
+        639  27E 000217F7 SetWinEventHook
+        640  27F 0002FDD9 SetWindowContextHelpId
+        641  280 0001C29D SetWindowLongA
+        642  281 0001C2BB SetWindowLongW
+        643  282 0000DE46 SetWindowPlacement
+        644  283 000199F3 SetWindowPos
+        645  284 0001E528 SetWindowRgn
+        646  285 0000F338 SetWindowStationUser
+        647  286 0001F56B SetWindowTextA
+        648  287 0001960E SetWindowTextW
+        649  288 000203DB SetWindowWord
+        650  289 0002ED69 SetWindowsHookA
+        651  28A 00021211 SetWindowsHookExA
+        652  28B 0001820F SetWindowsHookExW
+        653  28C 00011B8A SetWindowsHookW
+        654  28D 0001B09A ShowCaret
+        655  28E 0001FA6E ShowCursor
+        656  28F 000461E6 ShowOwnedPopups
+        657  290 0001F2F2 ShowScrollBar
+        658  291 00040101 ShowStartGlass
+        659  292 0001AF56 ShowWindow
+        660  293 0001337D ShowWindowAsync
+        661  294 0002A2DF SoftModalMessageBox
+        662  295 00010138 SubtractRect
+        663  296 00046201 SwapMouseButton
+        664  297 0000FE6E SwitchDesktop
+        665  298 0004581C SwitchToThisWindow
+        666  299 0001DEB2 SystemParametersInfoA
+        667  29A 00009F06 SystemParametersInfoW
+        668  29B 0004A5E5 TabbedTextOutA
+        669  29C 0004A5B6 TabbedTextOutW
+        670  29D 00046219 TileChildWindows
+        671  29E 00055215 TileWindows
+        672  29F 00045721 ToAscii
+        673  2A0 0004577E ToAsciiEx
+        674  2A1 000566A8 ToUnicode
+        675  2A2 000566D9 ToUnicodeEx
+        676  2A3 0001C80D TrackMouseEvent
+        677  2A4 0005531E TrackPopupMenu
+        678  2A5 0005CF62 TrackPopupMenuEx
+        679  2A6 0001FAC4 TranslateAccelerator
+        680  2A7 0001FAC4 TranslateAcceleratorA
+        681  2A8 0000941E TranslateAcceleratorW
+        682  2A9 0001FB2F TranslateMDISysAccel
+        683  2AA 00008BF6 TranslateMessage
+        684  2AB 00008A19 TranslateMessageEx
+        685  2AC 000218AC UnhookWinEvent
+        686  2AD 00011BA5 UnhookWindowsHook
+        687  2AE 0001D5F3 UnhookWindowsHookEx
+        688  2AF 0001A0F1 UnionRect
+        689  2B0 000462C0 UnloadKeyboardLayout
+        690  2B1 0000DCD9 UnlockWindowStation
+        691  2B2 0004B9C5 UnpackDDElParam
+        692  2B3 000189A3 UnregisterClassA
+        693  2B4 00009AA4 UnregisterClassW
+        694  2B5 0000E8D7 UnregisterDeviceNotification
+        695  2B6 0005CF8A UnregisterHotKey
+        696  2B7 0000FE08 UnregisterMessagePumpHook
+        697  2B8 0000EDFB UnregisterUserApiHook
+        698  2B9 0001ACF3 UpdateLayeredWindow
+        699  2BA 000119C8 UpdatePerUserSystemParameters
+        700  2BB 0001AEAB UpdateWindow
+        701  2BC 0002D395 User32InitializeImmEntryTable
+        702  2BD 0000B217 UserClientDllInitialize
+        703  2BE 0005CFDA UserHandleGrantAccess
+        704  2BF 0001BC25 UserLpkPSMTextOut
+        705  2C0 0004A3FB UserLpkTabbedTextOut
+        706  2C1 0001FA56 UserRealizePalette
+        707  2C2 00043748 UserRegisterWowHandlers
+        708  2C3 0005B427 VRipOutput
+        709  2C4 0005B427 VTagOutput
+        710  2C5 0001FBBD ValidateRect
+        711  2C6 0001F67E ValidateRgn
+        712  2C7 0002E4C0 VkKeyScanA
+        713  2C8 0005B18B VkKeyScanExA
+        714  2C9 0001F1BC VkKeyScanExW
+        715  2CA 0002E1F6 VkKeyScanW
+        716  2CB 0001D446 WCSToMBEx
+        717  2CC 0005B46B WINNLSEnableIME
+        718  2CD 0005B47C WINNLSGetEnableStatus
+        719  2CE 00023785 WINNLSGetIMEHotkey
+        720  2CF 0003FAF5 WaitForInputIdle
+        721  2D0 0000940C WaitMessage
+        722  2D1 0005D002 Win32PoolAllocationStats
+        723  2D2 0002EE5D WinHelpA
+        724  2D3 00051BD4 WinHelpW
+        725  2D4 0001FA3E WindowFromDC
+        726  2D5 00019766 WindowFromPoint
+        727  2D6 00056783 keybd_event
+        728  2D7 0005673F mouse_event
+        729  2D8 0000A8AD wsprintfA
+        730  2D9 0000A9B6 wsprintfW
+        731  2DA 0000A610 wvsprintfA
+        732  2DB 0000A9D1 wvsprintfW
+
+  Section contains the following imports:
+
+    GDI32.dll
+              77CF1000 Import Address Table
+              77D4E6AC Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      77ED6AD6    162 GetClipRgn
+      77ED7874     DC ExtSelectClipRgn
+      77ED7E56    185 GetHFONT
+      77ED8EDD    18E GetMapMode
+      77EDB37C    225 SetGraphicsMode
+      77ED6AA1    161 GetClipBox
+      77ED7786     4B CreateRectRgn
+      77ED827C     4C CreateRectRgnIndirect
+      77ED9008    229 SetLayout
+      77EDD242    14F GetBoundsRect
+      77ED90DD     D7 ExcludeClipRect
+      77EF9CF1    1E1 PlayEnhMetaFile
+      77EFD0C9    11E GdiGetBitmapBitsSize
+      77EDA145     47 CreatePen
+      77EDEF75     94 Ellipse
+      77F0473D     35 CreateEllipticRgn
+      77EDA867    11A GdiFixUpHandle
+      77EEC754    1AD GetTextCharacterExtra
+      77EDE68D    23C SetTextCharacterExtra
+      77ED833D    165 GetCurrentObject
+      77ED7C01    1C1 GetViewportOrgEx
+      77ED7B4C    240 SetViewportOrgEx
+      77ED62B1    1E9 PolyPatBlt
+      77EDD959     29 CreateBrushIndirect
+      77EDD264    218 SetBoundsRect
+      77EE78EE     24 CopyEnhMetaFileW
+      77EE832E     26 CopyMetaFileW
+      77EDB60A    19B GetPaletteEntries
+      77EDB5DA     45 CreatePalette
+      77EFCF18    231 SetPaletteEntries
+      77EDCCB0    25E bInitSystemAndFontsDirectoriesW
+      77EDCC01    25F bMakePathNameW
+      77EDCB0A    260 cGetTTFFromFOT
+      77EDB73C    19D GetPixel
+      77EDD3EA     DD ExtTextOutA
+      77ED8488    1AF GetTextCharsetInfo
+      77EDBB34    1F3 QueryFontAssocStatus
+      77EDBB20    15D GetCharWidthInfo
+      77EDE1F7    159 GetCharWidthA
+      77EDA5BB    1BC GetTextFaceW
+      77EFE367    152 GetCharABCWidthsA
+      77EDE0AF    156 GetCharABCWidthsW
+      77ED87EC    21A SetBrushOrgEx
+      77ED938F     3D CreateFontIndirectW
+      77EFFB22     CE EnumFontsW
+      77EEC6D5    1BB GetTextFaceAliasW
+      77ED7DB9    1BE GetTextMetricsW
+      77ED8FA0    1B0 GetTextColor
+      77EE374B    14E GetBkMode
+      77ED7CF1    1C0 GetViewportExtEx
+      77ED7C79    1C3 GetWindowExtEx
+      77EDAEC9    11F GdiGetCharDimensions
+      77ED69D0    120 GdiGetCodePage
+      77EDA9D6    1AE GetTextCharset
+      77EE862E    136 GdiPrinterThunk
+      77EDCE01     EE GdiAddFontResourceW
+      77EDA8CB    251 TranslateCharsetInfo
+      77ED8BDF    208 SaveDC
+      77ED7ABB    1D7 OffsetWindowOrgEx
+      77ED8B19    201 RestoreDC
+      77ED8086     DE ExtTextOutW
+      77ED814E    197 GetObjectType
+      77ED9F95    16B GetDIBits
+      77ED9E09     32 CreateDIBSection
+      77ED8597    239 SetStretchBltMode
+      77ED8632    210 SelectPalette
+      77EDEA4B    1F4 RealizePalette
+      77EDAB87    220 SetDIBits
+      77EDBE28     2F CreateDCW
+      77EDAD13     33 CreateDIBitmap
+      77ED700A     2C CreateCompatibleBitmap
+      77EDD7F2    214 SetBitmapBits
+      77ED6E5F     8C DeleteDC
+      77ED647C    147 GdiValidateHandle
+      77EF258E    106 GdiDllInitialize
+      77ED61A5     50 CreateSolidBrush
+      77ED61C1    1A6 GetStockObject
+      77ED5FE0     2D CreateCompatibleDC
+      77F02DE9     F8 GdiConvertBitmapV5
+      77EFCCBC    101 GdiCreateLocalEnhMetaFile
+      77F0D6DE    102 GdiCreateLocalMetaFilePict
+      77EDD6D9    1A5 GetRgnBox
+      77ED95D8     21 CombineRgn
+      77ED98D8    1D5 OffsetRgn
+      77F06620    1D0 MirrorRgn
+      77EDD0E9     95 EnableEUDC
+      77EDD286    100 GdiConvertToDevmodeW
+      77EDDCEF    1B7 GetTextExtentPointA
+      77ED6B0D    1B9 GetTextExtentPointW
+      77ED61EF     27 CreateBitmap
+      77EEC7AD    22A SetLayoutWidth
+      77ED869B    1DE PatBlt
+      77EDBA3F    24F TextOutA
+      77ED7EAC    250 TextOutW
+      77ED6F79     12 BitBlt
+      77ED9094     F6 GdiConvertAndCheckDC
+      77EDB6C0    24A StretchBlt
+      77ED974F    237 SetRectRgn
+      77ED59E5    13B GdiReleaseDC
+      77F0D677     FB GdiConvertEnhMetaFile
+      77EFCBAA     FD GdiConvertMetaFilePict
+      77EDFDF4     8D DeleteEnhMetaFile
+      77EE3DAC     8E DeleteMetaFile
+      77ED6BFA     8F DeleteObject
+      77EDB1CE    16A GetDIBColorTable
+      77ED5A69    16C GetDeviceCaps
+      77EDB09E    24B StretchDIBits
+      77ED6B2E    18B GetLayout
+      77ED5E29    216 SetBkColor
+      77ED5D77    23D SetTextColor
+      77ED83B3    198 GetObjectW
+      77ED8F4C    14D GetBkColor
+      77ED5EDB    217 SetBkMode
+      77ED5B70    20F SelectObject
+      77ED6A56    1C8 IntersectClipRect
+      77EDD417    1AC GetTextAlign
+      77ED8C7C    23B SetTextAlign
+      77ED660C    137 GdiProcessSetup
+
+    KERNEL32.dll
+              77CF11DC Import Address Table
+              77D4E888 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      7C8325D4    253 LocalSize
+      7C80BCF9    341 SizeofResource
+      7C80A045    249 LoadResource
+      7C80AD18     E1 FindResourceExW
+      7C835F90     E0 FindResourceExA
+      7C80E4CD    179 GetModuleHandleW
+      7C811326     89 DisableThreadLibraryCalls
+      7C8097B8    13E GetCurrentThreadId
+      7C87B4EE    22C IsDBCSLeadByteEx
+      7C80E76C    2CC SearchPathW
+      7C8305E6     BA ExpandEnvironmentStringsW
+      7C801AF5    246 LoadLibraryExW
+      7C8100FC    1EC GlobalAddAtomW
+      7C831DD3    1BA GetSystemDirectoryW
+      7C8316B7    110 GetComputerNameW
+      7C80DE85    13B GetCurrentProcess
+      7C80997B    13D GetCurrentThread
+      7C80C0E8     B7 ExitThread
+      7C82141D    153 GetExitCodeThread
+      7C8106C7     6C CreateThread
+      7C959B80    20F HeapReAlloc
+      7C834CD1    1F7 GlobalHandle
+      7C87A656     EA FoldStringW
+      7C802446    342 Sleep
+      7C80A520    1B4 GetStringTypeW
+      7C838A24    1B1 GetStringTypeA
+      7C812F06     FD GetCPInfo
+      7C9504BD    211 HeapSize
+      7C809BD7     31 CloseHandle
+      7C80BA04    35E UnmapViewOfFile
+      7C80B995    25A MapViewOfFile
+      7C809420     51 CreateFileMappingW
+      7C810B07    15B GetFileSize
+      7C801812    2A6 ReadFile
+      7C831CA8    30D SetFileTime
+      7C831C35    15D GetFileTime
+      7C80ADB9    1C3 GetSystemWindowsDirectoryW
+      7C82F863     42 CopyFileW
+      7C821249    263 MoveFileW
+      7C831F4B     82 DeleteFileW
+      7C802336     66 CreateProcessW
+      7C835505      1 AddAtomA
+      7C8326D9      2 AddAtomW
+      7C8330FF     F8 GetAtomNameW
+      7C85C1B3     F7 GetAtomNameA
+      7C81C1AB    233 IsValidLocale
+      7C8383E7     3C ConvertDefaultLocale
+      7C80A3EE     38 CompareStringW
+      7C80B907    13A GetCurrentDirectoryW
+      7C80F37E    2FB SetCurrentDirectoryW
+      7C809A99    3B8 lstrlenW
+      7C830B04    16F GetLogicalDrives
+      7C80EE67     CC FindClose
+      7C80EFCA     DA FindNextFileW
+      7C80EF71     D3 FindFirstFileW
+      7C80A4A5    1CF GetThreadLocale
+      7C813019    28B ProcessIdToSessionId
+      7C8099B0    13C GetCurrentProcessId
+      7C809832    21B InterlockedCompareExchange
+      7C80B86C    22B IsDBCSLeadByte
+      7C80CD38    237 LCMapStringW
+      7C80A4B7    294 QueryPerformanceCounter
+      7C82FA36    295 QueryPerformanceFrequency
+      7C80932E    1D4 GetTickCount
+      7C80BE46    3B7 lstrlenA
+      7C8360DB    1F0 GlobalFindAtomA
+      7C80B55F    174 GetModuleFileNameA
+      7C80B731    176 GetModuleHandleA
+      7C8360C1    1EB GlobalAddAtomA
+      7C87EECD     7D DelayLoadFailureHook
+      7C801D7B    244 LoadLibraryA
+      7C8017E9    1C0 GetSystemTimeAsFileTime
+      7C801E1A    34A TerminateProcess
+      7C863E6A    35B UnhandledExceptionFilter
+      7C8449FD    336 SetUnhandledExceptionFilter
+      7C832EC9    254 LocalUnlock
+      7C832E35    250 LocalLock
+      7C830917    251 LocalReAlloc
+      7C8099A5     F6 GetACP
+      7C812837    18B GetOEMCP
+      7C8097F6    220 InterlockedIncrement
+      7C80980A    21C InterlockedDecrement
+      7C94FE10    316 SetLastError
+      7C834EAF    1F1 GlobalFindAtomW
+      7C80FDBD    1ED GlobalAlloc
+      7C809C88    267 MultiByteToWideChar
+      7C812449    1FB GlobalReAlloc
+      7C94FE01    168 GetLastError
+      7C80AE30    198 GetProcAddress
+      7C80AEDB    247 LoadLibraryW
+      7C80AC6E     F0 FreeLibrary
+      7C80BA7F    3B5 lstrcpynW
+      7C8107F0     52 CreateFileW
+      7C81EE34    395 WritePrivateProfileStringW
+      7C80AA26    3AF lstrcmpiW
+      7C80A0A7    304 SetEvent
+      7C8095BC    37D WaitForMultipleObjectsEx
+      7C80A164    382 WideCharToMultiByte
+      7C83678A    1F3 GlobalFlags
+      7C8115F2    16C GetLocaleInfoW
+      7C80FCBF    1F4 GlobalFree
+      7C80B465    175 GetModuleFileNameW
+      7C82C3B6    1F6 GlobalGetAtomNameW
+      7C85C193    1F5 GlobalGetAtomNameA
+      7C80981E    21D InterlockedExchange
+      7C8326AD     7E DeleteAtom
+      7C809A1D    24A LocalAlloc
+      7C830BAB    1EF GlobalDeleteAtom
+      7C8099BF    24E LocalFree
+      7C834DB9    1FC GlobalSize
+      7C80FFA9    1F8 GlobalLock
+      7C80FF12    1FF GlobalUnlock
+      7C809FA0    1D8 GetUserDefaultLCID
+      7C9500A4    205 HeapAlloc
+      7C94FF0D    20B HeapFree
+      7C80BAF4    3B2 lstrcpyW
+      7C810FC2    3A9 lstrcatW
+      7C80F9ED    195 GetPrivateProfileStringW
+      7C81701E    2AD RegisterWaitForInputIdle
+
+    ntdll.dll
+              77CF13BC Import Address Table
+              77D4EA68 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      7C94D960    104 NtQueryVirtualMemory
+      7C96ABA5    352 RtlUnwind
+      7C94F60D    2CD RtlNtStatusToDosError
+      7C9BB098     4B NlsAnsiCodePage
+      7C9500A4    18E RtlAllocateHeap
+      7C9603B8    4F6 qsort
+      7C96937A    2C5 RtlMultiByteToUnicodeSize
+      7C96ED22     36 LdrFlushAlternateResourceModules
+      7C974363    2D7 RtlPcToFileHeader
+      7C954671    51D wcsrchr
+      7C94D9A0    108 NtRaiseHardError
+      7C9A27A7    2A4 RtlIsNameLegalDOS8Dot3
+      7C942956    505 strrchr
+      7C9AFEBD    4FA sscanf
+      7C94D840     F1 NtQueryKey
+      7C94D2D0     99 NtEnumerateValueKey
+      7C96D765    305 RtlRunEncodeUnicodeString
+      7C96D7B3    304 RtlRunDecodeUnicodeString
+      7C953358    4CC _wcsicmp
+      7C95EB58      0 CsrAllocateCaptureBuffer
+      7C95E3AF      2 CsrCaptureMessageBuffer
+      7C95EAFF      8 CsrFreeCaptureBuffer
+      7C94D650     D2 NtOpenThreadToken
+      7C94D5F0     CC NtOpenProcessToken
+      7C94D800     ED NtQueryInformationToken
+      7C952D71      6 CsrClientCallServer
+      7C9420F5    4F3 memmove
+      7C94CF80     62 NtCallbackReturn
+      7C95319A    34C RtlUnicodeToMultiByteSize
+      7C941198    177 RtlActivateActivationContextUnsafeFast
+      7C9411DD    1E1 RtlDeactivateActivationContextUnsafeFast
+      7C9515FD    27B RtlInitializeCriticalSection
+      7C94D910     FF NtQuerySystemInformation
+      7C9584BB    50A swprintf
+      7C95135A    1EB RtlDeleteCriticalSection
+      7C950319    26C RtlImageNtHeader
+      7C9611E7      7 CsrClientConnectToServer
+      7C94DFA0    16A NtYieldExecution
+      7C94D0D0     77 NtCreateKey
+      7C94DDB0    14A NtSetValueKey
+      7C94D250     91 NtDeleteValueKey
+      7C953591    2E4 RtlQueryInformationActiveActivationContext
+      7C950527    2FB RtlReleaseActivationContext
+      7C94FF0D    240 RtlFreeHeap
+      7C95055F    51B wcsncpy
+      7C975424    515 wcscmp
+      7C974D91    522 wcstoul
+      7C958112    513 wcscat
+      7C94125D    270 RtlInitAnsiString
+      7C94EB1B    191 RtlAnsiStringToUnicodeString
+      7C953059    1D9 RtlCreateUnicodeStringFromAsciiz
+      7C950446    245 RtlFreeUnicodeString
+      7C94D550     C1 NtOpenDirectoryObject
+      7C9415F8    4B0 _chkstk
+      7C952F40    516 wcscpy
+      7C958B24    519 wcsncat
+      7C94DD10    140 NtSetSecurityObject
+      7C94D8C0     FA NtQuerySecurityObject
+      7C94D7E0     EB NtQueryInformationProcess
+      7C969F03    520 wcstol
+      7C94FE2A    518 wcslen
+      7C9554F1    22B RtlFindActivationContextSectionString
+      7C94EC9A    2C4 RtlMultiByteToUnicodeN
+      7C952A6D    34B RtlUnicodeToMultiByteN
+      7C9410E0    2B2 RtlLeaveCriticalSection
+      7C941000    212 RtlEnterCriticalSection
+      7C958AB9    2D6 RtlOpenCurrentUser
+      7C94D2B0     97 NtEnumerateKey
+      7C94D5B0     C7 NtOpenKey
+      7C94CFD0     67 NtClose
+      7C94D950    103 NtQueryValueKey
+      7C941295    276 RtlInitUnicodeString
+      7C95AE71    347 RtlUnicodeStringToInteger
+
+  Header contains the following bound import information:
+    Bound to GDI32.dll [4802C042] Mon Apr 14 11:24:02 2008
+    Bound to KERNEL32.dll [4802C09B] Mon Apr 14 11:25:31 2008
+      Contained forwarders bound to NTDLL.DLL [4802C09A] Mon Apr 14 11:25:30 2008
+    Bound to NTDLL.DLL [4802C09A] Mon Apr 14 11:25:30 2008
+
+  Section contains the following delay load imports:
+
+    ADVAPI32.dll
+              00000001 Characteristics
+              77D51BAC Address of HMODULE
+              77D51000 Import Address Table
+              77D4E43C Import Name Table
+              00000000 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          77D4E1CC               0 RegSetValueExW
+          77D4E1E9               0 RegCreateKeyExW
+          77D4E1F5               0 RegCloseKey
+          77D4E201               0 RegDeleteKeyW
+          77D4E20D               0 DeregisterEventSource
+          77D4E219               0 ReportEventW
+          77D4E225               0 RegisterEventSourceW
+          77D4E231               0 RegEnumValueW
+          77D4E23D               0 RegQueryInfoKeyW
+          77D4E249               0 RegQueryValueExW
+          77D4E255               0 OpenProcessToken
+          77D4E264               0 OpenThreadToken
+          77D4E273               0 GetTokenInformation
+
+    MSIMG32.dll
+              00000001 Characteristics
+              77D517E4 Address of HMODULE
+              77D51038 Import Address Table
+              77D4E474 Import Name Table
+              00000000 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          77D1D093               0 AlphaBlend
+
+    POWRPROF.dll
+              00000001 Characteristics
+              77D51BB0 Address of HMODULE
+              77D51040 Import Address Table
+              77D4E47C Import Name Table
+              00000000 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          77D4E282               0 SetActivePwrScheme
+          77D4E2AA               0 ReadPwrScheme
+          77D4E2C1               0 GetActivePwrScheme
+
+    WINSTA.dll
+              00000001 Characteristics
+              77D51BB4 Address of HMODULE
+              77D51050 Import Address Table
+              77D4E48C Import Name Table
+              00000000 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          77D4E300               0 WinStationGetTermSrvCountersValue
+          77D4E317               0 WinStationSendMessageW
+          77D4E2D8               0 WinStationQueryInformationW
+
+  Summary
+
+        2000 .data
+        3000 .reloc
+       2A000 .rsrc
+       60000 .text

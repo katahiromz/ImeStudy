@@ -1,0 +1,2566 @@
+kd> x USER32!*
+77cfdd58          USER32!GetClassInfoExA (_GetClassInfoExA@12)
+77d08fd5          USER32!NtUserInvalidateRect (_NtUserInvalidateRect@12)
+77d3b4e4          USER32!_ClientCopyDDEIn2 (__ClientCopyDDEIn2@4)
+77d48820          USER32!SvSpontUnadvise (_SvSpontUnadvise@8)
+77d4c930          USER32!ImeWndProcA (_ImeWndProcA@16)
+77d30101          USER32!ShowStartGlass (_ShowStartGlass@4)
+77d51258          USER32!pfnWowGetProcModule = <no type information>
+77d0ff11          USER32!NtUserMapVirtualKeyEx (_NtUserMapVirtualKeyEx@16)
+77d0d1d2          USER32!GetDesktopWindow (_GetDesktopWindow@0)
+77d38acc          USER32!__fnOUTLPRECT (___fnOUTLPRECT@4)
+77d3a5e5          USER32!TabbedTextOutA (_TabbedTextOutA@32)
+77cf1230          USER32!_imp__GlobalHandle = <no type information>
+77d4d61b          USER32!MirrorWindowRect (_MirrorWindowRect@8)
+77d3bedb          USER32!UT_PrevGroupItem (_UT_PrevGroupItem@8)
+77cf11ec          USER32!_imp__FindResourceExA = <no type information>
+77d036ea          USER32!NtUserSetInformationThread (_NtUserSetInformationThread@16)
+77d13e9c          USER32!ECGetControlBrush (_ECGetControlBrush@12)
+77cf131c          USER32!_imp__InterlockedIncrement = <no type information>
+77d07eda          USER32!InitUserApiHook (_InitUserApiHook@8)
+77d15e87          USER32!LBSetCItemFullMax (_LBSetCItemFullMax@4)
+77d016eb          USER32!__ClientLoadImage (___ClientLoadImage@4)
+77d51014          USER32!_imp__ReportEventW = <no type information>
+77cff3c4          USER32!NtUserLockWindowStation (_NtUserLockWindowStation@4)
+77d35f46          USER32!ArrangeIconicWindows (_ArrangeIconicWindows@4)
+77cf1168          USER32!_imp__SetLayoutWidth = <no type information>
+77d519e8          USER32!szEXECHELP = <no type information>
+77cf3178          USER32!szEMISeverity = <no type information>
+77cf1398          USER32!_imp__GlobalUnlock = <no type information>
+77d51000          USER32!_imp__RegSetValueExW = <no type information>
+77d081fb          USER32!NtUserSetWindowsHookEx (_NtUserSetWindowsHookEx@24)
+77d51740          USER32!ScaleProc = <no type information>
+77d4a27c          USER32!AbandonTransaction (_AbandonTransaction@8)
+77d01261          USER32!_LoadKeyboardLayoutEx (__LoadKeyboardLayoutEx@28)
+77d0c0b9          USER32!SetPropW (_SetPropW@12)
+77d4cd84          USER32!NtUserMNDragLeave (_NtUserMNDragLeave@0)
+77d2f92a          USER32!__fnHkINLPCBTACTIVATESTRUCT (___fnHkINLPCBTACTIVATESTRUCT@4)
+77d51420          USER32!DialogLookaside = <no type information>
+77cf1344          USER32!_imp__FreeLibrary = <no type information>
+77d0f6a1          USER32!NtUserGetCaretPos (_NtUserGetCaretPos@4)
+77d4cbf6          USER32!NtUserGetImeHotKey (_NtUserGetImeHotKey@16)
+77d3d8da          USER32!ECUpdateFormat (_ECUpdateFormat@12)
+77d3398c          USER32!RegisterUserHungAppHandlers (_RegisterUserHungAppHandlers@8)
+77cfee25          USER32!vLoadLocalT1Fonts (_vLoadLocalT1Fonts@0)
+77d3f18f          USER32!MLReplaceSel (_MLReplaceSel@8)
+77cfebe2          USER32!ResetMessagePumpHook (_ResetMessagePumpHook@4)
+77d30318          USER32!LBPrintCallback (_LBPrintCallback@20)
+77d10000          USER32!SetPropA (_SetPropA@12)
+77d4ce36          USER32!NtUserResolveDesktopForWOW (_NtUserResolveDesktopForWOW@4)
+77d1bcd9          USER32!SLGetBlkEnd (_SLGetBlkEnd@16)
+77d0aca1          USER32!__fnINSTRING (___fnINSTRING@4)
+77cfa344          USER32!InitClsMenuNameW (_InitClsMenuNameW@12)
+77d0dfa0          USER32!NtUserSBGetParms (_NtUserSBGetParms@16)
+77d4cde6          USER32!NtUserRealChildWindowFromPoint (_NtUserRealChildWindowFromPoint@12)
+77d04f3e          USER32!IsVisible (_IsVisible@4)
+77d38cd7          USER32!__fnINOUTNEXTMENU (___fnINOUTNEXTMENU@4)
+77d3be4c          USER32!MapDialogRect (_MapDialogRect@8)
+77d0e81e          USER32!GetClassInfoW (_GetClassInfoW@12)
+77d393f5          USER32!__fnLOGONNOTIFY (___fnLOGONNOTIFY@4)
+77d43f3c          USER32!LBSetTabStops (_LBSetTabStops@12)
+77cfa5b9          USER32!InitClsMenuNameA (_InitClsMenuNameA@12)
+77d36d7d          USER32!DialogBoxIndirectParamA (_DialogBoxIndirectParamA@20)
+77d51880          USER32!fFontAssocStatus = <no type information>
+77d45766          USER32!LoadOLEOnce (_LoadOLEOnce@0)
+77d514cc          USER32!gcxGray = <no type information>
+77d519ec          USER32!szMS_POPUPHELP = <no type information>
+77d0dc14          USER32!CopyImage (_CopyImage@20)
+77d37626          USER32!DlgDirListComboBoxW (_DlgDirListComboBoxW@20)
+77d1725f          USER32!xxxLBoxDeleteItem (_xxxLBoxDeleteItem@8)
+77d30045          USER32!GetClassWOWWords (_GetClassWOWWords@8)
+77d09cda          USER32!DefWindowProcWorker (_DefWindowProcWorker@20)
+77d11b0e          USER32!AppendMenuA (_AppendMenuA@16)
+77cf8c56          USER32!CategoryMaskFromEvent (_CategoryMaskFromEvent@4)
+77d302bb          USER32!OemToCharBuffW (_OemToCharBuffW@12)
+77cf37e0          USER32!aGeneralPunctuation_EndBreak = <no type information>
+77d0162a          USER32!CreateDesktopW (_CreateDesktopW@24)
+77cf3520          USER32!szEventMsgFile = <no type information>
+77d05238          USER32!ButtonWndProcWorker (_ButtonWndProcWorker@20)
+77d4aba6          USER32!DdeQueryConvInfo (_DdeQueryConvInfo@12)
+77d050c4          USER32!PaintRect (_PaintRect@20)
+77d4e169          USER32!RtlUnwind (_RtlUnwind@16)
+77cf142c          USER32!_imp__RtlUnicodeToMultiByteSize = <no type information>
+77d4d419          USER32!RemoveGaps (_RemoveGaps@8)
+77d06cf5          USER32!wcsncpycch (_wcsncpycch@12)
+77d1c9c6          USER32!ListBoxWndProcA (_ListBoxWndProcA@16)
+77cf1154          USER32!_imp__EnableEUDC = <no type information>
+77d45857          USER32!MonitorStringHandle (_MonitorStringHandle@12)
+77d4cf9e          USER32!NtUserUpdateInputContext (_NtUserUpdateInputContext@12)
+77d3b91f          USER32!_ClientGetDDEFlags (__ClientGetDDEFlags@8)
+77d11abd          USER32!CheckMenuItem (_CheckMenuItem@12)
+77d4d7aa          USER32!UserIsFELineBreakEnd (_UserIsFELineBreakEnd@4)
+77d053c3          USER32!xxxBNGetDC (_xxxBNGetDC@8)
+77d17981          USER32!xxxCBSetDroppedSize (_xxxCBSetDroppedSize@8)
+77d0f750          USER32!SetScrollPos (_SetScrollPos@16)
+77d1abeb          USER32!MB_UpdateDlgHdr (_MB_UpdateDlgHdr@40)
+77d15c89          USER32!xxxSetLBScrollParms (_xxxSetLBScrollParms@8)
+77d36c91          USER32!CopyAcceleratorTableA (_CopyAcceleratorTableA@12)
+77d39135          USER32!__ClientExtTextOutW (___ClientExtTextOutW@4)
+77d32fed          USER32!xxxLBPaint (_xxxLBPaint@12)
+77d51264          USER32!hmodUser = <no type information>
+77d1792b          USER32!xxxCBPosition (_xxxCBPosition@4)
+77d4e420          USER32!_sz_POWRPROF = <no type information>
+77d08fa6          USER32!SetRect (_SetRect@20)
+77d40478          USER32!MLSetTabStops (_MLSetTabStops@12)
+77d46895          USER32!fnCOPYGLOBALDATA (_fnCOPYGLOBALDATA@28)
+77d1a082          USER32!MessageBoxIndirectA (_MessageBoxIndirectA@4)
+77d0f704          USER32!GetScrollPos (_GetScrollPos@8)
+77d361b3          USER32!SetCursorPos (_SetCursorPos@8)
+77cfbce9          USER32!HowManyColors (_HowManyColors@12)
+77cff11f          USER32!vSweepFonts (_vSweepFonts@16)
+77cf94c6          USER32!NtUserDispatchMessage (_NtUserDispatchMessage@4)
+77d38c42          USER32!__fnINCNTOUTSTRING (___fnINCNTOUTSTRING@4)
+77cf1420          USER32!_imp__CsrClientCallServer = <no type information>
+77d51be0          USER32!szERROR = <no type information>
+77d01616          USER32!NtUserCreateWindowStation (_NtUserCreateWindowStation@28)
+77d010a7          USER32!LoadKeyboardLayoutWorker (_LoadKeyboardLayoutWorker@16)
+77d0362a          USER32!EnumDisplaySettingsW (_EnumDisplaySettingsW@12)
+77cf9056          USER32!SetScrollInfo (_SetScrollInfo@16)
+77d307df          USER32!GdiConvertMetaFilePict (_GdiConvertMetaFilePict@4)
+77d0908e          USER32!GetClientRect (_GetClientRect@8)
+77d5151c          USER32!ghinstOLE = <no type information>
+77d4a1df          USER32!IsCharUpperW (_IsCharUpperW@4)
+77d0aafd          USER32!PostMessageA (_PostMessageA@16)
+77d511b8          USER32!__security_cookie = <no type information>
+77d4c1d8          USER32!ImeNotifyHandler (_ImeNotifyHandler@16)
+77d16fd2          USER32!BltColor (_BltColor@40)
+77d0676f          USER32!GetSizeDialogTemplate (_GetSizeDialogTemplate@8)
+77d40b39          USER32!vProcessType1FontEntry (_vProcessType1FontEntry@20)
+77d42645          USER32!xxxLBoxCaretBlinker (_xxxLBoxCaretBlinker@16)
+77d03a67          USER32!EnumDisplaySettingsA (_EnumDisplaySettingsA@12)
+77cf100c          USER32!_imp__GetMapMode = <no type information>
+77cf8674          USER32!__security_check_cookie (@__security_check_cookie@4)
+77d3ece5          USER32!MLDeleteText (_MLDeleteText@4)
+77d0102d          USER32!CliReadRegistryValue (_CliReadRegistryValue@8)
+77cf10b8          USER32!_imp__GetTextMetricsW = <no type information>
+77cfde72          USER32!CopyIcon (_CopyIcon@4)
+77cf8ccb          USER32!PostMessageW (_PostMessageW@16)
+77d1707e          USER32!IsCharUpperA (_IsCharUpperA@4)
+77cf11e0          USER32!_imp__SizeofResource = <no type information>
+77d0977a          USER32!IsWindowEnabled (_IsWindowEnabled@4)
+77d08242          USER32!InternalFindWindowExA (_InternalFindWindowExA@20)
+77d48005          USER32!EnableScrollBar (_EnableScrollBar@12)
+77d48ea5          USER32!SvRespAdviseDataAck (_SvRespAdviseDataAck@12)
+77d3e926          USER32!MLInsertText (_MLInsertText@16)
+77d07a95          USER32!SplFreeResource (_SplFreeResource@12)
+77d016d7          USER32!NtUserCreateDesktop (_NtUserCreateDesktop@20)
+77d0ae46          USER32!GetQueueStatus (_GetQueueStatus@4)
+77d0be16          USER32!__fnINLPWINDOWPOS (___fnINLPWINDOWPOS@4)
+77d0c5a9          USER32!InternalGetWindowText (_InternalGetWindowText@12)
+77d36da1          USER32!CreateIcoCurIndirect (_CreateIcoCurIndirect@20)
+77d47f24          USER32!GetReasonTitleFromReasonCode (_GetReasonTitleFromReasonCode@12)
+77d49a57          USER32!DeleteLinkCount (_DeleteLinkCount@8)
+77d00ca5          USER32!OpenKeyboardLayoutFileWorker (_OpenKeyboardLayoutFileWorker@20)
+77d024bb          USER32!ShowWindowNoRepaint (_ShowWindowNoRepaint@4)
+77d0b851          USER32!DT_DrawStr (_DT_DrawStr@36)
+77cfc584          USER32!GetBestImage (_GetBestImage@24)
+77cf8f9c          USER32!GetSystemMetrics (_GetSystemMetrics@4)
+77d36d2b          USER32!ULongLongToUInt (_ULongLongToUInt@12)
+77d3a6a1          USER32!GetTabbedTextExtentA (_GetTabbedTextExtentA@20)
+77cfa9d1          USER32!wvsprintfW (_wvsprintfW@12)
+77d0b19c          USER32!NtUserDestroyWindow (_NtUserDestroyWindow@4)
+77d40a09          USER32!PrivateExtractIconExA (_PrivateExtractIconExA@20)
+77d00082          USER32!DoCallback (_DoCallback@36)
+77d0c2bb          USER32!SetWindowLongW (_SetWindowLongW@12)
+77d514c4          USER32!pfnFindResourceExA = <no type information>
+77d137bb          USER32!ECGetEditDC (_ECGetEditDC@8)
+77d3a677          USER32!GetTabbedTextExtentW (_GetTabbedTextExtentW@20)
+77cf12d0          USER32!_imp__QueryPerformanceCounter = <no type information>
+77d35f2f          USER32!TellWOWThehDlg (_TellWOWThehDlg@4)
+77cf99af          USER32!RtlGetExpWinVer (_RtlGetExpWinVer@4)
+77d512e0          USER32!pfnFindResourceExW = <no type information>
+77d33948          USER32!SendNotifyMessageA (_SendNotifyMessageA@16)
+77cf14b0          USER32!_imp__RtlFindActivationContextSectionString = <no type information>
+77d0cdd4          USER32!GetAppCompatFlags (_GetAppCompatFlags@4)
+77d17e66          USER32!CBNcCreateHandler (_CBNcCreateHandler@8)
+77cf8600          USER32!_SEH_epilog (__SEH_epilog)
+77d0f63a          USER32!NtUserGetUpdateRgn (_NtUserGetUpdateRgn@12)
+77d3153f          USER32!MLSize (_MLSize@8)
+77d3882b          USER32!__fnSENTDDEMSG (___fnSENTDDEMSG@4)
+77d3d88b          USER32!DbcsCombine (_DbcsCombine@8)
+77d0e4a9          USER32!CreateWindowExA (_CreateWindowExA@48)
+77cf1388          USER32!_imp__GlobalDeleteAtom = <no type information>
+77cf1244          USER32!_imp__GetCPInfo = <no type information>
+77cf12f0          USER32!_imp__DelayLoadFailureHook = <no type information>
+77cf1238          USER32!_imp__Sleep = <no type information>
+77d09507          USER32!MapWindowPoints (_MapWindowPoints@16)
+77cfe03c          USER32!EnumDisplayDevicesW (_EnumDisplayDevicesW@16)
+77d37819          USER32!InitiateEnumerationProc (_InitiateEnumerationProc@8)
+77d14f47          USER32!SLSetFocus (_SLSetFocus@4)
+77d35401          USER32!Map8 (_Map8@4)
+77d0e7ea          USER32!AdjustWindowRectEx (_AdjustWindowRectEx@16)
+77d41a47          USER32!LaunchHelp (_LaunchHelp@4)
+77d43b64          USER32!DlgDirSelectExW (_DlgDirSelectExW@16)
+77d08db2          USER32!RealDefWindowProcW (_RealDefWindowProcW@16)
+77cf1410          USER32!_imp__CsrFreeCaptureBuffer = <no type information>
+77d170de          USER32!LBGetItemRect (_LBGetItemRect@12)
+77d517c8          USER32!gphn = <no type information>
+77d36168          USER32!SetProgmanWindow (_SetProgmanWindow@4)
+77d36bc9          USER32!ScrollBarWndProcA (_ScrollBarWndProcA@16)
+77cfcedd          USER32!PathIsUNC (_PathIsUNC@4)
+77cf9d69          USER32!LoadCursorW (_LoadCursorW@8)
+77d4d98e          USER32!PathFindFileName (_PathFindFileName@8)
+77d4ce22          USER32!NtUserRegisterTasklist (_NtUserRegisterTasklist@4)
+77d4ce86          USER32!NtUserSetImeOwnerWindow (_NtUserSetImeOwnerWindow@8)
+77d0c8da          USER32!CharPrevA (_CharPrevA@8)
+77d0a1c7          USER32!CalcWakeMask (_CalcWakeMask@12)
+77d1d06c          USER32!DrawIcon (_DrawIcon@16)
+77d51b30          USER32!gatomReaderMode = <no type information>
+77d1e940          USER32!DrawFrameControl (_DrawFrameControl@16)
+77d10094          USER32!RemovePropA (_RemovePropA@8)
+77d4b42f          USER32!fakeImm_wd3 (_fakeImm_wd3@12)
+77d1ae14          USER32!MB_AddPushButtons (_MB_AddPushButtons@16)
+77d41e60          USER32!InternalDdeQueryString (_InternalDdeQueryString@20)
+77d514c8          USER32!gcyGray = <no type information>
+77d517d0          USER32!szMS_WINHELP = <no type information>
+77d3d6c8          USER32!ECCopy (_ECCopy@4)
+77d403cd          USER32!MLSetSelection (_MLSetSelection@16)
+77cf1498          USER32!_imp__wcsncat = <no type information>
+77d4cf26          USER32!NtUserSetSystemCursor (_NtUserSetSystemCursor@8)
+77d013b3          USER32!SetUserObjectSecurity (_SetUserObjectSecurity@12)
+77cfe443          USER32!GetWindowRgn (_GetWindowRgn@8)
+77cf13a4          USER32!_imp__HeapFree = <no type information>
+77d452ff          USER32!GetMenuContextHelpId (_GetMenuContextHelpId@4)
+77d51550          USER32!gdwEMIControl = <no type information>
+77cf1028          USER32!_imp__ExcludeClipRect = <no type information>
+77cfae3f          USER32!CharUpperBuffA (_CharUpperBuffA@8)
+77d355f6          USER32!EnumPropsW (_EnumPropsW@8)
+77d497d7          USER32!ClStartRequest (_ClStartRequest@4)
+77d0a8c9          USER32!GetUpdateRect (_GetUpdateRect@12)
+77d3794f          USER32!SetCommonStateFlags (_SetCommonStateFlags@12)
+77d51e4c          USER32!pfnWowTask16SchedNotify = <no type information>
+77cf10bc          USER32!_imp__GetTextColor = <no type information>
+77d4bb26          USER32!ImeWndDestroyHandler (_ImeWndDestroyHandler@4)
+77d35b35          USER32!GrayStringW (_GrayStringW@36)
+77d11b70          USER32!NtUserCallMsgFilter (_NtUserCallMsgFilter@8)
+77d38b0f          USER32!__fnINLPCOMPAREITEMSTRUCT (___fnINLPCOMPAREITEMSTRUCT@4)
+77cf12a4          USER32!_imp__lstrlenW = <no type information>
+77d11211          USER32!SetWindowsHookExA (_SetWindowsHookExA@16)
+77cf11a4          USER32!_imp__GetDeviceCaps = <no type information>
+77d51720          USER32!ButtonLookaside = <no type information>
+77d2f411          USER32!fnHkINLPCWPSTRUCTA (_fnHkINLPCWPSTRUCTA@20)
+77cf10e8          USER32!_imp__OffsetWindowOrgEx = <no type information>
+77d02156          USER32!AnimateWindow (_AnimateWindow@12)
+77d4ca92          USER32!NtUserBuildPropList (_NtUserBuildPropList@16)
+77d0d32a          USER32!NtUserDestroyCursor (_NtUserDestroyCursor@8)
+77cf1104          USER32!_imp__SelectPalette = <no type information>
+77cfc035          USER32!ObjectFromDIBResource (_ObjectFromDIBResource@24)
+77d110d5          USER32!GetPrevPwnd (_GetPrevPwnd@8)
+77d39253          USER32!__ClientDeliverUserApc (___ClientDeliverUserApc@4)
+77d0853b          USER32!EnumDesktopsW (_EnumDesktopsW@12)
+77cf85c0          USER32!_SEH_prolog (__SEH_prolog)
+77d3a3fb          USER32!UserLpkTabbedTextOut (_UserLpkTabbedTextOut@48)
+77d1bf84          USER32!xxxFindString (_xxxFindString@20)
+77d11626          USER32!CharToOemBuffA (_CharToOemBuffA@12)
+77d09cba          USER32!SetRectEmpty (_SetRectEmpty@4)
+77d0cb79          USER32!GdiConvertAndCheckDC (_GdiConvertAndCheckDC@4)
+77d103a8          USER32!BringWindowToTop (_BringWindowToTop@4)
+77d16ab5          USER32!xxxLBInsertItem (_xxxLBInsertItem@16)
+77cf3858          USER32!aFullWidthHalfWidthVariants_EndBreak = <no type information>
+77d3cd98          USER32!ECSetIMEMenu (_ECSetIMEMenu@12)
+77d4cdd2          USER32!NtUserQueryUserCounters (_NtUserQueryUserCounters@20)
+77d512ec          USER32!pfnLockResource = <no type information>
+77d0f2f2          USER32!NtUserShowScrollBar (_NtUserShowScrollBar@12)
+77d38b8b          USER32!__fnPOPTINLPUINT (___fnPOPTINLPUINT@4)
+77cf2ecc          USER32!szEDITCLASS = <no type information>
+77d301be          USER32!WowServerLoadCreateCursorIcon (_WowServerLoadCreateCursorIcon@32)
+77cf10f0          USER32!_imp__ExtTextOutW = <no type information>
+77d47a48          USER32!LoadReasonStrings (_LoadReasonStrings@12)
+77cf1200          USER32!_imp__SearchPathW = <no type information>
+77d17cae          USER32!IsEmptyString (_IsEmptyString@8)
+77d334e3          USER32!xxxCBGetTextHelper (_xxxCBGetTextHelper@16)
+77d44dfc          USER32!ScrollChildren (_ScrollChildren@12)
+77d45215          USER32!TileWindows (_TileWindows@20)
+77d10ecc          USER32!CreateLocalMemHandle (_CreateLocalMemHandle@4)
+77d3b538          USER32!FixupDdeExecuteIfNecessary (_FixupDdeExecuteIfNecessary@8)
+77cf1000          USER32!_imp__GetClipRgn = <no type information>
+77d199fa          USER32!xxxInvertLBItem (_xxxInvertLBItem@12)
+77d36d58          USER32!ValidateWIDTHBYTES_Dword (_ValidateWIDTHBYTES_Dword@4)
+77d065b7          USER32!DefShortToInt (_DefShortToInt@4)
+77cf20d8          USER32!mpTypeCcmd = <no type information>
+77d4caba          USER32!NtUserDdeSetQualityOfService (_NtUserDdeSetQualityOfService@12)
+77d51884          USER32!fpLpkEditControl = <no type information>
+77d027a1          USER32!bCheckIfDualBootingWithWin31 (_bCheckIfDualBootingWithWin31@0)
+77d51540          USER32!ghbrWindowText = <no type information>
+77d0490e          USER32!InternalDialogBox (_InternalDialogBox@24)
+77d38e15          USER32!__ClientWaitMessageExMPH (___ClientWaitMessageExMPH@4)
+77cf8500          USER32!NtUserValidateHandleSecure (_NtUserValidateHandleSecure@8)
+77d2fc72          USER32!InvertRect (_InvertRect@8)
+77d0f0f4          USER32!GetMenuItemInfoInternalA (_GetMenuItemInfoInternalA@16)
+77cf1360          USER32!_imp__WideCharToMultiByte = <no type information>
+77d519f4          USER32!idtVtbl = <no type information>
+77d09be2          USER32!NtUserGetCPD (_NtUserGetCPD@12)
+77d0757b          USER32!DialogBox2 (_DialogBox2@16)
+77d10833          USER32!DefFrameProcW (_DefFrameProcW@20)
+77d4434a          USER32!MDIActivateDlgSize (_MDIActivateDlgSize@12)
+77cf14c4          USER32!_imp__RtlOpenCurrentUser = <no type information>
+77d49c07          USER32!FChildVisible (_FChildVisible@4)
+77cf14d8          USER32!_imp__RtlInitUnicodeString = <no type information>
+77cf1030          USER32!_imp__GdiGetBitmapBitsSize = <no type information>
+77d4cc96          USER32!NtUserGetPriorityClipboardFormat (_NtUserGetPriorityClipboardFormat@8)
+77cff83e          USER32!GetMenuItemInfoInternalW (_GetMenuItemInfoInternalW@16)
+77d4caf6          USER32!NtUserDrawAnimatedRects (_NtUserDrawAnimatedRects@16)
+77cf13ec          USER32!_imp__strrchr = <no type information>
+77d4cbce          USER32!NtUserGetCursorInfo (_NtUserGetCursorInfo@4)
+77d123b0          USER32!xxxBNInitDC (_xxxBNInitDC@8)
+77d0b29e          USER32!NtUserMoveWindow (_NtUserMoveWindow@24)
+77d118ac          USER32!NtUserUnhookWinEvent (_NtUserUnhookWinEvent@4)
+77d471ea          USER32!ReaderWndProc (_ReaderWndProc@16)
+77d1aa86          USER32!EndTaskModalDialog (_EndTaskModalDialog@4)
+77d48099          USER32!xxxNextAniIconStep (_xxxNextAniIconStep@4)
+77d1821e          USER32!GetMaxOverlapChars (_GetMaxOverlapChars@0)
+77d3c2e4          USER32!ECImmSetCompositionFont (_ECImmSetCompositionFont@4)
+77d369a0          USER32!DesktopWndProcW (_DesktopWndProcW@16)
+77d51230          USER32!gcLoadUserApiHook = <no type information>
+77d18d59          USER32!QueryFontAssocStatus (_QueryFontAssocStatus@0)
+77cff716          USER32!NtUserRemoveMenu (_NtUserRemoveMenu@12)
+77cf929b          USER32!PeekMessageW (_PeekMessageW@20)
+77d517cc          USER32!pfnWowEmptyClipBoard = <no type information>
+77d4e2cd          USER32!GetActivePwrScheme (_GetActivePwrScheme@4)
+77d2feec          USER32!__fnINLPDRAWITEMSTRUCT (___fnINLPDRAWITEMSTRUCT@4)
+77d0cf26          USER32!RtlInitLargeUnicodeString (_RtlInitLargeUnicodeString@12)
+77d0c42b          USER32!GetWindowBorders (_GetWindowBorders@16)
+77d46a66          USER32!fnEMGETSEL (_fnEMGETSEL@28)
+77cf9662          USER32!GetInputBits (_GetInputBits@12)
+77d0a340          USER32!PeekMessageA (_PeekMessageA@20)
+77d4baa9          USER32!SyncSoftKbdState (_SyncSoftKbdState@8)
+77d41853          USER32!InternalFreeDataHandle (_InternalFreeDataHandle@8)
+77d06e93          USER32!GetACPCharSet (_GetACPCharSet@0)
+77d097ff          USER32!IsIconic (_IsIconic@4)
+77d09bf6          USER32!GetKeyboardLayout (_GetKeyboardLayout@4)
+77d135b5          USER32!ECCalcChangeSelection (_ECCalcChangeSelection@20)
+77d1d98b          USER32!GetImmFileName (_GetImmFileName@4)
+77d20156          USER32!NtUserGetControlColor (_NtUserGetControlColor@16)
+77d070c8          USER32!BNSetFont (_BNSetFont@12)
+77d516e0          USER32!StaticLookaside = <no type information>
+77d4cc6e          USER32!NtUserGetMenuItemRect (_NtUserGetMenuItemRect@16)
+77cf126c          USER32!_imp__GetSystemWindowsDirectoryW = <no type information>
+77d3948d          USER32!__ClientWOWTask16SchedNotify (___ClientWOWTask16SchedNotify@4)
+77d3715c          USER32!xxxCBInvertStaticWindow (_xxxCBInvertStaticWindow@12)
+77d17563          USER32!SLPaint (_SLPaint@8)
+77d51820          USER32!pfnLocalLock = <no type information>
+77d3f229          USER32!MLKeyDown (_MLKeyDown@12)
+77d3876c          USER32!__fnDWORDOPTINLPMSG (___fnDWORDOPTINLPMSG@4)
+77d514b8          USER32!ghdcGray = <no type information>
+77d4e2df          USER32!_tailMerge_WINSTA (__tailMerge_WINSTA)
+77d00338          USER32!ValidateHSZ (_ValidateHSZ@4)
+77cf10e4          USER32!_imp__SaveDC = <no type information>
+77cf1130          USER32!_imp__GetStockObject = <no type information>
+77cf12e0          USER32!_imp__GlobalFindAtomA = <no type information>
+77d34716          USER32!BNMultiDraw (_BNMultiDraw@20)
+77d51028          USER32!_imp__OpenProcessToken = <no type information>
+77d0e80a          USER32!NtUserGetClassInfo (_NtUserGetClassInfo@20)
+77cf1024          USER32!_imp__GetBoundsRect = <no type information>
+77d0ce26          USER32!__fnINLPCREATESTRUCT (___fnINLPCREATESTRUCT@4)
+77d08559          USER32!OpenDesktopW (_OpenDesktopW@16)
+77d00e1e          USER32!NtUserSetImeHotKey (_NtUserSetImeHotKey@20)
+77d0bd0d          USER32!__fnINOUTLPWINDOWPOS (___fnINOUTLPWINDOWPOS@4)
+77d03c2f          USER32!UserCallDlgProcCheckWow (_UserCallDlgProcCheckWow@32)
+77d4e410          USER32!_sz_MSIMG32 = <no type information>
+77d11290          USER32!GetClipboardFormatNameA (_GetClipboardFormatNameA@12)
+77d17775          USER32!ECEmptyUndo (_ECEmptyUndo@4)
+77d12369          USER32!OpenDesktopA (_OpenDesktopA@16)
+77d114ba          USER32!GetMenu (_GetMenu@4)
+77d36646          USER32!InitializeLpkHooks (_InitializeLpkHooks@4)
+77cf9bba          USER32!FindExistingCursorIcon (_FindExistingCursorIcon@12)
+77cfb910          USER32!RegisterWaitForInputIdle (_RegisterWaitForInputIdle@4)
+77d1cd39          USER32!xxxLBoxDrawItem (_xxxLBoxDrawItem@20)
+77d51800          USER32!ListboxLookaside = <no type information>
+77d0b341          USER32!DispatchHookW (_DispatchHookW@16)
+77d38b8b          USER32!__fnINLPHELPINFOSTRUCT (___fnINLPHELPINFOSTRUCT@4)
+77d4b930          USER32!ImeBroadCastMsg (_ImeBroadCastMsg@16)
+77d0f1a8          USER32!NtUserVkKeyScanEx (_NtUserVkKeyScanEx@12)
+77d3f0cc          USER32!MLPasteText (_MLPasteText@4)
+77d0b0cf          USER32!IsServerSideWindow (_IsServerSideWindow@4)
+77d30838          USER32!MessageBoxExW (_MessageBoxExW@20)
+77d0ca5a          USER32!PostQuitMessage (_PostQuitMessage@4)
+77cf145c          USER32!_imp__NtDeleteValueKey = <no type information>
+77d48cbe          USER32!SpontaneousClientMessage (_SpontaneousClientMessage@12)
+77d38728          USER32!__fnOUTDWORDDWORD (___fnOUTDWORDDWORD@4)
+77cf11bc          USER32!_imp__GetBkColor = <no type information>
+77cfb9b2          USER32!ConvertDIBBitmap (_ConvertDIBBitmap@24)
+77d44924          USER32!ValidatePositionableWindow (_ValidatePositionableWindow@24)
+77cf3190          USER32!szDMREnable = <no type information>
+77d0792d          USER32!_DefSetText (__DefSetText@12)
+77d3fd7c          USER32!SLMouseMotion (_SLMouseMotion@16)
+77d0f4f1          USER32!GetClassLongA (_GetClassLongA@8)
+77d390d1          USER32!__ClientLpkDrawTextEx (___ClientLpkDrawTextEx@4)
+77d33e74          USER32!ReadIconGuts (_ReadIconGuts@28)
+77d0ce12          USER32!NtUserSetLayeredWindowAttributes (_NtUserSetLayeredWindowAttributes@16)
+77d5125c          USER32!pfnFreeResource = <no type information>
+77cf1234          USER32!_imp__FoldStringW = <no type information>
+77d14b66          USER32!SLChangeSelection (_SLChangeSelection@16)
+77d4083c          USER32!ExtractIconFromBMP (_ExtractIconFromBMP@24)
+77d042a8          USER32!DDEMLMotherWndProc (_DDEMLMotherWndProc@16)
+77cf12fc          USER32!_imp__TerminateProcess = <no type information>
+77d15dd7          USER32!xxxLBSize (_xxxLBSize@12)
+77d51e44          USER32!gpfnOLERegisterDD = <no type information>
+77d35212          USER32!DdeEnableCallback (_DdeEnableCallback@12)
+77d167d8          USER32!xxxLBShowHideScrollBars (_xxxLBShowHideScrollBars@4)
+77d08157          USER32!SetWindowsHookExAW (_SetWindowsHookExAW@20)
+77cf14a0          USER32!_imp__NtQuerySecurityObject = <no type information>
+77d11464          USER32!LoadKeyboardLayoutW (_LoadKeyboardLayoutW@8)
+77d1ba10          USER32!xxxCBKillFocusHelper (_xxxCBKillFocusHelper@4)
+77d1742b          USER32!xxxCBPaint (_xxxCBPaint@8)
+77d17ae3          USER32!ECGetDBCSVector (_ECGetDBCSVector@12)
+77d0fb6b          USER32!SendMessageTimeoutA (_SendMessageTimeoutA@28)
+77d36180          USER32!GetWindowContextHelpId (_GetWindowContextHelpId@4)
+77d0b43c          USER32!DrawTextExWorker (_DrawTextExWorker@28)
+77d0d9e2          USER32!NtUserGetIconSize (_NtUserGetIconSize@16)
+77cf1220          USER32!_imp__ExitThread = <no type information>
+77d33dbf          USER32!ReadChunk (_ReadChunk@12)
+77d0e37d          USER32!NtUserCreateWindowEx (_NtUserCreateWindowEx@60)
+77cf84e0          USER32!ValidateHwnd (@ValidateHwnd@4)
+77d1c739          USER32!DrawTextExA (_DrawTextExA@24)
+77d00a0c          USER32!GetKeyboardDllName1 (_GetKeyboardDllName1@16)
+77d51040          USER32!_imp__SetActivePwrScheme = <no type information>
+77d0b8ca          USER32!DT_GetExtentMinusPrefixes (_DT_GetExtentMinusPrefixes@28)
+77d4cb0a          USER32!NtUserDrawCaption (_NtUserDrawCaption@16)
+77d40be8          USER32!vAddLocalType1Font (_vAddLocalType1Font@20)
+77d3c177          USER32!ECIsCharNumeric (_ECIsCharNumeric@8)
+77d1f46a          USER32!SwitchWindowsMenus (_SwitchWindowsMenus@12)
+77d512b8          USER32!gfFirstThread = <no type information>
+77d32f61          USER32!DrawDiagonal (_DrawDiagonal@20)
+77d4e18a          USER32!GdiConvertEnhMetaFile (_GdiConvertEnhMetaFile@4)
+77d0cf8e          USER32!__ClientWOWGetProcModule (___ClientWOWGetProcModule@4)
+77d0f67e          USER32!ValidateRgn (_ValidateRgn@8)
+77d35e37          USER32!CreateDesktopA (_CreateDesktopA@24)
+77d3564f          USER32!EnumWindowStationsW (_EnumWindowStationsW@8)
+77d518c0          USER32!gfConIme = <no type information>
+77d10116          USER32!OemToCharBuffA (_OemToCharBuffA@12)
+77cf1094          USER32!_imp__GetCharWidthInfo = <no type information>
+77cf2568          USER32!pfnClientWorker = <no type information>
+77d09b60          USER32!ClientToScreen (_ClientToScreen@8)
+77d097a0          USER32!ScreenToClient (_ScreenToClient@8)
+77d00366          USER32!IncLocalAtomCount (_IncLocalAtomCount@4)
+77d40c00          USER32!bCheckAndDeleteTTF (_bCheckAndDeleteTTF@20)
+77d11553          USER32!LoadAcceleratorsA (_LoadAcceleratorsA@8)
+77d4962d          USER32!ClStartUnadvise (_ClStartUnadvise@4)
+77cfd354          USER32!CreateIconFromResourceEx (_CreateIconFromResourceEx@28)
+77d0a97d          USER32!CallWindowProcA (_CallWindowProcA@20)
+77d36114          USER32!SetShellWindow (_SetShellWindow@4)
+77cf11d4          USER32!_imp__GdiProcessSetup = <no type information>
+77d08687          USER32!NtUserCallHwnd (_NtUserCallHwnd@8)
+77d195b2          USER32!LBGetText (_LBGetText@20)
+77cf1208          USER32!_imp__LoadLibraryExW = <no type information>
+77cf9f06          USER32!SystemParametersInfoW (_SystemParametersInfoW@16)
+77d4cbe2          USER32!NtUserGetGuiResources (_NtUserGetGuiResources@8)
+77d0ede3          USER32!LoadAcc (_LoadAcc@8)
+77d166e9          USER32!xxxCBMessageItemHandler (_xxxCBMessageItemHandler@12)
+77d3a5b6          USER32!TabbedTextOutW (_TabbedTextOutW@32)
+77cffe08          USER32!UnregisterMessagePumpHook (_UnregisterMessagePumpHook@0)
+77d03e6c          USER32!GetParentDialog (_GetParentDialog@4)
+77d4e1cc          USER32!_imp_load__RegSetValueExW (__imp_load__RegSetValueExW@24)
+77d3d226          USER32!ECMenu (_ECMenu@12)
+77d40ee2          USER32!ApplyFunctionToObjects (_ApplyFunctionToObjects@12)
+77d09823          USER32!NtUserGetForegroundWindow (_NtUserGetForegroundWindow@0)
+77cf1260          USER32!_imp__ReadFile = <no type information>
+77d0bc14          USER32!PSMTextOut (_PSMTextOut@24)
+77d40e5a          USER32!GetHandleData (_GetHandleData@4)
+77d0e5a2          USER32!RtlCaptureLargeAnsiString (_RtlCaptureLargeAnsiString@12)
+77d13bd4          USER32!ECNotifyParent (_ECNotifyParent@8)
+77d51088          USER32!gcCallUserApiHook = <no type information>
+77d0d7e2          USER32!DrawTextW (_DrawTextW@20)
+77d47716          USER32!ReasonCodeNeedsBugID (_ReasonCodeNeedsBugID@4)
+77d4df1e          USER32!_W32ExceptionHandler (__W32ExceptionHandler@4)
+77d1fe8d          USER32!DestroyAcceleratorTable (_DestroyAcceleratorTable@4)
+77cf12f8          USER32!_imp__GetSystemTimeAsFileTime = <no type information>
+77d4a5b6          USER32!LinkTransaction (_LinkTransaction@4)
+77d2f9f5          USER32!__ClientGetListboxString (___ClientGetListboxString@4)
+77d0af56          USER32!NtUserShowWindow (_NtUserShowWindow@8)
+77d36201          USER32!SwapMouseButton (_SwapMouseButton@4)
+77d4b457          USER32!InitializeImmEntryTable (_InitializeImmEntryTable@0)
+77d1049b          USER32!MDIClientWndProcW (_MDIClientWndProcW@16)
+77cf9a3d          USER32!NtUserGetThreadDesktop (_NtUserGetThreadDesktop@8)
+77d51250          USER32!fpLpkPSMTextOut = <no type information>
+77d483a9          USER32!ExtractDDEDataInfo (_ExtractDDEDataInfo@12)
+77d517a4          USER32!pciiList = <no type information>
+77d139c4          USER32!ECInitInsert (_ECInitInsert@8)
+77cf1120          USER32!_imp__DeleteDC = <no type information>
+77d054c9          USER32!StaticCallback (_StaticCallback@20)
+77d35f5e          USER32!CascadeChildWindows (_CascadeChildWindows@8)
+77d498dc          USER32!AddLink (_AddLink@16)
+77d4cefe          USER32!NtUserSetRipFlags (_NtUserSetRipFlags@8)
+77d4b6b1          USER32!CreateIMEUI (_CreateIMEUI@8)
+77d0a928          USER32!NtUserGetCaretBlinkTime (_NtUserGetCaretBlinkTime@0)
+77d3bf27          USER32!GetNextDlgGroupItem (_GetNextDlgGroupItem@12)
+77d4b427          USER32!fakeImm_dv1 (_fakeImm_dv1@0)
+77cf9b86          USER32!GetIcoCurHeight (_GetIcoCurHeight@16)
+77d4b88f          USER32!SendOpenStatusNotify (_SendOpenStatusNotify@12)
+77d17c09          USER32!ECCreate (_ECCreate@8)
+77cf123c          USER32!_imp__GetStringTypeW = <no type information>
+77cf14ac          USER32!_imp__wcslen = <no type information>
+77d47ed8          USER32!DestroyReasons (_DestroyReasons@4)
+77d2faf5          USER32!WaitForInputIdle (_WaitForInputIdle@8)
+77d471ae          USER32!ReaderFeedback (_ReaderFeedback@8)
+77d48979          USER32!SvSpontExecute (_SvSpontExecute@8)
+77d2f710          USER32!InsertMenuItemA (_InsertMenuItemA@16)
+77d38d17          USER32!__fnHkINLPRECT (___fnHkINLPRECT@4)
+77d44799          USER32!ArrangeWindows (_ArrangeWindows@24)
+77d08e17          USER32!TestWindowProcess (_TestWindowProcess@4)
+77d36003          USER32!GetDialogBaseUnits (_GetDialogBaseUnits@0)
+77d38efb          USER32!__ClientCopyDDEIn2 (___ClientCopyDDEIn2@4)
+77d20373          USER32!StringDuplicateW (_StringDuplicateW@4)
+77d2f20b          USER32!ModifyMenuA (_ModifyMenuA@20)
+77d03654          USER32!BroadcastSystemMessageExW (_BroadcastSystemMessageExW@24)
+77cfa13e          USER32!__ClientThreadSetup (___ClientThreadSetup@4)
+77d4caa6          USER32!NtUserDdeGetQualityOfService (_NtUserDdeGetQualityOfService@12)
+77d38bdc          USER32!__fnINLPKDRAWSWITCHWND (___fnINLPKDRAWSWITCHWND@4)
+77d47df6          USER32!BuildReasonArray (_BuildReasonArray@12)
+77d39f91          USER32!DisplayExitWindowsWarnings (_DisplayExitWindowsWarnings@4)
+77d09682          USER32!_GetWindow (__GetWindow@8)
+77d45ef8          USER32!LogMessageBox (_LogMessageBox@4)
+77d047ab          USER32!DialogBoxParamW (_DialogBoxParamW@20)
+77d12434          USER32!BNCalcRect (_BNCalcRect@20)
+77d366c8          USER32!ValidateMENUINFO (_ValidateMENUINFO@8)
+77d11750          USER32!StringDuplicateA (_StringDuplicateA@4)
+77d370bc          USER32!CreateIcon (_CreateIcon@28)
+77cf2408          USER32!pwszFontsKey = <no type information>
+77cfb709          USER32!InitClientDrawing (_InitClientDrawing@0)
+77d01b8a          USER32!SetWindowsHookW (_SetWindowsHookW@8)
+77d4a2df          USER32!UpdateLinkIfChanged (_UpdateLinkIfChanged@24)
+77d40dcd          USER32!GetRawInputBuffer (_GetRawInputBuffer@12)
+77d1a2df          USER32!SoftModalMessageBox (_SoftModalMessageBox@4)
+77cf3748          USER32!aASCII_Latin1_EndBreak = <no type information>
+77d45704          USER32!__ClientRegisterDragDrop (___ClientRegisterDragDrop@4)
+77d40f50          USER32!GetFullUserHandle (_GetFullUserHandle@4)
+77cfc78c          USER32!DIBFromBitmap (_DIBFromBitmap@8)
+77cf112c          USER32!_imp__CreateSolidBrush = <no type information>
+77d12f35          USER32!_PrevControl (__PrevControl@12)
+77d38eb9          USER32!__ClientCopyDDEIn1 (___ClientCopyDDEIn1@4)
+77d518a8          USER32!awchSlashStar = <no type information>
+77d0a5ae          USER32!EnumWindows (_EnumWindows@8)
+77d41b57          USER32!HelpMenu (_HelpMenu@8)
+77d0796b          USER32!NtUserDefSetText (_NtUserDefSetText@8)
+77d44645          USER32!MDIActivateDlgProcW (_MDIActivateDlgProcW@16)
+77d3339a          USER32!GetResourceTableNE (_GetResourceTableNE@4)
+77d46e31          USER32!CharToOemBuffW (_CharToOemBuffW@12)
+77d4cb6c          USER32!NtUserEvent (_NtUserEvent@4)
+77d1ef65          USER32!FindWinHelpWindow (_FindWinHelpWindow@12)
+77d0c595          USER32!NtUserGetDCEx (_NtUserGetDCEx@12)
+77d03a91          USER32!ValidateDialogPwnd (_ValidateDialogPwnd@4)
+77d36568          USER32!fnHkINLPCWPSTRUCTW (_fnHkINLPCWPSTRUCTW@20)
+77d0ec03          USER32!__ClientLoadMenu (___ClientLoadMenu@4)
+77cf1008          USER32!_imp__GetHFONT = <no type information>
+77cf135c          USER32!_imp__WaitForMultipleObjectsEx = <no type information>
+77d176de          USER32!ECResetTextInfo (_ECResetTextInfo@4)
+77d517a8          USER32!aHandleEntry = <no type information>
+77cf12bc          USER32!_imp__ProcessIdToSessionId = <no type information>
+77cf1048          USER32!_imp__SetTextCharacterExtra = <no type information>
+77cf1204          USER32!_imp__ExpandEnvironmentStringsW = <no type information>
+77cfa823          USER32!SP_Reverse (_SP_Reverse@8)
+77d33df9          USER32!SkipChunk (_SkipChunk@8)
+77d4b57e          USER32!ImeRunHelp (_ImeRunHelp@4)
+77d0d2c4          USER32!EnableMenuItem (_EnableMenuItem@12)
+77d0c2e8          USER32!GetActiveWindow (_GetActiveWindow@0)
+77d512d8          USER32!ghdcBits2 = <no type information>
+77d517b8          USER32!cInstAllocated = <no type information>
+77d5188c          USER32!pfnLocalAlloc = <no type information>
+77cfd436          USER32!MixRGB (_MixRGB@24)
+77cf1228          USER32!_imp__CreateThread = <no type information>
+77d06048          USER32!InternalCreateDialog (_InternalCreateDialog@28)
+77d1a147          USER32!MessageBoxWorker (_MessageBoxWorker@4)
+77cf106c          USER32!_imp__GetPaletteEntries = <no type information>
+77d0c408          USER32!UserTextOutWInternal (_UserTextOutWInternal@24)
+77d36414          USER32!AllowForegroundActivation (_AllowForegroundActivation@0)
+77cf32c0          USER32!IID_IDropTarget = <no type information>
+77cf9aa4          USER32!UnregisterClassW (_UnregisterClassW@8)
+77cf1250          USER32!_imp__UnmapViewOfFile = <no type information>
+77d12dad          USER32!xxxGNM_FindNextMnem (_xxxGNM_FindNextMnem@12)
+77d1f951          USER32!MDICompleteChildCreation (_MDICompleteChildCreation@16)
+77d41bac          USER32!EnumHwndDlgChildProc (_EnumHwndDlgChildProc@8)
+77cf136c          USER32!_imp__GlobalFree = <no type information>
+77cf1268          USER32!_imp__GetFileTime = <no type information>
+77cf13c8          USER32!NlsAnsiCodePage = <no type information>
+77d089a3          USER32!UnregisterClassA (_UnregisterClassA@8)
+77d47a9e          USER32!BuildPredefinedReasonArray (_BuildPredefinedReasonArray@12)
+77d3602f          USER32!GetClientKeyboardType (_GetClientKeyboardType@4)
+77d456b2          USER32!mndtDrop (_mndtDrop@24)
+77d517a0          USER32!nextId = <no type information>
+77cff60e          USER32!InsertMenuW (_InsertMenuW@20)
+77d0290b          USER32!vFontSweep (_vFontSweep@0)
+77d355d9          USER32!EnumPropsA (_EnumPropsA@8)
+77d04f95          USER32!NtUserGetControlBrush (_NtUserGetControlBrush@12)
+77d0b0f0          USER32!EnumChildWindows (_EnumChildWindows@12)
+77cf12dc          USER32!_imp__lstrlenA = <no type information>
+77d205d0          USER32!_local_unwind2 (__local_unwind2)
+77d0c821          USER32!HMValidateHandleNoSecure (@HMValidateHandleNoSecure@8)
+77d0b126          USER32!IsWindowInDestroy (_IsWindowInDestroy@4)
+77d11b5c          USER32!NtUserFillWindow (_NtUserFillWindow@16)
+77d4289a          USER32!xxxLBButtonUp (_xxxLBButtonUp@8)
+77cfedd8          USER32!LoadLocalFonts (_LoadLocalFonts@0)
+77d0a59a          USER32!NtUserBuildHwndList (_NtUserBuildHwndList@28)
+77cf1314          USER32!_imp__GetACP = <no type information>
+77d0fa56          USER32!UserRealizePalette (_UserRealizePalette@4)
+77d4d6dc          USER32!DrawMenuMark (_DrawMenuMark@16)
+77d51790          USER32!pdiLocal = <no type information>
+77d3843b          USER32!DdeDisconnectList (_DdeDisconnectList@4)
+77cf12d8          USER32!_imp__GetTickCount = <no type information>
+77cf9216          USER32!CharUpperBuffW (_CharUpperBuffW@8)
+77d35199          USER32!EnableEnumProc (_EnableEnumProc@8)
+77d3e27c          USER32!MLShiftchLines (_MLShiftchLines@12)
+77cf10c4          USER32!_imp__GetViewportExtEx = <no type information>
+77d09849          USER32!EnableWindow (_EnableWindow@8)
+77d51054          USER32!_imp__WinStationSendMessageW = <no type information>
+77d065d6          USER32!WordSkipSz (_WordSkipSz@4)
+77d468e7          USER32!fnINPAINTCLIPBRD (_fnINPAINTCLIPBRD@28)
+77d10f9e          USER32!SetClipboardData (_SetClipboardData@8)
+77d162be          USER32!CItemInWindow (_CItemInWindow@8)
+77d13cbe          USER32!SLDrawLine (_SLDrawLine@28)
+77cfd18d          USER32!ExtractIconFromEXE (_ExtractIconFromEXE@32)
+77cf10e0          USER32!_imp__TranslateCharsetInfo = <no type information>
+77d0489a          USER32!NtUserSetWindowsHookAW (_NtUserSetWindowsHookAW@12)
+77d40b76          USER32!vAddType1Font (_vAddType1Font@8)
+77cf12d4          USER32!_imp__QueryPerformanceFrequency = <no type information>
+77cf97b6          USER32!UserCallWinProc (_UserCallWinProc@24)
+77d42394          USER32!LBGetScrollFlags (_LBGetScrollFlags@8)
+77d2f1c8          USER32!GetMenuItemID (_GetMenuItemID@8)
+77d09400          USER32!_GetProp (__GetProp@12)
+77cfa610          USER32!wvsprintfA (_wvsprintfA@12)
+77d35fc4          USER32!FlashWindow (_FlashWindow@8)
+77d51e48          USER32!gpfnOLEOleUninitialize = <no type information>
+77d0337d          USER32!NtUserShowWindowAsync (_NtUserShowWindowAsync@8)
+77d4b49e          USER32!SendIMEMessageExA (_SendIMEMessageExA@8)
+77cf8eab          USER32!GetSysColorBrush (_GetSysColorBrush@4)
+77d0c29d          USER32!SetWindowLongA (_SetWindowLongA@12)
+77d09011          USER32!OffsetRect (_OffsetRect@12)
+77d34076          USER32!CreateAniIcon (_CreateAniIcon@36)
+77d51030          USER32!_imp__GetTokenInformation = <no type information>
+77cf11f4          USER32!_imp__DisableThreadLibraryCalls = <no type information>
+77d05053          USER32!RepaintButton (_RepaintButton@4)
+77d09766          USER32!NtUserWindowFromPoint (_NtUserWindowFromPoint@8)
+77cf10dc          USER32!_imp__GdiAddFontResourceW = <no type information>
+77cf1304          USER32!_imp__SetUnhandledExceptionFilter = <no type information>
+77d139fa          USER32!ECAdjustIch (_ECAdjustIch@12)
+77d3ba77          USER32!FreeDDElParam (_FreeDDElParam@8)
+77d13000          USER32!EditWndProc (_EditWndProc@16)
+77d0c201          USER32!RealDefWindowProcA (_RealDefWindowProcA@16)
+77d4cd70          USER32!NtUserMenuItemFromPoint (_NtUserMenuItemFromPoint@16)
+77d15eb5          USER32!xxxLBSetFont (_xxxLBSetFont@12)
+77d51224          USER32!pUserHeap = <no type information>
+77d38e83          USER32!__ClientGetDDEFlags (___ClientGetDDEFlags@4)
+77d514c0          USER32!pwcHighContrastScheme = <no type information>
+77d4523c          USER32!SetMenuInfo (_SetMenuInfo@8)
+77d0d64f          USER32!SendNotifyMessageW (_SendNotifyMessageW@16)
+77cf11dc          USER32!_imp__LocalSize = <no type information>
+77d04e2a          USER32!StaticWndProcWorker (_StaticWndProcWorker@20)
+77d094b3          USER32!GetPropW (_GetPropW@8)
+77d30ddc          USER32!MLEditWndProc (_MLEditWndProc@20)
+77cfc721          USER32!CopyBmp (_CopyBmp@16)
+77cf13e4          USER32!_imp__NtRaiseHardError = <no type information>
+77d1fc1c          USER32!CreateMDIChild (_CreateMDIChild@20)
+77cf1098          USER32!_imp__GetCharWidthA = <no type information>
+77d362eb          USER32!fakeImm_wv1 (_fakeImm_wv1@4)
+77d51b2c          USER32!gcOriginalRGBs = <no type information>
+77d3a8f6          USER32!DdeInitializeA (_DdeInitializeA@16)
+77d003d0          USER32!EnableEUDC (_EnableEUDC@4)
+77d3c357          USER32!ECSetCaretHandler (_ECSetCaretHandler@4)
+77d10042          USER32!GetPropA (_GetPropA@8)
+77d3a921          USER32!ProcessDDEMLInitiate (_ProcessDDEMLInitiate@16)
+77d02753          USER32!_alldiv (__alldiv)
+77d082ff          USER32!__ClientFreeLibrary (___ClientFreeLibrary@4)
+77d0a679          USER32!MonitorFromWindow (_MonitorFromWindow@8)
+77cf2248          USER32!szKLFile = <no type information>
+77cf1328          USER32!_imp__GlobalFindAtomW = <no type information>
+77d0851a          USER32!EnumDesktopWindows (_EnumDesktopWindows@12)
+77d20656          USER32!_NLG_Dispatch (__NLG_Dispatch)
+77cf1214          USER32!_imp__GetComputerNameW = <no type information>
+77d4ce72          USER32!NtUserSetDbgTag (_NtUserSetDbgTag@8)
+77d3535c          USER32!GetClassWord (_GetClassWord@8)
+77d1167f          USER32!NtUserCountClipboardFormats (_NtUserCountClipboardFormats@0)
+77d4c29c          USER32!ImeSetImc (_ImeSetImc@8)
+77d09f5e          USER32!NtUserGetKeyState (_NtUserGetKeyState@4)
+77d3957f          USER32!GetClipboardFormatNameW (_GetClipboardFormatNameW@12)
+77d20656          USER32!_NLG_Dispatch2 (__NLG_Dispatch2)
+77cf12c0          USER32!_imp__GetCurrentProcessId = <no type information>
+77d118d1          USER32!DispatchHookA (_DispatchHookA@16)
+77d09944          USER32!NtUserRedrawWindow (_NtUserRedrawWindow@16)
+77cf14a4          USER32!_imp__NtQueryInformationProcess = <no type information>
+77d0c49c          USER32!GetWindowInfo (_GetWindowInfo@8)
+77d03563          USER32!EnumDisplaySettingsExW (_EnumDisplaySettingsExW@16)
+77d0c242          USER32!NtUserSetWindowLong (_NtUserSetWindowLong@16)
+77d4ba58          USER32!IMEIndicatorGetMenuIDData (_IMEIndicatorGetMenuIDData@8)
+77d0a822          USER32!NtUserGetAsyncKeyState (_NtUserGetAsyncKeyState@4)
+77d08ffd          USER32!NtUserEndPaint (_NtUserEndPaint@8)
+77d07f28          USER32!NtUserGetGUIThreadInfo (_NtUserGetGUIThreadInfo@8)
+77d3085c          USER32!MessageBoxExA (_MessageBoxExA@20)
+77cf122c          USER32!_imp__HeapReAlloc = <no type information>
+77d4b443          USER32!fakeImm_wd5 (_fakeImm_wd5@20)
+77d0045c          USER32!InternalDdeCreateStringHandle (_InternalDdeCreateStringHandle@12)
+77cf1c24          USER32!szOneChar = <no type information>
+77d18b1d          USER32!StaticNotifyParent (_StaticNotifyParent@12)
+77d07f3c          USER32!__fnCOPYDATA (___fnCOPYDATA@4)
+77d121e1          USER32!OpenWindowStationA (_OpenWindowStationA@12)
+77d098d5          USER32!InflateRect (_InflateRect@12)
+77d09ae9          USER32!GetClassLongW (_GetClassLongW@8)
+77cf1114          USER32!_imp__CreateDIBitmap = <no type information>
+77d0d7ca          USER32!GdiGetCharDimensions (_GdiGetCharDimensions@12)
+77d41967          USER32!LaunchHelper (_LaunchHelper@8)
+77d3f9cc          USER32!SLMoveSelectionRestricted (_SLMoveSelectionRestricted@12)
+77cf139c          USER32!_imp__GetUserDefaultLCID = <no type information>
+77cf9645          USER32!MsgWaitForMultipleObjectsEx (_MsgWaitForMultipleObjectsEx@20)
+77cf13ac          USER32!_imp__lstrcatW = <no type information>
+77cf14b8          USER32!_imp__RtlUnicodeToMultiByteN = <no type information>
+77d2f5b0          USER32!Scale88 (_Scale88@44)
+77d4b439          USER32!fakeImm_bwuwl (_fakeImm_bwuwl@16)
+77cf1298          USER32!_imp__CompareStringW = <no type information>
+77d0f25b          USER32!GetTopWindow (_GetTopWindow@4)
+77d4666f          USER32!RealDrawCaption (_RealDrawCaption@16)
+77d0ff39          USER32!ScrollWindow (_ScrollWindow@20)
+77cfc1ec          USER32!TrulyMonochrome (_TrulyMonochrome@8)
+77cf1134          USER32!_imp__CreateCompatibleDC = <no type information>
+77d018db          USER32!CliGetPreloadKeyboardLayouts (_CliGetPreloadKeyboardLayouts@4)
+77d454e5          USER32!mndtAddRef (_mndtAddRef@4)
+77d024f7          USER32!_allmul (__allmul)
+77d0afdb          USER32!NtUserDeferWindowPos (_NtUserDeferWindowPos@32)
+77d4034b          USER32!MLLineLength (_MLLineLength@8)
+77cf3468          USER32!szEventKey = <no type information>
+77cfc86c          USER32!CreateIconIndirect (_CreateIconIndirect@4)
+77d1be87          USER32!xxxCBUpdateListBoxWindow (_xxxCBUpdateListBoxWindow@8)
+77d4257c          USER32!xxxResetWorld (_xxxResetWorld@16)
+77d36262          USER32!LoadKeyboardLayoutA (_LoadKeyboardLayoutA@8)
+77cf8cfb          USER32!_UnlockResource (__UnlockResource@8)
+77cf13b0          USER32!_imp__GetPrivateProfileStringW = <no type information>
+77d11e52          USER32!NtUserAttachThreadInput (_NtUserAttachThreadInput@12)
+77d0cdaa          USER32!SendMessageTimeoutW (_SendMessageTimeoutW@28)
+77d4673f          USER32!mouse_event (_mouse_event@20)
+77d51528          USER32!strRootDirectory = <no type information>
+77d02892          USER32!bCheckFontEntry (_bCheckFontEntry@8)
+77d1dd03          USER32!xxxLBSetSel (_xxxLBSetSel@12)
+77cf11a0          USER32!_imp__GetDIBColorTable = <no type information>
+77d067e6          USER32!SkipIDorString (_SkipIDorString@4)
+77cf2f88          USER32!DefaultHotKeyTableJ = <no type information>
+77d08091          USER32!ResetUserApiHook (_ResetUserApiHook@4)
+77d35837          USER32!InnerGrayStringAorW (_InnerGrayStringAorW@40)
+77d519b8          USER32!DefConvContext = <no type information>
+77cf88f1          USER32!DispatchMessageWorker (_DispatchMessageWorker@8)
+77cf9c22          USER32!NtUserFindExistingCursorIcon (_NtUserFindExistingCursorIcon@12)
+77d0b415          USER32!DrawTextExW (_DrawTextExW@24)
+77d01a38          USER32!LoadPreloadKeyboardLayouts (_LoadPreloadKeyboardLayouts@0)
+77d0c133          USER32!NtUserCallHwndParam (_NtUserCallHwndParam@12)
+77d1838d          USER32!ECSetFont (_ECSetFont@12)
+77d0aee5          USER32!NtUserCallHwndLock (_NtUserCallHwndLock@8)
+77d0c5d0          USER32!NtUserInternalGetWindowText (_NtUserInternalGetWindowText@12)
+77d06d2b          USER32!DWordSkipSz (_DWordSkipSz@4)
+77cf1210          USER32!_imp__GetSystemDirectoryW = <no type information>
+77d08344          USER32!ClearUserApiHook (_ClearUserApiHook@4)
+77d4baf4          USER32!ImeCopyDataHandler (_ImeCopyDataHandler@8)
+77d0201f          USER32!ChildWindowFromPoint (_ChildWindowFromPoint@12)
+77d1d416          USER32!_InitializeImmEntryTable (__InitializeImmEntryTable@0)
+77d3bbd0          USER32!CvtDec (_CvtDec@8)
+77d1f5b0          USER32!xxxMDIDestroy (_xxxMDIDestroy@8)
+77d1f4b6          USER32!xxxMDIActivate (_xxxMDIActivate@8)
+77d4cd0e          USER32!NtUserGetWOWClass (_NtUserGetWOWClass@8)
+77cf1310          USER32!_imp__LocalReAlloc = <no type information>
+77d0974e          USER32!GetCursorPos (_GetCursorPos@4)
+77d1232e          USER32!EnumWindowStationsA (_EnumWindowStationsA@8)
+77d454fc          USER32!mndtQueryInterface (_mndtQueryInterface@12)
+77cfda62          USER32!AddAccResource (_AddAccResource@8)
+77d34547          USER32!LoadCursorIconFromFileMap (_LoadCursorIconFromFileMap@24)
+77d0ee76          USER32!LoadAcceleratorsW (_LoadAcceleratorsW@8)
+77d1f1d9          USER32!xxxSetFrameTitle (_xxxSetFrameTitle@12)
+77d0dfe2          USER32!GetScrollInfo (_GetScrollInfo@12)
+77d5122c          USER32!gfUserApiHook = <no type information>
+77d0085e          USER32!DdeNameService (_DdeNameService@16)
+77d0a94e          USER32!NtUserCreateCaret (_NtUserCreateCaret@16)
+77d35b9b          USER32!GetWinStationInfo (_GetWinStationInfo@4)
+77d0a01e          USER32!CallWindowProcW (_CallWindowProcW@20)
+77cf13e0          USER32!_imp__wcsrchr = <no type information>
+77d103db          USER32!NtUserSetWindowWord (_NtUserSetWindowWord@12)
+77cf11f0          USER32!_imp__GetModuleHandleW = <no type information>
+77d0deb2          USER32!SystemParametersInfoA (_SystemParametersInfoA@16)
+77d51828          USER32!pfnLocalSize = <no type information>
+77d03810          USER32!NtUserPrintWindow (_NtUserPrintWindow@12)
+77d2ffc6          USER32!NtUserMinMaximize (_NtUserMinMaximize@12)
+77d4ccbe          USER32!NtUserGetRawInputData (_NtUserGetRawInputData@20)
+77d347af          USER32!BNMultiExtent (_BNMultiExtent@28)
+77d0feea          USER32!MapVirtualKeyA (_MapVirtualKeyA@8)
+77d36816          USER32!RealMDIRedrawFrame (_RealMDIRedrawFrame@8)
+77d37116          USER32!LookupIconIdFromDirectory (_LookupIconIdFromDirectory@8)
+77d1e1f6          USER32!VkKeyScanW (_VkKeyScanW@4)
+77cf1194          USER32!_imp__DeleteEnhMetaFile = <no type information>
+77d45ba3          USER32!MB_CopyToClipboard (_MB_CopyToClipboard@4)
+77cf12b4          USER32!_imp__FindFirstFileW = <no type information>
+77d3dbe8          USER32!ECWord (_ECWord@20)
+77d12f8b          USER32!EditWndProcWorker (_EditWndProcWorker@20)
+77d1d09a          USER32!_tailMerge_MSIMG32 (__tailMerge_MSIMG32)
+77d04dfa          USER32!IsDlgButtonChecked (_IsDlgButtonChecked@8)
+77d14dfb          USER32!SLCalcStringWidth (_SLCalcStringWidth@16)
+77d14e9d          USER32!SLKillFocus (_SLKillFocus@8)
+77d1c702          USER32!DrawTextA (_DrawTextA@20)
+77d4de9f          USER32!xxxMNCanClose (_xxxMNCanClose@4)
+77d0cb3c          USER32!IsMetaFile (_IsMetaFile@4)
+77cff372          USER32!Logon (_Logon@4)
+77d17b75          USER32!SLCreate (_SLCreate@8)
+77cf1038          USER32!_imp__Ellipse = <no type information>
+77cf13c0          USER32!_imp__RtlUnwind = <no type information>
+77d517bc          USER32!iFirstFreeInst = <no type information>
+77d077b8          USER32!PostThreadMessageW (_PostThreadMessageW@16)
+77d36558          USER32!GetRawInputDeviceInfoW (_GetRawInputDeviceInfoW@16)
+77cf8692          USER32!GdiReleaseDC (_GdiReleaseDC@4)
+77d2f989          USER32!MDIClientWndProcA (_MDIClientWndProcA@16)
+77d0b2f6          USER32!CallHookWithSEH (_CallHookWithSEH@16)
+77d1200d          USER32!IsFontNotGood (_IsFontNotGood@12)
+77d3265f          USER32!MLPaint (_MLPaint@12)
+77d45b26          USER32!SendHelpMessage (_SendHelpMessage@24)
+77d0b24c          USER32!CharLowerW (_CharLowerW@4)
+77d19b28          USER32!CreateDialogIndirectParamA (_CreateDialogIndirectParamA@20)
+77cfe4c4          USER32!fnINDEVICECHANGE (_fnINDEVICECHANGE@28)
+77cf1284          USER32!_imp__AddAtomW = <no type information>
+77cf30f0          USER32!AveCharWidthData = <no type information>
+77d4867d          USER32!ClSpontAdviseData (_ClSpontAdviseData@8)
+77cf1128          USER32!_imp__GdiDllInitialize = <no type information>
+77d4158a          USER32!CopyPalette (_CopyPalette@4)
+77d35705          USER32!SetDeskWallpaper (_SetDeskWallpaper@4)
+77d517e0          USER32!gcWheelDelta = <no type information>
+77d0e707          USER32!NeedsWindowEdge (_NeedsWindowEdge@12)
+77d51270          USER32!szUSER32 = <no type information>
+77d3d526          USER32!ECFindTabW (_ECFindTabW@8)
+77d4b823          USER32!SendMessageToUI (_SendMessageToUI@20)
+77d0f99b          USER32!SetScrollRange (_SetScrollRange@20)
+77d1e9ba          USER32!xxxLBoxDoDeleteItems (_xxxLBoxDoDeleteItems@4)
+77cff5c8          USER32!InsertMenuItemW (_InsertMenuItemW@16)
+77cf8bf6          USER32!TranslateMessage (_TranslateMessage@4)
+77cff51f          USER32!ModifyMenuW (_ModifyMenuW@20)
+77d4ae97          USER32!BroadcastSystemMessageExA (_BroadcastSystemMessageExA@24)
+77d0a51c          USER32!BuildHwndList (_BuildHwndList@20)
+77d0fa3e          USER32!WindowFromDC (_WindowFromDC@4)
+77d371e6          USER32!ComboBoxDBCharHandler (_ComboBoxDBCharHandler@20)
+77d4cf8a          USER32!NtUserUnregisterHotKey (_NtUserUnregisterHotKey@8)
+77d0cf0c          USER32!NtUserGetAtomName (_NtUserGetAtomName@8)
+77d01bd0          USER32!Scale2424 (_Scale2424@44)
+77d1b144          USER32!DialogBoxParamA (_DialogBoxParamA@20)
+77d09bbf          USER32!GetCPD (_GetCPD@12)
+77d0e770          USER32!_AdjustWindowRectEx (__AdjustWindowRectEx@16)
+77d518bc          USER32!fpLpkTabbedTextOut = <no type information>
+77d491bb          USER32!ClRespPokeAck (_ClRespPokeAck@12)
+77cf1004          USER32!_imp__ExtSelectClipRgn = <no type information>
+77d1ed69          USER32!SetWindowsHookA (_SetWindowsHookA@8)
+77d4ce0e          USER32!NtUserRegisterRawInputDevices (_NtUserRegisterRawInputDevices@12)
+77d395bd          USER32!ChangeDisplaySettingsExW (_ChangeDisplaySettingsExW@20)
+77d3612d          USER32!GetProgmanWindow (_GetProgmanWindow@0)
+77cfe9e2          USER32!CtxInitUser32 (_CtxInitUser32@0)
+77d0e528          USER32!SetWindowRgn (_SetWindowRgn@12)
+77cf1084          USER32!_imp__GetPixel = <no type information>
+77d44645          USER32!MDIActivateDlgProcA (_MDIActivateDlgProcA@16)
+77d517b4          USER32!aInstance = <no type information>
+77cfb22d          USER32!_UserClientDllInitialize (__UserClientDllInitialize@12)
+77d4ce5e          USER32!NtUserSetCursorContents (_NtUserSetCursorContents@8)
+77d2fc5e          USER32!NtUserCopyAcceleratorTable (_NtUserCopyAcceleratorTable@12)
+77d083a2          USER32!InternalEnumObjects (_InternalEnumObjects@16)
+77d0384e          USER32!ChangeDisplaySettingsExA (_ChangeDisplaySettingsExA@20)
+77d1df5e          USER32!IncrementISel (_IncrementISel@12)
+77d33d1a          USER32!ReadFilePtr (_ReadFilePtr@12)
+77cf11c0          USER32!_imp__SetBkMode = <no type information>
+77d0afb9          USER32!BeginDeferWindowPos (_BeginDeferWindowPos@4)
+77cf97a2          USER32!NtUserValidateTimerCallback (_NtUserValidateTimerCallback@12)
+77cf12c8          USER32!_imp__IsDBCSLeadByte = <no type information>
+77d13667          USER32!xxxLBSetCurSel (_xxxLBSetCurSel@8)
+77d4468f          USER32!UnmaximizeChildWindows (_UnmaximizeChildWindows@4)
+77d044f7          USER32!xxxRestoreDlgFocus (_xxxRestoreDlgFocus@4)
+77cf10fc          USER32!_imp__CreateDIBSection = <no type information>
+77cf10a8          USER32!_imp__SetBrushOrgEx = <no type information>
+77cf8d17          USER32!NtUserGetObjectInformation (_NtUserGetObjectInformation@20)
+77d3adeb          USER32!ProcessTerminateMsg (_ProcessTerminateMsg@8)
+77d466d9          USER32!ToUnicodeEx (_ToUnicodeEx@28)
+77d10277          USER32!OpenClipboard (_OpenClipboard@4)
+77d0b112          USER32!NtUserSetFocus (_NtUserSetFocus@4)
+77cf1240          USER32!_imp__GetStringTypeA = <no type information>
+77d0afa5          USER32!NtUserEndDeferWindowPosEx (_NtUserEndDeferWindowPosEx@8)
+77cf1294          USER32!_imp__ConvertDefaultLocale = <no type information>
+77d00107          USER32!UserCallDDECallback (_UserCallDDECallback@36)
+77cf1444          USER32!_imp__RtlDeleteCriticalSection = <no type information>
+77d09431          USER32!MapPropertyKey (_MapPropertyKey@4)
+77cf11b4          USER32!_imp__SetTextColor = <no type information>
+77d12d18          USER32!xxxGotoNextMnem (_xxxGotoNextMnem@12)
+77d15d93          USER32!LastFullVisible (_LastFullVisible@4)
+77d0dfb4          USER32!NtUserGetScrollBarInfo (_NtUserGetScrollBarInfo@12)
+77d0ee9d          USER32!ValidateMENUITEMINFO (_ValidateMENUITEMINFO@12)
+77d03f9d          USER32!_NextControl (__NextControl@12)
+77cf140c          USER32!_imp__CsrCaptureMessageBuffer = <no type information>
+77d17a2a          USER32!UserGetCharDimensionsEx (_UserGetCharDimensionsEx@16)
+77d33d1a          USER32!ReadFilePtrUnaligned (_ReadFilePtrUnaligned@12)
+77cf1078          USER32!_imp__bInitSystemAndFontsDirectoriesW = <no type information>
+77d04332          USER32!_GetDlgItem (__GetDlgItem@8)
+77d084b9          USER32!CommonOpenDesktop (_CommonOpenDesktop@16)
+77d518b4          USER32!szSLASHSTARDOTSTAR = <no type information>
+77d15d46          USER32!xxxInsureVisible (_xxxInsureVisible@12)
+77d19636          USER32!NtUserLockWindowUpdate (_NtUserLockWindowUpdate@4)
+77d01fae          USER32!RegisterServicesProcess (_RegisterServicesProcess@4)
+77d0d063          USER32!__fnINOUTLPPOINT5 (___fnINOUTLPPOINT5@4)
+77d49c27          USER32!AnyPopup (_AnyPopup@0)
+77d18530          USER32!ECNcCreate (_ECNcCreate@12)
+77d418af          USER32!ApplyFreeDataHandle (_ApplyFreeDataHandle@4)
+77cf863c          USER32!IsInsideUserApiHook (_IsInsideUserApiHook@0)
+77d188ff          USER32!xxxLBoxCtlDelete (_xxxLBoxCtlDelete@8)
+77d0ea5e          USER32!RegisterClassA (_RegisterClassA@4)
+77cf1274          USER32!_imp__MoveFileW = <no type information>
+77d0120c          USER32!SetFeKeyboardFlags (_SetFeKeyboardFlags@8)
+77cf118c          USER32!_imp__GdiConvertEnhMetaFile = <no type information>
+77d0fbf6          USER32!DrawEdge (_DrawEdge@16)
+77d3b2dd          USER32!DDEMLServerWndProc (_DDEMLServerWndProc@16)
+77d45e05          USER32!CreateLogSource (_CreateLogSource@0)
+77d1ed26          USER32!InsertMenuA (_InsertMenuA@20)
+77d3490d          USER32!_ClientGetDDEHookData (__ClientGetDDEHookData@12)
+77d0ced3          USER32!NtUserDeleteMenu (_NtUserDeleteMenu@12)
+77cfbfc9          USER32!WowGetModuleFileName (_WowGetModuleFileName@12)
+77d3066b          USER32!xxxLBGetBrush (_xxxLBGetBrush@8)
+77d391f1          USER32!__ClientNoMemoryPopup (___ClientNoMemoryPopup@4)
+77d396ac          USER32!GetShutdownType (_GetShutdownType@12)
+77cf20e0          USER32!mpTypeIich = <no type information>
+77d41623          USER32!CopyDDEData (_CopyDDEData@8)
+77cf11ac          USER32!_imp__GetLayout = <no type information>
+77d3c908          USER32!EcImeGetDocFeedMax (_EcImeGetDocFeedMax@8)
+77d003bc          USER32!NtUserDdeInitialize (_NtUserDdeInitialize@20)
+77d0ae83          USER32!InSendMessageEx (_InSendMessageEx@4)
+77d51e40          USER32!gpfnOLERevokeDD = <no type information>
+77d11049          USER32!ConvertMemHandle (_ConvertMemHandle@8)
+77d4ba20          USER32!ImeIsUsableContext (_ImeIsUsableContext@8)
+77cf94b2          USER32!NtUserMessageCall (_NtUserMessageCall@28)
+77cf1164          USER32!_imp__CreateBitmap = <no type information>
+77d0a907          USER32!NtUserGetUpdateRect (_NtUserGetUpdateRect@12)
+77d432f0          USER32!ChopText (_ChopText@12)
+77cf144c          USER32!_imp__CsrClientConnectToServer = <no type information>
+77d10c3c          USER32!ClientEmptyClipboard (_ClientEmptyClipboard@0)
+77d4e323          USER32!WinStationSendMessageW (_WinStationSendMessageW@40)
+77d13140          USER32!DispatchLocalLock (_DispatchLocalLock@8)
+77d0b09a          USER32!NtUserShowCaret (_NtUserShowCaret@4)
+77cf9c36          USER32!LoadIcoCur (_LoadIcoCur@24)
+77cfa83f          USER32!SP_PutNumber (_SP_PutNumber@24)
+77cf104c          USER32!_imp__GetCurrentObject = <no type information>
+77d0e1f2          USER32!VerNtUserCreateWindowEx (_VerNtUserCreateWindowEx@52)
+77cf945d          USER32!GetWindowLongA (_GetWindowLongA@8)
+77d06d65          USER32!FixupDlgLogFont (_FixupDlgLogFont@20)
+77d4b48d          USER32!SendIMEMessageExW (_SendIMEMessageExW@8)
+77cfcefa          USER32!HasExtension (_HasExtension@4)
+77d0ff94          USER32!DT_BreakAWord (_DT_BreakAWord@32)
+77d49c61          USER32!IsHungAppWindow (_IsHungAppWindow@4)
+77d06d9b          USER32!FixupDlgFaceName (_FixupDlgFaceName@16)
+77cf13c8          USER32!_imp__NlsAnsiCodePage = <no type information>
+77d32e97          USER32!ModifyMenuItem (_ModifyMenuItem@4)
+77d45d7f          USER32!StartTaskModalDialog (_StartTaskModalDialog@4)
+77d4e201          USER32!_imp_load__RegDeleteKeyW (__imp_load__RegDeleteKeyW@8)
+77d4b427          USER32!VRipOutput (_VRipOutput)
+77d30880          USER32!MLBuildchLines (_MLBuildchLines@24)
+77d49762          USER32!ClStartPoke (_ClStartPoke@4)
+77d2fb59          USER32!xxxLBoxCtlScroll (_xxxLBoxCtlScroll@12)
+77d4ca7e          USER32!NtUserBlockInput (_NtUserBlockInput@4)
+77d33671          USER32!ECSetPasswordChar (_ECSetPasswordChar@8)
+77d46c4e          USER32!fnEMSETSEL (_fnEMSETSEL@28)
+77d13a33          USER32!SLDrawText (_SLDrawText@12)
+77cfe817          USER32!RegisterDeviceNotificationWorker (_RegisterDeviceNotificationWorker@16)
+77d2f75d          USER32!Scale48 (_Scale48@44)
+77d4e174          USER32!NtQueryVirtualMemory (_NtQueryVirtualMemory@24)
+77d1762f          USER32!ECSetText (_ECSetText@8)
+77d394cc          USER32!__fnOUTLPCOMBOBOXINFO (___fnOUTLPCOMBOBOXINFO@4)
+77cf84ae          USER32!NtUserCallOneParam (_NtUserCallOneParam@8)
+77d01d79          USER32!NtUserRegisterUserApiHook (_NtUserRegisterUserApiHook@8)
+77d517d8          USER32!gfDMREnable = <no type information>
+77d51bb0          USER32!_hmod__POWRPROF = <no type information>
+77d38f5e          USER32!__ClientCopyDDEOut1 (___ClientCopyDDEOut1@4)
+77cfdebc          USER32!GetClassInfoExW (_GetClassInfoExW@12)
+77cf133c          USER32!_imp__GetProcAddress = <no type information>
+77d4cf76          USER32!NtUserUnloadKeyboardLayout (_NtUserUnloadKeyboardLayout@4)
+77d510a0          USER32!gSharedInfo = <no type information>
+77d4c95b          USER32!ImeWndProcW (_ImeWndProcW@16)
+77d1e53d          USER32!EnumClipboardFormats (_EnumClipboardFormats@4)
+77cf12e8          USER32!_imp__GetModuleHandleA = <no type information>
+77cf86c7          USER32!NtUserGetDC (_NtUserGetDC@4)
+77d18677          USER32!xxxCBCompleteEditWindow (_xxxCBCompleteEditWindow@4)
+77d3029e          USER32!MapVirtualKeyW (_MapVirtualKeyW@8)
+77d512dc          USER32!gfSystemInitialized = <no type information>
+77cf11e8          USER32!_imp__FindResourceExW = <no type information>
+77cf10c8          USER32!_imp__GetWindowExtEx = <no type information>
+77d00621          USER32!CreateHandle (_CreateHandle@12)
+77cf1474          USER32!_imp__wcstoul = <no type information>
+77d02e06          USER32!InitOemXlateTables (_InitOemXlateTables@0)
+77cf1034          USER32!_imp__CreatePen = <no type information>
+77cf1400          USER32!_imp__RtlRunDecodeUnicodeString = <no type information>
+77d47030          USER32!ReaderMouseMove (_ReaderMouseMove@12)
+77d1aef2          USER32!MB_UpdateDlgItem (_MB_UpdateDlgItem@44)
+77cf12a8          USER32!_imp__GetLogicalDrives = <no type information>
+77d4536d          USER32!DrawMenuBarTemp (_DrawMenuBarTemp@20)
+77cf9a29          USER32!NtUserRegisterClassExWOW (_NtUserRegisterClassExWOW@28)
+77d01ba5          USER32!UnhookWindowsHook (_UnhookWindowsHook@8)
+77cfc4da          USER32!LookupIconIdFromDirectoryEx (_LookupIconIdFromDirectoryEx@20)
+77cf940c          USER32!NtUserWaitMessage (_NtUserWaitMessage@0)
+77d1956e          USER32!GetLpszItem (_GetLpszItem@8)
+77d4af0d          USER32!GetRawInputDeviceInfoA (_GetRawInputDeviceInfoA@16)
+77d4cf12          USER32!NtUserSetSysColors (_NtUserSetSysColors@16)
+77d077c5          USER32!PostThreadMessageA (_PostThreadMessageA@16)
+77d4cd4a          USER32!NtUserInitTask (_NtUserInitTask@48)
+77cf1060          USER32!_imp__SetBoundsRect = <no type information>
+77d51520          USER32!gEventSource = <no type information>
+77cf1258          USER32!_imp__CreateFileMappingW = <no type information>
+77d1e4c0          USER32!VkKeyScanA (_VkKeyScanA@4)
+77d44022          USER32!LBGetVariableHeightItemHeight (_LBGetVariableHeightItemHeight@8)
+77d15363          USER32!ECGetModKeys (_ECGetModKeys@4)
+77d0c7f9          USER32!NtUserSetParent (_NtUserSetParent@8)
+77d517b0          USER32!iFirstFree = <no type information>
+77d03ab1          USER32!DefDlgProcWorker (_DefDlgProcWorker@20)
+77d3fd11          USER32!SLPaste (_SLPaste@4)
+77d13785          USER32!fakeImm_wd1 (_fakeImm_wd1@4)
+77d4a6a2          USER32!DdeClientTransaction (_DdeClientTransaction@32)
+77cf8cb7          USER32!NtUserSystemParametersInfo (_NtUserSystemParametersInfo@16)
+77d4b439          USER32!fakeImm_wd4 (_fakeImm_wd4@16)
+77d14007          USER32!ECMergeUndoInsertInfo (_ECMergeUndoInsertInfo@12)
+77d12072          USER32!DialogBoxIndirectParamW (_DialogBoxIndirectParamW@20)
+77d1ebff          USER32!GetClassInfoA (_GetClassInfoA@12)
+77cf11b0          USER32!_imp__SetBkColor = <no type information>
+77d360cc          USER32!KillSystemTimer (_KillSystemTimer@8)
+77d5102c          USER32!_imp__OpenThreadToken = <no type information>
+77d004f1          USER32!ValidateInstance (_ValidateInstance@4)
+77d49acc          USER32!GetTokenHandle (_GetTokenHandle@4)
+77d37599          USER32!DlgDirListComboBoxA (_DlgDirListComboBoxA@20)
+77cf10d8          USER32!_imp__GdiPrinterThunk = <no type information>
+77d449ea          USER32!CalcClientScrolling (_CalcClientScrolling@12)
+77d35b65          USER32!GetUserObjectSecurity (_GetUserObjectSecurity@20)
+77d1d0b0          USER32!__delayLoadHelper2 (___delayLoadHelper2@8)
+77cfe104          USER32!RegisterShellHookWindow (_RegisterShellHookWindow@4)
+77d40710          USER32!SLUndo (_SLUndo@4)
+77d4e1d3          USER32!_tailMerge_ADVAPI32 (__tailMerge_ADVAPI32)
+77d51b28          USER32!gpOriginalRGBs = <no type information>
+77d3b856          USER32!_ClientFreeDDEHandle (__ClientFreeDDEHandle@8)
+77d07d18          USER32!NtUserCloseWindowStation (_NtUserCloseWindowStation@4)
+77d31d39          USER32!MLScroll (_MLScroll@20)
+77d032ba          USER32!AppendMenuW (_AppendMenuW@16)
+77cf10ac          USER32!_imp__CreateFontIndirectW = <no type information>
+77d1e5e6          USER32!IsCharAlphaA (_IsCharAlphaA@4)
+77d4cfc6          USER32!NtUserGetLayeredWindowAttributes (_NtUserGetLayeredWindowAttributes@16)
+77cf13fc          USER32!_imp__RtlRunEncodeUnicodeString = <no type information>
+77d1268e          USER32!GetAlignment (_GetAlignment@4)
+77d51840          USER32!ComboboxLookaside = <no type information>
+77d333e4          USER32!FindResourceNE (_FindResourceNE@20)
+77d0b737          USER32!IsSysFontAndDefaultMode (_IsSysFontAndDefaultMode@4)
+77d0d683          USER32!IsCharAlphaW (_IsCharAlphaW@4)
+77d4db1c          USER32!_HasCaptionIcon (__HasCaptionIcon@4)
+77d1330c          USER32!ListBoxWndProcW (_ListBoxWndProcW@16)
+77cff324          USER32!NtUserSetWindowStationUser (_NtUserSetWindowStationUser@16)
+77d4b548          USER32!CtfLoadThreadLayout (_CtfLoadThreadLayout@4)
+77d51048          USER32!_imp__GetActivePwrScheme = <no type information>
+77d20575          USER32!_global_unwind2 (__global_unwind2)
+77d0d86b          USER32!NtUserGetDoubleClickTime (_NtUserGetDoubleClickTime@0)
+77d38d91          USER32!__fnHkINLPMSLLHOOKSTRUCT (___fnHkINLPMSLLHOOKSTRUCT@4)
+77cf1334          USER32!_imp__GlobalReAlloc = <no type information>
+77d01805          USER32!__ClientLoadStringW (___ClientLoadStringW@4)
+77cf1010          USER32!_imp__SetGraphicsMode = <no type information>
+77d0a069          USER32!REBASESHAREDPTR (_REBASESHAREDPTR@4)
+77d4e1a0          USER32!GdiConvertBitmapV5 (_GdiConvertBitmapV5@16)
+77d0af79          USER32!NtUserGetAncestor (_NtUserGetAncestor@8)
+77d038f3          USER32!EnumDisplaySettingsExA (_EnumDisplaySettingsExA@16)
+77d3e1cc          USER32!MLInsertchLine (_MLInsertchLine@16)
+77d1fdd9          USER32!SetWindowContextHelpId (_SetWindowContextHelpId@8)
+77cf10b4          USER32!_imp__GetTextFaceAliasW = <no type information>
+77d4a19f          USER32!IsGUIThread (_IsGUIThread@4)
+77d1ecfe          USER32!NtUserCheckMenuItem (_NtUserCheckMenuItem@12)
+77d4cdbe          USER32!NtUserQuerySendMessage (_NtUserQuerySendMessage@4)
+77d3240f          USER32!MLMouseToIch (_MLMouseToIch@16)
+77cfc603          USER32!MatchImage (_MatchImage@20)
+77d464d5          USER32!MessageBoxIndirectW (_MessageBoxIndirectW@4)
+77d516fc          USER32!rgstk = <no type information>
+77d512f0          USER32!gImmApiEntries = <no type information>
+77cf148c          USER32!_imp__NtOpenDirectoryObject = <no type information>
+77cfac14          USER32!SP_GetFmtValueW (_SP_GetFmtValueW@8)
+77d12ebb          USER32!UT_NextGroupItem (_UT_NextGroupItem@8)
+77d1166b          USER32!NtUserBitBltSysBmp (_NtUserBitBltSysBmp@32)
+77d03843          USER32!GdiConvertToDevmodeW (_GdiConvertToDevmodeW@4)
+77d44e7f          USER32!CascadeWindowsEnum (_CascadeWindowsEnum@16)
+77d1f71e          USER32!MDIRemoveSysMenu (_MDIRemoveSysMenu@8)
+77d0dc31          USER32!CopyImageFromRes (_CopyImageFromRes@16)
+77d35e0b          USER32!OpenWindowStationW (_OpenWindowStationW@12)
+77d0cebf          USER32!NtUserThunkedMenuItemInfo (_NtUserThunkedMenuItemInfo@24)
+77d49106          USER32!ClRespExecuteAck (_ClRespExecuteAck@12)
+77cf9042          USER32!NtUserSetScrollInfo (_NtUserSetScrollInfo@16)
+77d4dd7d          USER32!FindCharPosition (_FindCharPosition@8)
+77d16ca4          USER32!GrowMem (_GrowMem@8)
+77d361ce          USER32!SetDoubleClickTime (_SetDoubleClickTime@4)
+77d4a60d          USER32!ValidateTransaction (_ValidateTransaction@16)
+77d3c42e          USER32!ECResultStrHandler (_ECResultStrHandler@4)
+77d006d7          USER32!DdeInitializeW (_DdeInitializeW@16)
+77d1b3ec          USER32!EditWndProcA (_EditWndProcA@16)
+77d44206          USER32!xxxInitActivateDlg (_xxxInitActivateDlg@8)
+77cf8b94          USER32!IsMsgOverride (_IsMsgOverride@8)
+77cf9252          USER32!GetShellWindow (_GetShellWindow@0)
+77d0c713          USER32!MonitorFromRect (_MonitorFromRect@8)
+77d0c581          USER32!NtUserGetTitleBarInfo (_NtUserGetTitleBarInfo@8)
+77d2fd7b          USER32!FindPwndChild (_FindPwndChild@8)
+77d465bf          USER32!Event (_Event@4)
+77d09556          USER32!_MapWindowPoints (__MapWindowPoints@16)
+77cfd9bb          USER32!NtUserCreateAcceleratorTable (_NtUserCreateAcceleratorTable@8)
+77d341a6          USER32!ReadIconFromFileMap (_ReadIconFromFileMap@20)
+77d150cb          USER32!SLChar (_SLChar@8)
+77d164cf          USER32!EditWndProcW (_EditWndProcW@16)
+77d138ef          USER32!ECCchInWidth (_ECCchInWidth@24)
+77d05167          USER32!StaticRepaint (_StaticRepaint@4)
+77d0ba6c          USER32!DT_GetLineBreak (_DT_GetLineBreak@28)
+77d4ccaa          USER32!NtUserGetRawInputBuffer (_NtUserGetRawInputBuffer@12)
+77cf2510          USER32!pfnClientW = <no type information>
+77d0c962          USER32!InternalFindWindowExW (_InternalFindWindowExW@20)
+77cfb1dd          USER32!ScrollDC (_ScrollDC@28)
+77d08968          USER32!NtUserEnumDisplayDevices (_NtUserEnumDisplayDevices@16)
+77d09a1d          USER32!_GetClassLong (__GetClassLong@12)
+77cf1190          USER32!_imp__GdiConvertMetaFilePict = <no type information>
+77d4e2f5          USER32!WinStationQueryInformationW (_WinStationQueryInformationW@24)
+77d018b2          USER32!LdrFlushAlternateResourceModules (_LdrFlushAlternateResourceModules@0)
+77cf1478          USER32!_imp__wcscat = <no type information>
+77d1fce7          USER32!xxxLoadSysMenu (_xxxLoadSysMenu@4)
+77d3e8b0          USER32!MLKillFocus (_MLKillFocus@4)
+77d0a93a          USER32!NtUserCallTwoParam (_NtUserCallTwoParam@12)
+77d11174          USER32!SetCaretBlinkTime (_SetCaretBlinkTime@4)
+77d04a4e          USER32!EndDialog (_EndDialog@8)
+77d11848          USER32!NtUserSetWinEventHook (_NtUserSetWinEventHook@32)
+77d4dda3          USER32!FIsParentDude (_FIsParentDude@4)
+77cf24b8          USER32!pfnClientA = <no type information>
+77cf1484          USER32!_imp__RtlCreateUnicodeStringFromAsciiz = <no type information>
+77d4e1f5          USER32!_imp_load__RegCloseKey (__imp_load__RegCloseKey@4)
+77d01973          USER32!GetRemoteKeyboardLayout (_GetRemoteKeyboardLayout@4)
+77cf1358          USER32!_imp__SetEvent = <no type information>
+77d1997c          USER32!LBSetItemData (_LBSetItemData@12)
+77d38f2d          USER32!__ClientCopyDDEOut2 (___ClientCopyDDEOut2@4)
+77cf88a6          USER32!GetWindowLongW (_GetWindowLongW@8)
+77d39302          USER32!__fnIMECONTROL (___fnIMECONTROL@4)
+77cfd3c3          USER32!PrivateExtractIconExW (_PrivateExtractIconExW@20)
+77d0a042          USER32!CopyRect (_CopyRect@8)
+77d02d9b          USER32!LoadCursorsAndIcons (_LoadCursorsAndIcons@0)
+77d07d2c          USER32!NtUserSetThreadDesktop (_NtUserSetThreadDesktop@4)
+77d51268          USER32!pfnGetExpWinVer = <no type information>
+77d0680b          USER32!CreateDialogIndirectParamAorW (_CreateDialogIndirectParamAorW@24)
+77cf1270          USER32!_imp__CopyFileW = <no type information>
+77cf8c2e          USER32!NtUserSetTimer (_NtUserSetTimer@16)
+77cf94a4          USER32!XyCallbackReturn (@XyCallbackReturn@12)
+77cf2370          USER32!pwszFontDrivers = <no type information>
+77d0f787          USER32!GetScrollRange (_GetScrollRange@16)
+77d2fab2          USER32!SetMenuItemBitmaps (_SetMenuItemBitmaps@20)
+77d383c4          USER32!DdeDisconnect (_DdeDisconnect@4)
+77d4a3a5          USER32!DdePostAdvise (_DdePostAdvise@12)
+77d4567e          USER32!mndtDragLeave (_mndtDragLeave@4)
+77d48a6b          USER32!SvSpontPoke (_SvSpontPoke@8)
+77d4ad84          USER32!DdeAbandonTransaction (_DdeAbandonTransaction@12)
+77d08a74          USER32!EnumDisplayDevicesA (_EnumDisplayDevicesA@16)
+77d0d0a3          USER32!CreateWindowExW (_CreateWindowExW@48)
+77d090b4          USER32!GetWindowRect (_GetWindowRect@8)
+77d1718d          USER32!xxxLBSetRedraw (_xxxLBSetRedraw@8)
+77d51e5c          USER32!pfnWowCBStoreHandle = <no type information>
+77d4ccd2          USER32!NtUserGetRawInputDeviceInfo (_NtUserGetRawInputDeviceInfo@16)
+77d36ce7          USER32!LoadCursorIconFromResource (_LoadCursorIconFromResource@20)
+77d43afe          USER32!DlgDirSelectExA (_DlgDirSelectExA@16)
+77d5101c          USER32!_imp__RegEnumValueW = <no type information>
+77d0d33e          USER32!LoadCursorA (_LoadCursorA@8)
+77d49c7f          USER32!AnimInc (_AnimInc@12)
+77d169b0          USER32!xxxLBResetContent (_xxxLBResetContent@4)
+77d2fca6          USER32!MakeMenuItem (_MakeMenuItem@8)
+77d36bea          USER32!ScrollBarWndProcW (_ScrollBarWndProcW@16)
+77d362eb          USER32!fakeImm_vd1 (_fakeImm_vd1@4)
+77d2ff86          USER32!xxxBNSetCapture (_xxxBNSetCapture@8)
+77d0dc91          USER32!WowGetModuleHandle (_WowGetModuleHandle@4)
+77d396fd          USER32!RecordShutdownReason (_RecordShutdownReason@4)
+77d0d607          USER32!CharPrevW (_CharPrevW@8)
+77cfa39a          USER32!RegisterClassW (_RegisterClassW@4)
+77d0d82f          USER32!UserIsFullWidth (_UserIsFullWidth@8)
+77cf103c          USER32!_imp__CreateEllipticRgn = <no type information>
+77d4cd5e          USER32!NtUserLockWorkStation (_NtUserLockWorkStation@0)
+77d0c076          USER32!RemovePropW (_RemovePropW@8)
+77d4b44d          USER32!fakeImm_wd6 (_fakeImm_wd6@24)
+77d35684          USER32!WOWCleanup (_WOWCleanup@8)
+77d0a962          USER32!SetCaretPos (_SetCaretPos@8)
+77cf94f4          USER32!GetLastInputInfo (_GetLastInputInfo@4)
+77d0a494          USER32!InternalEnumWindows (_InternalEnumWindows@24)
+77cf1278          USER32!_imp__DeleteFileW = <no type information>
+77d09c0e          USER32!DestroyCaret (_DestroyCaret@0)
+77cf3708          USER32!szIndicDLL = <no type information>
+77d4ceea          USER32!NtUserSetObjectInformation (_NtUserSetObjectInformation@16)
+77d0996c          USER32!GetMessagePos (_GetMessagePos@0)
+77d10214          USER32!__fnHkINDWORD (___fnHkINDWORD@4)
+77d4cbba          USER32!NtUserGetComboBoxInfo (_NtUserGetComboBoxInfo@8)
+77d37deb          USER32!WaitForZombieTerminate (_WaitForZombieTerminate@4)
+77d4b8e6          USER32!FocusSetIMCContext (_FocusSetIMCContext@8)
+77cf109c          USER32!_imp__GetTextFaceW = <no type information>
+77d086f8          USER32!ReplyMessage (_ReplyMessage@4)
+77cf1434          USER32!_imp__RtlDeactivateActivationContextUnsafeFast = <no type information>
+77cfbd93          USER32!NtUserSetCursorIconData (_NtUserSetCursorIconData@16)
+77d51824          USER32!pfnLocalUnlock = <no type information>
+77cf14bc          USER32!_imp__RtlLeaveCriticalSection = <no type information>
+77d35b05          USER32!GrayStringA (_GrayStringA@36)
+77d0820f          USER32!SetWindowsHookExW (_SetWindowsHookExW@16)
+77cf1074          USER32!_imp__SetPaletteEntries = <no type information>
+77d0b086          USER32!NtUserHideCaret (_NtUserHideCaret@4)
+77d1e1eb          USER32!SetMessageQueue (_SetMessageQueue@4)
+77d0fdd7          USER32!MapServerToClientPfn (_MapServerToClientPfn@8)
+77cf13cc          USER32!_imp__RtlAllocateHeap = <no type information>
+77cf121c          USER32!_imp__GetCurrentThread = <no type information>
+77d112ec          USER32!NtUserGetClipboardFormatName (_NtUserGetClipboardFormatName@12)
+77d49b1c          USER32!GetUserSid (_GetUserSid@4)
+77d0400e          USER32!_GetChildControl (__GetChildControl@8)
+77d13869          USER32!SLSetCaretPosition (_SLSetCaretPosition@8)
+77cf10b0          USER32!_imp__EnumFontsW = <no type information>
+77cf2ed8          USER32!mpStyleCbr = <no type information>
+77d3423d          USER32!LoadAniIcon (_LoadAniIcon@20)
+77cf1264          USER32!_imp__SetFileTime = <no type information>
+77d1234b          USER32!EnumDesktopsA (_EnumDesktopsA@12)
+77d4e231          USER32!_imp_load__RegEnumValueW (__imp_load__RegEnumValueW@32)
+77d1f9f7          USER32!GetRect (_GetRect@12)
+77d39ea2          USER32!IsSeShutdownNameEnabled (_IsSeShutdownNameEnabled@0)
+77d1ea9f          USER32!DispatchLocalFree (_DispatchLocalFree@8)
+77d2f065          USER32!__fnHkOPTINLPEVENTMSG (___fnHkOPTINLPEVENTMSG@4)
+77cf1290          USER32!_imp__IsValidLocale = <no type information>
+77d4df42          USER32!_ValidateEH3RN (__ValidateEH3RN)
+77d453a2          USER32!CheckMenuRadioItem (_CheckMenuRadioItem@20)
+77d0a644          USER32!_MonitorFromWindow (__MonitorFromWindow@8)
+77d11f7b          USER32!MessageBeep (_MessageBeep@4)
+77d45d55          USER32!MB_GetString (_MB_GetString@4)
+77cf1088          USER32!_imp__ExtTextOutA = <no type information>
+77cf3900          USER32!$$VProc_ImageExportDirectory = <no type information>
+77cf12ec          USER32!_imp__GlobalAddAtomA = <no type information>
+77d2f4e7          USER32!InitDst8 (_InitDst8@4)
+77d51780          USER32!InitDst = <no type information>
+77d1ef97          USER32!RecalculateScrollRanges (_RecalculateScrollRanges@8)
+77cfb984          USER32!__security_init_cookie (___security_init_cookie)
+77d48fc9          USER32!ClRespUnadviseAck (_ClRespUnadviseAck@12)
+77cf2860          USER32!pwszSweepType1Key = <no type information>
+77cf120c          USER32!_imp__GlobalAddAtomW = <no type information>
+77d18c52          USER32!ECSetMargin (_ECSetMargin@16)
+77d4e225          USER32!_imp_load__RegisterEventSourceW (__imp_load__RegisterEventSourceW@8)
+77cf870c          USER32!InternalCallWinProc (_InternalCallWinProc@20)
+77cf1280          USER32!_imp__AddAtomA = <no type information>
+77d3d4fc          USER32!ECFindTabA (_ECFindTabA@8)
+77d10dba          USER32!GetClipboardData (_GetClipboardData@4)
+77cff601          USER32!CreatePopupMenu (_CreatePopupMenu@0)
+77d36421          USER32!DisableProcessWindowsGhosting (_DisableProcessWindowsGhosting@0)
+77d0f9fc          USER32!NtUserEnableMenuItem (_NtUserEnableMenuItem@12)
+77d2f965          USER32!DefFrameProcA (_DefFrameProcA@20)
+77cf9d8d          USER32!LoadStringOrError (_LoadStringOrError@20)
+77d084a5          USER32!NtUserBuildNameList (_NtUserBuildNameList@16)
+77d08717          USER32!CharLowerA (_CharLowerA@4)
+77d1f761          USER32!ShiftMenuIDs (_ShiftMenuIDs@8)
+77d1f01f          USER32!CreateDialogIndirectParamW (_CreateDialogIndirectParamW@20)
+77d175ff          USER32!StringLength (_StringLength@8)
+77cf1494          USER32!_imp__wcscpy = <no type information>
+77d43b89          USER32!LB_CreateLBLine (_LB_CreateLBLine@8)
+77d3697f          USER32!DesktopWndProcA (_DesktopWndProcA@16)
+77d4e29f          USER32!SetActivePwrScheme (_SetActivePwrScheme@12)
+77d009fc          USER32!vLoadRemoteT1Fonts (_vLoadRemoteT1Fonts@0)
+77d4799d          USER32!SortReasonArray (_SortReasonArray@4)
+77d3d838          USER32!ECIsDBCSLeadByte (_ECIsDBCSLeadByte@8)
+77d02519          USER32!AnimateBlend (_AnimateBlend@24)
+77d36725          USER32!GetMenuInfo (_GetMenuInfo@8)
+77d119f6          USER32!__ClientFindMnemChar (___ClientFindMnemChar@4)
+77d0c387          USER32!AddEllipsisAndDrawLine (_AddEllipsisAndDrawLine@28)
+77d077a4          USER32!NtUserPostThreadMessage (_NtUserPostThreadMessage@16)
+77d33631          USER32!GetKeyboardLayoutNameA (_GetKeyboardLayoutNameA@4)
+77cf10cc          USER32!_imp__GdiGetCharDimensions = <no type information>
+77d4cd96          USER32!NtUserMNDragOver (_NtUserMNDragOver@8)
+77d4e282          USER32!_imp_load__SetActivePwrScheme (__imp_load__SetActivePwrScheme@12)
+77d0edb9          USER32!FindAccResource (_FindAccResource@8)
+77cf114c          USER32!_imp__OffsetRgn = <no type information>
+77d19f76          USER32!LBGetSetItemHeightHandler (_LBGetSetItemHeightHandler@16)
+77cfde46          USER32!NtUserSetWindowPlacement (_NtUserSetWindowPlacement@8)
+77d4458c          USER32!MDIActivateDlgProcWorker (_MDIActivateDlgProcWorker@16)
+77cf12b8          USER32!_imp__GetThreadLocale = <no type information>
+77d33497          USER32!CreateAcceleratorTableA (_CreateAcceleratorTableA@8)
+77cf11e4          USER32!_imp__LoadResource = <no type information>
+77d0e514          USER32!NtUserSetWindowRgn (_NtUserSetWindowRgn@12)
+77d40bd0          USER32!vAddRemoteType1Font (_vAddRemoteType1Font@20)
+77cf1138          USER32!_imp__GdiConvertBitmapV5 = <no type information>
+77d1eb99          USER32!xxxCBNcDestroyHandler (_xxxCBNcDestroyHandler@8)
+77cf10f4          USER32!_imp__GetObjectType = <no type information>
+77d4b2d0          USER32!DrawCaptionTempA (_DrawCaptionTempA@28)
+77d2f86c          USER32!__fnHkINLPCBTCREATESTRUCT (___fnHkINLPCBTCREATESTRUCT@4)
+77d2048f          USER32!_except_handler3 (__except_handler3)
+77d4b05e          USER32!GetDlgItemTextA (_GetDlgItemTextA@16)
+77d4e195          USER32!GdiCreateLocalMetaFilePict (_GdiCreateLocalMetaFilePict@4)
+77cf1424          USER32!_imp__memmove = <no type information>
+77d465cf          USER32!InitTask (_InitTask@48)
+77cf147c          USER32!_imp__RtlInitAnsiString = <no type information>
+77d51460          USER32!gcsClipboard = <no type information>
+77d3e01c          USER32!MLMoveSelection (_MLMoveSelection@12)
+77d2f339          USER32!DrawCaptionTempW (_DrawCaptionTempW@28)
+77d51e60          USER32!pfnWowEditNextWord = <no type information>
+77cf20e8          USER32!SEBbuttons = <no type information>
+77d0c17e          USER32!DefWindowProcA (_DefWindowProcA@16)
+77d10d2d          USER32!NtUserGetAltTabInfo (_NtUserGetAltTabInfo@24)
+77d4e23d          USER32!_imp_load__RegQueryInfoKeyW (__imp_load__RegQueryInfoKeyW@48)
+77d518c8          USER32!aiClassWow = <no type information>
+77d47645          USER32!FScrollEnabled (_FScrollEnabled@8)
+77cf98a0          USER32!ClassNameToVersion (_ClassNameToVersion@16)
+77d09179          USER32!_GetParent (__GetParent@4)
+77d09ed9          USER32!GetKeyState (_GetKeyState@4)
+77d51548          USER32!gbIhaveBeenInited = <no type information>
+77cfdab7          USER32!ThunkedMenuItemInfo (_ThunkedMenuItemInfo@24)
+77d51260          USER32!gpac = <no type information>
+77d09fa6          USER32!NtUserTranslateMessage (_NtUserTranslateMessage@8)
+77cfe533          USER32!BroadcastSystemMessageWorker (_BroadcastSystemMessageWorker@28)
+77d4d028          USER32!RemoveOverlap (_RemoveOverlap@12)
+77cf8d6c          USER32!RtlCaptureAnsiString (_RtlCaptureAnsiString@12)
+77d1b036          USER32!ButtonWndProcA (_ButtonWndProcA@16)
+77cfaf61          USER32!GdiValidateHandle (_GdiValidateHandle@4)
+77d0c35e          USER32!NtUserSetCapture (_NtUserSetCapture@4)
+77d3c104          USER32!GetNegABCwidthInfo (_GetNegABCwidthInfo@8)
+77d3682e          USER32!MenuWindowProcW (_MenuWindowProcW@20)
+77d45544          USER32!mndtRelease (_mndtRelease@4)
+77d51894          USER32!szaRegImmHotKeys = <no type information>
+77cf8ac6          USER32!PtiWindow (_PtiWindow@4)
+77d10eb8          USER32!NtUserGetClipboardData (_NtUserGetClipboardData@8)
+77d1e9e7          USER32!xxxDestroyLBox (_xxxDestroyLBox@8)
+77d34856          USER32!SetEnableState (_SetEnableState@8)
+77d1ce07          USER32!xxxCaretDestroy (_xxxCaretDestroy@4)
+77d46180          USER32!ErrorMessageInst (_ErrorMessageInst@4)
+77cfb5a1          USER32!RW_RegisterDDEML (_RW_RegisterDDEML@0)
+77cf315c          USER32!szEMIEnable = <no type information>
+77d3642e          USER32!CreateWindowStationA (_CreateWindowStationA@16)
+77d4cdaa          USER32!NtUserNotifyIMEStatus (_NtUserNotifyIMEStatus@12)
+77d40554          USER32!MLUndo (_MLUndo@4)
+77cfbdcb          USER32!CreateScreenBitmap (_CreateScreenBitmap@24)
+77d0f17a          USER32!NtUserGetClipboardSequenceNumber (_NtUserGetClipboardSequenceNumber@0)
+77d14a36          USER32!SLIchToLeftXPos (_SLIchToLeftXPos@12)
+77d517ac          USER32!cHandlesAllocated = <no type information>
+77cf8bc8          USER32!_EndUserApiHook (__EndUserApiHook@0)
+77d07c08          USER32!LoadImageA (_LoadImageA@24)
+77d4aebe          USER32!BroadcastSystemMessageA (_BroadcastSystemMessageA@20)
+77d51500          USER32!gcsMPH = <no type information>
+77d013dd          USER32!CreateWindowStationW (_CreateWindowStationW@16)
+77d441a6          USER32!LBCalcVarITopScrollAmt (_LBCalcVarITopScrollAmt@12)
+77d41309          USER32!DdeAccessData (_DdeAccessData@8)
+77d4dd2e          USER32!IntToUInt (_IntToUInt@8)
+77d047f8          USER32!GetCursorFrameInfo (_GetCursorFrameInfo@20)
+77d1c7db          USER32!CreateDialogParamA (_CreateDialogParamA@20)
+77d363e4          USER32!GetProcessDefaultLayout (_GetProcessDefaultLayout@4)
+77cfd01c          USER32!FindResourcePE (_FindResourcePE@20)
+77cf1218          USER32!_imp__GetCurrentProcess = <no type information>
+77d01892          USER32!UpdatePerUserImmEnabling (_UpdatePerUserImmEnabling@0)
+77d0cd08          USER32!SendMessageTimeoutWorker (_SendMessageTimeoutWorker@32)
+77cf143c          USER32!_imp__NtQuerySystemInformation = <no type information>
+77cf10a0          USER32!_imp__GetCharABCWidthsA = <no type information>
+77d3b961          USER32!PackDDElParam (_PackDDElParam@12)
+77d4cb80          USER32!NtUserFlashWindowEx (_NtUserFlashWindowEx@4)
+77d1151e          USER32!NtUserPaintMenuBar (_NtUserPaintMenuBar@24)
+77d4399e          USER32!DlgDirSelectHelper (_DlgDirSelectHelper@12)
+77d02963          USER32!vProcessFontEntry (_vProcessFontEntry@20)
+77d37657          USER32!DlgDirSelectComboBoxExA (_DlgDirSelectComboBoxExA@16)
+77d10a47          USER32!DefMDIChildProcW (_DefMDIChildProcW@16)
+77d4828e          USER32!AllocAndSetDDEData (_AllocAndSetDDEData@16)
+77d51448          USER32!pcHighContrastScheme = <no type information>
+77d0e190          USER32!DT_AdjustWhiteSpaces (_DT_AdjustWhiteSpaces@12)
+77d51544          USER32!__security_cookie_complement = <no type information>
+77cf875f          USER32!UserCallWinProcCheckWow (_UserCallWinProcCheckWow@32)
+77cf21e8          USER32!szRegVK = <no type information>
+77d2f9b4          USER32!DefMDIChildProcA (_DefMDIChildProcA@16)
+77d1b778          USER32!xxxCBCommandHandler (_xxxCBCommandHandler@12)
+77d4817c          USER32!MaybeTranslateExecuteData (_MaybeTranslateExecuteData@16)
+77cf8a01          USER32!DispatchMessageW (_DispatchMessageW@4)
+77cf1158          USER32!_imp__GdiConvertToDevmodeW = <no type information>
+77d4ccfa          USER32!NtUserGetRegisteredRawInputDevices (_NtUserGetRegisteredRawInputDevices@12)
+77d01b3b          USER32!RegisterDeviceNotificationA (_RegisterDeviceNotificationA@12)
+77d4b42f          USER32!fakeImm_d3 (_fakeImm_d3@12)
+77d4ddf0          USER32!GetContextHelpId (_GetContextHelpId@4)
+77cf8e28          USER32!RegisterWindowMessageA (_RegisterWindowMessageA@4)
+77cf970e          USER32!IsChild (_IsChild@8)
+77d1603d          USER32!xxxLBCreate (_xxxLBCreate@12)
+77cff5b4          USER32!NtUserSetMenuDefaultItem (_NtUserSetMenuDefaultItem@12)
+77d3623a          USER32!LoadKeyboardLayoutEx (_LoadKeyboardLayoutEx@12)
+77d5100c          USER32!_imp__RegDeleteKeyW = <no type information>
+77d4200a          USER32!DdeKeepStringHandle (_DdeKeepStringHandle@8)
+77d1bd47          USER32!SLGetClipRect (_SLGetClipRect@20)
+77cf96b8          USER32!DispatchMessageA (_DispatchMessageA@4)
+77d51e50          USER32!pfnWowIlstrcmp = <no type information>
+77d371a3          USER32!xxxCBGetTextLengthHelper (_xxxCBGetTextLengthHelper@8)
+77cfa401          USER32!RegisterClassExWOWA (_RegisterClassExWOWA@16)
+77d090da          USER32!_GetWindowRect (__GetWindowRect@8)
+77cf1148          USER32!_imp__CombineRgn = <no type information>
+77d1f3cf          USER32!MDISetMenu (_MDISetMenu@16)
+77d51660          USER32!grgbDwpLiteHookMsg = <no type information>
+77d0b80a          USER32!DT_DrawJustifiedLine (_DT_DrawJustifiedLine@28)
+77cf13d8          USER32!_imp__LdrFlushAlternateResourceModules = <no type information>
+77d362f3          USER32!CheckValidLayoutName (_CheckValidLayoutName@4)
+77d09835          USER32!NtUserCallHwndParamLock (_NtUserCallHwndParamLock@12)
+77cf1184          USER32!_imp__SetRectRgn = <no type information>
+77d306fa          USER32!xxxLBBinarySearchString (_xxxLBBinarySearchString@8)
+77d1edb1          USER32!HFill (_HFill@12)
+77d4becb          USER32!ImeSelectHandler (_ImeSelectHandler@16)
+77d130e6          USER32!DispatchLocalUnlock (_DispatchLocalUnlock@8)
+77d0812f          USER32!NtUserCloseDesktop (_NtUserCloseDesktop@4)
+77cf1188          USER32!_imp__GdiReleaseDC = <no type information>
+77d003fc          USER32!SendRegisterMessageToClass (_SendRegisterMessageToClass@20)
+77d10473          USER32!NtUserSetClipboardViewer (_NtUserSetClipboardViewer@4)
+77cfaef1          USER32!CharToOemA (_CharToOemA@8)
+77d0c80d          USER32!NtUserTrackMouseEvent (_NtUserTrackMouseEvent@4)
+77cfd123          USER32!RVAtoP (_RVAtoP@8)
+77d517e8          USER32!__pfnDliNotifyHook2 = <no type information>
+77cf130c          USER32!_imp__LocalLock = <no type information>
+77d51228          USER32!ghFontSys = <no type information>
+77d4e38c          USER32!_DELAY_IMPORT_DESCRIPTOR_WINSTA = <no type information>
+77d511c0          USER32!guah = <no type information>
+77d17ec5          USER32!ClearWindowState (_ClearWindowState@8)
+77d4dc29          USER32!GetRealClientRect (_GetRealClientRect@16)
+77d0ef7a          USER32!MenuLoadChicagoTemplates (_MenuLoadChicagoTemplates@16)
+77d01cff          USER32!RegisterUserApiHook (_RegisterUserApiHook@8)
+77cf1050          USER32!_imp__GetViewportOrgEx = <no type information>
+77d4b035          USER32!DispatchDefWindowProcA (_DispatchDefWindowProcA@20)
+77d1351c          USER32!ECGetText (_ECGetText@16)
+77cf108c          USER32!_imp__GetTextCharsetInfo = <no type information>
+77d44471          USER32!MDIActivateDlgInit (_MDIActivateDlgInit@8)
+77d51e58          USER32!pfnWOWTellWOWThehDlg = <no type information>
+77d362eb          USER32!fakeImm_v1 (_fakeImm_v1@4)
+77cf90d2          USER32!CharUpperW (_CharUpperW@4)
+77d51050          USER32!_imp__WinStationGetTermSrvCountersValue = <no type information>
+77d3cb8a          USER32!GetActualNegA (_GetActualNegA@28)
+77d38b8b          USER32!__fnINLPHLPSTRUCT (___fnINLPHLPSTRUCT@4)
+77cf1340          USER32!_imp__LoadLibraryW = <no type information>
+77d314b3          USER32!MLUpdateiCaretLine (_MLUpdateiCaretLine@4)
+77d0aca1          USER32!__fnINSTRINGNULL (___fnINSTRINGNULL@4)
+77d3049d          USER32!xxxLBDrawLBItem (_xxxLBDrawLBItem@20)
+77d117f7          USER32!SetWinEventHook (_SetWinEventHook@28)
+77d4601c          USER32!ServiceMessageBox (_ServiceMessageBox@16)
+77d046f7          USER32!LoadBmp (_LoadBmp@20)
+77d051a6          USER32!StaticWndProcW (_StaticWndProcW@16)
+77d421b3          USER32!xxxLBInitStorage (_xxxLBInitStorage@16)
+77d1823d          USER32!DispatchLocalAlloc (_DispatchLocalAlloc@12)
+77d45039          USER32!CascadeWindows (_CascadeWindows@20)
+77d02fc9          USER32!NtUserProcessConnect (_NtUserProcessConnect@12)
+77d0960e          USER32!SetWindowTextW (_SetWindowTextW@8)
+77d0ec97          USER32!MenuLoadWinTemplates (_MenuLoadWinTemplates@8)
+77d0eb77          USER32!CommonLoadMenu (_CommonLoadMenu@8)
+77d4e1ab          USER32!cGetTTFFromFOT (_cGetTTFFromFOT@28)
+77d4271a          USER32!xxxAlterHilite (_xxxAlterHilite@24)
+77d3f851          USER32!SLCalcXOffsetSpecial (_SLCalcXOffsetSpecial@12)
+77d51bac          USER32!_hmod__ADVAPI32 = <no type information>
+77d009e4          USER32!__ClientLoadRemoteT1Fonts (___ClientLoadRemoteT1Fonts@4)
+77d09b35          USER32!MapClientNeuterToClientPfn (_MapClientNeuterToClientPfn@12)
+77d3950c          USER32!__fnOUTLPSCROLLBARINFO (___fnOUTLPSCROLLBARINFO@4)
+77d39d89          USER32!CheckShutdownLogging (_CheckShutdownLogging@0)
+77d4cb32          USER32!NtUserDrawMenuBarTemp (_NtUserDrawMenuBarTemp@20)
+77d46e76          USER32!OemToCharW (_OemToCharW@8)
+77d0af4c          USER32!_FreeResource (__FreeResource@8)
+77d0cc05          USER32!NtUserDrawIconEx (_NtUserDrawIconEx@44)
+77d37abb          USER32!UnlinkConvFromOthers (_UnlinkConvFromOthers@8)
+77d038df          USER32!NtUserChangeDisplaySettings (_NtUserChangeDisplaySettings@20)
+77d07296          USER32!InSendMessage (_InSendMessage@0)
+77d02b73          USER32!RegisterLogonProcess (_RegisterLogonProcess@8)
+77cf1bc8          USER32!szCheck = <no type information>
+77cf13f8          USER32!_imp__NtEnumerateValueKey = <no type information>
+77d15070          USER32!ECDeleteText (_ECDeleteText@4)
+77d1f0d8          USER32!xxxChildResize (_xxxChildResize@8)
+77cfc68e          USER32!MyAbs (_MyAbs@12)
+77d51e54          USER32!pfnWowMsgBoxIndirectCallback = <no type information>
+77d300bf          USER32!RegisterClassWOWA (_RegisterClassWOWA@8)
+77d4cc5a          USER32!NtUserGetMenuIndex (_NtUserGetMenuIndex@8)
+77d33d52          USER32!ReadFilePtrCopy (_ReadFilePtrCopy@12)
+77d0af4c          USER32!fakeImm_wd2 (_fakeImm_wd2@8)
+77d384de          USER32!DdeConnectList (_DdeConnectList@20)
+77d11140          USER32!AdjustWindowRect (_AdjustWindowRect@12)
+77d11691          USER32!NtUserGetOpenClipboardWindow (_NtUserGetOpenClipboardWindow@0)
+77d45566          USER32!mndtDragOver (_mndtDragOver@20)
+77d09361          USER32!HMValidateHandleNoRip (@HMValidateHandleNoRip@8)
+77d38e4c          USER32!__ClientFreeDDEHandle (___ClientFreeDDEHandle@4)
+77d070ed          USER32!InitLookaside (_InitLookaside@12)
+77d48337          USER32!PackAndPostMessage (_PackAndPostMessage@28)
+77d33ccb          USER32!LoadCursorFromFileA (_LoadCursorFromFileA@4)
+77d033d7          USER32!SizeBoxHwnd (_SizeBoxHwnd@4)
+77d519f0          USER32!szMS_TCARDHELP = <no type information>
+77d05491          USER32!xxxBNReleaseCapture (_xxxBNReleaseCapture@8)
+77d338e3          USER32!WowGetDefWindowProcBits (_WowGetDefWindowProcBits@8)
+77cf14d0          USER32!_imp__NtClose = <no type information>
+77d349aa          USER32!_ClientEventCallback (__ClientEventCallback@8)
+77d1b692          USER32!xxxCBNotifyParent (_xxxCBNotifyParent@8)
+77cf84c2          USER32!NtUserCallNoParam (_NtUserCallNoParam@4)
+77d028e8          USER32!bInitSystemAndFontsDirectoriesW (_bInitSystemAndFontsDirectoriesW@8)
+77d51058          USER32!_imp__WinStationQueryInformationW = <no type information>
+77cf13a8          USER32!_imp__lstrcpyW = <no type information>
+77d476ff          USER32!ReasonCodeNeedsComment (_ReasonCodeNeedsComment@4)
+77d1330c          USER32!ComboListBoxWndProcW (_ComboListBoxWndProcW@16)
+77d41769          USER32!DdeCreateDataHandle (_DdeCreateDataHandle@28)
+77cf111c          USER32!_imp__SetBitmapBits = <no type information>
+77d202c0          USER32!DeregisterShellHookWindow (_DeregisterShellHookWindow@4)
+77cf3804          USER32!aCJKSymbol_EndBreak = <no type information>
+77d09e81          USER32!EqualRect (_EqualRect@8)
+77cfbe86          USER32!Convert1BppToMonoBitmap (_Convert1BppToMonoBitmap@8)
+77cf9e93          USER32!RealSystemParametersInfoW (_RealSystemParametersInfoW@16)
+77cfe14b          USER32!SetClassLongW (_SetClassLongW@12)
+77cf1480          USER32!_imp__RtlAnsiStringToUnicodeString = <no type information>
+77d0c37a          USER32!ReleaseCapture (_ReleaseCapture@0)
+77d012b4          USER32!GetActiveKeyboardName (_GetActiveKeyboardName@4)
+77d1c9c6          USER32!ComboListBoxWndProcA (_ComboListBoxWndProcA@16)
+77d41e43          USER32!DdeCreateStringHandleA (_DdeCreateStringHandleA@12)
+77cf2260          USER32!szKLAttributes = <no type information>
+77d3a191          USER32!ExitWindowsWorker (_ExitWindowsWorker@8)
+77d0d226          USER32!NtUserGetKeyboardState (_NtUserGetKeyboardState@4)
+77d33185          USER32!DrawDiagonalLine (_DrawDiagonalLine@20)
+77d315a6          USER32!MLIchToLine (_MLIchToLine@8)
+77d42281          USER32!xxxLBSetCount (_xxxLBSetCount@8)
+77cf937b          USER32!_PeekMessage (__PeekMessage@24)
+77d322a3          USER32!MLSetCaretPosition (_MLSetCaretPosition@8)
+77cff259          USER32!vLoadT1Fonts (_vLoadT1Fonts@4)
+77d1e285          USER32!__fnINOUTLPRECT (___fnINOUTLPRECT@4)
+77d4cce6          USER32!NtUserGetRawInputDeviceList (_NtUserGetRawInputDeviceList@12)
+77d1aab6          USER32!MB_GetIconOrdNum (_MB_GetIconOrdNum@4)
+77d4e255          USER32!_imp_load__OpenProcessToken (__imp_load__OpenProcessToken@12)
+77d0e8bc          USER32!LoadIconW (_LoadIconW@8)
+77d514e0          USER32!gcsDDEML = <no type information>
+77d15c0f          USER32!xxxNewITopEx (_xxxNewITopEx@12)
+77d35721          USER32!ToAscii (_ToAscii@20)
+77d45a3b          USER32!MonitorConv (_MonitorConv@8)
+77d028dd          USER32!bMakePathNameW (_bMakePathNameW@16)
+77d4e2d8          USER32!_imp_load__WinStationQueryInformationW (__imp_load__WinStationQueryInformationW@24)
+77cf10ec          USER32!_imp__RestoreDC = <no type information>
+77d08023          USER32!__ClientLoadLibrary (___ClientLoadLibrary@4)
+77d38f92          USER32!__ClientEventCallback (___ClientEventCallback@4)
+77d122cd          USER32!NtUserOpenWindowStation (_NtUserOpenWindowStation@8)
+77d0f140          USER32!NtUserSendInput (_NtUserSendInput@12)
+77cf11cc          USER32!_imp__GetTextAlign = <no type information>
+77d055a5          USER32!xxxStaticPaint (_xxxStaticPaint@12)
+77d1eac2          USER32!ECNcDestroyHandler (_ECNcDestroyHandler@8)
+77cf1404          USER32!_imp___wcsicmp = <no type information>
+77d116a3          USER32!__fnHkINLPMOUSEHOOKSTRUCTEX (___fnHkINLPMOUSEHOOKSTRUCTEX@4)
+77cfc6bf          USER32!Magnitude (_Magnitude@4)
+77d082e1          USER32!FindWindowA (_FindWindowA@8)
+77d09313          USER32!IsWindow (_IsWindow@4)
+77cf1408          USER32!_imp__CsrAllocateCaptureBuffer = <no type information>
+77d099f3          USER32!NtUserSetWindowPos (_NtUserSetWindowPos@28)
+77d3566c          USER32!WOWModuleUnload (_WOWModuleUnload@4)
+77d14dcf          USER32!SLCalcXOffsetLeft (_SLCalcXOffsetLeft@12)
+77d5124c          USER32!fpLpkDrawTextEx = <no type information>
+77d0097d          USER32!RegisterService (_RegisterService@12)
+77d1378f          USER32!ECReleaseEditDC (_ECReleaseEditDC@12)
+77d4b7ef          USER32!DestroyIMEUI (_DestroyIMEUI@4)
+77d1948b          USER32!xxxCBInternalUpdateEditWindow (_xxxCBInternalUpdateEditWindow@8)
+77d127b8          USER32!PSMGetTextExtent (_PSMGetTextExtent@16)
+77d0200b          USER32!NtUserChildWindowFromPointEx (_NtUserChildWindowFromPointEx@16)
+77d0cc19          USER32!UserSetLastError (_UserSetLastError@4)
+77cf10d0          USER32!_imp__GdiGetCodePage = <no type information>
+77d5153c          USER32!ghbrBlack = <no type information>
+77d44e2e          USER32!GetParentArrangeRect (_GetParentArrangeRect@12)
+77cff99c          USER32!_GetMenuState (__GetMenuState@12)
+77d421a8          USER32!GetKBCodePage (_GetKBCodePage@0)
+77d04822          USER32!NtUserGetCursorFrameInfo (_NtUserGetCursorFrameInfo@16)
+77d51798          USER32!gpfnInitMPH = <no type information>
+77cf1040          USER32!_imp__GdiFixUpHandle = <no type information>
+77d00278          USER32!NtUserCallHwndOpt (_NtUserCallHwndOpt@8)
+77d0e391          USER32!_CreateWindowEx (__CreateWindowEx@52)
+77d1ddf4          USER32!xxxLBoxCtlKeyInput (_xxxLBoxCtlKeyInput@12)
+77cf13e8          USER32!_imp__RtlIsNameLegalDOS8Dot3 = <no type information>
+77d3577e          USER32!ToAsciiEx (_ToAsciiEx@24)
+77d35f7f          USER32!CloseWindow (_CloseWindow@4)
+77d33c33          USER32!CliImmSetHotKey (_CliImmSetHotKey@16)
+77cf1a18          USER32!gwszNullStr = <no type information>
+77d3370d          USER32!GetTaskmanWindow (_GetTaskmanWindow@0)
+77d019bd          USER32!_chkstk (__chkstk)
+77d10265          USER32!NtUserCloseClipboard (_NtUserCloseClipboard@0)
+77d36a6f          USER32!MenuWndProcA (_MenuWndProcA@16)
+77d0a08f          USER32!HMValidateSharedHandle (@HMValidateSharedHandle@8)
+77d1df7a          USER32!DrawBox (_DrawBox@12)
+77d51e6c          USER32!pfn16GlobalFree = <no type information>
+77d47587          USER32!EnterReaderMode (_EnterReaderMode@4)
+77d51e74          USER32!atomMDIActivateProp = <no type information>
+77d0a91b          USER32!GetCursor (_GetCursor@0)
+77d04c07          USER32!DlgSetFocus (_DlgSetFocus@4)
+77cf911f          USER32!_aulldvrm (__aulldvrm)
+77d3d4c0          USER32!ECCutText (_ECCutText@4)
+77d483e3          USER32!TransactionComplete (_TransactionComplete@8)
+77d36a90          USER32!MenuWndProcW (_MenuWndProcW@16)
+77d32900          USER32!MLDrawText (_MLDrawText@20)
+77cfa7fb          USER32!SP_GetFmtValue (_SP_GetFmtValue@8)
+77d51248          USER32!gfMessagePumpHook = <no type information>
+77d04c58          USER32!xxxRemoveDefaultButton (_xxxRemoveDefaultButton@8)
+77d0910f          USER32!GetParent (_GetParent@4)
+77d5182c          USER32!pfnLocalReAlloc = <no type information>
+77d3dbb4          USER32!ECAdjustIchNext (_ECAdjustIchNext@12)
+77d36627          USER32!UserRtlFreeMem (_UserRtlFreeMem@4)
+77cffec6          USER32!MakeInstSpecificAtom (_MakeInstSpecificAtom@8)
+77d0d39d          USER32!NtUserDestroyMenu (_NtUserDestroyMenu@4)
+77d4ced6          USER32!NtUserSetMenuFlagRtoL (_NtUserSetMenuFlagRtoL@4)
+77d4e317          USER32!_imp_load__WinStationSendMessageW (__imp_load__WinStationSendMessageW@40)
+77d37ee8          USER32!ConnectConv (_ConnectConv@32)
+77cf14a8          USER32!_imp__wcstol = <no type information>
+77d03467          USER32!CharToOemW (_CharToOemW@8)
+77d307ea          USER32!MessageBoxA (_MessageBoxA@16)
+77d51bc0          USER32!ImeUILookaside = <no type information>
+77d098a6          USER32!NtUserGetThreadState (_NtUserGetThreadState@4)
+77d32755          USER32!MLIchToXYPos (_MLIchToXYPos@20)
+77cf127c          USER32!_imp__CreateProcessW = <no type information>
+77d3826b          USER32!DdeReconnect (_DdeReconnect@4)
+77d043e4          USER32!_NextSibblingOrAncestor (__NextSibblingOrAncestor@8)
+77cf19d0          USER32!afClassDWord = <no type information>
+77cf94da          USER32!GetCapture (_GetCapture@0)
+77d13420          USER32!SLEditWndProc (_SLEditWndProc@20)
+77d4137b          USER32!DdeUnaccessData (_DdeUnaccessData@4)
+77d11300          USER32!GetUserObjectInformationA (_GetUserObjectInformationA@20)
+77d1ae00          USER32!NtUserModifyUserStartupInfoFlags (_NtUserModifyUserStartupInfoFlags@8)
+77cf2728          USER32!pwszUpdType1Key = <no type information>
+77d1c2e7          USER32!SendDlgItemMessageA (_SendDlgItemMessageA@20)
+77d0b149          USER32!__fnNCDESTROY (___fnNCDESTROY@4)
+77d129c4          USER32!DrawFrame (_DrawFrame@16)
+77cfca19          USER32!SmartStretchDIBits (_SmartStretchDIBits@52)
+77d420b3          USER32!DdeQueryStringW (_DdeQueryStringW@20)
+77d0b5f3          USER32!DT_InitDrawTextInfo (_DT_InitDrawTextInfo@20)
+77cf1070          USER32!_imp__CreatePalette = <no type information>
+77d1f313          USER32!TextCopy (_TextCopy@12)
+77cfecb7          USER32!LoadRemoteFonts (_LoadRemoteFonts@0)
+77d10f21          USER32!NtUserCreateLocalMemHandle (_NtUserCreateLocalMemHandle@16)
+77d0736c          USER32!SetDlgItemTextW (_SetDlgItemTextW@12)
+77d2ffda          USER32!WOWFindResourceExWCover (_WOWFindResourceExWCover@16)
+77cff338          USER32!SetWindowStationUser (_SetWindowStationUser@16)
+77d32df7          USER32!MLLine (_MLLine@8)
+77cf8d2b          USER32!CharUpperA (_CharUpperA@4)
+77d09b86          USER32!_ClientToScreen (__ClientToScreen@8)
+77d097c6          USER32!_ScreenToClient (__ScreenToClient@8)
+77cf1384          USER32!_imp__LocalAlloc = <no type information>
+77cf11a8          USER32!_imp__StretchDIBits = <no type information>
+77d305e4          USER32!LBlstrcmpi (_LBlstrcmpi@12)
+77cf12b0          USER32!_imp__FindNextFileW = <no type information>
+77cf8e14          USER32!NtUserRegisterWindowMessage (_NtUserRegisterWindowMessage@4)
+77cf12f4          USER32!_imp__LoadLibraryA = <no type information>
+77d08673          USER32!NtUserActivateKeyboardLayout (_NtUserActivateKeyboardLayout@8)
+77d360e7          USER32!OpenIcon (_OpenIcon@4)
+77d0c335          USER32!DispatchDefWindowProcW (_DispatchDefWindowProcW@20)
+77d46fff          USER32!ReaderSetCursor (_ReaderSetCursor@8)
+77d4e249          USER32!_imp_load__RegQueryValueExW (__imp_load__RegQueryValueExW@24)
+77cf91c6          USER32!GetMessageW (_GetMessageW@16)
+77cf11b8          USER32!_imp__GetObjectW = <no type information>
+77d2f3f6          USER32!SetMenu (_SetMenu@8)
+77d110b3          USER32!NtUserConvertMemHandle (_NtUserConvertMemHandle@8)
+77d00f6e          USER32!CliSetSingleHotKey (_CliSetSingleHotKey@8)
+77d13e3e          USER32!ECGetBrush (_ECGetBrush@8)
+77cf8b80          USER32!NtUserPostMessage (_NtUserPostMessage@16)
+77cf1254          USER32!_imp__MapViewOfFile = <no type information>
+77d4211b          USER32!SetLastDDEMLError (_SetLastDDEMLError@8)
+77d1684c          USER32!xxxLBoxCtlHScroll (_xxxLBoxCtlHScroll@12)
+77d51080          USER32!gpsi = <no type information>
+77d17d84          USER32!xxxCBSetFontHandler (_xxxCBSetFontHandler@12)
+77d42690          USER32!xxxLBSelRange (_xxxLBSelRange@16)
+77d2fa83          USER32!LoadMenuA (_LoadMenuA@8)
+77d51538          USER32!ghbrWhite = <no type information>
+77d4cc1e          USER32!NtUserGetKeyNameText (_NtUserGetKeyNameText@12)
+77d4772d          USER32!ParseReasonCode (_ParseReasonCode@8)
+77d3d554          USER32!NextWordCallBack (_NextWordCallBack@20)
+77d40fd8          USER32!InternalCreateDataHandle (_InternalCreateDataHandle@28)
+77cfb203          USER32!NtUserScrollDC (_NtUserScrollDC@28)
+77d2f298          USER32!ChangeMenuA (_ChangeMenuA@20)
+77d307d4          USER32!GdiCreateLocalEnhMetaFile (_GdiCreateLocalEnhMetaFile@4)
+77d19d17          USER32!xxxLBoxCtlHScrollMultiColumn (_xxxLBoxCtlHScrollMultiColumn@12)
+77d0f0ad          USER32!GetMenuItemInfoA (_GetMenuItemInfoA@16)
+77d51b20          USER32!gpReturnAddr = <no type information>
+77cf1b48          USER32!gwszShellFont2 = <no type information>
+77d4cb5a          USER32!NtUserEndMenu (_NtUserEndMenu@0)
+77d08506          USER32!NtUserOpenDesktop (_NtUserOpenDesktop@12)
+77d10187          USER32!ScrollWindowEx (_ScrollWindowEx@32)
+77d3f9cc          USER32!MLMoveSelectionRestricted (_MLMoveSelectionRestricted@12)
+77d427ef          USER32!xxxLBBlockHilite (_xxxLBBlockHilite@12)
+77d02401          USER32!TakeWindowSnapshot (_TakeWindowSnapshot@12)
+77cf1b68          USER32!gwszShellFont = <no type information>
+77d17efd          USER32!xxxCBCreateHandler (_xxxCBCreateHandler@8)
+77cff72a          USER32!GetMenuItemInfoW (_GetMenuItemInfoW@16)
+77d0e0c5          USER32!CopyLogFontWtoA (_CopyLogFontWtoA@8)
+77cf125c          USER32!_imp__GetFileSize = <no type information>
+77d0903a          USER32!_GetClientRect (__GetClientRect@8)
+77d0f166          USER32!NtUserIsClipboardFormatAvailable (_NtUserIsClipboardFormatAvailable@4)
+77d379ac          USER32!DdeQueryNextServer (_DdeQueryNextServer@8)
+77cfaf34          USER32!RegisterWindowMessageW (_RegisterWindowMessageW@4)
+77d386e5          USER32!__fnOUTDWORDINDWORD (___fnOUTDWORDINDWORD@4)
+77d01efc          USER32!RegisterMessagePumpHook (_RegisterMessagePumpHook@4)
+77d518b0          USER32!achSlashStar = <no type information>
+77d4e289          USER32!_tailMerge_POWRPROF (__tailMerge_POWRPROF)
+77d0af4c          USER32!fakeImm_d2 (_fakeImm_d2@8)
+77cfbac6          USER32!BitmapFromDIB (_BitmapFromDIB@40)
+77d3a07a          USER32!ExitWindowsThread (_ExitWindowsThread@4)
+77d4b36b          USER32!RealGetWindowClassA (_RealGetWindowClassA@12)
+77d37059          USER32!CreateCursor (_CreateCursor@28)
+77d051d1          USER32!ButtonWndProcW (_ButtonWndProcW@16)
+77d4dad7          USER32!_FChildVisible (__FChildVisible@4)
+77d0b222          USER32!NtUserGetSystemMenu (_NtUserGetSystemMenu@8)
+77d484ec          USER32!UnpackAndFreeDDEMLDataHandle (_UnpackAndFreeDDEMLDataHandle@8)
+77d35fac          USER32!DirectedYield (_DirectedYield@4)
+77d0e676          USER32!RealAdjustWindowRectEx (_RealAdjustWindowRectEx@16)
+77d09864          USER32!RtlWCSMessageWParamCharToMB (_RtlWCSMessageWParamCharToMB@8)
+77d08d20          USER32!DefWindowProcW (_DefWindowProcW@16)
+77d0af1b          USER32!GetDlgCtrlID (_GetDlgCtrlID@4)
+77d4cec2          USER32!NtUserSetMenuContextHelpId (_NtUserSetMenuContextHelpId@8)
+77cf2f98          USER32!DefaultHotKeyTableT = <no type information>
+77d0d007          USER32!GetWindowRgnBox (_GetWindowRgnBox@8)
+77d0a84a          USER32!GetMonitorInfoA (_GetMonitorInfoA@8)
+77d179c5          USER32!SetWindowState (_SetWindowState@8)
+77d116e8          USER32!CreateSystemThreads (_CreateSystemThreads@4)
+77cfc4a8          USER32!GetResourceBpp (_GetResourceBpp@8)
+77d4ad29          USER32!DdeSetUserHandle (_DdeSetUserHandle@12)
+77d3c4fe          USER32!ECImeComposition (_ECImeComposition@12)
+77cf8f16          USER32!RealGetSystemMetrics (_RealGetSystemMetrics@4)
+77cfea3b          USER32!CreateDialogParamW (_CreateDialogParamW@20)
+77cfff92          USER32!NtUserSetShellWindowEx (_NtUserSetShellWindowEx@8)
+77d3954c          USER32!GetLUIDDosDrivesOnly (_GetLUIDDosDrivesOnly@0)
+77d07b97          USER32!LoadImageW (_LoadImageW@24)
+77cfde5a          USER32!LockSetForegroundWindow (_LockSetForegroundWindow@4)
+77d4cd22          USER32!NtUserHiliteMenuItem (_NtUserHiliteMenuItem@16)
+77cf1320          USER32!_imp__InterlockedDecrement = <no type information>
+77d0b1b0          USER32!CharNextW (_CharNextW@4)
+77cfe68c          USER32!__fnINDEVICECHANGE (___fnINDEVICECHANGE@4)
+77d10a68          USER32!DefMDIChildProcWorker (_DefMDIChildProcWorker@20)
+77d41f70          USER32!DdeFreeStringHandle (_DdeFreeStringHandle@8)
+77d18268          USER32!ECSize (_ECSize@12)
+77d3b13e          USER32!DDEMLClientWndProc (_DDEMLClientWndProc@16)
+77d13157          USER32!ECUnlock (_ECUnlock@4)
+77d414bc          USER32!CopyBitmap (_CopyBitmap@4)
+77d4014f          USER32!MLStripCrCrLf (_MLStripCrCrLf@4)
+77d12e66          USER32!_GetNextDlgGroupItem (__GetNextDlgGroupItem@12)
+77d0fbbd          USER32!NtUserValidateRect (_NtUserValidateRect@8)
+77d0bd0d          USER32!__fnINOUTLPSCROLLINFO (___fnINOUTLPSCROLLINFO@4)
+77d49bad          USER32!GetCurrentProcessName (_GetCurrentProcessName@8)
+77d0d427          USER32!GetIconInfo (_GetIconInfo@8)
+77d381c3          USER32!DdeConnect (_DdeConnect@16)
+77d11481          USER32!GetKeyboardLayoutNameW (_GetKeyboardLayoutNameW@4)
+77d0c7ac          USER32!NtUserFindWindowEx (_NtUserFindWindowEx@20)
+77d46fc7          USER32!InitializeWin32EntryTable (_InitializeWin32EntryTable@4)
+77d2fdf5          USER32!AppendToWindowsMenu (_AppendToWindowsMenu@8)
+77d51044          USER32!_imp__ReadPwrScheme = <no type information>
+77d4afce          USER32!fnHkINLPCWPRETSTRUCTA (_fnHkINLPCWPRETSTRUCTA@20)
+77d3eec6          USER32!MLChar (_MLChar@12)
+77d3bb79          USER32!GetCharsetEnumProc (_GetCharsetEnumProc@16)
+77cf32bc          USER32!szEmpty = <no type information>
+77d4e36c          USER32!_DELAY_IMPORT_DESCRIPTOR_POWRPROF = <no type information>
+77d15259          USER32!SLInsertText (_SLInsertText@12)
+77d1e7c4          USER32!RealDrawFrameControl (_RealDrawFrameControl@16)
+77d0f7d7          USER32!GetSignFromMappingMode (_GetSignFromMappingMode@8)
+77d465a0          USER32!WOWFindWindow (_WOWFindWindow@8)
+77cf1470          USER32!_imp__wcscmp = <no type information>
+77cf1390          USER32!_imp__GlobalSize = <no type information>
+77d0f839          USER32!ClientFrame (_ClientFrame@24)
+77d00838          USER32!SetHandleData (_SetHandleData@8)
+77d3958f          USER32!GetKeyNameTextW (_GetKeyNameTextW@12)
+77d13785          USER32!fakeImm_d1 (_fakeImm_d1@4)
+77d35f1e          USER32!ReleaseEditDS (_ReleaseEditDS@4)
+77cf1054          USER32!_imp__SetViewportOrgEx = <no type information>
+77cfec32          USER32!NtUserRealInternalGetMessage (_NtUserRealInternalGetMessage@24)
+77d3bc8b          USER32!GetDlgItemInt (_GetDlgItemInt@16)
+77d4062d          USER32!MLCreate (_MLCreate@8)
+77d51234          USER32!gmph = <no type information>
+77d3964a          USER32!CallUserpExitWindowsEx (_CallUserpExitWindowsEx@8)
+77d41aeb          USER32!GetNextDlgHelpItem (_GetNextDlgHelpItem@8)
+77d36ab1          USER32!ScrollBarWndProcWorker (_ScrollBarWndProcWorker@20)
+77d09f72          USER32!IsWindowUnicode (_IsWindowUnicode@4)
+77d36475          USER32!SetVideoTimeout (_SetVideoTimeout@4)
+77cfa9b6          USER32!wsprintfW (_wsprintfW)
+77d4d002          USER32!NtUserWin32PoolAllocationStats (_NtUserWin32PoolAllocationStats@24)
+77cf221c          USER32!szRegHKL = <no type information>
+77cf11fc          USER32!_imp__IsDBCSLeadByteEx = <no type information>
+77cf9624          USER32!IsInsideMessagePumpHook (_IsInsideMessagePumpHook@0)
+77d438df          USER32!DlgDirListA (_DlgDirListA@20)
+77cf11c8          USER32!_imp__IntersectClipRect = <no type information>
+77d45060          USER32!TileWindowsEnum (_TileWindowsEnum@16)
+77d0d6db          USER32!SendMessageCallbackW (_SendMessageCallbackW@24)
+77d3652f          USER32!GetWindowModuleFileNameW (_GetWindowModuleFileNameW@12)
+77d4811a          USER32!CloseTransaction (_CloseTransaction@8)
+77d092ed          USER32!ValidateHwndNoRip (@ValidateHwndNoRip@4)
+77cfa00a          USER32!ClientThreadSetup (_ClientThreadSetup@0)
+77d0f2db          USER32!NtUserNotifyWinEvent (_NtUserNotifyWinEvent@16)
+77d0d312          USER32!DestroyCursor (_DestroyCursor@4)
+77cf138c          USER32!_imp__LocalFree = <no type information>
+77d172f4          USER32!DrawScrollArrow (_DrawScrollArrow@12)
+77cf1364          USER32!_imp__GlobalFlags = <no type information>
+77d4b129          USER32!SendMessageCallbackA (_SendMessageCallbackA@24)
+77d4aee4          USER32!GetWindowModuleFileNameA (_GetWindowModuleFileNameA@12)
+77d019c8          USER32!UpdatePerUserSystemParameters (_UpdatePerUserSystemParameters@8)
+77d085c1          USER32!__fnOUTSTRING (___fnOUTSTRING@4)
+77cf115c          USER32!_imp__GetTextExtentPointA = <no type information>
+77d3d47e          USER32!ECClearText (_ECClearText@4)
+77d085c1          USER32!__fnINCNTOUTSTRINGNULL (___fnINCNTOUTSTRINGNULL@4)
+77d3581c          USER32!SwitchToThisWindow (_SwitchToThisWindow@8)
+77d2fdc0          USER32!CreateMDIWindowA (_CreateMDIWindowA@40)
+77d4406e          USER32!LBSetVariableHeightItemHeight (_LBSetVariableHeightItemHeight@12)
+77d1e46e          USER32!TextAlloc (_TextAlloc@4)
+77d51090          USER32!gHighestUserAddress = <no type information>
+77d49ca2          USER32!AnimDec (_AnimDec@12)
+77d4d26d          USER32!AddNextContiguousRectangle (_AddNextContiguousRectangle@12)
+77d3aed9          USER32!ProcessSyncDDEMessage (_ProcessSyncDDEMessage@12)
+77d3cfef          USER32!ECInOutReconversionMode (_ECInOutReconversionMode@8)
+77cfadad          USER32!MBToWCSEx (_MBToWCSEx@24)
+77d4a24e          USER32!SetConvContext (_SetConvContext@8)
+77d1ca34          USER32!xxxNotifyOwner (_xxxNotifyOwner@8)
+77cf1430          USER32!_imp__RtlActivateActivationContextUnsafeFast = <no type information>
+77d1f810          USER32!CreateMDIWindowW (_CreateMDIWindowW@40)
+77cfedfb          USER32!NtUserUnregisterUserApiHook (_NtUserUnregisterUserApiHook@0)
+77cf9195          USER32!NtUserGetProcessWindowStation (_NtUserGetProcessWindowStation@0)
+77d3a894          USER32!DdeImpersonateClient (_DdeImpersonateClient@4)
+77d07d40          USER32!NtUserSetProcessWindowStation (_NtUserSetProcessWindowStation@4)
+77d362c0          USER32!UnloadKeyboardLayout (_UnloadKeyboardLayout@4)
+77d4d209          USER32!RemoveOverlaps (_RemoveOverlaps@8)
+77d4c630          USER32!ImeWndProcWorker (_ImeWndProcWorker@20)
+77d38125          USER32!ShutdownConversation (_ShutdownConversation@8)
+77d0f64e          USER32!GetInputState (_GetInputState@0)
+77cfee0d          USER32!__ClientLoadLocalT1Fonts (___ClientLoadLocalT1Fonts@4)
+77d376b7          USER32!ValidateConnectParameters (_ValidateConnectParameters@32)
+77d35613          USER32!EnumPropsExA (_EnumPropsExA@12)
+77d0d896          USER32!GetSubMenu (_GetSubMenu@8)
+77cf8a19          USER32!TranslateMessageEx (_TranslateMessageEx@8)
+77d1e649          USER32!ListBoxWndProcWorker (_ListBoxWndProcWorker@20)
+77d45653          USER32!mndtDragEnter (_mndtDragEnter@24)
+77d0ae5e          USER32!RealGetQueueStatus (_RealGetQueueStatus@4)
+77d19e4e          USER32!xxxCBSetEditItemHeight (_xxxCBSetEditItemHeight@8)
+77d389ad          USER32!__fnINLPMDICREATESTRUCT (___fnINLPMDICREATESTRUCT@4)
+77d368dd          USER32!DefRawInputProc (_DefRawInputProc@12)
+77d467c8          USER32!fnINWPARAMDBCSCHAR (_fnINWPARAMDBCSCHAR@28)
+77d02bce          USER32!vCleanConvertedTTFs (_vCleanConvertedTTFs@0)
+77d0a77b          USER32!NtUserEnumDisplayMonitors (_NtUserEnumDisplayMonitors@16)
+77d0a78f          USER32!GetAsyncKeyState (_GetAsyncKeyState@4)
+77d47ff5          USER32!RealEnableScrollBar (_RealEnableScrollBar@12)
+77d366a5          USER32!InternalInsertMenuItem (_InternalInsertMenuItem@16)
+77d3023c          USER32!OemKeyScan (_OemKeyScan@4)
+77d35631          USER32!EnumPropsExW (_EnumPropsExW@12)
+77d30119          USER32!WowServerLoadCreateMenu (_WowServerLoadCreateMenu@20)
+77cf129c          USER32!_imp__GetCurrentDirectoryW = <no type information>
+77d0eaa2          USER32!RtlInitLargeAnsiString (_RtlInitLargeAnsiString@12)
+77cf1044          USER32!_imp__GetTextCharacterExtra = <no type information>
+77cf14e8          USER32!MessageTable = <no type information>
+77d14b12          USER32!SLSetSelection (_SLSetSelection@12)
+77d36219          USER32!TileChildWindows (_TileChildWindows@8)
+77d38b4d          USER32!__fnINLPDELETEITEMSTRUCT (___fnINLPDELETEITEMSTRUCT@4)
+77d0c2f5          USER32!__fnINOUTSTYLECHANGE (___fnINOUTSTYLECHANGE@4)
+77cf1100          USER32!_imp__SetStretchBltMode = <no type information>
+77d4d016          USER32!NtUserYieldTask (_NtUserYieldTask@0)
+77cf8d06          USER32!_LockResource (__LockResource@8)
+77d0b3c6          USER32!CallNextHookEx (_CallNextHookEx@16)
+77cf9035          USER32!RealSetScrollInfo (_RealSetScrollInfo@16)
+77d10857          USER32!DefFrameProcWorker (_DefFrameProcWorker@24)
+77d512a0          USER32!gcsAccelCache = <no type information>
+77cf1248          USER32!_imp__HeapSize = <no type information>
+77cf13c4          USER32!_imp__RtlNtStatusToDosError = <no type information>
+77d03d3a          USER32!DefDlgProcW (_DefDlgProcW@16)
+77cf1300          USER32!_imp__UnhandledExceptionFilter = <no type information>
+77cfc117          USER32!SplFindResource (_SplFindResource@12)
+77d00242          USER32!LoadBitmapW (_LoadBitmapW@8)
+77d114a6          USER32!NtUserGetKeyboardLayoutName (_NtUserGetKeyboardLayoutName@4)
+77d4cc46          USER32!NtUserGetMenuBarInfo (_NtUserGetMenuBarInfo@16)
+77d51024          USER32!_imp__RegQueryValueExW = <no type information>
+77d00c2c          USER32!OpenKeyboardLayoutFile (_OpenKeyboardLayoutFile@20)
+77d0c5ff          USER32!_MonitorFromRect (__MonitorFromRect@8)
+77d3c7d8          USER32!HanjaKeyHandler (_HanjaKeyHandler@4)
+77d4de58          USER32!EnumPwndDlgChildProc (_EnumPwndDlgChildProc@8)
+77d11950          USER32!FindMnemChar (_FindMnemChar@16)
+77d3a732          USER32!DdeUninitialize (_DdeUninitialize@4)
+77cff667          USER32!GetMenuDefaultItem (_GetMenuDefaultItem@12)
+77d10da8          USER32!NtUserGetClipboardOwner (_NtUserGetClipboardOwner@0)
+77cf13bc          USER32!_imp__NtQueryVirtualMemory = <no type information>
+77cf10f8          USER32!_imp__GetDIBits = <no type information>
+77d517e4          USER32!_hmod__MSIMG32 = <no type information>
+77d4cae2          USER32!NtUserDragObject (_NtUserDragObject@20)
+77cf13d0          USER32!_imp__qsort = <no type information>
+77d4cf4e          USER32!NtUserToUnicodeEx (_NtUserToUnicodeEx@28)
+77d48d82          USER32!ClRespAdviseAck (_ClRespAdviseAck@12)
+77d2f469          USER32!IsCharAlphaNumericA (_IsCharAlphaNumericA@4)
+77d517d4          USER32!bImmInitializing = <no type information>
+77cf11c4          USER32!_imp__SelectObject = <no type information>
+77d13702          USER32!ECSetEditClip (_ECSetEditClip@12)
+77cf1414          USER32!_imp__NtOpenThreadToken = <no type information>
+77d1c331          USER32!xxxCBSizeHandler (_xxxCBSizeHandler@4)
+77d00447          USER32!DdeCreateStringHandleW (_DdeCreateStringHandleW@12)
+77cf14b4          USER32!_imp__RtlMultiByteToUnicodeN = <no type information>
+77d1cfb3          USER32!LBTermDC (_LBTermDC@4)
+77d5179c          USER32!gcLoadMPH = <no type information>
+77d0ebbf          USER32!CreateMenuFromResource (_CreateMenuFromResource@4)
+77cf8616          USER32!_BeginIfHookedUserApiHook (__BeginIfHookedUserApiHook@0)
+77cf1338          USER32!_imp__GetLastError = <no type information>
+77d0f45f          USER32!GetClassNameA (_GetClassNameA@12)
+77cf119c          USER32!_imp__DeleteObject = <no type information>
+77cf1380          USER32!_imp__DeleteAtom = <no type information>
+77cf1014          USER32!_imp__GetClipBox = <no type information>
+77d4dbf3          USER32!GetTopLevelWindow (_GetTopLevelWindow@4)
+77cf149c          USER32!_imp__NtSetSecurityObject = <no type information>
+77d369c1          USER32!MenuWndProcWorker (_MenuWndProcWorker@20)
+77d39019          USER32!__ClientCharToWchar (___ClientCharToWchar@4)
+77d08bfb          USER32!RealDefWindowProcWorker (_RealDefWindowProcWorker@20)
+77cf8860          USER32!_GetWindowLong (__GetWindowLong@12)
+77d4c981          USER32!__report_gsfailure (___report_gsfailure)
+77d36799          USER32!GetMouseKeyState (_GetMouseKeyState@0)
+77d302f9          USER32!GetMenuCheckMarkDimensions (_GetMenuCheckMarkDimensions@0)
+77d37134          USER32!CreateIconFromResource (_CreateIconFromResource@16)
+77d1dc68          USER32!SetSelected (_SetSelected@16)
+77cf9e36          USER32!LoadStringW (_LoadStringW@16)
+77d0f56b          USER32!SetWindowTextA (_SetWindowTextA@8)
+77d42c4b          USER32!xxxTrackMouse (_xxxTrackMouse@16)
+77cf1110          USER32!_imp__CreateDCW = <no type information>
+77d066ba          USER32!RepositionRect (_RepositionRect@16)
+77d1a016          USER32!MB_DlgProc (_MB_DlgProc@16)
+77d1e5bb          USER32!StaticWndProcA (_StaticWndProcA@16)
+77cfb490          USER32!GdiDllInitialize (_GdiDllInitialize@12)
+77d10487          USER32!NtUserChangeClipboardChain (_NtUserChangeClipboardChain@8)
+77d1779a          USER32!xxxCBCalcControlRects (_xxxCBCalcControlRects@8)
+77d51f80          USER32!gmap = <no type information>
+77d0caec          USER32!NeedsEndEllipsis (_NeedsEndEllipsis@28)
+77d33e39          USER32!ValidateAnih (_ValidateAnih@36)
+77d08f1f          USER32!IntersectRect (_IntersectRect@12)
+77cfe0e3          USER32!FindWindowExW (_FindWindowExW@16)
+77d1660b          USER32!LBGetItemData (_LBGetItemData@8)
+77d514a0          USER32!gcsLookaside = <no type information>
+77cf12c4          USER32!_imp__InterlockedCompareExchange = <no type information>
+77d4692d          USER32!fnIMECONTROL (_fnIMECONTROL@28)
+77d100d7          USER32!OemToCharA (_OemToCharA@8)
+77d0fac4          USER32!TranslateAcceleratorA (_TranslateAcceleratorA@12)
+77d16936          USER32!xxxCheckRedraw (_xxxCheckRedraw@12)
+77d4531e          USER32!TrackPopupMenu (_TrackPopupMenu@28)
+77d46534          USER32!MessageBoxW (_MessageBoxW@16)
+77d4670b          USER32!SetSystemCursor (_SetSystemCursor@8)
+77cf13f4          USER32!_imp__NtQueryKey = <no type information>
+77d10d96          USER32!NtUserEmptyClipboard (_NtUserEmptyClipboard@0)
+77d13c15          USER32!xxxCBHideListBoxWindow (_xxxCBHideListBoxWindow@12)
+77cf1378          USER32!_imp__GlobalGetAtomNameA = <no type information>
+77cfb49b          USER32!_InsideLoaderLock (__InsideLoaderLock@0)
+77cf14d4          USER32!_imp__NtQueryValueKey = <no type information>
+77d103c7          USER32!NtUserGetWindowPlacement (_NtUserGetWindowPlacement@8)
+77d09930          USER32!NtUserSetCursor (_NtUserSetCursor@4)
+77cf1348          USER32!_imp__lstrcpynW = <no type information>
+77d102a1          USER32!NtUserOpenClipboard (_NtUserOpenClipboard@8)
+77d073cc          USER32!SendDlgItemMessageW (_SendDlgItemMessageW@20)
+77d4941b          USER32!ClStartAdvise (_ClStartAdvise@4)
+77d152db          USER32!SLKeyDown (_SLKeyDown@12)
+77cf1374          USER32!_imp__GlobalGetAtomNameW = <no type information>
+77d42096          USER32!DdeQueryStringA (_DdeQueryStringA@20)
+77d1c972          USER32!SetDlgItemTextA (_SetDlgItemTextA@12)
+77cf1394          USER32!_imp__GlobalLock = <no type information>
+77d0d3b1          USER32!NtUserSetClassLong (_NtUserSetClassLong@16)
+77d4e219          USER32!_imp_load__ReportEventW (__imp_load__ReportEventW@36)
+77d017a9          USER32!NtUserUpdatePerUserSystemParameters (_NtUserUpdatePerUserSystemParameters@8)
+77d1634d          USER32!InitHStrings (_InitHStrings@4)
+77d0ef1c          USER32!GetMenuItemCount (_GetMenuItemCount@4)
+77cfccfc          USER32!PrivateExtractIconsW (_PrivateExtractIconsW@32)
+77d17a90          USER32!ECEnableDisableIME (_ECEnableDisableIME@4)
+77d04051          USER32!_GetNextDlgTabItem (__GetNextDlgTabItem@12)
+77d3959f          USER32!MapVirtualKeyExW (_MapVirtualKeyExW@12)
+77d0772b          USER32!GetMessageA (_GetMessageA@16)
+77d4b097          USER32!MapVirtualKeyExA (_MapVirtualKeyExA@12)
+77d411f1          USER32!DdeGetData (_DdeGetData@16)
+77d045bb          USER32!DrawStateW (_DrawStateW@40)
+77d5108c          USER32!gfServerProcess = <no type information>
+77d09ded          USER32!_IsWindowVisible (__IsWindowVisible@4)
+77cfac3f          USER32!SP_ReverseW (_SP_ReverseW@8)
+77d409af          USER32!PrivateExtractIconsA (_PrivateExtractIconsA@32)
+77cfd74b          USER32!MixRGBI (_MixRGBI@28)
+77d2f9d5          USER32!_ClientGetListboxString (__ClientGetListboxString@24)
+77d4e20d          USER32!_imp_load__DeregisterEventSource (__imp_load__DeregisterEventSource@4)
+77d4cdfa          USER32!NtUserRealWaitMessageEx (_NtUserRealWaitMessageEx@8)
+77d47b48          USER32!BuildUserDefinedReasonArray (_BuildUserDefinedReasonArray@16)
+77cf8cfb          USER32!fakeImm_bd2 (_fakeImm_bd2@8)
+77d0d3e2          USER32!GetIcoCurBpp (_GetIcoCurBpp@4)
+77d3b9c5          USER32!UnpackDDElParam (_UnpackDDElParam@16)
+77d3f8f7          USER32!SLPasteText (_SLPasteText@4)
+77cf96d0          USER32!_IsChild (__IsChild@8)
+77d0eb48          USER32!LoadMenuW (_LoadMenuW@8)
+77d1ca6f          USER32!IsSelected (_IsSelected@12)
+77cf146c          USER32!_imp__wcsncpy = <no type information>
+77cfed14          USER32!__ClientAddFontResourceW (___ClientAddFontResourceW@4)
+77d0140c          USER32!CommonCreateWindowStation (_CommonCreateWindowStation@16)
+77d46582          USER32!SetSysColors (_SetSysColors@12)
+77cf12cc          USER32!_imp__LCMapStringW = <no type information>
+77d4cfda          USER32!NtUserUserHandleGrantAccess (_NtUserUserHandleGrantAccess@12)
+77d4c360          USER32!ImeSetContextHandler (_ImeSetContextHandler@16)
+77d2f010          USER32!_load_config_used = <no type information>
+77d0a740          USER32!__ClientMonitorEnumProc (___ClientMonitorEnumProc@4)
+77d3bde1          USER32!CheckRadioButton (_CheckRadioButton@16)
+77d4525e          USER32!ChangeMenuW (_ChangeMenuW@20)
+77d4e30c          USER32!WinStationGetTermSrvCountersValue (_WinStationGetTermSrvCountersValue@12)
+77d042ed          USER32!SetForegroundWindow (_SetForegroundWindow@4)
+77d4df37          USER32!memmove (_memmove)
+77cfb217          USER32!UserClientDllInitialize (_UserClientDllInitialize@12)
+77d4ae1a          USER32!CopyLogFontAtoW (_CopyLogFontAtoW@8)
+77d09655          USER32!GetWindow (_GetWindow@8)
+77d3e51a          USER32!MLMouseMotion (_MLMouseMotion@16)
+77d41dac          USER32!ParseInstSpecificAtom (_ParseInstSpecificAtom@8)
+77cf12ac          USER32!_imp__FindClose = <no type information>
+77cf1bb8          USER32!szRadio = <no type information>
+77d4dd52          USER32!SizeTAdd (_SizeTAdd@12)
+77cfcfc6          USER32!PathFindExtension (_PathFindExtension@4)
+77d09fc2          USER32!CallWindowProcAorW (_CallWindowProcAorW@24)
+77d3e44d          USER32!MLChangeSelection (_MLChangeSelection@16)
+77d440ab          USER32!CItemInWindowVarOwnerDraw (_CItemInWindowVarOwnerDraw@8)
+77cf2af8          USER32!szEMIKey = <no type information>
+77d4cba6          USER32!NtUserGetClipCursor (_NtUserGetClipCursor@4)
+77cf8e78          USER32!GetSysColor (_GetSysColor@4)
+77d363fc          USER32!SetProcessDefaultLayout (_SetProcessDefaultLayout@4)
+77cf24b4          USER32!gDispatchTableValues = <no type information>
+77d1ab02          USER32!MB_FindDlgTemplateSize (_MB_FindDlgTemplateSize@4)
+77d512c0          USER32!gcsHdc = <no type information>
+77d0cdfe          USER32!NtUserInvalidateRgn (_NtUserInvalidateRgn@12)
+77d40e1c          USER32!DestroyHandle (_DestroyHandle@4)
+77d088f7          USER32!UserRtlAllocMem (_UserRtlAllocMem@4)
+77d51e70          USER32!pfn16GlobalAlloc = <no type information>
+77d395f6          USER32!RealGetWindowClassW (_RealGetWindowClassW@12)
+77cfed6b          USER32!GdiAddFontResourceW (_GdiAddFontResourceW@12)
+77d35439          USER32!InternalEnumProps (_InternalEnumProps@16)
+77cf102c          USER32!_imp__PlayEnhMetaFile = <no type information>
+77d2f69c          USER32!DrawMenuBar (_DrawMenuBar@4)
+77d1fdb1          USER32!NtUserThunkedMenuInfo (_NtUserThunkedMenuInfo@8)
+77d08845          USER32!CharLowerBuffA (_CharLowerBuffA@8)
+77d1e2c5          USER32!BitBltSysBmp (_BitBltSysBmp@16)
+77d4cc32          USER32!NtUserGetListBoxInfo (_NtUserGetListBoxInfo@4)
+77d44655          USER32!ByteOutsetRect (_ByteOutsetRect@4)
+77cf9689          USER32!MsgWaitForMultipleObjects (_MsgWaitForMultipleObjects@20)
+77d1cfd9          USER32!LBGetDC (_LBGetDC@4)
+77d0a6d9          USER32!GetMonitorInfoW (_GetMonitorInfoW@8)
+77d17df1          USER32!ComboBoxMsgOKInInit (_ComboBoxMsgOKInInit@8)
+77d04b3b          USER32!_FindDlgItem (__FindDlgItem@8)
+77d1b1b0          USER32!xxxSetISelBase (_xxxSetISelBase@8)
+77d3fa1a          USER32!SLMouseToIch (_SLMouseToIch@12)
+77cf9b52          USER32!GetIcoCurWidth (_GetIcoCurWidth@16)
+77d1f6b5          USER32!xxxMDINext (_xxxMDINext@12)
+77d3839d          USER32!DisconnectConv (_DisconnectConv@4)
+77d2ef80          USER32!gszReliabilityKey = <no type information>
+77cf1428          USER32!_imp__NtCallbackReturn = <no type information>
+77d3919a          USER32!__ClientGetTextExtentPointW (___ClientGetTextExtentPointW@4)
+77d362eb          USER32!SetDebugErrorLevel (_SetDebugErrorLevel@4)
+77d4d4e0          USER32!AlignRects (_AlignRects@16)
+77d43eb1          USER32!xxxLbInsertFile (_xxxLbInsertFile@8)
+77cfe754          USER32!Scale824 (_Scale824@44)
+77cff4b2          USER32!__ClientGetCharsetInfo (___ClientGetCharsetInfo@4)
+77d49ccd          USER32!SmoothScrollWindowEx (_SmoothScrollWindowEx@36)
+77d49287          USER32!ClRespRequestData (_ClRespRequestData@12)
+77cf14c0          USER32!_imp__RtlEnterCriticalSection = <no type information>
+77d315fe          USER32!ECTabTheTextOut (_ECTabTheTextOut@48)
+77d1c882          USER32!xxxSetStaticImage (_xxxSetStaticImage@12)
+77d0acf3          USER32!NtUserUpdateLayeredWindow (_NtUserUpdateLayeredWindow@36)
+77d36022          USER32!GetInputDesktop (_GetInputDesktop@0)
+77d3896d          USER32!__fnINOUTDRAG (___fnINOUTDRAG@4)
+77cf1174          USER32!_imp__TextOutW = <no type information>
+77d38d54          USER32!__fnHkINLPKBDLLHOOKSTRUCT (___fnHkINLPKBDLLHOOKSTRUCT@4)
+77d0c8b0          USER32!CharNextA (_CharNextA@4)
+77d40e7d          USER32!PciiFromHandle (_PciiFromHandle@4)
+77d51560          USER32!grgbDlgLiteHookMsg = <no type information>
+77d4dd52          USER32!ULongAdd (_ULongAdd@12)
+77d0052c          USER32!ValidateCHandle (_ValidateCHandle@12)
+77d38728          USER32!__fnOPTOUTLPDWORDOPTOUTLPDWORD (___fnOPTOUTLPDWORDOPTOUTLPDWORD@4)
+77d1ee5d          USER32!WinHelpA (_WinHelpA@16)
+77d0c062          USER32!NtUserSetProp (_NtUserSetProp@12)
+77cf93dd          USER32!NtUserPeekMessage (_NtUserPeekMessage@20)
+77d40a5a          USER32!vMoveFileFromSystemToFontsDir (_vMoveFileFromSystemToFontsDir@4)
+77cf113c          USER32!_imp__GdiCreateLocalEnhMetaFile = <no type information>
+77d364e4          USER32!GetMenuStringW (_GetMenuStringW@20)
+77d368f5          USER32!DesktopWndProcWorker (_DesktopWndProcWorker@20)
+77d1babe          USER32!xxxPressButton (_xxxPressButton@8)
+77cf1288          USER32!_imp__GetAtomNameW = <no type information>
+77d4e2aa          USER32!_imp_load__ReadPwrScheme (__imp_load__ReadPwrScheme@8)
+77d4cb94          USER32!NtUserGetClipboardViewer (_NtUserGetClipboardViewer@0)
+77d1637f          USER32!LBEvent (_LBEvent@12)
+77d51530          USER32!gfLogonProcess = <no type information>
+77d0d8c5          USER32!_GetSubMenu (__GetSubMenu@8)
+77d41930          USER32!SendWinHelpMessage (_SendWinHelpMessage@12)
+77d365c0          USER32!fnHkINLPCWPRETSTRUCTW (_fnHkINLPCWPRETSTRUCTW@20)
+77d33d9c          USER32!ReadTag (_ReadTag@8)
+77d46406          USER32!MessageBoxTimeoutA (_MessageBoxTimeoutA@24)
+77d41bd4          USER32!WinHelpW (_WinHelpW@16)
+77d2f749          USER32!NtUserWaitForMsgAndEvent (_NtUserWaitForMsgAndEvent@4)
+77cf1180          USER32!_imp__StretchBlt = <no type information>
+77d15bf4          USER32!xxxNewITop (_xxxNewITop@8)
+77d1c044          USER32!Compare (_Compare@12)
+77d0fafb          USER32!NtUserTranslateAccelerator (_NtUserTranslateAccelerator@12)
+77d43c3b          USER32!xxxLbDir (_xxxLbDir@12)
+77d3750c          USER32!xxxCBDir (_xxxCBDir@12)
+77d04dca          USER32!CheckDlgButton (_CheckDlgButton@12)
+77cf35b0          USER32!aidReturn = <no type information>
+77d0367b          USER32!CsrBroadcastSystemMessageExW (_CsrBroadcastSystemMessageExW@24)
+77d115a4          USER32!_GetLastActivePopup (__GetLastActivePopup@4)
+77d2f6b4          USER32!GetKeyNameTextA (_GetKeyNameTextA@12)
+77cf8520          USER32!HMValidateHandle (@HMValidateHandle@8)
+77d4cace          USER32!NtUserDragDetect (_NtUserDragDetect@12)
+77d4e1c1          USER32!GdiGetBitmapBitsSize (_GdiGetBitmapBitsSize@4)
+77d4e264          USER32!_imp_load__OpenThreadToken (__imp_load__OpenThreadToken@16)
+77cfa8ad          USER32!wsprintfA (_wsprintfA)
+77cf1354          USER32!_imp__lstrcmpiW = <no type information>
+77d512e8          USER32!pfnUnlockResource = <no type information>
+77d515e0          USER32!grgbWndLiteHookMsg = <no type information>
+77d4e17f          USER32!DelayLoadFailureHook (_DelayLoadFailureHook@8)
+77d4d9cd          USER32!AddPathEllipsis (_AddPathEllipsis@32)
+77d085c1          USER32!__fnPOUTLPINT (___fnPOUTLPINT@4)
+77d4e2c1          USER32!_imp_load__GetActivePwrScheme (__imp_load__GetActivePwrScheme@4)
+77d39623          USER32!ChangeDisplaySettingsW (_ChangeDisplaySettingsW@8)
+77d13f24          USER32!ECInsertText (_ECInsertText@12)
+77d51b58          USER32!gpfnGetIMEMenuItemData = <no type information>
+77d4396d          USER32!DlgDirListW (_DlgDirListW@20)
+77d38fdc          USER32!__ClientGetDDEHookData (___ClientGetDDEHookData@4)
+77d1696f          USER32!xxxLBInvalidateRect (_xxxLBInvalidateRect@12)
+77d10ca2          USER32!DeleteClientClipboardHandle (_DeleteClientClipboardHandle@4)
+77d44cd3          USER32!ScrollMDIChildren (_ScrollMDIChildren@16)
+77d51b08          USER32!_NLG_Destination = <no type information>
+77d4cf62          USER32!NtUserTrackPopupMenuEx (_NtUserTrackPopupMenuEx@24)
+77d0ba61          USER32!GdiGetCodePage (_GdiGetCodePage@4)
+77cf132c          USER32!_imp__GlobalAlloc = <no type information>
+77cf117c          USER32!_imp__GdiConvertAndCheckDC = <no type information>
+77d51004          USER32!_imp__RegCreateKeyExW = <no type information>
+77cf1160          USER32!_imp__GetTextExtentPointW = <no type information>
+77cf14c8          USER32!_imp__NtEnumerateKey = <no type information>
+77d517c4          USER32!gpwcFontsDir = <no type information>
+77d1db1c          USER32!xxxStaticLoadImage (_xxxStaticLoadImage@8)
+77cfdf91          USER32!NtUserEnumDisplaySettings (_NtUserEnumDisplaySettings@16)
+77cfd8a6          USER32!Scale424 (_Scale424@44)
+77cfe8d7          USER32!UnregisterDeviceNotification (_UnregisterDeviceNotification@4)
+77d1cf8c          USER32!LBReleaseDC (_LBReleaseDC@4)
+77cfc2bc          USER32!ConvertDIBIcon (_ConvertDIBIcon@28)
+77d387b3          USER32!__fnCOPYGLOBALDATA (___fnCOPYGLOBALDATA@4)
+77cf1454          USER32!_imp__NtCreateKey = <no type information>
+77cf91b2          USER32!NtUserGetMessage (_NtUserGetMessage@16)
+77cfb7ff          USER32!LoadAppDlls (_LoadAppDlls@0)
+77d4a2a9          USER32!AbandonEnumerateProc (_AbandonEnumerateProc@8)
+77cf25c8          USER32!pwszSweepKey = <no type information>
+77d006ff          USER32!InternalDdeInitialize (_InternalDdeInitialize@16)
+77d37c45          USER32!FreeConversationResources (_FreeConversationResources@4)
+77cf33d0          USER32!IID_IUnknown = <no type information>
+77cf1150          USER32!_imp__MirrorRgn = <no type information>
+77d48d0c          USER32!SpontaneousServerMessage (_SpontaneousServerMessage@12)
+77d4b427          USER32!VTagOutput (_VTagOutput)
+77cf1488          USER32!_imp__RtlFreeUnicodeString = <no type information>
+77cfec46          USER32!__ClientGetMessageMPH (___ClientGetMessageMPH@4)
+77d02f58          USER32!NtUserInitializeClientPfnArrays (_NtUserInitializeClientPfnArrays@16)
+77cf1318          USER32!_imp__GetOEMCP = <no type information>
+77d0cb84          USER32!DrawIconEx (_DrawIconEx@36)
+77d2017c          USER32!xxxBNOwnerDraw (_xxxBNOwnerDraw@12)
+77d0d23a          USER32!MNLookUpItem (_MNLookUpItem@16)
+77cfaf7f          USER32!RegisterClassExW (_RegisterClassExW@4)
+77d1fee4          USER32!NtUserDestroyAcceleratorTable (_NtUserDestroyAcceleratorTable@4)
+77d0f306          USER32!CreateMenu (_CreateMenu@0)
+77d36198          USER32!RegisterSystemThread (_RegisterSystemThread@8)
+77cfd0da          USER32!GetResourceTablePE (_GetResourceTablePE@4)
+77d4cfee          USER32!NtUserWaitForInputIdle (_NtUserWaitForInputIdle@12)
+77d0865f          USER32!NtUserSetConsoleReserveKeys (_NtUserSetConsoleReserveKeys@8)
+77d51c40          USER32!szWindowStationDirectory = <no type information>
+77d3c94e          USER32!EcImeRequestHandler (_EcImeRequestHandler@12)
+77d103f7          USER32!__ClientPrinterThunk (___ClientPrinterThunk@4)
+77d07c39          USER32!RegisterClassExA (_RegisterClassExA@4)
+77d51860          USER32!EditLookaside = <no type information>
+77d389ff          USER32!__fnINPAINTCLIPBRD (___fnINPAINTCLIPBRD@4)
+77d4e2b6          USER32!ReadPwrScheme (_ReadPwrScheme@8)
+77cf10c0          USER32!_imp__GetBkMode = <no type information>
+77d0c256          USER32!_SetWindowLong (__SetWindowLong@16)
+77d028f3          USER32!__ClientFontSweep (___ClientFontSweep@4)
+77d09c1b          USER32!NtUserGetKeyboardLayoutList (_NtUserGetKeyboardLayoutList@8)
+77d0bb30          USER32!GetNextWordbreak (_GetNextWordbreak@20)
+77d081bf          USER32!_SetWindowsHookEx (__SetWindowsHookEx@24)
+77d51bb4          USER32!_hmod__WINSTA = <no type information>
+77cf124c          USER32!_imp__CloseHandle = <no type information>
+77d418e2          USER32!DdeFreeDataHandle (_DdeFreeDataHandle@4)
+77d09d3f          USER32!NtUserGetClassName (_NtUserGetClassName@12)
+77d0aeab          USER32!UpdateWindow (_UpdateWindow@4)
+77d41d8d          USER32!DdeCmpStringHandles (_DdeCmpStringHandles@8)
+77d4ceae          USER32!NtUserSetMenu (_NtUserSetMenu@12)
+77d09701          USER32!wcslen (_wcslen)
+77d2f65c          USER32!__fnINOUTLPMEASUREITEMSTRUCT (___fnINOUTLPMEASUREITEMSTRUCT@4)
+77d42244          USER32!LBCalcAllocNeeded (_LBCalcAllocNeeded@8)
+77d0fb2f          USER32!TranslateMDISysAccel (_TranslateMDISysAccel@8)
+77d01fef          USER32!NtUserSetLogonNotifyWindow (_NtUserSetLogonNotifyWindow@4)
+77d19d44          USER32!LBCalcItemRowsAndColumns (_LBCalcItemRowsAndColumns@4)
+77cfbd2f          USER32!_SetCursorIconData (__SetCursorIconData@8)
+77d165cc          USER32!ECInvalidateClient (_ECInvalidateClient@8)
+77d1e577          USER32!DefDlgProcA (_DefDlgProcA@16)
+77cf1064          USER32!_imp__CopyEnhMetaFileW = <no type information>
+77d0473c          USER32!LoadBitmapA (_LoadBitmapA@8)
+77d102b5          USER32!NtUserSetKeyboardState (_NtUserSetKeyboardState@4)
+77d46fb0          USER32!SetLastErrorEx (_SetLastErrorEx@8)
+77d00e96          USER32!CliGetImeHotKeysFromRegistry (_CliGetImeHotKeysFromRegistry@0)
+77d1030c          USER32!GetWindowWord (_GetWindowWord@8)
+77d38dce          USER32!__fnHkINLPDEBUGHOOKSTRUCT (___fnHkINLPDEBUGHOOKSTRUCT@4)
+77d466a8          USER32!ToUnicode (_ToUnicode@24)
+77d43458          USER32!xxxDlgDirListHelper (_xxxDlgDirListHelper@28)
+77cfc0c7          USER32!LoadDIB (_LoadDIB@24)
+77d38a66          USER32!__fnINSIZECLIPBRD (___fnINSIZECLIPBRD@4)
+77cfbc1a          USER32!CopyDibHdr (_CopyDibHdr@12)
+77d098c8          USER32!GetFocus (_GetFocus@0)
+77cf116c          USER32!_imp__PatBlt = <no type information>
+77d3badb          USER32!ReuseDDElParam (_ReuseDDElParam@20)
+77d0a0f1          USER32!UnionRect (_UnionRect@12)
+77d47956          USER32!CompareReasons (_CompareReasons)
+77d35f05          USER32!GetEditDS (_GetEditDS@0)
+77cf21a0          USER32!szRegImeHotKey = <no type information>
+77cf1108          USER32!_imp__RealizePalette = <no type information>
+77cf2fb8          USER32!DefaultHotKeyTableC = <no type information>
+77d01ac2          USER32!IsCharAlphaNumericW (_IsCharAlphaNumericW@4)
+77d393b2          USER32!__fnINOUTMENUGETOBJECT (___fnINOUTMENUGETOBJECT@4)
+77d4cc82          USER32!NtUserGetMouseMovePointsEx (_NtUserGetMouseMovePointsEx@20)
+77d07acc          USER32!GetIconIdEx (_GetIconIdEx@24)
+77d3d7ca          USER32!ECFindXORblks (_ECFindXORblks@16)
+77cf1198          USER32!_imp__DeleteMetaFile = <no type information>
+77d002e2          USER32!LocalToGlobalAtom (_LocalToGlobalAtom@4)
+77cf11d0          USER32!_imp__SetTextAlign = <no type information>
+77d1f8fb          USER32!MDIAddSysMenu (_MDIAddSysMenu@8)
+77d3c1db          USER32!ECImmSetCompositionWindow (_ECImmSetCompositionWindow@12)
+77cf13f0          USER32!_imp__sscanf = <no type information>
+77d5187c          USER32!pfnLocalFree = <no type information>
+77d09d12          USER32!GetClassNameW (_GetClassNameW@12)
+77d091b3          USER32!SendMessageWorker (_SendMessageWorker@20)
+77d42453          USER32!ISelFromPt (_ISelFromPt@16)
+77cfffa6          USER32!ProcessRegistrationMessage (_ProcessRegistrationMessage@16)
+77cf1178          USER32!_imp__BitBlt = <no type information>
+77cf1020          USER32!_imp__SetLayout = <no type information>
+77cf141c          USER32!_imp__NtQueryInformationToken = <no type information>
+77d4b4af          USER32!IMPGetIMEW (_IMPGetIMEW@8)
+77d0b383          USER32!PhkNextValid (_PhkNextValid@4)
+77d3a275          USER32!ExitWindowsEx (_ExitWindowsEx@8)
+77d4cc0a          USER32!NtUserGetInternalWindowPos (_NtUserGetInternalWindowPos@12)
+77d4ce9a          USER32!NtUserSetInternalWindowPos (_NtUserSetInternalWindowPos@16)
+77d46783          USER32!keybd_event (_keybd_event@16)
+77cfeca3          USER32!NtUserOpenInputDesktop (_NtUserOpenInputDesktop@12)
+77d496e1          USER32!ClStartExecute (_ClStartExecute@4)
+77d1216b          USER32!GetWindowTextA (_GetWindowTextA@12)
+77d4b4f3          USER32!IMPSetIMEW (_IMPSetIMEW@8)
+77d4c2e3          USER32!ImeWndCreateHandler (_ImeWndCreateHandler@8)
+77d3e334          USER32!MLEnsureCaretVisible (_MLEnsureCaretVisible@4)
+77cf1350          USER32!_imp__WritePrivateProfileStringW = <no type information>
+77d0c908          USER32!LoadStringA (_LoadStringA@16)
+77d03f02          USER32!xxxSaveDlgFocus (_xxxSaveDlgFocus@4)
+77cf105c          USER32!_imp__CreateBrushIndirect = <no type information>
+77d00260          USER32!SetTaskmanWindow (_SetTaskmanWindow@4)
+77d09de0          USER32!GetMessageTime (_GetMessageTime@0)
+77d1b44a          USER32!ComboBoxWndProcA (_ComboBoxWndProcA@16)
+77d46ebe          USER32!SetSysColorsTemp (_SetSysColorsTemp@12)
+77d45342          USER32!xxxGetSysMenuHandle (_xxxGetSysMenuHandle@4)
+77cf8b30          USER32!GetWindowData (_GetWindowData@12)
+77d3a0a5          USER32!EndTask (_EndTask@12)
+77d10d09          USER32!GetAltTabInfoW (_GetAltTabInfoW@20)
+77d4410b          USER32!LBPage (_LBPage@12)
+77cf1460          USER32!_imp__RtlQueryInformationActiveActivationContext = <no type information>
+77d1bb8b          USER32!xxxCBGetFocusHelper (_xxxCBGetFocusHelper@4)
+77cf13dc          USER32!_imp__RtlPcToFileHeader = <no type information>
+77cf2278          USER32!szKLKey = <no type information>
+77cf1490          USER32!_imp___chkstk = <no type information>
+77d04b92          USER32!xxxCheckDefPushButton (_xxxCheckDefPushButton@12)
+77d1214a          USER32!FindWindowExA (_FindWindowExA@16)
+77cf1018          USER32!_imp__CreateRectRgn = <no type information>
+77cf1224          USER32!_imp__GetExitCodeThread = <no type information>
+77d3da4d          USER32!ECNextIch (_ECNextIch@12)
+77d16541          USER32!ComboBoxWndProcW (_ComboBoxWndProcW@16)
+77d4b216          USER32!CallMsgFilterA (_CallMsgFilterA@8)
+77cf941e          USER32!TranslateAcceleratorW (_TranslateAcceleratorW@12)
+77d35bb3          USER32!GetServerIMEKeyboardLayout (_GetServerIMEKeyboardLayout@4)
+77d2a008          USER32!szKLKey2 = <no type information>
+77d0c5e4          USER32!NtUserCalcMenuBar (_NtUserCalcMenuBar@20)
+77cf128c          USER32!_imp__GetAtomNameA = <no type information>
+77d2f24e          USER32!GetMenuStringA (_GetMenuStringA@20)
+77d51a20          USER32!g_rgReasonInits = <no type information>
+77cf101c          USER32!_imp__CreateRectRgnIndirect = <no type information>
+77d46383          USER32!MessageBoxTimeoutW (_MessageBoxTimeoutW@24)
+77d0f92a          USER32!FrameRect (_FrameRect@12)
+77d0eb09          USER32!__ClientCopyImage (___ClientCopyImage@4)
+77cf10d4          USER32!_imp__GetTextCharset = <no type information>
+77d03f89          USER32!NtUserSetThreadState (_NtUserSetThreadState@8)
+77d49882          USER32!CharPrevExA (_CharPrevExA@16)
+77d51b24          USER32!gdwEMIThreadID = <no type information>
+77d0d5f3          USER32!NtUserUnhookWindowsHookEx (_NtUserUnhookWindowsHookEx@4)
+77d124a9          USER32!xxxBNDrawText (_xxxBNDrawText@16)
+77cff291          USER32!bLoadableFontDrivers (_bLoadableFontDrivers@0)
+77d0b75b          USER32!GetHFONT (_GetHFONT@4)
+77d0f5ec          USER32!GetUpdateRgn (_GetUpdateRgn@12)
+77d420e5          USER32!DestroyInstance (_DestroyInstance@4)
+77d3b7a3          USER32!_ClientCopyDDEOut2 (__ClientCopyDDEOut2@4)
+77d4b9f1          USER32!ImeMarkUsedContext (_ImeMarkUsedContext@8)
+77d4d69e          USER32!GetCaptionChar (_GetCaptionChar@4)
+77d5154c          USER32!pfnSizeofResource = <no type information>
+77d51018          USER32!_imp__RegisterEventSourceW = <no type information>
+77d51518          USER32!ghImm32 = <no type information>
+77d098fe          USER32!IsRectEmpty (_IsRectEmpty@4)
+77d04305          USER32!GetDlgItemTextW (_GetDlgItemTextW@16)
+77cf14cc          USER32!_imp__NtOpenKey = <no type information>
+77d51084          USER32!ghmodUserApiHook = <no type information>
+77d3d03b          USER32!ECDoIMEMenuCommand (_ECDoIMEMenuCommand@12)
+77d3d69b          USER32!ECSaveUndo (_ECSaveUndo@12)
+77d3569f          USER32!GetClipboardCodePage (_GetClipboardCodePage@8)
+77cf1144          USER32!_imp__GetRgnBox = <no type information>
+77cf1438          USER32!_imp__RtlInitializeCriticalSection = <no type information>
+77cf2ba8          USER32!pwszWindowsKey = <no type information>
+77cf13b4          USER32!_imp__RegisterWaitForInputIdle = <no type information>
+77d3fc20          USER32!SLReplaceSel (_SLReplaceSel@8)
+77cff967          USER32!GetMenuState (_GetMenuState@12)
+77d1384a          USER32!DispatchLocalSize (_DispatchLocalSize@8)
+77d06a9d          USER32!CreateDlgFont (_CreateDlgFont@20)
+77d4cb1e          USER32!NtUserDrawCaptionTemp (_NtUserDrawCaptionTemp@28)
+77cf2c38          USER32!szAppInit = <no type information>
+77d4e273          USER32!_imp_load__GetTokenInformation (__imp_load__GetTokenInformation@20)
+77cf3008          USER32!szKLId = <no type information>
+77cf9e57          USER32!CharLowerBuffW (_CharLowerBuffW@8)
+77d4b47c          USER32!WINNLSGetEnableStatus (_WINNLSGetEnableStatus@4)
+77d0bc25          USER32!UserLpkPSMTextOut (_UserLpkPSMTextOut@24)
+77d1fae3          USER32!GetCascadeWindowPos (_GetCascadeWindowPos@12)
+77d09719          USER32!PtInRect (_PtInRect@12)
+77d10f35          USER32!NtUserSetClipboardData (_NtUserSetClipboardData@12)
+77cf86db          USER32!NtUserQueryWindow (_NtUserQueryWindow@8)
+77d0d9f6          USER32!InternalCopyImage (_InternalCopyImage@20)
+77d02864          USER32!vNullTermWideString (_vNullTermWideString@12)
+77cf1330          USER32!_imp__MultiByteToWideChar = <no type information>
+77cf216c          USER32!szNull = <no type information>
+77d36873          USER32!MenuWindowProcA (_MenuWindowProcA@20)
+77cf8655          USER32!PtiCurrent (_PtiCurrent@0)
+77d4b530          USER32!NtUserCheckImeShowStatusInThread (_NtUserCheckImeShowStatusInThread@4)
+77d02ba4          USER32!CallUserpRegisterLogonProcess (_CallUserpRegisterLogonProcess@4)
+77d33748          USER32!UserRegisterWowHandlers (_UserRegisterWowHandlers@8)
+77d4ae5e          USER32!SetMenuItemInfoA (_SetMenuItemInfoA@16)
+77d51010          USER32!_imp__DeregisterEventSource = <no type information>
+77d06024          USER32!NtUserAlterWindowStyle (_NtUserAlterWindowStyle@12)
+77cf1170          USER32!_imp__TextOutA = <no type information>
+77cfe666          USER32!BroadcastSystemMessageW (_BroadcastSystemMessageW@20)
+77d03281          USER32!SetMenuItemInfoW (_SetMenuItemInfoW@16)
+77d392c2          USER32!__ClientImmProcessKey (___ClientImmProcessKey@4)
+77d3b6b7          USER32!_ClientCopyDDEOut1 (__ClientCopyDDEOut1@4)
+77d037c3          USER32!GetNextDlgTabItem (_GetNextDlgTabItem@12)
+77d30142          USER32!WOWLoadBitmapA (_WOWLoadBitmapA@16)
+77d37293          USER32!xxxCBShowListBoxWindow (_xxxCBShowListBoxWindow@8)
+77cf13a0          USER32!_imp__HeapAlloc = <no type information>
+77cf1368          USER32!_imp__GetLocaleInfoW = <no type information>
+77d078ab          USER32!__fnHkINLPMSG (___fnHkINLPMSG@4)
+77d45948          USER32!MonitorLink (_MonitorLink@40)
+77cf10a4          USER32!_imp__GetCharABCWidthsW = <no type information>
+77d1f9e3          USER32!NtUserSetSystemMenu (_NtUserSetSystemMenu@8)
+77d37543          USER32!DlgDirSelectComboBoxExW (_DlgDirSelectComboBoxExW@16)
+77cfd621          USER32!ScaleDIB (_ScaleDIB@16)
+77d12b2b          USER32!xxxBNPaint (_xxxBNPaint@8)
+77d1492d          USER32!SLScrollText (_SLScrollText@8)
+77d18c15          USER32!GetCharWidthInfo (_GetCharWidthInfo@8)
+77d111db          USER32!GetKeyboardType (_GetKeyboardType@4)
+77d09c8a          USER32!IsZoomed (_IsZoomed@4)
+77d3a0f8          USER32!DeviceEventWorker (_DeviceEventWorker@20)
+77d12712          USER32!DrawPushButton (_DrawPushButton@16)
+77d08fe9          USER32!NtUserBeginPaint (_NtUserBeginPaint@8)
+77cfee5d          USER32!RtlLoadObjectFromDIBFile (_RtlLoadObjectFromDIBFile@20)
+77d1d00c          USER32!LBInitDC (_LBInitDC@4)
+77d0ae0d          USER32!CopyInflateRect (_CopyInflateRect@16)
+77d33a2d          USER32!CliSaveImeHotKey (_CliSaveImeHotKey@20)
+77d339d9          USER32!CliSetDefaultImeHotKeys (_CliSetDefaultImeHotKeys@12)
+77d126de          USER32!IsPushButton (_IsPushButton@4)
+77d3dab1          USER32!ECPrevIch (_ECPrevIch@12)
+77d12bee          USER32!xxxDrawButton (_xxxDrawButton@12)
+77d51038          USER32!_imp__AlphaBlend = <no type information>
+77cf1058          USER32!_imp__PolyPatBlt = <no type information>
+77d1fa5d          USER32!MDICheckCascadeRect (_MDICheckCascadeRect@8)
+77d1033d          USER32!_GetWindowWord (__GetWindowWord@8)
+77cfe8b9          USER32!RegisterDeviceNotificationW (_RegisterDeviceNotificationW@12)
+77d12888          USER32!BNReleaseDC (_BNReleaseDC@8)
+77cfebb3          USER32!NtUserRegisterHotKey (_NtUserRegisterHotKey@16)
+77d4750c          USER32!ReaderProcInternal (_ReaderProcInternal@16)
+77d51440          USER32!gpfnInitUserApi = <no type information>
+77d13785          USER32!WINNLSGetIMEHotkey (_WINNLSGetIMEHotkey@4)
+77d2f18b          USER32!GetWindowTextLengthA (_GetWindowTextLengthA@4)
+77d3907b          USER32!__ClientPSMTextOut (___ClientPSMTextOut@4)
+77cf1448          USER32!_imp__RtlImageNtHeader = <no type information>
+77cfa164          USER32!RegisterClassExWOWW (_RegisterClassExWOWW@16)
+77cfb505          USER32!RW_RegisterControls (_RW_RegisterControls@0)
+77d104c6          USER32!MDIClientWndProcWorker (_MDIClientWndProcWorker@20)
+77d3ffc6          USER32!MLInsertCrCrLf (_MLInsertCrCrLf@4)
+77d07836          USER32!GetWindowTextLengthW (_GetWindowTextLengthW@4)
+77d1b889          USER32!IsCharLowerA (_IsCharLowerA@4)
+77d00587          USER32!AddInstance (_AddInstance@4)
+77d2ff3c          USER32!xxxButtonNotifyParent (_xxxButtonNotifyParent@8)
+77d4e400          USER32!_sz_ADVAPI32 = <no type information>
+77d1364e          USER32!_IsDescendant (__IsDescendant@8)
+77d0aa38          USER32!RtlMBMessageWParamCharToWCS (_RtlMBMessageWParamCharToWCS@8)
+77d11368          USER32!IsMenu (_IsMenu@4)
+77cf11f8          USER32!_imp__GetCurrentThreadId = <no type information>
+77d10d41          USER32!__fnINDESTROYCLIPBRD (___fnINDESTROYCLIPBRD@4)
+77cf19ec          USER32!aiClassOffset = <no type information>
+77d00e32          USER32!CliImmSetHotKeyWorker (_CliImmSetHotKeyWorker@20)
+77cfac6d          USER32!SP_PutNumberW (_SP_PutNumberW@24)
+77d0ff25          USER32!NtUserScrollWindowEx (_NtUserScrollWindowEx@32)
+77cf14dc          USER32!_imp__RtlUnicodeStringToInteger = <no type information>
+77d3d9b9          USER32!ECAnsiNext (_ECAnsiNext@8)
+77d46a66          USER32!fnCBGETEDITSEL (_fnCBGETEDITSEL@28)
+77d51020          USER32!_imp__RegQueryInfoKeyW = <no type information>
+77d2f3b2          USER32!IsCharLowerW (_IsCharLowerW@4)
+77cfff3c          USER32!GlobalToLocalAtom (_GlobalToLocalAtom@4)
+77d4cf3a          USER32!NtUserSetSystemTimer (_NtUserSetSystemTimer@16)
+77d4853b          USER32!SvSpontAdvise (_SvSpontAdvise@8)
+77d1d093          USER32!_imp_load__AlphaBlend (__imp_load__AlphaBlend@44)
+77d17327          USER32!DrawIt (_DrawIt@16)
+77d0d446          USER32!WCSToMBEx (_WCSToMBEx@24)
+77d0af8d          USER32!EndDeferWindowPos (_EndDeferWindowPos@4)
+77d52080          USER32!rmap = <no type information>
+77d3944a          USER32!__ClientCallWinEventProc (___ClientCallWinEventProc@4)
+77d51e80          USER32!bmap = <no type information>
+77d512e4          USER32!pfnLoadResource = <no type information>
+77d0028c          USER32!IncGlobalAtomCount (_IncGlobalAtomCount@4)
+77d0f1bc          USER32!VkKeyScanExW (_VkKeyScanExW@8)
+77cfb7f4          USER32!GdiProcessSetup (_GdiProcessSetup@0)
+77d0e4e5          USER32!RealSetWindowRgn (_RealSetWindowRgn@12)
+77d049d0          USER32!DialogBoxIndirectParamAorW (_DialogBoxIndirectParamAorW@24)
+77cf1118          USER32!_imp__CreateCompatibleBitmap = <no type information>
+77d4b4e2          USER32!IMPQueryIMEA (_IMPQueryIMEA@4)
+77d1c689          USER32!IsDialogMessageA (_IsDialogMessageA@8)
+77d2f100          USER32!DrawStateA (_DrawStateA@40)
+77d4b515          USER32!NtUserBroadcastImeShowStatusChange (_NtUserBroadcastImeShowStatusChange@8)
+77d3bc09          USER32!SetDlgItemInt (_SetDlgItemInt@16)
+77d4d645          USER32!FillTriangle (_FillTriangle@16)
+77d09c2f          USER32!FillRect (_FillRect@12)
+77d39e3f          USER32!GetLoggedOnUserCount (_GetLoggedOnUserCount@0)
+77d3afc2          USER32!CheckForQueuedMessages (_CheckForQueuedMessages@4)
+77d0b99d          USER32!GetPrefixCount (_GetPrefixCount@16)
+77d1b84d          USER32!__fnGETTEXTLENGTHS (___fnGETTEXTLENGTHS@4)
+77cf107c          USER32!_imp__bMakePathNameW = <no type information>
+77d4b18b          USER32!VkKeyScanExA (_VkKeyScanExA@8)
+77d3bf73          USER32!ECCalcMarginForDBCSFont (_ECCalcMarginForDBCSFont@8)
+77d0436e          USER32!GetDlgItem (_GetDlgItem@8)
+77d4b4d1          USER32!IMPQueryIMEW (_IMPQueryIMEW@4)
+77d07424          USER32!IsDialogMessageW (_IsDialogMessageW@8)
+77d3cd4b          USER32!ECIsAncestorActive (_ECIsAncestorActive@4)
+77d4cd36          USER32!NtUserImpersonateDdeClientWindow (_NtUserImpersonateDdeClientWindow@8)
+77d32dce          USER32!MLGetLineWidth (_MLGetLineWidth@16)
+77d4a5e3          USER32!UnlinkTransaction (_UnlinkTransaction@4)
+77d1fdc5          USER32!NtUserClipCursor (_NtUserClipCursor@4)
+77d4e1b6          USER32!GdiFixUpHandle (_GdiFixUpHandle@4)
+77d08ec8          USER32!__fnDWORD (___fnDWORD@4)
+77d4b504          USER32!IMPSetIMEA (_IMPSetIMEA@8)
+77cf1458          USER32!_imp__NtSetValueKey = <no type information>
+77d3b365          USER32!_ClientCopyDDEIn1 (__ClientCopyDDEIn1@8)
+77d1c4ac          USER32!xxxButtonDrawCheck (_xxxButtonDrawCheck@12)
+77d0a5cd          USER32!GetWindowTextW (_GetWindowTextW@12)
+77d402a6          USER32!MLGetLine (_MLGetLine@16)
+77d413bd          USER32!FreeDDEData (_FreeDDEData@12)
+77d130fd          USER32!ECLock (_ECLock@4)
+77d36d2b          USER32!ULongLongToULong (_ULongLongToULong@12)
+77d01677          USER32!CommonCreateDesktop (_CommonCreateDesktop@24)
+77d3c8cb          USER32!EcImeGetDocFeedMin (_EcImeGetDocFeedMin@8)
+77d4b4c0          USER32!IMPGetIMEA (_IMPGetIMEA@8)
+77d1f051          USER32!ChildMinMaxInfo (_ChildMinMaxInfo@8)
+77d01e40          USER32!AllowSetForegroundWindow (_AllowSetForegroundWindow@4)
+77cf8a80          USER32!GetWindowThreadProcessId (_GetWindowThreadProcessId@8)
+77d51008          USER32!_imp__RegCloseKey = <no type information>
+77d09e3d          USER32!IsWindowVisible (_IsWindowVisible@4)
+77d01162          USER32!CliImmInitializeHotKeys (_CliImmInitializeHotKeys@8)
+77cf1468          USER32!_imp__RtlFreeHeap = <no type information>
+77d39f64          USER32!NeedsDisplayWarning (_NeedsDisplayWarning@8)
+77d4e300          USER32!_imp_load__WinStationGetTermSrvCountersValue (__imp_load__WinStationGetTermSrvCountersValue@12)
+77d0750e          USER32!CallMsgFilterW (_CallMsgFilterW@8)
+77d3a853          USER32!DdeGetLastError (_DdeGetLastError@4)
+77d4769f          USER32!EnterReaderModeHelper (_EnterReaderModeHelper@4)
+77d3e2a8          USER32!MLCalcXOffset (_MLCalcXOffset@12)
+77cf1068          USER32!_imp__CopyMetaFileW = <no type information>
+77cffb5d          USER32!IconFromBestImage (_IconFromBestImage@36)
+77cf1450          USER32!_imp__NtYieldExecution = <no type information>
+77d065f3          USER32!SkipSz (_SkipSz@4)
+77d43fed          USER32!LBDropObjectHandler (_LBDropObjectHandler@8)
+77d494d8          USER32!SvStartAdviseUpdate (_SvStartAdviseUpdate@8)
+77cfb91b          USER32!InitInstrument (_InitInstrument@4)
+77cf8ed6          USER32!GetAppCompatFlags2 (_GetAppCompatFlags2@4)
+77d410d1          USER32!DdeAddData (_DdeAddData@16)
+77d4b3dc          USER32!GetAltTabInfoA (_GetAltTabInfoA@20)
+77d4a221          USER32!GetConvContext (_GetConvContext@8)
+77d4bb51          USER32!ImeSystemHandler (_ImeSystemHandler@16)
+77d3e7f4          USER32!MLSetFocus (_MLSetFocus@4)
+77d0c047          USER32!NtUserRemoveProp (_NtUserRemoveProp@8)
+77d1171f          USER32!SetLastNtError (_SetLastNtError@4)
+77d4b44d          USER32!DefaultOWP (_DefaultOWP@24)
+77d1157a          USER32!GetLastActivePopup (_GetLastActivePopup@4)
+77cffe6e          USER32!NtUserSwitchDesktop (_NtUserSwitchDesktop@4)
+77d4e430          USER32!_sz_WINSTA = <no type information>
+77cfdb54          USER32!SetMenuItemInfoStruct (_SetMenuItemInfoStruct@20)
+77d00138          USER32!SubtractRect (_SubtractRect@12)
+77d1e76d          USER32!xxxLBSetCaret (_xxxLBSetCaret@8)
+77d4ce4a          USER32!NtUserSetClassWord (_NtUserSetClassWord@12)
+77cfb1a5          USER32!IsWinEventHookInstalled (_IsWinEventHookInstalled@4)
+77d03eb3          USER32!FreeLookasideEntry (_FreeLookasideEntry@8)
+77d12225          USER32!CommonOpenWindowStation (_CommonOpenWindowStation@12)
+77d02ca5          USER32!bCleanConvertedTTFs (_bCleanConvertedTTFs@0)
+77d0ad07          USER32!FindNCHit (_FindNCHit@8)
+77d33cac          USER32!LoadCursorFromFileW (_LoadCursorFromFileW@4)
+77cf12a0          USER32!_imp__SetCurrentDirectoryW = <no type information>
+77cf1080          USER32!_imp__cGetTTFFromFOT = <no type information>
+77d1cb7e          USER32!xxxButtonDrawNewState (_xxxButtonDrawNewState@16)
+77d40209          USER32!MLSetHandle (_MLSetHandle@8)
+77cf1124          USER32!_imp__GdiValidateHandle = <no type information>
+77d0864b          USER32!NtUserPaintDesktop (_NtUserPaintDesktop@4)
+77d1d2b1          USER32!DrawGrip (_DrawGrip@12)
+77d468e7          USER32!fnINSIZECLIPBRD (_fnINSIZECLIPBRD@28)
+77cf1308          USER32!_imp__LocalUnlock = <no type information>
+77d0df32          USER32!RealGetScrollInfo (_RealGetScrollInfo@12)
+77cf9a90          USER32!NtUserUnregisterClass (_NtUserUnregisterClass@12)
+77d0bf1f          USER32!_GetDesktopWindow (__GetDesktopWindow@0)
+77d012a0          USER32!NtUserLoadKeyboardLayoutEx (_NtUserLoadKeyboardLayoutEx@28)
+77d51254          USER32!phwndCache = <no type information>
+77d36c0b          USER32!MDIRedrawFrame (_MDIRedrawFrame@8)
+77d0fe71          USER32!SetClassLongA (_SetClassLongA@12)
+77d38896          USER32!__fnINWPARAMDBCSCHAR (___fnINWPARAMDBCSCHAR@4)
+77d0ddd4          USER32!RealSystemParametersInfoA (_RealSystemParametersInfoA@16)
+77d45827          USER32!__ClientLoadOLE (___ClientLoadOLE@4)
+77d4bfa0          USER32!ImeControlHandler (_ImeControlHandler@20)
+77d3b054          USER32!ProcessAsyncDDEMsg (_ProcessAsyncDDEMsg@16)
+77d08588          USER32!ForceResetUserApiHook (_ForceResetUserApiHook@4)
+77d4cb46          USER32!NtUserEnableScrollBar (_NtUserEnableScrollBar@12)
+77d0bf4c          USER32!__fnINOUTNCCALCSIZE (___fnINOUTNCCALCSIZE@4)
+77cfdcd9          USER32!NtUserUnlockWindowStation (_NtUserUnlockWindowStation@4)
+77d0929a          USER32!SendMessageW (_SendMessageW@16)
+77cf20b8          USER32!FullWidthUnicodes = <no type information>
+77d4e32c          USER32!_DELAY_IMPORT_DESCRIPTOR_ADVAPI32 = <no type information>
+77cff914          USER32!_GetMenuDefaultItem (__GetMenuDefaultItem@12)
+77d3d9e2          USER32!ECAnsiPrev (_ECAnsiPrev@12)
+77d51e64          USER32!pfnWowDlgProcEx = <no type information>
+77d51e68          USER32!pfnWowWndProcEx = <no type information>
+77cffa3e          USER32!ExtractIconFromICO (_ExtractIconFromICO@24)
+77d0416e          USER32!AllocLookasideEntry (_AllocLookasideEntry@4)
+77d40f8e          USER32!BestSetLastDDEMLError (_BestSetLastDDEMLError@4)
+77d517c0          USER32!gbWin31Upgrade = <no type information>
+77cf137c          USER32!_imp__InterlockedExchange = <no type information>
+77d1b974          USER32!DispatchLocalReAlloc (_DispatchLocalReAlloc@20)
+77d0e8f6          USER32!LoadIconA (_LoadIconA@8)
+77d423f7          USER32!LBoxGetSelItems (_LBoxGetSelItems@16)
+77d4cfb2          USER32!NtUserUpdateInstance (_NtUserUpdateInstance@12)
+77d0f3c2          USER32!SendMessageA (_SendMessageA@16)
+77cf110c          USER32!_imp__SetDIBits = <no type information>
+77d0b1f4          USER32!FixupCallbackPointers (_FixupCallbackPointers@4)
+77cf1440          USER32!_imp__swprintf = <no type information>
+77d0ac41          USER32!_MonitorFromPoint (__MonitorFromPoint@12)
+77d3e11c          USER32!MLIchToYPos (_MLIchToYPos@12)
+77cf8c42          USER32!NtUserKillTimer (_NtUserKillTimer@8)
+77d361e6          USER32!ShowOwnedPopups (_ShowOwnedPopups@8)
+77d368b8          USER32!GetMessageExtraInfo (_GetMessageExtraInfo@0)
+77d479c6          USER32!AppendReason (_AppendReason@8)
+77cf1140          USER32!_imp__GdiCreateLocalMetaFilePict = <no type information>
+77d368c5          USER32!SetMessageExtraInfo (_SetMessageExtraInfo@4)
+77cf13d4          USER32!_imp__RtlMultiByteToUnicodeSize = <no type information>
+77cf2200          USER32!szRegMOD = <no type information>
+77d0c9c3          USER32!FindWindowW (_FindWindowW@8)
+77d0abf5          USER32!MonitorFromPoint (_MonitorFromPoint@12)
+77d519dc          USER32!szDefaultHelpFileA = <no type information>
+77cf12e4          USER32!_imp__GetModuleFileNameA = <no type information>
+77d4d8c1          USER32!KKGetPrefixWidth (_KKGetPrefixWidth@12)
+77d4d190          USER32!CenterRectangles (_CenterRectangles@8)
+77d51c00          USER32!TempConvContext = <no type information>
+77cf9a51          USER32!GetThreadDesktop (_GetThreadDesktop@4)
+77d07dc1          USER32!CopyMsgMask (_CopyMsgMask@16)
+77cf1324          USER32!_imp__SetLastError = <no type information>
+77d45743          USER32!__ClientRevokeDragDrop (___ClientRevokeDragDrop@4)
+77cf1464          USER32!_imp__RtlReleaseActivationContext = <no type information>
+77d03e9f          USER32!NtUserSetWindowFNID (_NtUserSetWindowFNID@8)
+77d10251          USER32!NtUserExcludeUpdateRgn (_NtUserExcludeUpdateRgn@8)
+77d3a360          USER32!TabTextOut (_TabTextOut@40)
+77cf1370          USER32!_imp__GetModuleFileNameW = <no type information>
+77d48b80          USER32!SvSpontRequest (_SvSpontRequest@8)
+77cf869d          USER32!ReleaseDC (_ReleaseDC@8)
+77d1322b          USER32!ComboBoxWndProcWorker (_ComboBoxWndProcWorker@20)
+77cf1090          USER32!_imp__QueryFontAssocStatus = <no type information>
+77cfc46a          USER32!CreateIcoCur (_CreateIcoCur@4)
+77d20640          USER32!_NLG_Notify (__NLG_Notify)
+77cfc271          USER32!ChangeDibColors (_ChangeDibColors@8)
+77d0da3c          USER32!CopyIcoCur (_CopyIcoCur@20)
+77d51794          USER32!gpwcSystemDir = <no type information>
+77d08e53          USER32!DispatchClientMessage (_DispatchClientMessage@20)
+77cf3824          USER32!aCNS11643_SmallVariants_EndBreak = <no type information>
+77cf134c          USER32!_imp__CreateFileW = <no type information>
+77d1e1a1          USER32!NtUserCallNextHookEx (_NtUserCallNextHookEx@16)
+77d4e1e9          USER32!_imp_load__RegCreateKeyExW (__imp_load__RegCreateKeyExW@36)
+77d09455          USER32!_FindProp (__FindProp@12)
+77d1d395          USER32!User32InitializeImmEntryTable (_User32InitializeImmEntryTable@4)
+77d40318          USER32!MLLineIndex (_MLLineIndex@8)
+77cf9021          USER32!NtUserGetWindowDC (_NtUserGetWindowDC@4)
+77d0f539          USER32!EnumThreadWindows (_EnumThreadWindows@12)
+77d4b400          USER32!ChangeDisplaySettingsA (_ChangeDisplaySettingsA@8)
+77d46d9f          USER32!DrawCaption (_DrawCaption@16)
+77d0d413          USER32!NtUserGetIconInfo (_NtUserGetIconInfo@24)
+77d429c9          USER32!xxxLBoxCtlCharInput (_xxxLBoxCtlCharInput@12)
+77cf9520          USER32!RealMsgWaitForMultipleObjectsEx (_RealMsgWaitForMultipleObjectsEx@20)
+77d339a7          USER32!NumToHexAscii (_NumToHexAscii@8)
+77d0fa6e          USER32!ShowCursor (_ShowCursor@4)
+77cf18e8          USER32!gapfnScSendMessage = <no type information>
+77cf2970          USER32!apfnDispatch = <no type information>
+77d06664          USER32!GetDialogMonitor (_GetDialogMonitor@8)
+77d51480          USER32!gcsUserApiHook = <no type information>
+77d1e100          USER32!FlipUserTextOutW (_FlipUserTextOutW@20)
+77d4e34c          USER32!_DELAY_IMPORT_DESCRIPTOR_MSIMG32 = <no type information>
+77d3d969          USER32!NextWordLpkCallBack (_NextWordLpkCallBack@20)
+77d099cb          USER32!NotifyWinEvent (_NotifyWinEvent@16)
+77d4b46b          USER32!WINNLSEnableIME (_WINNLSEnableIME@8)
+77d07822          USER32!NtUserSetActiveWindow (_NtUserSetActiveWindow@4)
+77d3ae22          USER32!DumpDDEMessage (_DumpDDEMessage@12)
+77cfc514          USER32!RtlGetIdFromDirectory (_RtlGetIdFromDirectory@24)
+77cf2668          USER32!pwszType1Key = <no type information>
+77d39266          USER32!__ClientImmLoadLayout (___ClientImmLoadLayout@4)
+77d0f94f          USER32!DrawFocusRect (_DrawFocusRect@8)
+77cf1418          USER32!_imp__NtOpenProcessToken = <no type information>
+77d514bc          USER32!gfEMIEnable = <no type information>
+77d4984e          USER32!CharNextExA (_CharNextExA@12)
+77d09a4c          USER32!_GetClassData (__GetClassData@16)

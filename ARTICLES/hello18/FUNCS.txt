@@ -1,0 +1,14 @@
+win32k!NtUserAssociateInputContext
+win32k!NtUserBuildHimcList
+win32k!NtUserCreateInputContext
+win32k!NtUserDestroyInputContext
+win32k!NtUserDisableThreadIme
+win32k!NtUserGetAppImeLevel
+win32k!NtUserGetImeHotKey
+win32k!NtUserGetImeInfoEx
+win32k!NtUserGetThreadState
+win32k!NtUserNotifyIMEStatus
+win32k!NtUserQueryInputContext
+win32k!NtUserQueryWindow
+win32k!NtUserSetImeInfoEx
+win32k!NtUserSetThreadLayoutHandles
