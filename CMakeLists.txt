@@ -26,7 +26,6 @@ add_subdirectory(KeybdList)
 add_subdirectory(KeybdName)
 add_subdirectory(LoadKeybd)
 add_subdirectory(SysLang)
-add_subdirectory(UserBreak)
 add_subdirectory(UserLang)
 add_subdirectory(WindowHierarchyChecker)
 
