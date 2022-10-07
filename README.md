@@ -12,8 +12,8 @@ Usually, the IME software has to provide its IME installer to register itself in
 
 For more details, see IME Hackerz (`REF011` and `REF012`).
 
-- [ARTICLES](ARTICLES)
-- [STUDY](STUDY)
+- [ARTICLES](ARTICLES/README.md)
+- [STUDY](STUDY/README.md)
 
 ## What is IMM?
 
