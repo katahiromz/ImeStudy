@@ -1,0 +1,10 @@
+/* the modifiers of hot key */
+#define MOD_ALT                         0x0001
+#define MOD_CONTROL                     0x0002
+#define MOD_SHIFT                       0x0004
+
+#define MOD_LEFT                        0x8000
+#define MOD_RIGHT                       0x4000
+
+#define MOD_ON_KEYUP                    0x0800
+#define MOD_IGNORE_ALL_MODIFIER         0x0400
