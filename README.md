@@ -99,8 +99,8 @@ A Japanese fixed-width font should follow this traditional rule.
 Japanese text was born as an international language through exchanges with China and neighboring countries.
 
 1. Japanese didn't have any characters in the initial time. Japanese was sounds only.
-2. The characters of Katakana are derived from part(s) of Chinese Kanji, that indicates pronunciation of a foreign character.
-3. The characters of Hiragana are derived from a deformation of Chinese Kanji to write a Japanese word.
+2. The character of Katakana is derived from part(s) of Chinese Kanji, to write pronunciation of a foreign word.
+3. The character of Hiragana is derived from a deformation of Chinese Kanji, to write a Japanese word.
 
 ## What is Kana?
 
