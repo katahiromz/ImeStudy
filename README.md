@@ -101,7 +101,7 @@ Japanese text was born as an international language through exchanges with China
 1. Japanese didn't have any characters in the initial time. Japanese was sounds only.
 2. The character of Katakana is derived from part(s) of Chinese Kanji, to write pronunciation of foreign word.
 3. The character of Hiragana is derived from a deformation of Chinese Kanji, to write Japanese word.
-4. Many Kanji characters are also used.
+4. Many Kanji characters also continued to be used frequently.
 
 ## What is Kana?
 
