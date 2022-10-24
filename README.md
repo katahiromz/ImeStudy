@@ -94,6 +94,14 @@ A Japanese fixed-width font should follow this traditional rule.
 - Hiragana (ひらがな) is a Japanese phonetic character collection (like あいうえお etc.).
 - Katakana (カタカナ) is a Japanese phonetic character collection (like アイウエオ etc.).
 
+## Why so many characters in Japanese?
+
+Japanese text was born as an international language through exchanges with China and neighboring countries.
+
+1. Japanese didn't have any characters in the initial time. Japanese was sounds only.
+2. The characters of Katakana is derived from a part of Kanji, that indicates a pronunciation of foreign word.
+3. The characters of Hiragana is derived from a deformation of Kanji to write a Japanese word.
+
 ## What is Kana?
 
 Kana (かな/カナ) is Hiragana and/or Katakana.
