@@ -37,6 +37,16 @@ Just include `<imm.h>` and link to imm32.dll as follows:
 #pragma comment(lib, "imm32.lib")
 ```
 
+And then use the following basic form:
+
+```c
+HIMC hImc = ImmGetContext(hWnd);
+...(Use IMM functions against hImc)...
+ImmReleaseContext(hWnd, hImc);
+```
+
+The IMM function has a name that begins with `Imm`, those are listed at https://katahiromz.web.fc2.com/colony3rd/imehackerz/en/functions.html .
+
 ## What is "keyboard layout"?
 
 The key code system differs depending on the keyboard or the keyboard language.
