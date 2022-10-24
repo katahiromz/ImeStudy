@@ -96,7 +96,7 @@ A Japanese fixed-width font should follow this traditional rule.
 
 ## Why so many characters in Japanese?
 
-Japanese text was born as an international language through exchanges with China and neighboring countries.
+Japanese text was born as a domestic international language through exchanges with China and neighboring countries.
 
 1. Japanese didn't have any characters in the initial time. Japanese was sounds only.
 2. The character of Katakana is derived from part(s) of Chinese Kanji, to write pronunciation of foreign word.
