@@ -29,7 +29,7 @@ IMM32 provides API functions whose names begin with `"Imm"`. For more details, s
 
 ## How to use IMM32 in my program?
 
-Just include `<imm.h>` and link to imm32.dll as follows:
+First, please include `<imm.h>` and link to imm32.dll as follows:
 
 ```c
 #include <windows.h>
