@@ -84,7 +84,7 @@ See also `REF022`.
 
 ## What is Zenkaku or Hankaku?
 
-A Hankaku (半角) character is a single-byte character (in Shift_JIS; except UTF-8).
+A Hankaku (半角) character is a single-byte character in Shift_JIS (except UTF-8).
 A non-Hankaku character is a Zenkaku (全角) character (in Traditional Japanese).
 Traditionally, a non-single-byte character (in Shift_JIS encoding) has double width of a Hankaku character.
 A Japanese fixed-width font should follow this traditional rule.
