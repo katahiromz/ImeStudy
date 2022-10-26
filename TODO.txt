@@ -1,0 +1,25 @@
+from https://reactos.org/wiki/Techwiki:Win32k/syscalls :
+NtUserCheckImeHotKey
+NtUserDisableThreadIme
+NtUserGetAppImeLevel
+NtUserGetImeHotKey
+NtUserGetImeInfoEx
+NtUserNotifyIMEStatus
+NtUserSetImeHotKey
+NtUserSetImeInfoEx
+NtUserSetImeOwnerWindow
+
+from https://reactos.org/wiki/Techwiki:Win32k/apfnDispatch :
+fnIMECONTROL
+ClientImmLoadLayout
+ClientImmProcessKey
+
+from https://reactos.org/wiki/Techwiki:Win32k/apfnSimpleCall :
+NOPARAM_ROUTINE_GETIMESHOWSTATUS     _GetIMEShowStatus
+NOPARAM_ROUTINE_UPDATEPERUSERIMMENABLING     UpdatePerUserImmEnabling
+ONEPARAM_ROUTINE_SETIMESHOWSTATUS     xxxSetIMEShowStatus
+HWNDLOCK_ROUTINE_CHECKIMESHOWSTATUSINTHRD     xxxCheckImeShowStatusInThread
+????    xxxBroadcastImeShowStatusChange
+TWOPARAM_ROUTINE_NLSSENDIMENOTIFY     NlsKbdSendIMENotification
+
+and something that seems mentioned on the internet, yet undocumented: SPI_SETSHOWIMEUI .
