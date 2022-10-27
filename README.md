@@ -256,3 +256,4 @@ It copys the IME-related files into the system, writes some settings in the regi
 - `REF029`: IME as a possible keylogger: https://www.virusbulletin.com/virusbulletin/2005/11/ime-possible-keylogger/
 - `REF030`: dwendt/UniversalInject: https://github.com/dwendt/UniversalInject
 - `REF031`: https://reactos.org/wiki/User:Alvinhochun/Localization/IME
+- `REF032`: SampleIME: https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/IME/cpp/SampleIME
