@@ -1,0 +1,31 @@
+#define ANSI_CHARSET	0
+#define DEFAULT_CHARSET	1
+#define SYMBOL_CHARSET	2
+#define SHIFTJIS_CHARSET	128
+#define HANGEUL_CHARSET	129
+#define HANGUL_CHARSET  129
+#define GB2312_CHARSET	134
+#define CHINESEBIG5_CHARSET	136
+#define GREEK_CHARSET	161
+#define TURKISH_CHARSET	162
+#define HEBREW_CHARSET	177
+#define ARABIC_CHARSET	178
+#define BALTIC_CHARSET	186
+#define RUSSIAN_CHARSET	204
+#define THAI_CHARSET	222
+#define EE_CHARSET	    238
+#define EASTEUROPE_CHARSET	238
+#define OEM_CHARSET	255
+#define JOHAB_CHARSET	130
+#define VIETNAMESE_CHARSET	163
+#define MAC_CHARSET 77
+/* I don't know if the values of *_CHARSET macros are defined in Windows
+ * or if we can choose them as we want. -- srtxg
+ */
+#define VISCII_CHARSET        (BYTE)240 /* viscii1.1-1 */
+#define TCVN_CHARSET          (BYTE)241 /* tcvn-0 */
+#define KOI8_CHARSET          (BYTE)242 /* koi8-{r,u,ru} */
+#define ISO3_CHARSET          (BYTE)243 /* iso8859-3 */
+#define ISO4_CHARSET          (BYTE)244 /* iso8859-4 */
+#define ISO10_CHARSET         (BYTE)245 /* iso8859-10 */
+#define CELTIC_CHARSET        (BYTE)246 /* iso8859-14 */
