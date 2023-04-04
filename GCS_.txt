@@ -1,0 +1,20 @@
+/*
+ * dwSystemInfoFlags bits
+ * parameter of ImmGetCompositionString
+ */
+#define GCS_COMPREADSTR                 0x0001
+#define GCS_COMPREADATTR                0x0002
+#define GCS_COMPREADCLAUSE              0x0004
+#define GCS_COMPSTR                     0x0008
+#define GCS_COMPATTR                    0x0010
+#define GCS_COMPCLAUSE                  0x0020
+#define GCS_CURSORPOS                   0x0080
+#define GCS_DELTASTART                  0x0100
+#define GCS_RESULTREADSTR               0x0200
+#define GCS_RESULTREADCLAUSE            0x0400
+#define GCS_RESULTSTR                   0x0800
+#define GCS_RESULTCLAUSE                0x1000
+
+/* style bit flags for WM_IME_COMPOSITION */
+#define CS_INSERTCHAR                   0x2000
+#define CS_NOMOVECARET                  0x4000
