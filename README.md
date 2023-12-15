@@ -244,7 +244,7 @@ CTF stands for "Collaborative Translation Framework".
 
 ## What is IMM IME?
 
-It is a DLL file that contains the following functions:
+It is a DLL file that contains the following exported functions:
 
 - `ImeInquire`
 - `ImeConversionList`
@@ -276,7 +276,7 @@ See `$(REACTOS)/sdk/include/reactos/imetable.h` and `$(REACTOS)/dll/win32/imm32/
 
 ## What is CTF IME?
 
-It is an extension of "IMM IME". It contains the IMM IME functions and the following functions:
+It is an extension of "IMM IME". It contains the IMM IME functions and the following exported functions:
 
 - `CtfImeInquireExW`
 - `CtfImeSelectEx`
