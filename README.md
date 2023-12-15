@@ -194,22 +194,24 @@ The `EDIT` control is a text box, that is a child window whose window class name
 
 The standard IME messages are the Windows messages whose names begin with `"WM_IME_"`.
 
-## What is Text Services Framework (TSF)?
+## What is Cicero?
 
-TSF is a replacement of IMM32, on Windows XP and later.
-TSF has COM (Component Object Model)-based design that rewrites IMM32.
-Vista+ IME should follow TSF. 
-Old IMM32-based IME is run under "CUAS" emulation layer of TSF.
+Cicero is the code name of TSF.
 
+## What is TSF?
+
+TSF stands for "Text Services Framework".
+TSF appears on Windows XP and later.
+It has many other names, such as "Text Framework", "Text Services" etc.
+TSF is an empowered framework over IMM32.
+TSF has COM (Component Object Model)-based design.
+
+Old IMM32-based IME runs under "CUAS" emulation layer of TSF.
 New IMM32 has `ImmDisableTextFrameService` API to disable TSF in the thread. See `REF024`.
 
 ## What is CUAS?
 
 CUAS (Cicero Unaware Application Support) is an emulation layer that connects between the old IMM32-based application and a TSF TIP.
-
-## What is Cicero?
-
-Cicero is the code name of TSF.
 
 ## What is COM (Component Object Model)?
 
