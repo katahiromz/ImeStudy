@@ -139,8 +139,9 @@ Some punctuation key mapping differs from English key mapping.
 
 ## How is the Chinese keyboard?
 
-It can type English alphabet and the Chinese radicals.
-Chinese keyboard is usually compatible to (or same as) English keyboard.
+It can type English alphabet and the Chinese radical symbols.
+Chinese keyboard is usually compatible to English keyboard.
+Optionally, the Chinese radical symbols are printed on key tops.
 
 ## How is the Korean keyboard?
 
