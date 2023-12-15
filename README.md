@@ -219,6 +219,16 @@ See `REF023`.
 
 It copys the IME-related files into the system, writes some settings in the registry, and call the `ImmInstallIME` function.
 
+## What is registry key `"Run"`?
+
+Registry key `"Run"` is as follows:
+
+- In cases of Windows 95/98/Me: `"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"`
+- In the other cases: `"HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"`
+
+This registry key contains the list of the registered start-up entries.
+The key of an entry is the start-up program name. The value of an entry is the pathname of a start-up command line.
+
 ## What is `internat.exe`?
 
 `internat.exe` is an old program that is called "international keyboard/language indicator applet".
