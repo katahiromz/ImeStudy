@@ -266,7 +266,15 @@ The LOWORD of an HKL is a language ID.
 If `IS_IME_HKL(hKL)` is `TRUE`, then `hKL` is a handle for an IME keyboard layout.
 If `IS_SPECIAL_HKL(hKL)` is `TRUE`, then `hKL` is a handle for a special keyboard layout.
 
-See `$(REACTOS)/dll/cpl/input/layout_list.c` for details.
+See `$(REACTOS)/dll/cpl/input/layout_list.c` and registry key `"Keyboard Layouts"` for details.
+
+## What is registry key `"Keyboard Layouts"`?
+
+The registry key `"Keyboard Layouts"` is located at:
+
+- `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layouts` .
+
+See `$(REACTOS)/dll/cpl/input/layout_list.c`.
 
 ## What is a keyboard layout list?
 
