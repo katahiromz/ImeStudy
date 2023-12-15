@@ -267,11 +267,12 @@ And it must have a version info in the following conditions (See `IMM32!ImmLoadL
 
 - The `FILETYPE` value must be `VFT_DRV` (`0x3`).
 - The `FILESUBTYPE` value must be `VFT2_DRV_INPUTMETHOD` (`0xB`).
+- The `StringFileInfo` block must contain correct codepage, language, and `FileDescription` values.
 
 Usually an installed IME file is in `%WINDIR%\system32`.
 The filename extension is `".ime"`.
 
-See `$(REACTOS)/sdk/include/reactos/imetable.h` .
+See `$(REACTOS)/sdk/include/reactos/imetable.h` and `$(REACTOS)/dll/win32/imm32/utils.c` .
 
 ## What is CTF IME?
 
