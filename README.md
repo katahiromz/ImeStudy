@@ -225,6 +225,7 @@ Windows 95, Windows 98, Windows Me, and Windows 2000 had `internat.exe`.
 This program can display and choose a keyboard / IME from notification area of task bar.
 It creates an invisible window `"Indicator"`.
 It is a start-up program.
+Some IME settings can register `internat.exe` to registry key `"Run"`.
 
 ## What is `ctfmon.exe`?
 
@@ -233,7 +234,7 @@ This program can also display and choose a keyboard / IME from Language Bar.
 `ctfmon.exe` hates `internat.exe`.
 `ctfmon.exe` kills `internat.exe` process, `"Indicator"` window, and registry key `"Run"` entry of `internat.exe`.
 `ctfmon.exe` is a start-up program.
-`ctfmon.exe` registers a start-up to registry key `"Run"`.
+`ctfmon.exe` registers itself as a start-up program to registry key `"Run"`.
 
 See `$(REACTOS)/base/applications/ctfmon` .
 
