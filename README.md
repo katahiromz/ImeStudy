@@ -333,7 +333,7 @@ See `$(REACTOS)/sdk/include/reactos/imetable.h` and `$(REACTOS)/dll/win32/imm32/
 
 ## How to export functions?
 
-Just define the functions and add a `.DEF` file to your project.
+Just define the functions and add a `.DEF` file to your DLL file project.
 
 ## What is TIP?
 
