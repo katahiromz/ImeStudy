@@ -202,10 +202,6 @@ Old IMM32-based IME is run under "CUAS" emulation layer of TSF.
 
 New IMM32 has `ImmDisableTextFrameService` API to disable TSF in the thread. See `REF024`.
 
-## What is TIP?
-
-The TSF-based IME of new design is called as TIP (Text Input Processor).
-
 ## What is CUAS?
 
 CUAS (Cicero Unaware Application Support) is an emulation layer that connects between the old IMM32-based application and a TSF TIP.
@@ -221,6 +217,77 @@ See `REF023`.
 ## What does an IME installer?
 
 It copys the IME-related files into the system, writes some settings in the registry, and call the `ImmInstallIME` function.
+
+## What is `internat.exe`?
+
+`internat.exe` is an old program that is called "international keyboard/language indicator applet".
+Windows 95, Windows 98, Windows Me, and Windows 2000 had `internat.exe`.
+This program can display and choose a keyboard / IME from notification area of task bar.
+It creates an invisible window `"Indicator"`.
+It is a start-up program.
+
+## What is `ctfmon.exe`?
+
+`ctfmon.exe` is Language Bar front-end and a replacement of `internat.exe`.
+This program can also display and choose a keyboard / IME from notification area of task bar.
+`ctfmon.exe` hates `internat.exe`.
+`ctfmon.exe` kills `internat.exe` process, `"Indicator"` window, and registry key `"Run"` entry of `internat.exe`.
+`ctfmon.exe` is a start-up program.
+`ctfmon.exe` registers a start-up to registry key `"Run"`.
+
+## What is CTF?
+
+It stands for "Collaborative Translation Framework".
+
+## What is IMM IME?
+
+It is a DLL file that contains the following functions:
+
+- `ImeInquire`
+- `ImeConversionList`
+- `ImeRegisterWord`
+- `ImeUnregisterWord`
+- `ImeGetRegisterWordStyle`
+- `ImeEnumRegisterWord`
+- `ImeConfigure`
+- `ImeDestroy`
+- `ImeEscape`
+- `ImeProcessKey`
+- `ImeSelect`
+- `ImeSetActiveContext`
+- `ImeToAsciiEx`
+- `NotifyIME`
+- `ImeSetCompositionString`
+- `ImeGetImeMenuItems`
+
+And it must have a version info in the following conditions (See `IMM32!ImmLoadLayout`):
+
+- The `FILETYPE` value must be `VFT_DRV` (`0x3`).
+- The `FILESUBTYPE` value must be `VFT2_DRV_INPUTMETHOD` (`0xB`).
+
+Usually an installed IME file is in `%WINDIR%\system32`.
+The filename extension is `".ime"`.
+
+See `$(REACTOS)/sdk/include/reactos/imetable.h` .
+
+## What is CTF IME?
+
+It is an extension of "IMM IME". It contains the IMM IME functions and the following functions:
+
+- `CtfImeInquireExW`
+- `CtfImeSelectEx`
+- `CtfImeEscapeEx`
+- `CtfImeGetGuidAtom`
+- `CtfImeIsGuidMapEnable`
+
+See `$(REACTOS)/sdk/include/reactos/imetable.h` .
+
+## What is TIP?
+
+TIP stands for "Text Input Processor".
+The new-style IME of new design is called as TIP.
+The system IME file `msctfime.ime` is the back-end of TIP.
+That is built by many COM objects and interfaces.
 
 ## Reference
 
