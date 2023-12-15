@@ -229,7 +229,7 @@ It is a start-up program.
 ## What is `ctfmon.exe`?
 
 `ctfmon.exe` is Language Bar front-end and a replacement of `internat.exe`.
-This program can also display and choose a keyboard / IME from notification area of task bar.
+This program can also display and choose a keyboard / IME from Language Bar.
 `ctfmon.exe` hates `internat.exe`.
 `ctfmon.exe` kills `internat.exe` process, `"Indicator"` window, and registry key `"Run"` entry of `internat.exe`.
 `ctfmon.exe` is a start-up program.
