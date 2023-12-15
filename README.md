@@ -227,7 +227,7 @@ Registry key `"Run"` is as follows:
 - In the other cases: `"HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"`
 
 This registry key contains the list of the registered start-up entries.
-The key of an entry is the start-up program name. The value of an entry is the pathname of a start-up command line.
+The key of an entry is the start-up program name. The value of an entry is a start-up command line.
 
 ## What is `internat.exe`?
 
