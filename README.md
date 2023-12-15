@@ -29,7 +29,7 @@ IMM32 provides API functions whose names begin with `"Imm"`. For more details, s
 
 ## How to use IMM32 in my program?
 
-First, please include `<imm.h>` and link to imm32.dll as follows:
+First, please include `<imm.h>` and link to `imm32.dll` as follows:
 
 ```c
 #include <windows.h>
@@ -202,7 +202,7 @@ Cicero is the code name of TSF.
 
 TSF stands for "Text Services Framework".
 TSF appears on Windows XP and later.
-It has many other names, such as "Text Framework", "Text Services" etc.
+It has many other names, such as "Text Framework", "Text Services", "Text Frame Service" etc.
 TSF is an empowered framework over IMM32.
 TSF has COM (Component Object Model)-based design.
 
@@ -284,6 +284,8 @@ A "keyboard layout list" is the list of HKLs that can obtain from `USER32!GetKey
 ## What is CTF?
 
 CTF stands for "Collaborative Translation Framework".
+
+CTF provides `msctf.dll`, `msctfime.ime`, CTF IMEs etc.
 
 ## What is IMM IME?
 
