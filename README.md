@@ -287,7 +287,8 @@ See `$(REACTOS)/sdk/include/reactos/imetable.h` .
 TIP stands for "Text Input Processor".
 The new-style IME of new design is called as TIP.
 The system IME file `msctfime.ime` is the back-end of TIP.
-That is built by many COM objects and interfaces.
+`msctfime.ime` communicates with the current TIP.
+A TIP is built by many COM objects and interfaces.
 
 ## Reference
 
