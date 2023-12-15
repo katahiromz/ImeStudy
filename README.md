@@ -286,6 +286,10 @@ It is an extension of "IMM IME". It contains the IMM IME functions and the follo
 
 See `$(REACTOS)/sdk/include/reactos/imetable.h` and `$(REACTOS)/dll/win32/imm32/ctf.c` .
 
+## How to export functions?
+
+Just add a `.DEF` file to your project.
+
 ## What is TIP?
 
 TIP stands for "Text Input Processor".
