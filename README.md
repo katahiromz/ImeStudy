@@ -145,7 +145,7 @@ Optionally, the Chinese radical symbols are printed on key tops.
 
 ## How is the Korean keyboard?
 
-It can type English alphabet and the Hangul radicals.
+It can type English alphabet and the Hangul radical symbols.
 Additionally, it has `VK_HANGUL`, `VK_JUNJA` and `VK_HANJA` virtual keys.
 
 - `VK_HANGUL` is the Hangul input mode key (same as `VK_KANA`).
