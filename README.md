@@ -238,7 +238,8 @@ Windows 95, Windows 98, Windows Me, and Windows 2000 had `internat.exe`.
 This program can display and choose a keyboard / IME from notification area of task bar.
 It creates an invisible window `"Indicator"`.
 It is a start-up program.
-Some IME settings can register `internat.exe` to registry key `"Run"`.
+Some keyboard/IME settings can register `internat.exe` to registry key `"Run"`.
+It manages keyboard layout list.
 
 ## What is `ctfmon.exe`?
 
@@ -250,6 +251,27 @@ This program can also display and choose a keyboard / IME from Language Bar.
 `ctfmon.exe` registers itself as a start-up program to registry key `"Run"`.
 
 See `$(REACTOS)/base/applications/ctfmon` .
+
+## What is `HKL`?
+
+A handle of keyboard layout.
+
+The LOWORD of an HKL is a language ID.
+
+```txt
+#define IS_IME_HKL(hKL)     ((((ULONG_PTR)(hKL)) & 0xF0000000) == 0xE0000000)
+#define IS_SPECIAL_HKL(hKL) ((((ULONG_PTR)(hKL)) & 0xF0000000) == 0xF0000000)
+```
+
+If `IS_IME_HKL(hKL)` is `TRUE`, then `hKL` is a handle for an IME keyboard layout.
+If `IS_SPECIAL_HKL(hKL)` is `TRUE`, then `hKL` is a handle for a special keyboard layout.
+
+See `$(REACTOS)/dll/cpl/input/layout_list.c` for details.
+
+## What is a keyboard layout list?
+
+A "keyboard layout list" is the list of HKLs that can obtain from `USER32!GetKeyboardLayoutList` function.
+`internat.exe` manages the keyboard layout list.
 
 ## What is CTF?
 
