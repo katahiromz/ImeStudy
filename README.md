@@ -301,7 +301,17 @@ You can find the name of `msctfime.ime` in registry key:
 
 of Windows XP/2003.
 
-See `$(REACTOS)/dll/ime/msctfime`.
+See `$(REACTOS)/dll/ime/msctfime` .
+
+## What is `msutb.dll`?
+
+`msutb.dll` is the back-end of TIP Bar.
+
+## What is `msctf.dll`?
+
+`msctf.dll` is the back-end of Language Bar.
+
+See `$(REACTOS)/dll/win32/msctf` .
 
 ## Reference
 
