@@ -54,7 +54,7 @@ The position of the physical key may change.
 Also, the key code mapping may change.
 
 Usually, Japanese people uses Japanese keyboards.
-Chinese people uses Chinese keyboards.
+Chinese people uses Chinese or English keyboards.
 Korean people uses Korean keyboards.
 Japanese user doesn't want to use English keyboard to input Japanese text.
 
@@ -140,6 +140,7 @@ Some punctuation key mapping differs from English key mapping.
 ## How is the Chinese keyboard?
 
 It can type English alphabet and the Chinese radicals.
+Chinese keyboard is usually compatible to (or same as) English keyboard.
 
 ## How is the Korean keyboard?
 
