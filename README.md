@@ -294,6 +294,13 @@ A TIP is built by many COM objects and interfaces.
 
 The system IME file `msctfime.ime` is the back-end of TIP.
 `msctfime.ime` communicates with the current TIP.
+
+You can find the name of `msctfime.ime` in registry key:
+
+- `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\IMM`
+
+of Windows XP/2003.
+
 See `$(REACTOS)/dll/ime/msctfime`.
 
 ## Reference
