@@ -288,7 +288,8 @@ See `$(REACTOS)/sdk/include/reactos/imetable.h` and `$(REACTOS)/dll/win32/imm32/
 
 TIP stands for "Text Input Processor".
 The new-style IME of new design is called as TIP.
-A TIP is built with many COM objects and interfaces.
+A TIP is a DLL file, that is built with many COM objects and interfaces.
+The filename extension of a TIP is usually `.dll`.
 
 ## What is `msctfime.ime`?
 
