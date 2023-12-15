@@ -235,6 +235,8 @@ This program can also display and choose a keyboard / IME from notification area
 `ctfmon.exe` is a start-up program.
 `ctfmon.exe` registers a start-up to registry key `"Run"`.
 
+See `$(REACTOS)/base/applications/ctfmon` .
+
 ## What is CTF?
 
 It stands for "Collaborative Translation Framework".
@@ -280,15 +282,19 @@ It is an extension of "IMM IME". It contains the IMM IME functions and the follo
 - `CtfImeGetGuidAtom`
 - `CtfImeIsGuidMapEnable`
 
-See `$(REACTOS)/sdk/include/reactos/imetable.h` .
+See `$(REACTOS)/sdk/include/reactos/imetable.h` and `$(REACTOS)/dll/win32/imm32/ctf.c` .
 
 ## What is TIP?
 
 TIP stands for "Text Input Processor".
 The new-style IME of new design is called as TIP.
+A TIP is built by many COM objects and interfaces.
+
+## What is `msctfime.ime`?
+
 The system IME file `msctfime.ime` is the back-end of TIP.
 `msctfime.ime` communicates with the current TIP.
-A TIP is built by many COM objects and interfaces.
+See `$(REACTOS)/dll/ime/msctfime`.
 
 ## Reference
 
