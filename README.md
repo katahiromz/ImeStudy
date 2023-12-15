@@ -239,7 +239,7 @@ See `$(REACTOS)/base/applications/ctfmon` .
 
 ## What is CTF?
 
-It stands for "Collaborative Translation Framework".
+CTF stands for "Collaborative Translation Framework".
 
 ## What is IMM IME?
 
@@ -290,6 +290,7 @@ TIP stands for "Text Input Processor".
 The new-style IME of new design is called as TIP.
 A TIP is a DLL file, that is built with many COM objects and interfaces.
 The filename extension of a TIP is usually `.dll`.
+Strictly saying, a TIP is not an IME file (Not IMM IME nor CTF IME!).
 
 ## What is `msctfime.ime`?
 
