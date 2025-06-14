@@ -452,3 +452,9 @@ typedef struct tagITEM
     INT cxBmp;
     INT cyBmp;
 } ITEM, *PITEM;
+
+typedef struct tagMENULIST
+{
+    struct tagMENULIST *pNext;
+    struct tagMENU *pMenu;
+} MENULIST, *PMENULIST;
