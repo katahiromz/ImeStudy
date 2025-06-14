@@ -458,3 +458,20 @@ typedef struct tagMENULIST
     struct tagMENULIST *pNext;
     struct tagMENU *pMenu;
 } MENULIST, *PMENULIST;
+
+/* dwType for NtUserQueryInputContext */
+typedef enum _QUERY_INPUT_CONTEXT
+{
+    QIC_INPUTPROCESSID = 0,
+    QIC_INPUTTHREADID,
+    QIC_DEFAULTWINDOWIME,
+    QIC_DEFAULTIMC
+} QUERY_INPUT_CONTEXT;
+
+/* NtUserSetImeHotKey actions */
+typedef enum tagSETIMEHOTKEY_ACTION
+{
+    SETIMEHOTKEY_DELETE = 1,
+    SETIMEHOTKEY_ADD,
+    SETIMEHOTKEY_INITIALIZE
+} SETIMEHOTKEY_ACTION;
