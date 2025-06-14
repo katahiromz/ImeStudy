@@ -359,8 +359,96 @@ typedef struct _DESKTOP
   LIST_ENTRY PtiList;
 } DESKTOP, *PDESKTOP;
 
-typedef struct tagTPMPARAMS
+typedef struct _CLIENTTHREADINFO
 {
-  UINT cbSize;
-  RECT rcExclude;
-} TPMPARAMS, *PTPMPARAMS, *LPTPMPARAMS;
+    DWORD CTI_flags;
+    WORD fsChangeBits;
+    WORD fsWakeBits;
+    WORD fsWakeBitsJournal;
+    WORD fsWakeMask;
+    ULONG timeLastRead;
+    DWORD dwcPumpHook;
+} CLIENTTHREADINFO, *PCLIENTTHREADINFO;
+
+typedef struct tagHOOK
+{
+    THRDESKHEAD head;
+    struct tagHOOK *phkNext;
+    int HookId;
+    ULONG_PTR offPfn;
+    ULONG flags;
+    INT_PTR ihmod;
+    struct _THREADINFO *ptiHooked;
+    struct _DESKTOP *rpdesk;
+} HOOK, *PHOOK;
+
+typedef struct _CALLBACKWND
+{
+    HWND hWnd;
+    struct _WND *pWnd;
+    PVOID pActCtx;
+} CALLBACKWND, *PCALLBACKWND;
+
+typedef struct tagMSG
+{
+    HWND hwnd;
+    UINT message;
+    WPARAM wParam;
+    LPARAM lParam;
+    DWORD time;
+    POINT pt;
+} MSG, *PMSG, *LPMSG;
+
+typedef struct _CLIENTINFO
+{
+    ULONG_PTR CI_flags;
+    ULONG_PTR cSpins;
+    DWORD dwExpWinVer;
+    DWORD dwCompatFlags;
+    DWORD dwCompatFlags2;
+    DWORD dwTIFlags;
+    PDESKTOPINFO pDeskInfo;
+    ULONG_PTR ulClientDelta;
+    PHOOK phkCurrent;
+    ULONG fsHooks;
+    CALLBACKWND CallbackWnd;
+    DWORD dwHookCurrent;
+    INT cInDDEMLCallback;
+    PCLIENTTHREADINFO pClientThreadInfo;
+    ULONG_PTR dwHookData;
+    DWORD dwKeyCache;
+    BYTE afKeyState[8];
+    DWORD dwAsyncKeyCache;
+    BYTE afAsyncKeyState[8];
+    BYTE afAsyncKeyStateRecentDow[8];
+    HKL hKL;
+    USHORT CodePage;
+    UCHAR achDbcsCF[2];
+    MSG msgDbcsCB;
+    LPDWORD lpdwRegisteredClasses;
+    ULONG Win32ClientInfo3[26];
+    struct _PROCESSINFO *ppi;
+} CLIENTINFO, *PCLIENTINFO;
+
+typedef struct tagITEM
+{
+    UINT fType;
+    UINT fState;
+    UINT wID;
+    struct tagMENU *spSubMenu;
+    HANDLE hbmpChecked;
+    HANDLE hbmpUnchecked;
+    USHORT *Xlpstr;
+    ULONG cch;
+    DWORD_PTR dwItemData;
+    ULONG xItem;
+    ULONG yItem;
+    ULONG cxItem;
+    ULONG cyItem;
+    ULONG dxTab;
+    ULONG ulX;
+    ULONG ulWidth;
+    HBITMAP hbmp;
+    INT cxBmp;
+    INT cyBmp;
+} ITEM, *PITEM;
