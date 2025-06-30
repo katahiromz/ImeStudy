@@ -1,0 +1,6 @@
+#define KF_EXTENDED 0x100
+#define KF_DLGMODE 0x800
+#define KF_MENUMODE 0x1000
+#define KF_ALTDOWN 0x2000
+#define KF_REPEAT 0x4000
+#define KF_UP 0x8000

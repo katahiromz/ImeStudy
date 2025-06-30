@@ -475,3 +475,55 @@ typedef enum tagSETIMEHOTKEY_ACTION
     SETIMEHOTKEY_ADD,
     SETIMEHOTKEY_INITIALIZE
 } SETIMEHOTKEY_ACTION;
+
+typedef struct tagMBSTRING
+{
+    WCHAR szName[16];
+    UINT uID;
+    UINT uStr;
+} MBSTRING, *PMBSTRING;
+
+/* extern PSERVERINFO gpsi; */
+typedef struct tagSERVERINFO
+{
+  DWORD dwSRVIFlags;
+  ULONG_PTR cHandleEntries;
+  LPVOID mpFnidPfn[31];
+  WNDPROC aStoCidPfn[7];
+  USHORT mpFnid_serverCBWndProc[31];
+  LPVOID apfnClientA;
+  LPVOID apfnClientW;
+  LPVOID apfnClientWorker;
+  ULONG cbHandleTable;
+  ATOM atomSysClass[24];
+  DWORD dwDefaultHeapBase;
+  DWORD dwDefaultHeapSize;
+  UINT uiShellMsg;
+  MBSTRING MBStrings[11];
+  ATOM atomIconSmProp;
+  ATOM atomIconProp;
+  ATOM atomContextHelpIdProp;
+  ATOM atomFrostedWindowProp;
+  CHAR acOemToAnsi[256];
+  CHAR acAnsiToOem[256];
+  DWORD dwInstalledEventHooks;
+  INT aiSysMet[83];
+  ULONG argbSystemUnmatched[31];
+  COLORREF argbSystem[31];
+  HBRUSH ahbrSystem[31];
+  HBRUSH hbrGray;
+  POINT ptCursor;
+  POINT ptCursorReal;
+  DWORD dwLastRITEventTickCount;
+  INT nEvents;
+  UINT dtScroll;
+  UINT dtLBSearch;
+  UINT dtCaretBlink;
+  UINT ucWheelScrollLines;
+  UINT ucWheelScrollChars;
+  INT wMaxLeftOverlapChars;
+  INT wMaxRightOverlapChars;
+  INT cxSysFontChar;
+  INT cySysFontChar;
+  TEXTMETRICW tmSysFont;
+} SERVERINFO, *PSERVERINFO;
